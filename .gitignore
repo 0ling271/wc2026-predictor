@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.streamlit/
+.DS_Store
+Thumbs.db
+
+# Keep generated model artifacts and prediction outputs in this repo because
+# the project is intended to publish a runnable prediction snapshot.

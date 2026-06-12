@@ -1,0 +1,408 @@
+{
+  "params": {
+    "base_home_goals": 1.2982229869236064,
+    "base_away_goals": 1.0640242261103636,
+    "elo_goal_scale": 0.003232,
+    "attack_weight": 0.32,
+    "defense_weight": 0.24,
+    "host_goal_bonus": 0.125119,
+    "max_goals": 7
+  },
+  "teams": {
+    "Algeria": {
+      "team": "Algeria",
+      "elo": 1857.134,
+      "attack": 1.4757,
+      "defense": 0.5184,
+      "matches": 617,
+      "recent_matches": 31
+    },
+    "Argentina": {
+      "team": "Argentina",
+      "elo": 2110.232,
+      "attack": 1.3043,
+      "defense": 0.45,
+      "matches": 1069,
+      "recent_matches": 26
+    },
+    "Australia": {
+      "team": "Australia",
+      "elo": 1889.844,
+      "attack": 1.2978,
+      "defense": 0.5216,
+      "matches": 581,
+      "recent_matches": 21
+    },
+    "Austria": {
+      "team": "Austria",
+      "elo": 1855.63,
+      "attack": 1.3144,
+      "defense": 0.6774,
+      "matches": 860,
+      "recent_matches": 23
+    },
+    "Belgium": {
+      "team": "Belgium",
+      "elo": 1945.197,
+      "attack": 1.6523,
+      "defense": 0.5913,
+      "matches": 853,
+      "recent_matches": 24
+    },
+    "Bosnia & Herzegovina": {
+      "team": "Bosnia & Herzegovina",
+      "elo": 1640.952,
+      "attack": 0.932,
+      "defense": 0.9691,
+      "matches": 283,
+      "recent_matches": 20
+    },
+    "Brazil": {
+      "team": "Brazil",
+      "elo": 2015.403,
+      "attack": 1.2778,
+      "defense": 0.5203,
+      "matches": 1059,
+      "recent_matches": 25
+    },
+    "Canada": {
+      "team": "Canada",
+      "elo": 1865.768,
+      "attack": 1.2292,
+      "defense": 0.6078,
+      "matches": 469,
+      "recent_matches": 29
+    },
+    "Cape Verde": {
+      "team": "Cape Verde",
+      "elo": 1628.685,
+      "attack": 0.8604,
+      "defense": 0.6743,
+      "matches": 235,
+      "recent_matches": 22
+    },
+    "Colombia": {
+      "team": "Colombia",
+      "elo": 1992.471,
+      "attack": 1.0681,
+      "defense": 0.6207,
+      "matches": 638,
+      "recent_matches": 27
+    },
+    "Croatia": {
+      "team": "Croatia",
+      "elo": 1941.418,
+      "attack": 1.2615,
+      "defense": 0.6602,
+      "matches": 396,
+      "recent_matches": 23
+    },
+    "Curacao": {
+      "team": "Curacao",
+      "elo": 1601.244,
+      "attack": 1.3358,
+      "defense": 0.7525,
+      "matches": 385,
+      "recent_matches": 22
+    },
+    "Czech Republic": {
+      "team": "Czech Republic",
+      "elo": 1776.723,
+      "attack": 1.1914,
+      "defense": 0.7974,
+      "matches": 360,
+      "recent_matches": 24
+    },
+    "DR Congo": {
+      "team": "DR Congo",
+      "elo": 1724.684,
+      "attack": 0.8722,
+      "defense": 0.5156,
+      "matches": 524,
+      "recent_matches": 24
+    },
+    "Ecuador": {
+      "team": "Ecuador",
+      "elo": 1963.604,
+      "attack": 0.7797,
+      "defense": 0.5429,
+      "matches": 591,
+      "recent_matches": 26
+    },
+    "Egypt": {
+      "team": "Egypt",
+      "elo": 1778.27,
+      "attack": 1.0449,
+      "defense": 0.4652,
+      "matches": 756,
+      "recent_matches": 29
+    },
+    "England": {
+      "team": "England",
+      "elo": 2055.063,
+      "attack": 1.5413,
+      "defense": 0.45,
+      "matches": 1090,
+      "recent_matches": 27
+    },
+    "France": {
+      "team": "France",
+      "elo": 2079.512,
+      "attack": 1.4508,
+      "defense": 0.5754,
+      "matches": 935,
+      "recent_matches": 26
+    },
+    "Germany": {
+      "team": "Germany",
+      "elo": 1997.793,
+      "attack": 1.6523,
+      "defense": 0.7003,
+      "matches": 1031,
+      "recent_matches": 25
+    },
+    "Ghana": {
+      "team": "Ghana",
+      "elo": 1632.001,
+      "attack": 0.9785,
+      "defense": 0.7018,
+      "matches": 671,
+      "recent_matches": 21
+    },
+    "Haiti": {
+      "team": "Haiti",
+      "elo": 1656.728,
+      "attack": 1.4555,
+      "defense": 0.8253,
+      "matches": 510,
+      "recent_matches": 22
+    },
+    "Iran": {
+      "team": "Iran",
+      "elo": 1891.245,
+      "attack": 1.3989,
+      "defense": 0.4912,
+      "matches": 612,
+      "recent_matches": 19
+    },
+    "Iraq": {
+      "team": "Iraq",
+      "elo": 1737.203,
+      "attack": 0.8838,
+      "defense": 0.6185,
+      "matches": 655,
+      "recent_matches": 28
+    },
+    "Ivory Coast": {
+      "team": "Ivory Coast",
+      "elo": 1792.262,
+      "attack": 1.224,
+      "defense": 0.4671,
+      "matches": 636,
+      "recent_matches": 25
+    },
+    "Japan": {
+      "team": "Japan",
+      "elo": 1988.995,
+      "attack": 1.6918,
+      "defense": 0.462,
+      "matches": 790,
+      "recent_matches": 20
+    },
+    "Jordan": {
+      "team": "Jordan",
+      "elo": 1748.538,
+      "attack": 1.1189,
+      "defense": 0.7141,
+      "matches": 485,
+      "recent_matches": 32
+    },
+    "Mexico": {
+      "team": "Mexico",
+      "elo": 1919.45,
+      "attack": 1.0394,
+      "defense": 0.5863,
+      "matches": 1003,
+      "recent_matches": 32
+    },
+    "Morocco": {
+      "team": "Morocco",
+      "elo": 1972.489,
+      "attack": 1.3787,
+      "defense": 0.45,
+      "matches": 617,
+      "recent_matches": 35
+    },
+    "Netherlands": {
+      "team": "Netherlands",
+      "elo": 1990.853,
+      "attack": 1.6267,
+      "defense": 0.6406,
+      "matches": 879,
+      "recent_matches": 27
+    },
+    "New Zealand": {
+      "team": "New Zealand",
+      "elo": 1739.037,
+      "attack": 1.5111,
+      "defense": 0.647,
+      "matches": 416,
+      "recent_matches": 24
+    },
+    "Norway": {
+      "team": "Norway",
+      "elo": 1922.5,
+      "attack": 1.5758,
+      "defense": 0.6783,
+      "matches": 872,
+      "recent_matches": 20
+    },
+    "Panama": {
+      "team": "Panama",
+      "elo": 1792.477,
+      "attack": 1.0801,
+      "defense": 0.8159,
+      "matches": 539,
+      "recent_matches": 31
+    },
+    "Paraguay": {
+      "team": "Paraguay",
+      "elo": 1863.84,
+      "attack": 0.6368,
+      "defense": 0.7553,
+      "matches": 783,
+      "recent_matches": 24
+    },
+    "Portugal": {
+      "team": "Portugal",
+      "elo": 1995.361,
+      "attack": 1.6121,
+      "defense": 0.5662,
+      "matches": 695,
+      "recent_matches": 26
+    },
+    "Qatar": {
+      "team": "Qatar",
+      "elo": 1618.654,
+      "attack": 1.0731,
+      "defense": 0.8871,
+      "matches": 635,
+      "recent_matches": 25
+    },
+    "Saudi Arabia": {
+      "team": "Saudi Arabia",
+      "elo": 1707.595,
+      "attack": 0.8804,
+      "defense": 0.6533,
+      "matches": 741,
+      "recent_matches": 36
+    },
+    "Scotland": {
+      "team": "Scotland",
+      "elo": 1824.921,
+      "attack": 1.0608,
+      "defense": 0.8592,
+      "matches": 851,
+      "recent_matches": 23
+    },
+    "Senegal": {
+      "team": "Senegal",
+      "elo": 1869.784,
+      "attack": 1.2343,
+      "defense": 0.45,
+      "matches": 638,
+      "recent_matches": 27
+    },
+    "South Africa": {
+      "team": "South Africa",
+      "elo": 1668.396,
+      "attack": 0.9719,
+      "defense": 0.5687,
+      "matches": 480,
+      "recent_matches": 24
+    },
+    "South Korea": {
+      "team": "South Korea",
+      "elo": 1885.967,
+      "attack": 1.2901,
+      "defense": 0.5683,
+      "matches": 1007,
+      "recent_matches": 21
+    },
+    "Spain": {
+      "team": "Spain",
+      "elo": 2137.931,
+      "attack": 1.6898,
+      "defense": 0.5138,
+      "matches": 783,
+      "recent_matches": 27
+    },
+    "Sweden": {
+      "team": "Sweden",
+      "elo": 1742.937,
+      "attack": 1.1347,
+      "defense": 0.8829,
+      "matches": 1101,
+      "recent_matches": 20
+    },
+    "Switzerland": {
+      "team": "Switzerland",
+      "elo": 1920.084,
+      "attack": 1.2435,
+      "defense": 0.7195,
+      "matches": 884,
+      "recent_matches": 25
+    },
+    "Tunisia": {
+      "team": "Tunisia",
+      "elo": 1740.58,
+      "attack": 1.021,
+      "defense": 0.4918,
+      "matches": 678,
+      "recent_matches": 28
+    },
+    "Turkey": {
+      "team": "Turkey",
+      "elo": 1908.678,
+      "attack": 1.283,
+      "defense": 0.8646,
+      "matches": 642,
+      "recent_matches": 26
+    },
+    "USA": {
+      "team": "USA",
+      "elo": 1876.633,
+      "attack": 1.2495,
+      "defense": 0.6929,
+      "matches": 790,
+      "recent_matches": 32
+    },
+    "Uruguay": {
+      "team": "Uruguay",
+      "elo": 1924.075,
+      "attack": 0.8968,
+      "defense": 0.5847,
+      "matches": 970,
+      "recent_matches": 25
+    },
+    "Uzbekistan": {
+      "team": "Uzbekistan",
+      "elo": 1818.522,
+      "attack": 1.093,
+      "defense": 0.5455,
+      "matches": 354,
+      "recent_matches": 21
+    }
+  },
+  "trained_rows": 49405,
+  "last_calibration": {
+    "completed_matches": 2,
+    "home_goal_ratio": 0.6882312456985548,
+    "away_goal_ratio": 0.6729475100942126,
+    "home_goal_multiplier": 0.9688231245698555,
+    "away_goal_multiplier": 0.9672947510094213,
+    "elo_goal_scale_multiplier": 1.0,
+    "host_goal_bonus_delta": -0.004880999999999999,
+    "note": "\u6837\u672c\u8f83\u5c11\u65f6\u4f7f\u7528\u5f3a\u6536\u7f29\uff0c\u907f\u514d\u4e24\u4e09\u573a\u6bd4\u8d5b\u5bfc\u81f4\u53c2\u6570\u5267\u70c8\u6446\u52a8\u3002"
+  }
+}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wc2026-predictor"
+version = "0.1.0"
+description = "Free-data 2026 World Cup match and score probability predictor"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4",
+  "numpy",
+  "pandas",
+  "plotly",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "streamlit",
+  "tenacity",
+  "typer",
+]
+
+[project.scripts]
+wc2026 = "wc2026.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

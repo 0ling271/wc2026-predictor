@@ -1,0 +1,4474 @@
+[
+  {
+    "team1":"Mexico",
+    "team2":"South Africa",
+    "expected_goals1":3.513,
+    "expected_goals2":0.532,
+    "prob_team1_win":0.901765,
+    "prob_draw":0.071061,
+    "prob_team2_win":0.027174,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.130009
+      },
+      {
+        "score":"4-0",
+        "probability":0.114183
+      },
+      {
+        "score":"2-0",
+        "probability":0.111022
+      },
+      {
+        "score":"5-0",
+        "probability":0.080226
+      },
+      {
+        "score":"3-1",
+        "probability":0.069219
+      }
+    ],
+    "match_id":1,
+    "round":"Matchday 1",
+    "date":"2026-06-11",
+    "time":"13:00 UTC-6",
+    "group":"Group A",
+    "ground":"Mexico City",
+    "status":"actual",
+    "predicted_winner":"Mexico",
+    "actual_result":"Mexico",
+    "actual_score":"2-0",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.130009}, {\"score\": \"4-0\", \"probability\": 0.114183}, {\"score\": \"2-0\", \"probability\": 0.111022}, {\"score\": \"5-0\", \"probability\": 0.080226}, {\"score\": \"3-1\", \"probability\": 0.069219}]"
+  },
+  {
+    "team1":"South Korea",
+    "team2":"Czech Republic",
+    "expected_goals1":2.117,
+    "expected_goals2":0.905,
+    "prob_team1_win":0.651681,
+    "prob_draw":0.197797,
+    "prob_team2_win":0.150522,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.109263
+      },
+      {
+        "score":"1-0",
+        "probability":0.103233
+      },
+      {
+        "score":"2-1",
+        "probability":0.09893
+      },
+      {
+        "score":"1-1",
+        "probability":0.09347
+      },
+      {
+        "score":"3-0",
+        "probability":0.077097
+      }
+    ],
+    "match_id":2,
+    "round":"Matchday 1",
+    "date":"2026-06-11",
+    "time":"20:00 UTC-6",
+    "group":"Group A",
+    "ground":"Guadalajara (Zapopan)",
+    "status":"actual",
+    "predicted_winner":"South Korea",
+    "actual_result":"South Korea",
+    "actual_score":"2-1",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.109263}, {\"score\": \"1-0\", \"probability\": 0.103233}, {\"score\": \"2-1\", \"probability\": 0.09893}, {\"score\": \"1-1\", \"probability\": 0.09347}, {\"score\": \"3-0\", \"probability\": 0.077097}]"
+  },
+  {
+    "team1":"Czech Republic",
+    "team2":"South Africa",
+    "expected_goals1":2.231,
+    "expected_goals2":0.784,
+    "prob_team1_win":0.702106,
+    "prob_draw":0.180869,
+    "prob_team2_win":0.117025,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.12227
+      },
+      {
+        "score":"1-0",
+        "probability":0.109593
+      },
+      {
+        "score":"2-1",
+        "probability":0.095908
+      },
+      {
+        "score":"3-0",
+        "probability":0.090943
+      },
+      {
+        "score":"1-1",
+        "probability":0.085964
+      }
+    ],
+    "match_id":3,
+    "round":"Matchday 8",
+    "date":"2026-06-18",
+    "time":"12:00 UTC-4",
+    "group":"Group A",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Czech Republic",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.12227}, {\"score\": \"1-0\", \"probability\": 0.109593}, {\"score\": \"2-1\", \"probability\": 0.095908}, {\"score\": \"3-0\", \"probability\": 0.090943}, {\"score\": \"1-1\", \"probability\": 0.085964}]"
+  },
+  {
+    "team1":"Mexico",
+    "team2":"South Korea",
+    "expected_goals1":1.802,
+    "expected_goals2":1.178,
+    "prob_team1_win":0.519857,
+    "prob_draw":0.231383,
+    "prob_team2_win":0.24876,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.10787
+      },
+      {
+        "score":"2-1",
+        "probability":0.097215
+      },
+      {
+        "score":"1-0",
+        "probability":0.0916
+      },
+      {
+        "score":"2-0",
+        "probability":0.082552
+      },
+      {
+        "score":"1-2",
+        "probability":0.063515
+      }
+    ],
+    "match_id":4,
+    "round":"Matchday 8",
+    "date":"2026-06-18",
+    "time":"19:00 UTC-6",
+    "group":"Group A",
+    "ground":"Guadalajara (Zapopan)",
+    "status":"predicted",
+    "predicted_winner":"Mexico",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.10787}, {\"score\": \"2-1\", \"probability\": 0.097215}, {\"score\": \"1-0\", \"probability\": 0.0916}, {\"score\": \"2-0\", \"probability\": 0.082552}, {\"score\": \"1-2\", \"probability\": 0.063515}]"
+  },
+  {
+    "team1":"Czech Republic",
+    "team2":"Mexico",
+    "expected_goals1":0.984,
+    "expected_goals2":1.929,
+    "prob_team1_win":0.187881,
+    "prob_draw":0.218139,
+    "prob_team2_win":0.593979,
+    "most_likely_score":"0-1",
+    "top_scores":[
+      {
+        "score":"0-1",
+        "probability":0.10485
+      },
+      {
+        "score":"1-1",
+        "probability":0.103174
+      },
+      {
+        "score":"0-2",
+        "probability":0.101138
+      },
+      {
+        "score":"1-2",
+        "probability":0.099521
+      },
+      {
+        "score":"0-3",
+        "probability":0.065039
+      }
+    ],
+    "match_id":5,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"19:00 UTC-6",
+    "group":"Group A",
+    "ground":"Mexico City",
+    "status":"predicted",
+    "predicted_winner":"Mexico",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.10485}, {\"score\": \"1-1\", \"probability\": 0.103174}, {\"score\": \"0-2\", \"probability\": 0.101138}, {\"score\": \"1-2\", \"probability\": 0.099521}, {\"score\": \"0-3\", \"probability\": 0.065039}]"
+  },
+  {
+    "team1":"South Africa",
+    "team2":"South Korea",
+    "expected_goals1":0.729,
+    "expected_goals2":2.67,
+    "prob_team1_win":0.077955,
+    "prob_draw":0.138669,
+    "prob_team2_win":0.783377,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.119776
+      },
+      {
+        "score":"0-3",
+        "probability":0.106615
+      },
+      {
+        "score":"0-1",
+        "probability":0.089708
+      },
+      {
+        "score":"1-2",
+        "probability":0.087351
+      },
+      {
+        "score":"1-3",
+        "probability":0.077753
+      }
+    ],
+    "match_id":6,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"19:00 UTC-6",
+    "group":"Group A",
+    "ground":"Monterrey (Guadalupe)",
+    "status":"predicted",
+    "predicted_winner":"South Korea",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.119776}, {\"score\": \"0-3\", \"probability\": 0.106615}, {\"score\": \"0-1\", \"probability\": 0.089708}, {\"score\": \"1-2\", \"probability\": 0.087351}, {\"score\": \"1-3\", \"probability\": 0.077753}]"
+  },
+  {
+    "team1":"Canada",
+    "team2":"Bosnia & Herzegovina",
+    "expected_goals1":3.015,
+    "expected_goals2":0.567,
+    "prob_team1_win":0.855444,
+    "prob_draw":0.101245,
+    "prob_team2_win":0.043311,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.128664
+      },
+      {
+        "score":"2-0",
+        "probability":0.12803
+      },
+      {
+        "score":"4-0",
+        "probability":0.096977
+      },
+      {
+        "score":"1-0",
+        "probability":0.084932
+      },
+      {
+        "score":"3-1",
+        "probability":0.072939
+      }
+    ],
+    "match_id":7,
+    "round":"Matchday 2",
+    "date":"2026-06-12",
+    "time":"15:00 UTC-4",
+    "group":"Group B",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Canada",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.128664}, {\"score\": \"2-0\", \"probability\": 0.12803}, {\"score\": \"4-0\", \"probability\": 0.096977}, {\"score\": \"1-0\", \"probability\": 0.084932}, {\"score\": \"3-1\", \"probability\": 0.072939}]"
+  },
+  {
+    "team1":"Qatar",
+    "team2":"Switzerland",
+    "expected_goals1":0.542,
+    "expected_goals2":3.11,
+    "prob_team1_win":0.037957,
+    "prob_draw":0.093286,
+    "prob_team2_win":0.868757,
+    "most_likely_score":"0-3",
+    "top_scores":[
+      {
+        "score":"0-3",
+        "probability":0.13189
+      },
+      {
+        "score":"0-2",
+        "probability":0.127206
+      },
+      {
+        "score":"0-4",
+        "probability":0.102559
+      },
+      {
+        "score":"0-1",
+        "probability":0.081793
+      },
+      {
+        "score":"1-3",
+        "probability":0.071545
+      }
+    ],
+    "match_id":8,
+    "round":"Matchday 3",
+    "date":"2026-06-13",
+    "time":"12:00 UTC-7",
+    "group":"Group B",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Switzerland",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.13189}, {\"score\": \"0-2\", \"probability\": 0.127206}, {\"score\": \"0-4\", \"probability\": 0.102559}, {\"score\": \"0-1\", \"probability\": 0.081793}, {\"score\": \"1-3\", \"probability\": 0.071545}]"
+  },
+  {
+    "team1":"Switzerland",
+    "team2":"Bosnia & Herzegovina",
+    "expected_goals1":3.457,
+    "expected_goals2":0.457,
+    "prob_team1_win":0.908949,
+    "prob_draw":0.068054,
+    "prob_team2_win":0.022997,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.141017
+      },
+      {
+        "score":"2-0",
+        "probability":0.122373
+      },
+      {
+        "score":"4-0",
+        "probability":0.121877
+      },
+      {
+        "score":"5-0",
+        "probability":0.084267
+      },
+      {
+        "score":"1-0",
+        "probability":0.070796
+      }
+    ],
+    "match_id":9,
+    "round":"Matchday 8",
+    "date":"2026-06-18",
+    "time":"12:00 UTC-7",
+    "group":"Group B",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Switzerland",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.141017}, {\"score\": \"2-0\", \"probability\": 0.122373}, {\"score\": \"4-0\", \"probability\": 0.121877}, {\"score\": \"5-0\", \"probability\": 0.084267}, {\"score\": \"1-0\", \"probability\": 0.070796}]"
+  },
+  {
+    "team1":"Canada",
+    "team2":"Qatar",
+    "expected_goals1":3.297,
+    "expected_goals2":0.552,
+    "prob_team1_win":0.883032,
+    "prob_draw":0.083314,
+    "prob_team2_win":0.033655,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.12981
+      },
+      {
+        "score":"2-0",
+        "probability":0.118102
+      },
+      {
+        "score":"4-0",
+        "probability":0.10701
+      },
+      {
+        "score":"1-0",
+        "probability":0.071633
+      },
+      {
+        "score":"3-1",
+        "probability":0.071631
+      }
+    ],
+    "match_id":10,
+    "round":"Matchday 8",
+    "date":"2026-06-18",
+    "time":"15:00 UTC-7",
+    "group":"Group B",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Canada",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.12981}, {\"score\": \"2-0\", \"probability\": 0.118102}, {\"score\": \"4-0\", \"probability\": 0.10701}, {\"score\": \"1-0\", \"probability\": 0.071633}, {\"score\": \"3-1\", \"probability\": 0.071631}]"
+  },
+  {
+    "team1":"Switzerland",
+    "team2":"Canada",
+    "expected_goals1":1.87,
+    "expected_goals2":1.157,
+    "prob_team1_win":0.539878,
+    "prob_draw":0.225863,
+    "prob_team2_win":0.234259,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.104939
+      },
+      {
+        "score":"2-1",
+        "probability":0.098103
+      },
+      {
+        "score":"1-0",
+        "probability":0.090686
+      },
+      {
+        "score":"2-0",
+        "probability":0.084778
+      },
+      {
+        "score":"3-1",
+        "probability":0.061141
+      }
+    ],
+    "match_id":11,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"12:00 UTC-7",
+    "group":"Group B",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Switzerland",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.104939}, {\"score\": \"2-1\", \"probability\": 0.098103}, {\"score\": \"1-0\", \"probability\": 0.090686}, {\"score\": \"2-0\", \"probability\": 0.084778}, {\"score\": \"3-1\", \"probability\": 0.061141}]"
+  },
+  {
+    "team1":"Bosnia & Herzegovina",
+    "team2":"Qatar",
+    "expected_goals1":1.404,
+    "expected_goals2":1.02,
+    "prob_team1_win":0.457635,
+    "prob_draw":0.26875,
+    "prob_team2_win":0.273615,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.126851
+      },
+      {
+        "score":"1-0",
+        "probability":0.124327
+      },
+      {
+        "score":"0-1",
+        "probability":0.090354
+      },
+      {
+        "score":"2-1",
+        "probability":0.089046
+      },
+      {
+        "score":"0-0",
+        "probability":0.088556
+      }
+    ],
+    "match_id":12,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"12:00 UTC-7",
+    "group":"Group B",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"Bosnia & Herzegovina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126851}, {\"score\": \"1-0\", \"probability\": 0.124327}, {\"score\": \"0-1\", \"probability\": 0.090354}, {\"score\": \"2-1\", \"probability\": 0.089046}, {\"score\": \"0-0\", \"probability\": 0.088556}]"
+  },
+  {
+    "team1":"Brazil",
+    "team2":"Morocco",
+    "expected_goals1":1.954,
+    "expected_goals2":1.201,
+    "prob_team1_win":0.548497,
+    "prob_draw":0.219412,
+    "prob_team2_win":0.232091,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.100174
+      },
+      {
+        "score":"2-1",
+        "probability":0.097861
+      },
+      {
+        "score":"1-0",
+        "probability":0.083428
+      },
+      {
+        "score":"2-0",
+        "probability":0.081501
+      },
+      {
+        "score":"3-1",
+        "probability":0.063734
+      }
+    ],
+    "match_id":13,
+    "round":"Matchday 3",
+    "date":"2026-06-13",
+    "time":"18:00 UTC-4",
+    "group":"Group C",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"Brazil",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.100174}, {\"score\": \"2-1\", \"probability\": 0.097861}, {\"score\": \"1-0\", \"probability\": 0.083428}, {\"score\": \"2-0\", \"probability\": 0.081501}, {\"score\": \"3-1\", \"probability\": 0.063734}]"
+  },
+  {
+    "team1":"Haiti",
+    "team2":"Scotland",
+    "expected_goals1":0.882,
+    "expected_goals2":1.955,
+    "prob_team1_win":0.162742,
+    "prob_draw":0.212658,
+    "prob_team2_win":0.6246,
+    "most_likely_score":"0-1",
+    "top_scores":[
+      {
+        "score":"0-1",
+        "probability":0.1147
+      },
+      {
+        "score":"0-2",
+        "probability":0.112146
+      },
+      {
+        "score":"1-1",
+        "probability":0.101114
+      },
+      {
+        "score":"1-2",
+        "probability":0.098863
+      },
+      {
+        "score":"0-3",
+        "probability":0.073099
+      }
+    ],
+    "match_id":14,
+    "round":"Matchday 3",
+    "date":"2026-06-13",
+    "time":"21:00 UTC-4",
+    "group":"Group C",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"Scotland",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.1147}, {\"score\": \"0-2\", \"probability\": 0.112146}, {\"score\": \"1-1\", \"probability\": 0.101114}, {\"score\": \"1-2\", \"probability\": 0.098863}, {\"score\": \"0-3\", \"probability\": 0.073099}]"
+  },
+  {
+    "team1":"Scotland",
+    "team2":"Morocco",
+    "expected_goals1":0.995,
+    "expected_goals2":1.97,
+    "prob_team1_win":0.185178,
+    "prob_draw":0.214549,
+    "prob_team2_win":0.600273,
+    "most_likely_score":"0-1",
+    "top_scores":[
+      {
+        "score":"0-1",
+        "probability":0.101702
+      },
+      {
+        "score":"1-1",
+        "probability":0.101153
+      },
+      {
+        "score":"0-2",
+        "probability":0.100192
+      },
+      {
+        "score":"1-2",
+        "probability":0.099651
+      },
+      {
+        "score":"0-3",
+        "probability":0.065803
+      }
+    ],
+    "match_id":15,
+    "round":"Matchday 9",
+    "date":"2026-06-19",
+    "time":"18:00 UTC-4",
+    "group":"Group C",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"Morocco",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.101702}, {\"score\": \"1-1\", \"probability\": 0.101153}, {\"score\": \"0-2\", \"probability\": 0.100192}, {\"score\": \"1-2\", \"probability\": 0.099651}, {\"score\": \"0-3\", \"probability\": 0.065803}]"
+  },
+  {
+    "team1":"Brazil",
+    "team2":"Haiti",
+    "expected_goals1":4.687,
+    "expected_goals2":0.44,
+    "prob_team1_win":0.962327,
+    "prob_draw":0.029142,
+    "prob_team2_win":0.008531,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.132957
+      },
+      {
+        "score":"5-0",
+        "probability":0.124629
+      },
+      {
+        "score":"3-0",
+        "probability":0.113472
+      },
+      {
+        "score":"6-0",
+        "probability":0.097353
+      },
+      {
+        "score":"2-0",
+        "probability":0.072632
+      }
+    ],
+    "match_id":16,
+    "round":"Matchday 9",
+    "date":"2026-06-19",
+    "time":"20:30 UTC-4",
+    "group":"Group C",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"Brazil",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.132957}, {\"score\": \"5-0\", \"probability\": 0.124629}, {\"score\": \"3-0\", \"probability\": 0.113472}, {\"score\": \"6-0\", \"probability\": 0.097353}, {\"score\": \"2-0\", \"probability\": 0.072632}]"
+  },
+  {
+    "team1":"Scotland",
+    "team2":"Brazil",
+    "expected_goals1":0.836,
+    "expected_goals2":2.209,
+    "prob_team1_win":0.128433,
+    "prob_draw":0.185817,
+    "prob_team2_win":0.68575,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.116346
+      },
+      {
+        "score":"0-1",
+        "probability":0.105336
+      },
+      {
+        "score":"1-2",
+        "probability":0.097282
+      },
+      {
+        "score":"1-1",
+        "probability":0.088076
+      },
+      {
+        "score":"0-3",
+        "probability":0.085671
+      }
+    ],
+    "match_id":17,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"18:00 UTC-4",
+    "group":"Group C",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"Brazil",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.116346}, {\"score\": \"0-1\", \"probability\": 0.105336}, {\"score\": \"1-2\", \"probability\": 0.097282}, {\"score\": \"1-1\", \"probability\": 0.088076}, {\"score\": \"0-3\", \"probability\": 0.085671}]"
+  },
+  {
+    "team1":"Morocco",
+    "team2":"Haiti",
+    "expected_goals1":4.18,
+    "expected_goals2":0.524,
+    "prob_team1_win":0.938283,
+    "prob_draw":0.045641,
+    "prob_team2_win":0.016077,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.122956
+      },
+      {
+        "score":"3-0",
+        "probability":0.117652
+      },
+      {
+        "score":"5-0",
+        "probability":0.102798
+      },
+      {
+        "score":"2-0",
+        "probability":0.084433
+      },
+      {
+        "score":"6-0",
+        "probability":0.071621
+      }
+    ],
+    "match_id":18,
+    "round":"Matchday 14",
+    "date":"2026-06-24",
+    "time":"18:00 UTC-4",
+    "group":"Group C",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Morocco",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.122956}, {\"score\": \"3-0\", \"probability\": 0.117652}, {\"score\": \"5-0\", \"probability\": 0.102798}, {\"score\": \"2-0\", \"probability\": 0.084433}, {\"score\": \"6-0\", \"probability\": 0.071621}]"
+  },
+  {
+    "team1":"USA",
+    "team2":"Paraguay",
+    "expected_goals1":1.679,
+    "expected_goals2":0.965,
+    "prob_team1_win":0.541371,
+    "prob_draw":0.242243,
+    "prob_team2_win":0.216386,
+    "most_likely_score":"1-0",
+    "top_scores":[
+      {
+        "score":"1-0",
+        "probability":0.119368
+      },
+      {
+        "score":"1-1",
+        "probability":0.115187
+      },
+      {
+        "score":"2-0",
+        "probability":0.10023
+      },
+      {
+        "score":"2-1",
+        "probability":0.096719
+      },
+      {
+        "score":"0-0",
+        "probability":0.07108
+      }
+    ],
+    "match_id":19,
+    "round":"Matchday 2",
+    "date":"2026-06-12",
+    "time":"18:00 UTC-7",
+    "group":"Group D",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"USA",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.119368}, {\"score\": \"1-1\", \"probability\": 0.115187}, {\"score\": \"2-0\", \"probability\": 0.10023}, {\"score\": \"2-1\", \"probability\": 0.096719}, {\"score\": \"0-0\", \"probability\": 0.07108}]"
+  },
+  {
+    "team1":"Australia",
+    "team2":"Turkey",
+    "expected_goals1":1.375,
+    "expected_goals2":1.432,
+    "prob_team1_win":0.360967,
+    "prob_draw":0.252396,
+    "prob_team2_win":0.386637,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.118936
+      },
+      {
+        "score":"0-1",
+        "probability":0.086498
+      },
+      {
+        "score":"1-2",
+        "probability":0.085141
+      },
+      {
+        "score":"1-0",
+        "probability":0.083072
+      },
+      {
+        "score":"2-1",
+        "probability":0.081768
+      }
+    ],
+    "match_id":20,
+    "round":"Matchday 3",
+    "date":"2026-06-13",
+    "time":"21:00 UTC-7",
+    "group":"Group D",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Turkey",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118936}, {\"score\": \"0-1\", \"probability\": 0.086498}, {\"score\": \"1-2\", \"probability\": 0.085141}, {\"score\": \"1-0\", \"probability\": 0.083072}, {\"score\": \"2-1\", \"probability\": 0.081768}]"
+  },
+  {
+    "team1":"USA",
+    "team2":"Australia",
+    "expected_goals1":1.687,
+    "expected_goals2":1.318,
+    "prob_team1_win":0.461252,
+    "prob_draw":0.238455,
+    "prob_team2_win":0.300293,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.1102
+      },
+      {
+        "score":"2-1",
+        "probability":0.092944
+      },
+      {
+        "score":"1-0",
+        "probability":0.083603
+      },
+      {
+        "score":"1-2",
+        "probability":0.072629
+      },
+      {
+        "score":"2-0",
+        "probability":0.070512
+      }
+    ],
+    "match_id":21,
+    "round":"Matchday 9",
+    "date":"2026-06-19",
+    "time":"12:00 UTC-7",
+    "group":"Group D",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"USA",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.1102}, {\"score\": \"2-1\", \"probability\": 0.092944}, {\"score\": \"1-0\", \"probability\": 0.083603}, {\"score\": \"1-2\", \"probability\": 0.072629}, {\"score\": \"2-0\", \"probability\": 0.070512}]"
+  },
+  {
+    "team1":"Turkey",
+    "team2":"Paraguay",
+    "expected_goals1":1.738,
+    "expected_goals2":0.825,
+    "prob_team1_win":0.590586,
+    "prob_draw":0.234161,
+    "prob_team2_win":0.175252,
+    "most_likely_score":"1-0",
+    "top_scores":[
+      {
+        "score":"1-0",
+        "probability":0.133985
+      },
+      {
+        "score":"2-0",
+        "probability":0.116465
+      },
+      {
+        "score":"1-1",
+        "probability":0.110539
+      },
+      {
+        "score":"2-1",
+        "probability":0.096085
+      },
+      {
+        "score":"0-0",
+        "probability":0.07707
+      }
+    ],
+    "match_id":22,
+    "round":"Matchday 9",
+    "date":"2026-06-19",
+    "time":"20:00 UTC-7",
+    "group":"Group D",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Turkey",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.133985}, {\"score\": \"2-0\", \"probability\": 0.116465}, {\"score\": \"1-1\", \"probability\": 0.110539}, {\"score\": \"2-1\", \"probability\": 0.096085}, {\"score\": \"0-0\", \"probability\": 0.07707}]"
+  },
+  {
+    "team1":"Turkey",
+    "team2":"USA",
+    "expected_goals1":1.703,
+    "expected_goals2":1.192,
+    "prob_team1_win":0.493243,
+    "prob_draw":0.239251,
+    "prob_team2_win":0.267506,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.112307
+      },
+      {
+        "score":"2-1",
+        "probability":0.095627
+      },
+      {
+        "score":"1-0",
+        "probability":0.094222
+      },
+      {
+        "score":"2-0",
+        "probability":0.080228
+      },
+      {
+        "score":"1-2",
+        "probability":0.066932
+      }
+    ],
+    "match_id":23,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"19:00 UTC-7",
+    "group":"Group D",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Turkey",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112307}, {\"score\": \"2-1\", \"probability\": 0.095627}, {\"score\": \"1-0\", \"probability\": 0.094222}, {\"score\": \"2-0\", \"probability\": 0.080228}, {\"score\": \"1-2\", \"probability\": 0.066932}]"
+  },
+  {
+    "team1":"Paraguay",
+    "team2":"Australia",
+    "expected_goals1":1.208,
+    "expected_goals2":1.346,
+    "prob_team1_win":0.334483,
+    "prob_draw":0.265988,
+    "prob_team2_win":0.399529,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.126484
+      },
+      {
+        "score":"0-1",
+        "probability":0.104729
+      },
+      {
+        "score":"1-0",
+        "probability":0.093995
+      },
+      {
+        "score":"1-2",
+        "probability":0.085101
+      },
+      {
+        "score":"0-0",
+        "probability":0.077828
+      }
+    ],
+    "match_id":24,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"19:00 UTC-7",
+    "group":"Group D",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Australia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126484}, {\"score\": \"0-1\", \"probability\": 0.104729}, {\"score\": \"1-0\", \"probability\": 0.093995}, {\"score\": \"1-2\", \"probability\": 0.085101}, {\"score\": \"0-0\", \"probability\": 0.077828}]"
+  },
+  {
+    "team1":"Germany",
+    "team2":"Curacao",
+    "expected_goals1":4.8,
+    "expected_goals2":0.353,
+    "prob_team1_win":0.971115,
+    "prob_draw":0.02323,
+    "prob_team2_win":0.005655,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.144244
+      },
+      {
+        "score":"5-0",
+        "probability":0.138474
+      },
+      {
+        "score":"3-0",
+        "probability":0.120203
+      },
+      {
+        "score":"6-0",
+        "probability":0.110779
+      },
+      {
+        "score":"7-0",
+        "probability":0.075963
+      }
+    ],
+    "match_id":25,
+    "round":"Matchday 4",
+    "date":"2026-06-14",
+    "time":"12:00 UTC-5",
+    "group":"Group E",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Germany",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.144244}, {\"score\": \"5-0\", \"probability\": 0.138474}, {\"score\": \"3-0\", \"probability\": 0.120203}, {\"score\": \"6-0\", \"probability\": 0.110779}, {\"score\": \"7-0\", \"probability\": 0.075963}]"
+  },
+  {
+    "team1":"Ivory Coast",
+    "team2":"Ecuador",
+    "expected_goals1":0.922,
+    "expected_goals2":2.052,
+    "prob_team1_win":0.160569,
+    "prob_draw":0.204579,
+    "prob_team2_win":0.634852,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.107748
+      },
+      {
+        "score":"0-1",
+        "probability":0.105009
+      },
+      {
+        "score":"1-2",
+        "probability":0.099315
+      },
+      {
+        "score":"1-1",
+        "probability":0.09679
+      },
+      {
+        "score":"0-3",
+        "probability":0.073706
+      }
+    ],
+    "match_id":26,
+    "round":"Matchday 4",
+    "date":"2026-06-14",
+    "time":"19:00 UTC-4",
+    "group":"Group E",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"Ecuador",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.107748}, {\"score\": \"0-1\", \"probability\": 0.105009}, {\"score\": \"1-2\", \"probability\": 0.099315}, {\"score\": \"1-1\", \"probability\": 0.09679}, {\"score\": \"0-3\", \"probability\": 0.073706}]"
+  },
+  {
+    "team1":"Germany",
+    "team2":"Ivory Coast",
+    "expected_goals1":3.556,
+    "expected_goals2":0.636,
+    "prob_team1_win":0.889661,
+    "prob_draw":0.076476,
+    "prob_team2_win":0.033863,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.116624
+      },
+      {
+        "score":"4-0",
+        "probability":0.103681
+      },
+      {
+        "score":"2-0",
+        "probability":0.098387
+      },
+      {
+        "score":"3-1",
+        "probability":0.074211
+      },
+      {
+        "score":"5-0",
+        "probability":0.073739
+      }
+    ],
+    "match_id":27,
+    "round":"Matchday 10",
+    "date":"2026-06-20",
+    "time":"16:00 UTC-4",
+    "group":"Group E",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Germany",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.116624}, {\"score\": \"4-0\", \"probability\": 0.103681}, {\"score\": \"2-0\", \"probability\": 0.098387}, {\"score\": \"3-1\", \"probability\": 0.074211}, {\"score\": \"5-0\", \"probability\": 0.073739}]"
+  },
+  {
+    "team1":"Ecuador",
+    "team2":"Curacao",
+    "expected_goals1":4.14,
+    "expected_goals2":0.419,
+    "prob_team1_win":0.947379,
+    "prob_draw":0.040641,
+    "prob_team2_win":0.01198,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.136354
+      },
+      {
+        "score":"3-0",
+        "probability":0.131735
+      },
+      {
+        "score":"5-0",
+        "probability":0.112908
+      },
+      {
+        "score":"2-0",
+        "probability":0.095454
+      },
+      {
+        "score":"6-0",
+        "probability":0.077912
+      }
+    ],
+    "match_id":28,
+    "round":"Matchday 10",
+    "date":"2026-06-20",
+    "time":"19:00 UTC-5",
+    "group":"Group E",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Ecuador",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.136354}, {\"score\": \"3-0\", \"probability\": 0.131735}, {\"score\": \"5-0\", \"probability\": 0.112908}, {\"score\": \"2-0\", \"probability\": 0.095454}, {\"score\": \"6-0\", \"probability\": 0.077912}]"
+  },
+  {
+    "team1":"Curacao",
+    "team2":"Ivory Coast",
+    "expected_goals1":0.922,
+    "expected_goals2":2.253,
+    "prob_team1_win":0.140366,
+    "prob_draw":0.185989,
+    "prob_team2_win":0.673645,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.106298
+      },
+      {
+        "score":"1-2",
+        "probability":0.098024
+      },
+      {
+        "score":"0-1",
+        "probability":0.094352
+      },
+      {
+        "score":"1-1",
+        "probability":0.087008
+      },
+      {
+        "score":"0-3",
+        "probability":0.079837
+      }
+    ],
+    "match_id":29,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"16:00 UTC-4",
+    "group":"Group E",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"Ivory Coast",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.106298}, {\"score\": \"1-2\", \"probability\": 0.098024}, {\"score\": \"0-1\", \"probability\": 0.094352}, {\"score\": \"1-1\", \"probability\": 0.087008}, {\"score\": \"0-3\", \"probability\": 0.079837}]"
+  },
+  {
+    "team1":"Ecuador",
+    "team2":"Germany",
+    "expected_goals1":1.169,
+    "expected_goals2":1.616,
+    "prob_team1_win":0.276137,
+    "prob_draw":0.246534,
+    "prob_team2_win":0.477329,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.116652
+      },
+      {
+        "score":"0-1",
+        "probability":0.099766
+      },
+      {
+        "score":"1-2",
+        "probability":0.094245
+      },
+      {
+        "score":"0-2",
+        "probability":0.080603
+      },
+      {
+        "score":"1-0",
+        "probability":0.072193
+      }
+    ],
+    "match_id":30,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"16:00 UTC-4",
+    "group":"Group E",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"Germany",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116652}, {\"score\": \"0-1\", \"probability\": 0.099766}, {\"score\": \"1-2\", \"probability\": 0.094245}, {\"score\": \"0-2\", \"probability\": 0.080603}, {\"score\": \"1-0\", \"probability\": 0.072193}]"
+  },
+  {
+    "team1":"Netherlands",
+    "team2":"Japan",
+    "expected_goals1":1.837,
+    "expected_goals2":1.393,
+    "prob_team1_win":0.479902,
+    "prob_draw":0.227407,
+    "prob_team2_win":0.29269,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.10132
+      },
+      {
+        "score":"2-1",
+        "probability":0.093053
+      },
+      {
+        "score":"1-0",
+        "probability":0.072755
+      },
+      {
+        "score":"1-2",
+        "probability":0.070551
+      },
+      {
+        "score":"2-0",
+        "probability":0.066818
+      }
+    ],
+    "match_id":31,
+    "round":"Matchday 4",
+    "date":"2026-06-14",
+    "time":"15:00 UTC-5",
+    "group":"Group F",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Netherlands",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.10132}, {\"score\": \"2-1\", \"probability\": 0.093053}, {\"score\": \"1-0\", \"probability\": 0.072755}, {\"score\": \"1-2\", \"probability\": 0.070551}, {\"score\": \"2-0\", \"probability\": 0.066818}]"
+  },
+  {
+    "team1":"Sweden",
+    "team2":"Tunisia",
+    "expected_goals1":1.615,
+    "expected_goals2":1.095,
+    "prob_team1_win":0.494299,
+    "prob_draw":0.247723,
+    "prob_team2_win":0.257979,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.117695
+      },
+      {
+        "score":"1-0",
+        "probability":0.107459
+      },
+      {
+        "score":"2-1",
+        "probability":0.095042
+      },
+      {
+        "score":"2-0",
+        "probability":0.086777
+      },
+      {
+        "score":"0-1",
+        "probability":0.072873
+      }
+    ],
+    "match_id":32,
+    "round":"Matchday 4",
+    "date":"2026-06-14",
+    "time":"20:00 UTC-6",
+    "group":"Group F",
+    "ground":"Monterrey (Guadalupe)",
+    "status":"predicted",
+    "predicted_winner":"Sweden",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117695}, {\"score\": \"1-0\", \"probability\": 0.107459}, {\"score\": \"2-1\", \"probability\": 0.095042}, {\"score\": \"2-0\", \"probability\": 0.086777}, {\"score\": \"0-1\", \"probability\": 0.072873}]"
+  },
+  {
+    "team1":"Netherlands",
+    "team2":"Sweden",
+    "expected_goals1":3.483,
+    "expected_goals2":0.553,
+    "prob_team1_win":0.896657,
+    "prob_draw":0.074006,
+    "prob_team2_win":0.029337,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.127721
+      },
+      {
+        "score":"4-0",
+        "probability":0.111208
+      },
+      {
+        "score":"2-0",
+        "probability":0.110014
+      },
+      {
+        "score":"5-0",
+        "probability":0.077464
+      },
+      {
+        "score":"3-1",
+        "probability":0.070666
+      }
+    ],
+    "match_id":33,
+    "round":"Matchday 10",
+    "date":"2026-06-20",
+    "time":"12:00 UTC-5",
+    "group":"Group F",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Netherlands",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.127721}, {\"score\": \"4-0\", \"probability\": 0.111208}, {\"score\": \"2-0\", \"probability\": 0.110014}, {\"score\": \"5-0\", \"probability\": 0.077464}, {\"score\": \"3-1\", \"probability\": 0.070666}]"
+  },
+  {
+    "team1":"Tunisia",
+    "team2":"Japan",
+    "expected_goals1":0.705,
+    "expected_goals2":3.332,
+    "prob_team1_win":0.046116,
+    "prob_draw":0.092766,
+    "prob_team2_win":0.861118,
+    "most_likely_score":"0-3",
+    "top_scores":[
+      {
+        "score":"0-3",
+        "probability":0.111162
+      },
+      {
+        "score":"0-2",
+        "probability":0.100091
+      },
+      {
+        "score":"0-4",
+        "probability":0.092592
+      },
+      {
+        "score":"1-3",
+        "probability":0.078342
+      },
+      {
+        "score":"1-2",
+        "probability":0.07054
+      }
+    ],
+    "match_id":34,
+    "round":"Matchday 10",
+    "date":"2026-06-20",
+    "time":"22:00 UTC-6",
+    "group":"Group F",
+    "ground":"Monterrey (Guadalupe)",
+    "status":"predicted",
+    "predicted_winner":"Japan",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.111162}, {\"score\": \"0-2\", \"probability\": 0.100091}, {\"score\": \"0-4\", \"probability\": 0.092592}, {\"score\": \"1-3\", \"probability\": 0.078342}, {\"score\": \"1-2\", \"probability\": 0.07054}]"
+  },
+  {
+    "team1":"Japan",
+    "team2":"Sweden",
+    "expected_goals1":3.506,
+    "expected_goals2":0.602,
+    "prob_team1_win":0.891089,
+    "prob_draw":0.076437,
+    "prob_team2_win":0.032473,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.121359
+      },
+      {
+        "score":"4-0",
+        "probability":0.106363
+      },
+      {
+        "score":"2-0",
+        "probability":0.103852
+      },
+      {
+        "score":"5-0",
+        "probability":0.074576
+      },
+      {
+        "score":"3-1",
+        "probability":0.073063
+      }
+    ],
+    "match_id":35,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"18:00 UTC-5",
+    "group":"Group F",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Japan",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.121359}, {\"score\": \"4-0\", \"probability\": 0.106363}, {\"score\": \"2-0\", \"probability\": 0.103852}, {\"score\": \"5-0\", \"probability\": 0.074576}, {\"score\": \"3-1\", \"probability\": 0.073063}]"
+  },
+  {
+    "team1":"Tunisia",
+    "team2":"Netherlands",
+    "expected_goals1":0.648,
+    "expected_goals2":3.31,
+    "prob_team1_win":0.0416,
+    "prob_draw":0.089821,
+    "prob_team2_win":0.868578,
+    "most_likely_score":"0-3",
+    "top_scores":[
+      {
+        "score":"0-3",
+        "probability":0.117854
+      },
+      {
+        "score":"0-2",
+        "probability":0.106815
+      },
+      {
+        "score":"0-4",
+        "probability":0.097526
+      },
+      {
+        "score":"1-3",
+        "probability":0.076332
+      },
+      {
+        "score":"1-2",
+        "probability":0.069183
+      }
+    ],
+    "match_id":36,
+    "round":"Matchday 15",
+    "date":"2026-06-25",
+    "time":"18:00 UTC-5",
+    "group":"Group F",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Netherlands",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.117854}, {\"score\": \"0-2\", \"probability\": 0.106815}, {\"score\": \"0-4\", \"probability\": 0.097526}, {\"score\": \"1-3\", \"probability\": 0.076332}, {\"score\": \"1-2\", \"probability\": 0.069183}]"
+  },
+  {
+    "team1":"Belgium",
+    "team2":"Egypt",
+    "expected_goals1":3.142,
+    "expected_goals2":0.714,
+    "prob_team1_win":0.841728,
+    "prob_draw":0.104445,
+    "prob_team2_win":0.053827,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.111082
+      },
+      {
+        "score":"2-0",
+        "probability":0.106061
+      },
+      {
+        "score":"4-0",
+        "probability":0.087255
+      },
+      {
+        "score":"3-1",
+        "probability":0.079279
+      },
+      {
+        "score":"2-1",
+        "probability":0.075695
+      }
+    ],
+    "match_id":37,
+    "round":"Matchday 5",
+    "date":"2026-06-15",
+    "time":"12:00 UTC-7",
+    "group":"Group G",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"Belgium",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.111082}, {\"score\": \"2-0\", \"probability\": 0.106061}, {\"score\": \"4-0\", \"probability\": 0.087255}, {\"score\": \"3-1\", \"probability\": 0.079279}, {\"score\": \"2-1\", \"probability\": 0.075695}]"
+  },
+  {
+    "team1":"Iran",
+    "team2":"New Zealand",
+    "expected_goals1":2.624,
+    "expected_goals2":0.881,
+    "prob_team1_win":0.744689,
+    "prob_draw":0.152401,
+    "prob_team2_win":0.10291,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.10406
+      },
+      {
+        "score":"2-1",
+        "probability":0.091635
+      },
+      {
+        "score":"3-0",
+        "probability":0.091031
+      },
+      {
+        "score":"3-1",
+        "probability":0.080162
+      },
+      {
+        "score":"1-0",
+        "probability":0.079302
+      }
+    ],
+    "match_id":38,
+    "round":"Matchday 5",
+    "date":"2026-06-15",
+    "time":"18:00 UTC-7",
+    "group":"Group G",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Iran",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10406}, {\"score\": \"2-1\", \"probability\": 0.091635}, {\"score\": \"3-0\", \"probability\": 0.091031}, {\"score\": \"3-1\", \"probability\": 0.080162}, {\"score\": \"1-0\", \"probability\": 0.079302}]"
+  },
+  {
+    "team1":"Belgium",
+    "team2":"Iran",
+    "expected_goals1":2.153,
+    "expected_goals2":1.129,
+    "prob_team1_win":0.606526,
+    "prob_draw":0.202183,
+    "prob_team2_win":0.191291,
+    "most_likely_score":"2-1",
+    "top_scores":[
+      {
+        "score":"2-1",
+        "probability":0.098442
+      },
+      {
+        "score":"1-1",
+        "probability":0.091463
+      },
+      {
+        "score":"2-0",
+        "probability":0.087205
+      },
+      {
+        "score":"1-0",
+        "probability":0.081022
+      },
+      {
+        "score":"3-1",
+        "probability":0.070635
+      }
+    ],
+    "match_id":39,
+    "round":"Matchday 11",
+    "date":"2026-06-21",
+    "time":"12:00 UTC-7",
+    "group":"Group G",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Belgium",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.098442}, {\"score\": \"1-1\", \"probability\": 0.091463}, {\"score\": \"2-0\", \"probability\": 0.087205}, {\"score\": \"1-0\", \"probability\": 0.081022}, {\"score\": \"3-1\", \"probability\": 0.070635}]"
+  },
+  {
+    "team1":"New Zealand",
+    "team2":"Egypt",
+    "expected_goals1":1.568,
+    "expected_goals2":1.36,
+    "prob_team1_win":0.423687,
+    "prob_draw":0.244998,
+    "prob_team2_win":0.331314,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.114124
+      },
+      {
+        "score":"2-1",
+        "probability":0.089489
+      },
+      {
+        "score":"1-0",
+        "probability":0.083921
+      },
+      {
+        "score":"1-2",
+        "probability":0.077599
+      },
+      {
+        "score":"0-1",
+        "probability":0.072771
+      }
+    ],
+    "match_id":40,
+    "round":"Matchday 11",
+    "date":"2026-06-21",
+    "time":"18:00 UTC-7",
+    "group":"Group G",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"New Zealand",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.114124}, {\"score\": \"2-1\", \"probability\": 0.089489}, {\"score\": \"1-0\", \"probability\": 0.083921}, {\"score\": \"1-2\", \"probability\": 0.077599}, {\"score\": \"0-1\", \"probability\": 0.072771}]"
+  },
+  {
+    "team1":"Egypt",
+    "team2":"Iran",
+    "expected_goals1":1.084,
+    "expected_goals2":2.051,
+    "prob_team1_win":0.194304,
+    "prob_draw":0.209543,
+    "prob_team2_win":0.596153,
+    "most_likely_score":"1-2",
+    "top_scores":[
+      {
+        "score":"1-2",
+        "probability":0.099309
+      },
+      {
+        "score":"1-1",
+        "probability":0.096844
+      },
+      {
+        "score":"0-2",
+        "probability":0.091625
+      },
+      {
+        "score":"0-1",
+        "probability":0.089351
+      },
+      {
+        "score":"1-3",
+        "probability":0.067891
+      }
+    ],
+    "match_id":41,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"20:00 UTC-7",
+    "group":"Group G",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"Iran",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.099309}, {\"score\": \"1-1\", \"probability\": 0.096844}, {\"score\": \"0-2\", \"probability\": 0.091625}, {\"score\": \"0-1\", \"probability\": 0.089351}, {\"score\": \"1-3\", \"probability\": 0.067891}]"
+  },
+  {
+    "team1":"New Zealand",
+    "team2":"Belgium",
+    "expected_goals1":0.863,
+    "expected_goals2":2.701,
+    "prob_team1_win":0.095123,
+    "prob_draw":0.145379,
+    "prob_team2_win":0.759498,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.103996
+      },
+      {
+        "score":"0-3",
+        "probability":0.093625
+      },
+      {
+        "score":"1-2",
+        "probability":0.08977
+      },
+      {
+        "score":"1-3",
+        "probability":0.080818
+      },
+      {
+        "score":"0-1",
+        "probability":0.07701
+      }
+    ],
+    "match_id":42,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"20:00 UTC-7",
+    "group":"Group G",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Belgium",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.103996}, {\"score\": \"0-3\", \"probability\": 0.093625}, {\"score\": \"1-2\", \"probability\": 0.08977}, {\"score\": \"1-3\", \"probability\": 0.080818}, {\"score\": \"0-1\", \"probability\": 0.07701}]"
+  },
+  {
+    "team1":"Spain",
+    "team2":"Cape Verde",
+    "expected_goals1":4.8,
+    "expected_goals2":0.229,
+    "prob_team1_win":0.978855,
+    "prob_draw":0.018036,
+    "prob_team2_win":0.00311,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.163206
+      },
+      {
+        "score":"5-0",
+        "probability":0.156678
+      },
+      {
+        "score":"3-0",
+        "probability":0.136005
+      },
+      {
+        "score":"6-0",
+        "probability":0.125342
+      },
+      {
+        "score":"7-0",
+        "probability":0.085949
+      }
+    ],
+    "match_id":43,
+    "round":"Matchday 5",
+    "date":"2026-06-15",
+    "time":"12:00 UTC-4",
+    "group":"Group H",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.163206}, {\"score\": \"5-0\", \"probability\": 0.156678}, {\"score\": \"3-0\", \"probability\": 0.136005}, {\"score\": \"6-0\", \"probability\": 0.125342}, {\"score\": \"7-0\", \"probability\": 0.085949}]"
+  },
+  {
+    "team1":"Saudi Arabia",
+    "team2":"Uruguay",
+    "expected_goals1":0.704,
+    "expected_goals2":2.291,
+    "prob_team1_win":0.098325,
+    "prob_draw":0.170174,
+    "prob_team2_win":0.731501,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.131612
+      },
+      {
+        "score":"0-1",
+        "probability":0.114889
+      },
+      {
+        "score":"0-3",
+        "probability":0.100513
+      },
+      {
+        "score":"1-2",
+        "probability":0.092687
+      },
+      {
+        "score":"1-1",
+        "probability":0.08091
+      }
+    ],
+    "match_id":44,
+    "round":"Matchday 5",
+    "date":"2026-06-15",
+    "time":"18:00 UTC-4",
+    "group":"Group H",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"Uruguay",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.131612}, {\"score\": \"0-1\", \"probability\": 0.114889}, {\"score\": \"0-3\", \"probability\": 0.100513}, {\"score\": \"1-2\", \"probability\": 0.092687}, {\"score\": \"1-1\", \"probability\": 0.08091}]"
+  },
+  {
+    "team1":"Spain",
+    "team2":"Saudi Arabia",
+    "expected_goals1":4.8,
+    "expected_goals2":0.298,
+    "prob_team1_win":0.974657,
+    "prob_draw":0.020894,
+    "prob_team2_win":0.004449,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.152349
+      },
+      {
+        "score":"5-0",
+        "probability":0.146255
+      },
+      {
+        "score":"3-0",
+        "probability":0.126957
+      },
+      {
+        "score":"6-0",
+        "probability":0.117004
+      },
+      {
+        "score":"7-0",
+        "probability":0.080231
+      }
+    ],
+    "match_id":45,
+    "round":"Matchday 11",
+    "date":"2026-06-21",
+    "time":"12:00 UTC-4",
+    "group":"Group H",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.152349}, {\"score\": \"5-0\", \"probability\": 0.146255}, {\"score\": \"3-0\", \"probability\": 0.126957}, {\"score\": \"6-0\", \"probability\": 0.117004}, {\"score\": \"7-0\", \"probability\": 0.080231}]"
+  },
+  {
+    "team1":"Uruguay",
+    "team2":"Cape Verde",
+    "expected_goals1":3.58,
+    "expected_goals2":0.444,
+    "prob_team1_win":0.918272,
+    "prob_draw":0.061641,
+    "prob_team2_win":0.020087,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.14096
+      },
+      {
+        "score":"4-0",
+        "probability":0.126167
+      },
+      {
+        "score":"2-0",
+        "probability":0.118116
+      },
+      {
+        "score":"5-0",
+        "probability":0.090341
+      },
+      {
+        "score":"1-0",
+        "probability":0.065983
+      }
+    ],
+    "match_id":46,
+    "round":"Matchday 11",
+    "date":"2026-06-21",
+    "time":"18:00 UTC-4",
+    "group":"Group H",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"Uruguay",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.14096}, {\"score\": \"4-0\", \"probability\": 0.126167}, {\"score\": \"2-0\", \"probability\": 0.118116}, {\"score\": \"5-0\", \"probability\": 0.090341}, {\"score\": \"1-0\", \"probability\": 0.065983}]"
+  },
+  {
+    "team1":"Cape Verde",
+    "team2":"Saudi Arabia",
+    "expected_goals1":1.062,
+    "expected_goals2":1.449,
+    "prob_team1_win":0.2769,
+    "prob_draw":0.263281,
+    "prob_team2_win":0.459819,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.124951
+      },
+      {
+        "score":"0-1",
+        "probability":0.117673
+      },
+      {
+        "score":"1-2",
+        "probability":0.090531
+      },
+      {
+        "score":"1-0",
+        "probability":0.086229
+      },
+      {
+        "score":"0-2",
+        "probability":0.085257
+      }
+    ],
+    "match_id":47,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"19:00 UTC-5",
+    "group":"Group H",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Saudi Arabia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124951}, {\"score\": \"0-1\", \"probability\": 0.117673}, {\"score\": \"1-2\", \"probability\": 0.090531}, {\"score\": \"1-0\", \"probability\": 0.086229}, {\"score\": \"0-2\", \"probability\": 0.085257}]"
+  },
+  {
+    "team1":"Uruguay",
+    "team2":"Spain",
+    "expected_goals1":0.737,
+    "expected_goals2":2.857,
+    "prob_team1_win":0.069048,
+    "prob_draw":0.125092,
+    "prob_team2_win":0.80586,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.113207
+      },
+      {
+        "score":"0-3",
+        "probability":0.107826
+      },
+      {
+        "score":"1-2",
+        "probability":0.083429
+      },
+      {
+        "score":"1-3",
+        "probability":0.079464
+      },
+      {
+        "score":"0-1",
+        "probability":0.079238
+      }
+    ],
+    "match_id":48,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"18:00 UTC-6",
+    "group":"Group H",
+    "ground":"Guadalajara (Zapopan)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.113207}, {\"score\": \"0-3\", \"probability\": 0.107826}, {\"score\": \"1-2\", \"probability\": 0.083429}, {\"score\": \"1-3\", \"probability\": 0.079464}, {\"score\": \"0-1\", \"probability\": 0.079238}]"
+  },
+  {
+    "team1":"France",
+    "team2":"Senegal",
+    "expected_goals1":3.489,
+    "expected_goals2":0.66,
+    "prob_team1_win":0.881156,
+    "prob_draw":0.081375,
+    "prob_team2_win":0.037469,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.114744
+      },
+      {
+        "score":"4-0",
+        "probability":0.10008
+      },
+      {
+        "score":"2-0",
+        "probability":0.098668
+      },
+      {
+        "score":"3-1",
+        "probability":0.075711
+      },
+      {
+        "score":"5-0",
+        "probability":0.069831
+      }
+    ],
+    "match_id":49,
+    "round":"Matchday 6",
+    "date":"2026-06-16",
+    "time":"15:00 UTC-4",
+    "group":"Group I",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.114744}, {\"score\": \"4-0\", \"probability\": 0.10008}, {\"score\": \"2-0\", \"probability\": 0.098668}, {\"score\": \"3-1\", \"probability\": 0.075711}, {\"score\": \"5-0\", \"probability\": 0.069831}]"
+  },
+  {
+    "team1":"Iraq",
+    "team2":"Norway",
+    "expected_goals1":0.753,
+    "expected_goals2":2.514,
+    "prob_team1_win":0.09087,
+    "prob_draw":0.153204,
+    "prob_team2_win":0.755926,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.121053
+      },
+      {
+        "score":"0-3",
+        "probability":0.101432
+      },
+      {
+        "score":"0-1",
+        "probability":0.096313
+      },
+      {
+        "score":"1-2",
+        "probability":0.091102
+      },
+      {
+        "score":"1-3",
+        "probability":0.076336
+      }
+    ],
+    "match_id":50,
+    "round":"Matchday 6",
+    "date":"2026-06-16",
+    "time":"18:00 UTC-4",
+    "group":"Group I",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"Norway",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.121053}, {\"score\": \"0-3\", \"probability\": 0.101432}, {\"score\": \"0-1\", \"probability\": 0.096313}, {\"score\": \"1-2\", \"probability\": 0.091102}, {\"score\": \"1-3\", \"probability\": 0.076336}]"
+  },
+  {
+    "team1":"France",
+    "team2":"Iraq",
+    "expected_goals1":4.8,
+    "expected_goals2":0.386,
+    "prob_team1_win":0.968866,
+    "prob_draw":0.024681,
+    "prob_team2_win":0.006453,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.139514
+      },
+      {
+        "score":"5-0",
+        "probability":0.133933
+      },
+      {
+        "score":"3-0",
+        "probability":0.116261
+      },
+      {
+        "score":"6-0",
+        "probability":0.107146
+      },
+      {
+        "score":"7-0",
+        "probability":0.073472
+      }
+    ],
+    "match_id":51,
+    "round":"Matchday 12",
+    "date":"2026-06-22",
+    "time":"17:00 UTC-4",
+    "group":"Group I",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.139514}, {\"score\": \"5-0\", \"probability\": 0.133933}, {\"score\": \"3-0\", \"probability\": 0.116261}, {\"score\": \"6-0\", \"probability\": 0.107146}, {\"score\": \"7-0\", \"probability\": 0.073472}]"
+  },
+  {
+    "team1":"Norway",
+    "team2":"Senegal",
+    "expected_goals1":2.157,
+    "expected_goals2":1.054,
+    "prob_team1_win":0.624638,
+    "prob_draw":0.199654,
+    "prob_team2_win":0.175709,
+    "most_likely_score":"2-1",
+    "top_scores":[
+      {
+        "score":"2-1",
+        "probability":0.099033
+      },
+      {
+        "score":"2-0",
+        "probability":0.093996
+      },
+      {
+        "score":"1-1",
+        "probability":0.091841
+      },
+      {
+        "score":"1-0",
+        "probability":0.08717
+      },
+      {
+        "score":"3-1",
+        "probability":0.071192
+      }
+    ],
+    "match_id":52,
+    "round":"Matchday 12",
+    "date":"2026-06-22",
+    "time":"20:00 UTC-4",
+    "group":"Group I",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"Norway",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.099033}, {\"score\": \"2-0\", \"probability\": 0.093996}, {\"score\": \"1-1\", \"probability\": 0.091841}, {\"score\": \"1-0\", \"probability\": 0.08717}, {\"score\": \"3-1\", \"probability\": 0.071192}]"
+  },
+  {
+    "team1":"Norway",
+    "team2":"France",
+    "expected_goals1":1.032,
+    "expected_goals2":2.185,
+    "prob_team1_win":0.168308,
+    "prob_draw":0.196474,
+    "prob_team2_win":0.635217,
+    "most_likely_score":"1-2",
+    "top_scores":[
+      {
+        "score":"1-2",
+        "probability":0.098911
+      },
+      {
+        "score":"0-2",
+        "probability":0.095824
+      },
+      {
+        "score":"1-1",
+        "probability":0.090523
+      },
+      {
+        "score":"0-1",
+        "probability":0.087699
+      },
+      {
+        "score":"1-3",
+        "probability":0.07205
+      }
+    ],
+    "match_id":53,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"15:00 UTC-4",
+    "group":"Group I",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.098911}, {\"score\": \"0-2\", \"probability\": 0.095824}, {\"score\": \"1-1\", \"probability\": 0.090523}, {\"score\": \"0-1\", \"probability\": 0.087699}, {\"score\": \"1-3\", \"probability\": 0.07205}]"
+  },
+  {
+    "team1":"Senegal",
+    "team2":"Iraq",
+    "expected_goals1":2.392,
+    "expected_goals2":0.807,
+    "prob_team1_win":0.724467,
+    "prob_draw":0.167338,
+    "prob_team2_win":0.108195,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.117103
+      },
+      {
+        "score":"1-0",
+        "probability":0.097908
+      },
+      {
+        "score":"2-1",
+        "probability":0.094512
+      },
+      {
+        "score":"3-0",
+        "probability":0.093374
+      },
+      {
+        "score":"1-1",
+        "probability":0.07902
+      }
+    ],
+    "match_id":54,
+    "round":"Matchday 16",
+    "date":"2026-06-26",
+    "time":"15:00 UTC-4",
+    "group":"Group I",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Senegal",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.117103}, {\"score\": \"1-0\", \"probability\": 0.097908}, {\"score\": \"2-1\", \"probability\": 0.094512}, {\"score\": \"3-0\", \"probability\": 0.093374}, {\"score\": \"1-1\", \"probability\": 0.07902}]"
+  },
+  {
+    "team1":"Argentina",
+    "team2":"Algeria",
+    "expected_goals1":3.75,
+    "expected_goals2":0.644,
+    "prob_team1_win":0.901646,
+    "prob_draw":0.068418,
+    "prob_team2_win":0.029936,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.112783
+      },
+      {
+        "score":"4-0",
+        "probability":0.105729
+      },
+      {
+        "score":"2-0",
+        "probability":0.090231
+      },
+      {
+        "score":"5-0",
+        "probability":0.079293
+      },
+      {
+        "score":"3-1",
+        "probability":0.072652
+      }
+    ],
+    "match_id":55,
+    "round":"Matchday 6",
+    "date":"2026-06-16",
+    "time":"20:00 UTC-5",
+    "group":"Group J",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.112783}, {\"score\": \"4-0\", \"probability\": 0.105729}, {\"score\": \"2-0\", \"probability\": 0.090231}, {\"score\": \"5-0\", \"probability\": 0.079293}, {\"score\": \"3-1\", \"probability\": 0.072652}]"
+  },
+  {
+    "team1":"Austria",
+    "team2":"Jordan",
+    "expected_goals1":2.171,
+    "expected_goals2":0.857,
+    "prob_team1_win":0.673847,
+    "prob_draw":0.190417,
+    "prob_team2_win":0.135735,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.114325
+      },
+      {
+        "score":"1-0",
+        "probability":0.105296
+      },
+      {
+        "score":"2-1",
+        "probability":0.097946
+      },
+      {
+        "score":"1-1",
+        "probability":0.09021
+      },
+      {
+        "score":"3-0",
+        "probability":0.082752
+      }
+    ],
+    "match_id":56,
+    "round":"Matchday 6",
+    "date":"2026-06-16",
+    "time":"21:00 UTC-7",
+    "group":"Group J",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Austria",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.114325}, {\"score\": \"1-0\", \"probability\": 0.105296}, {\"score\": \"2-1\", \"probability\": 0.097946}, {\"score\": \"1-1\", \"probability\": 0.09021}, {\"score\": \"3-0\", \"probability\": 0.082752}]"
+  },
+  {
+    "team1":"Argentina",
+    "team2":"Austria",
+    "expected_goals1":3.534,
+    "expected_goals2":0.618,
+    "prob_team1_win":0.890788,
+    "prob_draw":0.07622,
+    "prob_team2_win":0.032992,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.11911
+      },
+      {
+        "score":"4-0",
+        "probability":0.105227
+      },
+      {
+        "score":"2-0",
+        "probability":0.101119
+      },
+      {
+        "score":"5-0",
+        "probability":0.074369
+      },
+      {
+        "score":"3-1",
+        "probability":0.073579
+      }
+    ],
+    "match_id":57,
+    "round":"Matchday 12",
+    "date":"2026-06-22",
+    "time":"12:00 UTC-5",
+    "group":"Group J",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.11911}, {\"score\": \"4-0\", \"probability\": 0.105227}, {\"score\": \"2-0\", \"probability\": 0.101119}, {\"score\": \"5-0\", \"probability\": 0.074369}, {\"score\": \"3-1\", \"probability\": 0.073579}]"
+  },
+  {
+    "team1":"Jordan",
+    "team2":"Algeria",
+    "expected_goals1":1.109,
+    "expected_goals2":1.856,
+    "prob_team1_win":0.225357,
+    "prob_draw":0.226703,
+    "prob_team2_win":0.54794,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.106204
+      },
+      {
+        "score":"1-2",
+        "probability":0.098553
+      },
+      {
+        "score":"0-1",
+        "probability":0.095747
+      },
+      {
+        "score":"0-2",
+        "probability":0.08885
+      },
+      {
+        "score":"1-3",
+        "probability":0.060969
+      }
+    ],
+    "match_id":58,
+    "round":"Matchday 12",
+    "date":"2026-06-22",
+    "time":"20:00 UTC-7",
+    "group":"Group J",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Algeria",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.106204}, {\"score\": \"1-2\", \"probability\": 0.098553}, {\"score\": \"0-1\", \"probability\": 0.095747}, {\"score\": \"0-2\", \"probability\": 0.08885}, {\"score\": \"1-3\", \"probability\": 0.060969}]"
+  },
+  {
+    "team1":"Algeria",
+    "team2":"Austria",
+    "expected_goals1":1.622,
+    "expected_goals2":1.353,
+    "prob_team1_win":0.438269,
+    "prob_draw":0.241839,
+    "prob_team2_win":0.319892,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.112053
+      },
+      {
+        "score":"2-1",
+        "probability":0.090893
+      },
+      {
+        "score":"1-0",
+        "probability":0.082815
+      },
+      {
+        "score":"1-2",
+        "probability":0.075807
+      },
+      {
+        "score":"0-1",
+        "probability":0.06907
+      }
+    ],
+    "match_id":59,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"21:00 UTC-5",
+    "group":"Group J",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Algeria",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112053}, {\"score\": \"2-1\", \"probability\": 0.090893}, {\"score\": \"1-0\", \"probability\": 0.082815}, {\"score\": \"1-2\", \"probability\": 0.075807}, {\"score\": \"0-1\", \"probability\": 0.06907}]"
+  },
+  {
+    "team1":"Jordan",
+    "team2":"Argentina",
+    "expected_goals1":0.506,
+    "expected_goals2":4.043,
+    "prob_team1_win":0.01695,
+    "prob_draw":0.048809,
+    "prob_team2_win":0.934241,
+    "most_likely_score":"0-4",
+    "top_scores":[
+      {
+        "score":"0-4",
+        "probability":0.124393
+      },
+      {
+        "score":"0-3",
+        "probability":0.123083
+      },
+      {
+        "score":"0-5",
+        "probability":0.100574
+      },
+      {
+        "score":"0-2",
+        "probability":0.09134
+      },
+      {
+        "score":"0-6",
+        "probability":0.067763
+      }
+    ],
+    "match_id":60,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"21:00 UTC-5",
+    "group":"Group J",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-4\", \"probability\": 0.124393}, {\"score\": \"0-3\", \"probability\": 0.123083}, {\"score\": \"0-5\", \"probability\": 0.100574}, {\"score\": \"0-2\", \"probability\": 0.09134}, {\"score\": \"0-6\", \"probability\": 0.067763}]"
+  },
+  {
+    "team1":"Portugal",
+    "team2":"DR Congo",
+    "expected_goals1":4.253,
+    "expected_goals2":0.487,
+    "prob_team1_win":0.944872,
+    "prob_draw":0.041463,
+    "prob_team2_win":0.013665,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.127803
+      },
+      {
+        "score":"3-0",
+        "probability":0.120201
+      },
+      {
+        "score":"5-0",
+        "probability":0.108709
+      },
+      {
+        "score":"2-0",
+        "probability":0.084789
+      },
+      {
+        "score":"6-0",
+        "probability":0.077056
+      }
+    ],
+    "match_id":61,
+    "round":"Matchday 7",
+    "date":"2026-06-17",
+    "time":"12:00 UTC-5",
+    "group":"Group K",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Portugal",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.127803}, {\"score\": \"3-0\", \"probability\": 0.120201}, {\"score\": \"5-0\", \"probability\": 0.108709}, {\"score\": \"2-0\", \"probability\": 0.084789}, {\"score\": \"6-0\", \"probability\": 0.077056}]"
+  },
+  {
+    "team1":"Uzbekistan",
+    "team2":"Colombia",
+    "expected_goals1":0.854,
+    "expected_goals2":2.205,
+    "prob_team1_win":0.132038,
+    "prob_draw":0.187076,
+    "prob_team2_win":0.680886,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.114372
+      },
+      {
+        "score":"0-1",
+        "probability":0.103732
+      },
+      {
+        "score":"1-2",
+        "probability":0.097628
+      },
+      {
+        "score":"1-1",
+        "probability":0.088546
+      },
+      {
+        "score":"0-3",
+        "probability":0.08407
+      }
+    ],
+    "match_id":62,
+    "round":"Matchday 7",
+    "date":"2026-06-17",
+    "time":"20:00 UTC-6",
+    "group":"Group K",
+    "ground":"Mexico City",
+    "status":"predicted",
+    "predicted_winner":"Colombia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.114372}, {\"score\": \"0-1\", \"probability\": 0.103732}, {\"score\": \"1-2\", \"probability\": 0.097628}, {\"score\": \"1-1\", \"probability\": 0.088546}, {\"score\": \"0-3\", \"probability\": 0.08407}]"
+  },
+  {
+    "team1":"Portugal",
+    "team2":"Uzbekistan",
+    "expected_goals1":3.098,
+    "expected_goals2":0.709,
+    "prob_team1_win":0.838192,
+    "prob_draw":0.106795,
+    "prob_team2_win":0.055012,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.111717
+      },
+      {
+        "score":"2-0",
+        "probability":0.108178
+      },
+      {
+        "score":"4-0",
+        "probability":0.086529
+      },
+      {
+        "score":"3-1",
+        "probability":0.079158
+      },
+      {
+        "score":"2-1",
+        "probability":0.076651
+      }
+    ],
+    "match_id":63,
+    "round":"Matchday 13",
+    "date":"2026-06-23",
+    "time":"12:00 UTC-5",
+    "group":"Group K",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Portugal",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.111717}, {\"score\": \"2-0\", \"probability\": 0.108178}, {\"score\": \"4-0\", \"probability\": 0.086529}, {\"score\": \"3-1\", \"probability\": 0.079158}, {\"score\": \"2-1\", \"probability\": 0.076651}]"
+  },
+  {
+    "team1":"Colombia",
+    "team2":"DR Congo",
+    "expected_goals1":3.693,
+    "expected_goals2":0.481,
+    "prob_team1_win":0.919894,
+    "prob_draw":0.05959,
+    "prob_team2_win":0.020516,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.133914
+      },
+      {
+        "score":"4-0",
+        "probability":0.12365
+      },
+      {
+        "score":"2-0",
+        "probability":0.108773
+      },
+      {
+        "score":"5-0",
+        "probability":0.091338
+      },
+      {
+        "score":"3-1",
+        "probability":0.064359
+      }
+    ],
+    "match_id":64,
+    "round":"Matchday 13",
+    "date":"2026-06-23",
+    "time":"20:00 UTC-6",
+    "group":"Group K",
+    "ground":"Guadalajara (Zapopan)",
+    "status":"predicted",
+    "predicted_winner":"Colombia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.133914}, {\"score\": \"4-0\", \"probability\": 0.12365}, {\"score\": \"2-0\", \"probability\": 0.108773}, {\"score\": \"5-0\", \"probability\": 0.091338}, {\"score\": \"3-1\", \"probability\": 0.064359}]"
+  },
+  {
+    "team1":"Colombia",
+    "team2":"Portugal",
+    "expected_goals1":1.506,
+    "expected_goals2":1.403,
+    "prob_team1_win":0.399324,
+    "prob_draw":0.247038,
+    "prob_team2_win":0.353638,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.11526
+      },
+      {
+        "score":"2-1",
+        "probability":0.086773
+      },
+      {
+        "score":"1-0",
+        "probability":0.082148
+      },
+      {
+        "score":"1-2",
+        "probability":0.080859
+      },
+      {
+        "score":"0-1",
+        "probability":0.076549
+      }
+    ],
+    "match_id":65,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"19:30 UTC-4",
+    "group":"Group K",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"Colombia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.11526}, {\"score\": \"2-1\", \"probability\": 0.086773}, {\"score\": \"1-0\", \"probability\": 0.082148}, {\"score\": \"1-2\", \"probability\": 0.080859}, {\"score\": \"0-1\", \"probability\": 0.076549}]"
+  },
+  {
+    "team1":"DR Congo",
+    "team2":"Uzbekistan",
+    "expected_goals1":1.061,
+    "expected_goals2":1.738,
+    "prob_team1_win":0.23102,
+    "prob_draw":0.236886,
+    "prob_team2_win":0.532094,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.112294
+      },
+      {
+        "score":"0-1",
+        "probability":0.105817
+      },
+      {
+        "score":"1-2",
+        "probability":0.097588
+      },
+      {
+        "score":"0-2",
+        "probability":0.091959
+      },
+      {
+        "score":"1-0",
+        "probability":0.064608
+      }
+    ],
+    "match_id":66,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"19:30 UTC-4",
+    "group":"Group K",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Uzbekistan",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112294}, {\"score\": \"0-1\", \"probability\": 0.105817}, {\"score\": \"1-2\", \"probability\": 0.097588}, {\"score\": \"0-2\", \"probability\": 0.091959}, {\"score\": \"1-0\", \"probability\": 0.064608}]"
+  },
+  {
+    "team1":"England",
+    "team2":"Croatia",
+    "expected_goals1":2.378,
+    "expected_goals2":0.961,
+    "prob_team1_win":0.68704,
+    "prob_draw":0.177011,
+    "prob_team2_win":0.135948,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.10056
+      },
+      {
+        "score":"2-1",
+        "probability":0.096688
+      },
+      {
+        "score":"1-0",
+        "probability":0.084565
+      },
+      {
+        "score":"1-1",
+        "probability":0.081309
+      },
+      {
+        "score":"3-0",
+        "probability":0.079721
+      }
+    ],
+    "match_id":67,
+    "round":"Matchday 7",
+    "date":"2026-06-17",
+    "time":"15:00 UTC-5",
+    "group":"Group L",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10056}, {\"score\": \"2-1\", \"probability\": 0.096688}, {\"score\": \"1-0\", \"probability\": 0.084565}, {\"score\": \"1-1\", \"probability\": 0.081309}, {\"score\": \"3-0\", \"probability\": 0.079721}]"
+  },
+  {
+    "team1":"Ghana",
+    "team2":"Panama",
+    "expected_goals1":0.806,
+    "expected_goals2":1.994,
+    "prob_team1_win":0.142808,
+    "prob_draw":0.205746,
+    "prob_team2_win":0.651445,
+    "most_likely_score":"0-1",
+    "top_scores":[
+      {
+        "score":"0-1",
+        "probability":0.121371
+      },
+      {
+        "score":"0-2",
+        "probability":0.121033
+      },
+      {
+        "score":"1-1",
+        "probability":0.097814
+      },
+      {
+        "score":"1-2",
+        "probability":0.097542
+      },
+      {
+        "score":"0-3",
+        "probability":0.080464
+      }
+    ],
+    "match_id":68,
+    "round":"Matchday 7",
+    "date":"2026-06-17",
+    "time":"19:00 UTC-4",
+    "group":"Group L",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Panama",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.121371}, {\"score\": \"0-2\", \"probability\": 0.121033}, {\"score\": \"1-1\", \"probability\": 0.097814}, {\"score\": \"1-2\", \"probability\": 0.097542}, {\"score\": \"0-3\", \"probability\": 0.080464}]"
+  },
+  {
+    "team1":"England",
+    "team2":"Ghana",
+    "expected_goals1":4.8,
+    "expected_goals2":0.326,
+    "prob_team1_win":0.972878,
+    "prob_draw":0.022075,
+    "prob_team2_win":0.005046,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.148171
+      },
+      {
+        "score":"5-0",
+        "probability":0.142244
+      },
+      {
+        "score":"3-0",
+        "probability":0.123476
+      },
+      {
+        "score":"6-0",
+        "probability":0.113795
+      },
+      {
+        "score":"7-0",
+        "probability":0.078031
+      }
+    ],
+    "match_id":69,
+    "round":"Matchday 13",
+    "date":"2026-06-23",
+    "time":"16:00 UTC-4",
+    "group":"Group L",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.148171}, {\"score\": \"5-0\", \"probability\": 0.142244}, {\"score\": \"3-0\", \"probability\": 0.123476}, {\"score\": \"6-0\", \"probability\": 0.113795}, {\"score\": \"7-0\", \"probability\": 0.078031}]"
+  },
+  {
+    "team1":"Panama",
+    "team2":"Croatia",
+    "expected_goals1":0.908,
+    "expected_goals2":1.948,
+    "prob_team1_win":0.169354,
+    "prob_draw":0.214312,
+    "prob_team2_win":0.616334,
+    "most_likely_score":"0-1",
+    "top_scores":[
+      {
+        "score":"0-1",
+        "probability":0.112088
+      },
+      {
+        "score":"0-2",
+        "probability":0.109152
+      },
+      {
+        "score":"1-1",
+        "probability":0.10182
+      },
+      {
+        "score":"1-2",
+        "probability":0.099153
+      },
+      {
+        "score":"0-3",
+        "probability":0.070862
+      }
+    ],
+    "match_id":70,
+    "round":"Matchday 13",
+    "date":"2026-06-23",
+    "time":"19:00 UTC-4",
+    "group":"Group L",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Croatia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.112088}, {\"score\": \"0-2\", \"probability\": 0.109152}, {\"score\": \"1-1\", \"probability\": 0.10182}, {\"score\": \"1-2\", \"probability\": 0.099153}, {\"score\": \"0-3\", \"probability\": 0.070862}]"
+  },
+  {
+    "team1":"Panama",
+    "team2":"England",
+    "expected_goals1":0.69,
+    "expected_goals2":2.998,
+    "prob_team1_win":0.057035,
+    "prob_draw":0.111868,
+    "prob_team2_win":0.831097,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.113817
+      },
+      {
+        "score":"0-3",
+        "probability":0.113748
+      },
+      {
+        "score":"0-4",
+        "probability":0.08526
+      },
+      {
+        "score":"1-2",
+        "probability":0.078509
+      },
+      {
+        "score":"1-3",
+        "probability":0.078461
+      }
+    ],
+    "match_id":71,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"17:00 UTC-4",
+    "group":"Group L",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.113817}, {\"score\": \"0-3\", \"probability\": 0.113748}, {\"score\": \"0-4\", \"probability\": 0.08526}, {\"score\": \"1-2\", \"probability\": 0.078509}, {\"score\": \"1-3\", \"probability\": 0.078461}]"
+  },
+  {
+    "team1":"Croatia",
+    "team2":"Ghana",
+    "expected_goals1":4.139,
+    "expected_goals2":0.429,
+    "prob_team1_win":0.946277,
+    "prob_draw":0.041301,
+    "prob_team2_win":0.012422,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.134933
+      },
+      {
+        "score":"3-0",
+        "probability":0.130414
+      },
+      {
+        "score":"5-0",
+        "probability":0.111686
+      },
+      {
+        "score":"2-0",
+        "probability":0.094535
+      },
+      {
+        "score":"6-0",
+        "probability":0.077037
+      }
+    ],
+    "match_id":72,
+    "round":"Matchday 17",
+    "date":"2026-06-27",
+    "time":"17:00 UTC-4",
+    "group":"Group L",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"Croatia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.134933}, {\"score\": \"3-0\", \"probability\": 0.130414}, {\"score\": \"5-0\", \"probability\": 0.111686}, {\"score\": \"2-0\", \"probability\": 0.094535}, {\"score\": \"6-0\", \"probability\": 0.077037}]"
+  },
+  {
+    "team1":"Mexico",
+    "team2":"Switzerland",
+    "expected_goals1":1.42,
+    "expected_goals2":1.3,
+    "prob_team1_win":0.399212,
+    "prob_draw":0.256642,
+    "prob_team2_win":0.344146,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.121658
+      },
+      {
+        "score":"1-0",
+        "probability":0.093618
+      },
+      {
+        "score":"2-1",
+        "probability":0.086348
+      },
+      {
+        "score":"0-1",
+        "probability":0.085703
+      },
+      {
+        "score":"1-2",
+        "probability":0.079048
+      }
+    ],
+    "match_id":73,
+    "round":"Round of 32",
+    "date":"2026-06-28",
+    "time":"12:00 UTC-7",
+    "group":"",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Mexico",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121658}, {\"score\": \"1-0\", \"probability\": 0.093618}, {\"score\": \"2-1\", \"probability\": 0.086348}, {\"score\": \"0-1\", \"probability\": 0.085703}, {\"score\": \"1-2\", \"probability\": 0.079048}]"
+  },
+  {
+    "team1":"Germany",
+    "team2":"Czech Republic",
+    "expected_goals1":3.289,
+    "expected_goals2":0.6,
+    "prob_team1_win":0.874565,
+    "prob_draw":0.087437,
+    "prob_team2_win":0.037998,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.123771
+      },
+      {
+        "score":"2-0",
+        "probability":0.112902
+      },
+      {
+        "score":"4-0",
+        "probability":0.101764
+      },
+      {
+        "score":"3-1",
+        "probability":0.074257
+      },
+      {
+        "score":"1-0",
+        "probability":0.068658
+      }
+    ],
+    "match_id":74,
+    "round":"Round of 32",
+    "date":"2026-06-29",
+    "time":"16:30 UTC-4",
+    "group":"",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"Germany",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.123771}, {\"score\": \"2-0\", \"probability\": 0.112902}, {\"score\": \"4-0\", \"probability\": 0.101764}, {\"score\": \"3-1\", \"probability\": 0.074257}, {\"score\": \"1-0\", \"probability\": 0.068658}]"
+  },
+  {
+    "team1":"Japan",
+    "team2":"Morocco",
+    "expected_goals1":1.963,
+    "expected_goals2":1.346,
+    "prob_team1_win":0.518053,
+    "prob_draw":0.219365,
+    "prob_team2_win":0.262582,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.096715
+      },
+      {
+        "score":"2-1",
+        "probability":0.094903
+      },
+      {
+        "score":"1-0",
+        "probability":0.071877
+      },
+      {
+        "score":"2-0",
+        "probability":0.070531
+      },
+      {
+        "score":"1-2",
+        "probability":0.065067
+      }
+    ],
+    "match_id":75,
+    "round":"Round of 32",
+    "date":"2026-06-29",
+    "time":"19:00 UTC-6",
+    "group":"",
+    "ground":"Monterrey (Guadalupe)",
+    "status":"predicted",
+    "predicted_winner":"Japan",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.096715}, {\"score\": \"2-1\", \"probability\": 0.094903}, {\"score\": \"1-0\", \"probability\": 0.071877}, {\"score\": \"2-0\", \"probability\": 0.070531}, {\"score\": \"1-2\", \"probability\": 0.065067}]"
+  },
+  {
+    "team1":"Brazil",
+    "team2":"Netherlands",
+    "expected_goals1":1.692,
+    "expected_goals2":1.343,
+    "prob_team1_win":0.456897,
+    "prob_draw":0.237613,
+    "prob_team2_win":0.30549,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.109299
+      },
+      {
+        "score":"2-1",
+        "probability":0.092445
+      },
+      {
+        "score":"1-0",
+        "probability":0.081359
+      },
+      {
+        "score":"1-2",
+        "probability":0.073417
+      },
+      {
+        "score":"2-0",
+        "probability":0.068813
+      }
+    ],
+    "match_id":76,
+    "round":"Round of 32",
+    "date":"2026-06-29",
+    "time":"12:00 UTC-5",
+    "group":"",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Brazil",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.109299}, {\"score\": \"2-1\", \"probability\": 0.092445}, {\"score\": \"1-0\", \"probability\": 0.081359}, {\"score\": \"1-2\", \"probability\": 0.073417}, {\"score\": \"2-0\", \"probability\": 0.068813}]"
+  },
+  {
+    "team1":"France",
+    "team2":"Australia",
+    "expected_goals1":3.156,
+    "expected_goals2":0.715,
+    "prob_team1_win":0.842814,
+    "prob_draw":0.103719,
+    "prob_team2_win":0.053467,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.110859
+      },
+      {
+        "score":"2-0",
+        "probability":0.105381
+      },
+      {
+        "score":"4-0",
+        "probability":0.087466
+      },
+      {
+        "score":"3-1",
+        "probability":0.07931
+      },
+      {
+        "score":"2-1",
+        "probability":0.075392
+      }
+    ],
+    "match_id":77,
+    "round":"Round of 32",
+    "date":"2026-06-30",
+    "time":"17:00 UTC-4",
+    "group":"",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.110859}, {\"score\": \"2-0\", \"probability\": 0.105381}, {\"score\": \"4-0\", \"probability\": 0.087466}, {\"score\": \"3-1\", \"probability\": 0.07931}, {\"score\": \"2-1\", \"probability\": 0.075392}]"
+  },
+  {
+    "team1":"Ecuador",
+    "team2":"Norway",
+    "expected_goals1":1.503,
+    "expected_goals2":1.248,
+    "prob_team1_win":0.43156,
+    "prob_draw":0.253094,
+    "prob_team2_win":0.315345,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.11983
+      },
+      {
+        "score":"1-0",
+        "probability":0.096038
+      },
+      {
+        "score":"2-1",
+        "probability":0.090045
+      },
+      {
+        "score":"0-1",
+        "probability":0.079735
+      },
+      {
+        "score":"1-2",
+        "probability":0.074759
+      }
+    ],
+    "match_id":78,
+    "round":"Round of 32",
+    "date":"2026-06-30",
+    "time":"12:00 UTC-5",
+    "group":"",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Ecuador",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.11983}, {\"score\": \"1-0\", \"probability\": 0.096038}, {\"score\": \"2-1\", \"probability\": 0.090045}, {\"score\": \"0-1\", \"probability\": 0.079735}, {\"score\": \"1-2\", \"probability\": 0.074759}]"
+  },
+  {
+    "team1":"South Korea",
+    "team2":"Senegal",
+    "expected_goals1":1.798,
+    "expected_goals2":1.237,
+    "prob_team1_win":0.5052,
+    "prob_draw":0.23155,
+    "prob_team2_win":0.26325,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.107006
+      },
+      {
+        "score":"2-1",
+        "probability":0.096177
+      },
+      {
+        "score":"1-0",
+        "probability":0.0865
+      },
+      {
+        "score":"2-0",
+        "probability":0.077746
+      },
+      {
+        "score":"1-2",
+        "probability":0.066187
+      }
+    ],
+    "match_id":79,
+    "round":"Round of 32",
+    "date":"2026-06-30",
+    "time":"19:00 UTC-6",
+    "group":"",
+    "ground":"Mexico City",
+    "status":"predicted",
+    "predicted_winner":"South Korea",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.107006}, {\"score\": \"2-1\", \"probability\": 0.096177}, {\"score\": \"1-0\", \"probability\": 0.0865}, {\"score\": \"2-0\", \"probability\": 0.077746}, {\"score\": \"1-2\", \"probability\": 0.066187}]"
+  },
+  {
+    "team1":"England",
+    "team2":"Ivory Coast",
+    "expected_goals1":4.185,
+    "expected_goals2":0.588,
+    "prob_team1_win":0.931678,
+    "prob_draw":0.049256,
+    "prob_team2_win":0.019066,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.115318
+      },
+      {
+        "score":"3-0",
+        "probability":0.110221
+      },
+      {
+        "score":"5-0",
+        "probability":0.096521
+      },
+      {
+        "score":"2-0",
+        "probability":0.079012
+      },
+      {
+        "score":"4-1",
+        "probability":0.067809
+      }
+    ],
+    "match_id":80,
+    "round":"Round of 32",
+    "date":"2026-07-01",
+    "time":"12:00 UTC-4",
+    "group":"",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.115318}, {\"score\": \"3-0\", \"probability\": 0.110221}, {\"score\": \"5-0\", \"probability\": 0.096521}, {\"score\": \"2-0\", \"probability\": 0.079012}, {\"score\": \"4-1\", \"probability\": 0.067809}]"
+  },
+  {
+    "team1":"Turkey",
+    "team2":"Algeria",
+    "expected_goals1":1.945,
+    "expected_goals2":1.056,
+    "prob_team1_win":0.579992,
+    "prob_draw":0.218246,
+    "prob_team2_win":0.201762,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.102274
+      },
+      {
+        "score":"2-1",
+        "probability":0.099436
+      },
+      {
+        "score":"1-0",
+        "probability":0.096809
+      },
+      {
+        "score":"2-0",
+        "probability":0.094124
+      },
+      {
+        "score":"3-1",
+        "probability":0.064452
+      }
+    ],
+    "match_id":81,
+    "round":"Round of 32",
+    "date":"2026-07-01",
+    "time":"17:00 UTC-7",
+    "group":"",
+    "ground":"San Francisco Bay Area (Santa Clara)",
+    "status":"predicted",
+    "predicted_winner":"Turkey",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.102274}, {\"score\": \"2-1\", \"probability\": 0.099436}, {\"score\": \"1-0\", \"probability\": 0.096809}, {\"score\": \"2-0\", \"probability\": 0.094124}, {\"score\": \"3-1\", \"probability\": 0.064452}]"
+  },
+  {
+    "team1":"Belgium",
+    "team2":"Saudi Arabia",
+    "expected_goals1":3.639,
+    "expected_goals2":0.538,
+    "prob_team1_win":0.909155,
+    "prob_draw":0.065813,
+    "prob_team2_win":0.025032,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.127414
+      },
+      {
+        "score":"4-0",
+        "probability":0.115924
+      },
+      {
+        "score":"2-0",
+        "probability":0.105031
+      },
+      {
+        "score":"5-0",
+        "probability":0.084377
+      },
+      {
+        "score":"3-1",
+        "probability":0.068505
+      }
+    ],
+    "match_id":82,
+    "round":"Round of 32",
+    "date":"2026-07-01",
+    "time":"13:00 UTC-7",
+    "group":"",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"Belgium",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.127414}, {\"score\": \"4-0\", \"probability\": 0.115924}, {\"score\": \"2-0\", \"probability\": 0.105031}, {\"score\": \"5-0\", \"probability\": 0.084377}, {\"score\": \"3-1\", \"probability\": 0.068505}]"
+  },
+  {
+    "team1":"Colombia",
+    "team2":"Croatia",
+    "expected_goals1":1.728,
+    "expected_goals2":1.09,
+    "prob_team1_win":0.522866,
+    "prob_draw":0.237828,
+    "prob_team2_win":0.239306,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.112567
+      },
+      {
+        "score":"1-0",
+        "probability":0.103306
+      },
+      {
+        "score":"2-1",
+        "probability":0.097235
+      },
+      {
+        "score":"2-0",
+        "probability":0.089236
+      },
+      {
+        "score":"0-1",
+        "probability":0.065158
+      }
+    ],
+    "match_id":83,
+    "round":"Round of 32",
+    "date":"2026-07-02",
+    "time":"19:00 UTC-4",
+    "group":"",
+    "ground":"Toronto",
+    "status":"predicted",
+    "predicted_winner":"Colombia",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112567}, {\"score\": \"1-0\", \"probability\": 0.103306}, {\"score\": \"2-1\", \"probability\": 0.097235}, {\"score\": \"2-0\", \"probability\": 0.089236}, {\"score\": \"0-1\", \"probability\": 0.065158}]"
+  },
+  {
+    "team1":"Spain",
+    "team2":"Austria",
+    "expected_goals1":4.199,
+    "expected_goals2":0.547,
+    "prob_team1_win":0.936602,
+    "prob_draw":0.046466,
+    "prob_team2_win":0.016932,
+    "most_likely_score":"4-0",
+    "top_scores":[
+      {
+        "score":"4-0",
+        "probability":0.120173
+      },
+      {
+        "score":"3-0",
+        "probability":0.114489
+      },
+      {
+        "score":"5-0",
+        "probability":0.100911
+      },
+      {
+        "score":"2-0",
+        "probability":0.081806
+      },
+      {
+        "score":"6-0",
+        "probability":0.070614
+      }
+    ],
+    "match_id":84,
+    "round":"Round of 32",
+    "date":"2026-07-02",
+    "time":"12:00 UTC-7",
+    "group":"",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.120173}, {\"score\": \"3-0\", \"probability\": 0.114489}, {\"score\": \"5-0\", \"probability\": 0.100911}, {\"score\": \"2-0\", \"probability\": 0.081806}, {\"score\": \"6-0\", \"probability\": 0.070614}]"
+  },
+  {
+    "team1":"Canada",
+    "team2":"Egypt",
+    "expected_goals1":2.336,
+    "expected_goals2":0.917,
+    "prob_team1_win":0.689898,
+    "prob_draw":0.178375,
+    "prob_team2_win":0.131727,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.105826
+      },
+      {
+        "score":"2-1",
+        "probability":0.096991
+      },
+      {
+        "score":"1-0",
+        "probability":0.090596
+      },
+      {
+        "score":"1-1",
+        "probability":0.083032
+      },
+      {
+        "score":"3-0",
+        "probability":0.082411
+      }
+    ],
+    "match_id":85,
+    "round":"Round of 32",
+    "date":"2026-07-02",
+    "time":"20:00 UTC-7",
+    "group":"",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Canada",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.105826}, {\"score\": \"2-1\", \"probability\": 0.096991}, {\"score\": \"1-0\", \"probability\": 0.090596}, {\"score\": \"1-1\", \"probability\": 0.083032}, {\"score\": \"3-0\", \"probability\": 0.082411}]"
+  },
+  {
+    "team1":"Argentina",
+    "team2":"Uruguay",
+    "expected_goals1":2.934,
+    "expected_goals2":0.682,
+    "prob_team1_win":0.82554,
+    "prob_draw":0.115603,
+    "prob_team2_win":0.058856,
+    "most_likely_score":"2-0",
+    "top_scores":[
+      {
+        "score":"2-0",
+        "probability":0.116969
+      },
+      {
+        "score":"3-0",
+        "probability":0.114407
+      },
+      {
+        "score":"4-0",
+        "probability":0.083926
+      },
+      {
+        "score":"2-1",
+        "probability":0.079766
+      },
+      {
+        "score":"1-0",
+        "probability":0.079726
+      }
+    ],
+    "match_id":86,
+    "round":"Round of 32",
+    "date":"2026-07-03",
+    "time":"18:00 UTC-4",
+    "group":"",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.116969}, {\"score\": \"3-0\", \"probability\": 0.114407}, {\"score\": \"4-0\", \"probability\": 0.083926}, {\"score\": \"2-1\", \"probability\": 0.079766}, {\"score\": \"1-0\", \"probability\": 0.079726}]"
+  },
+  {
+    "team1":"Portugal",
+    "team2":"Panama",
+    "expected_goals1":3.06,
+    "expected_goals2":0.649,
+    "prob_team1_win":0.845065,
+    "prob_draw":0.104759,
+    "prob_team2_win":0.050176,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.118592
+      },
+      {
+        "score":"2-0",
+        "probability":0.116273
+      },
+      {
+        "score":"4-0",
+        "probability":0.090718
+      },
+      {
+        "score":"3-1",
+        "probability":0.076953
+      },
+      {
+        "score":"1-0",
+        "probability":0.076
+      }
+    ],
+    "match_id":87,
+    "round":"Round of 32",
+    "date":"2026-07-03",
+    "time":"20:30 UTC-5",
+    "group":"",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Portugal",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.118592}, {\"score\": \"2-0\", \"probability\": 0.116273}, {\"score\": \"4-0\", \"probability\": 0.090718}, {\"score\": \"3-1\", \"probability\": 0.076953}, {\"score\": \"1-0\", \"probability\": 0.076}]"
+  },
+  {
+    "team1":"USA",
+    "team2":"Iran",
+    "expected_goals1":1.702,
+    "expected_goals2":1.356,
+    "prob_team1_win":0.45666,
+    "prob_draw":0.236642,
+    "prob_team2_win":0.306698,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.108458
+      },
+      {
+        "score":"2-1",
+        "probability":0.092316
+      },
+      {
+        "score":"1-0",
+        "probability":0.079966
+      },
+      {
+        "score":"1-2",
+        "probability":0.07355
+      },
+      {
+        "score":"2-0",
+        "probability":0.068065
+      }
+    ],
+    "match_id":88,
+    "round":"Round of 32",
+    "date":"2026-07-03",
+    "time":"13:00 UTC-5",
+    "group":"",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"USA",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.108458}, {\"score\": \"2-1\", \"probability\": 0.092316}, {\"score\": \"1-0\", \"probability\": 0.079966}, {\"score\": \"1-2\", \"probability\": 0.07355}, {\"score\": \"2-0\", \"probability\": 0.068065}]"
+  },
+  {
+    "team1":"Germany",
+    "team2":"France",
+    "expected_goals1":1.337,
+    "expected_goals2":1.7,
+    "prob_team1_win":0.302433,
+    "prob_draw":0.237184,
+    "prob_team2_win":0.460383,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.1091
+      },
+      {
+        "score":"1-2",
+        "probability":0.092746
+      },
+      {
+        "score":"0-1",
+        "probability":0.081617
+      },
+      {
+        "score":"2-1",
+        "probability":0.072918
+      },
+      {
+        "score":"0-2",
+        "probability":0.069383
+      }
+    ],
+    "match_id":89,
+    "round":"Round of 16",
+    "date":"2026-07-04",
+    "time":"17:00 UTC-4",
+    "group":"",
+    "ground":"Philadelphia",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.1091}, {\"score\": \"1-2\", \"probability\": 0.092746}, {\"score\": \"0-1\", \"probability\": 0.081617}, {\"score\": \"2-1\", \"probability\": 0.072918}, {\"score\": \"0-2\", \"probability\": 0.069383}]"
+  },
+  {
+    "team1":"Mexico",
+    "team2":"Japan",
+    "expected_goals1":1.264,
+    "expected_goals2":1.792,
+    "prob_team1_win":0.270284,
+    "prob_draw":0.2318,
+    "prob_team2_win":0.497916,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.106714
+      },
+      {
+        "score":"1-2",
+        "probability":0.095605
+      },
+      {
+        "score":"0-1",
+        "probability":0.084456
+      },
+      {
+        "score":"0-2",
+        "probability":0.075664
+      },
+      {
+        "score":"2-1",
+        "probability":0.067419
+      }
+    ],
+    "match_id":90,
+    "round":"Round of 16",
+    "date":"2026-07-04",
+    "time":"12:00 UTC-5",
+    "group":"",
+    "ground":"Houston",
+    "status":"predicted",
+    "predicted_winner":"Japan",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.106714}, {\"score\": \"1-2\", \"probability\": 0.095605}, {\"score\": \"0-1\", \"probability\": 0.084456}, {\"score\": \"0-2\", \"probability\": 0.075664}, {\"score\": \"2-1\", \"probability\": 0.067419}]"
+  },
+  {
+    "team1":"Brazil",
+    "team2":"Ecuador",
+    "expected_goals1":1.922,
+    "expected_goals2":0.972,
+    "prob_team1_win":0.595305,
+    "prob_draw":0.21853,
+    "prob_team2_win":0.186165,
+    "most_likely_score":"1-0",
+    "top_scores":[
+      {
+        "score":"1-0",
+        "probability":0.106452
+      },
+      {
+        "score":"1-1",
+        "probability":0.103494
+      },
+      {
+        "score":"2-0",
+        "probability":0.102309
+      },
+      {
+        "score":"2-1",
+        "probability":0.099466
+      },
+      {
+        "score":"3-0",
+        "probability":0.065552
+      }
+    ],
+    "match_id":91,
+    "round":"Round of 16",
+    "date":"2026-07-05",
+    "time":"16:00 UTC-4",
+    "group":"",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"Brazil",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.106452}, {\"score\": \"1-1\", \"probability\": 0.103494}, {\"score\": \"2-0\", \"probability\": 0.102309}, {\"score\": \"2-1\", \"probability\": 0.099466}, {\"score\": \"3-0\", \"probability\": 0.065552}]"
+  },
+  {
+    "team1":"South Korea",
+    "team2":"England",
+    "expected_goals1":0.988,
+    "expected_goals2":2.417,
+    "prob_team1_win":0.137044,
+    "prob_draw":0.175047,
+    "prob_team2_win":0.68791,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.097359
+      },
+      {
+        "score":"1-2",
+        "probability":0.096162
+      },
+      {
+        "score":"0-1",
+        "probability":0.080553
+      },
+      {
+        "score":"1-1",
+        "probability":0.079562
+      },
+      {
+        "score":"0-3",
+        "probability":0.078448
+      }
+    ],
+    "match_id":92,
+    "round":"Round of 16",
+    "date":"2026-07-05",
+    "time":"18:00 UTC-6",
+    "group":"",
+    "ground":"Mexico City",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.097359}, {\"score\": \"1-2\", \"probability\": 0.096162}, {\"score\": \"0-1\", \"probability\": 0.080553}, {\"score\": \"1-1\", \"probability\": 0.079562}, {\"score\": \"0-3\", \"probability\": 0.078448}]"
+  },
+  {
+    "team1":"Colombia",
+    "team2":"Spain",
+    "expected_goals1":0.972,
+    "expected_goals2":2.258,
+    "prob_team1_win":0.149239,
+    "prob_draw":0.187811,
+    "prob_team2_win":0.66295,
+    "most_likely_score":"0-2",
+    "top_scores":[
+      {
+        "score":"0-2",
+        "probability":0.10106
+      },
+      {
+        "score":"1-2",
+        "probability":0.098248
+      },
+      {
+        "score":"0-1",
+        "probability":0.08951
+      },
+      {
+        "score":"1-1",
+        "probability":0.087018
+      },
+      {
+        "score":"0-3",
+        "probability":0.076068
+      }
+    ],
+    "match_id":93,
+    "round":"Round of 16",
+    "date":"2026-07-06",
+    "time":"14:00 UTC-5",
+    "group":"",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.10106}, {\"score\": \"1-2\", \"probability\": 0.098248}, {\"score\": \"0-1\", \"probability\": 0.08951}, {\"score\": \"1-1\", \"probability\": 0.087018}, {\"score\": \"0-3\", \"probability\": 0.076068}]"
+  },
+  {
+    "team1":"Turkey",
+    "team2":"Belgium",
+    "expected_goals1":1.417,
+    "expected_goals2":1.456,
+    "prob_team1_win":0.366811,
+    "prob_draw":0.249081,
+    "prob_team2_win":0.384108,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.116644
+      },
+      {
+        "score":"1-2",
+        "probability":0.084917
+      },
+      {
+        "score":"2-1",
+        "probability":0.082665
+      },
+      {
+        "score":"0-1",
+        "probability":0.082295
+      },
+      {
+        "score":"1-0",
+        "probability":0.080112
+      }
+    ],
+    "match_id":94,
+    "round":"Round of 16",
+    "date":"2026-07-06",
+    "time":"17:00 UTC-7",
+    "group":"",
+    "ground":"Seattle",
+    "status":"predicted",
+    "predicted_winner":"Belgium",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116644}, {\"score\": \"1-2\", \"probability\": 0.084917}, {\"score\": \"2-1\", \"probability\": 0.082665}, {\"score\": \"0-1\", \"probability\": 0.082295}, {\"score\": \"1-0\", \"probability\": 0.080112}]"
+  },
+  {
+    "team1":"Argentina",
+    "team2":"USA",
+    "expected_goals1":3.284,
+    "expected_goals2":0.776,
+    "prob_team1_win":0.844869,
+    "prob_draw":0.100455,
+    "prob_team2_win":0.054676,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.103859
+      },
+      {
+        "score":"2-0",
+        "probability":0.094879
+      },
+      {
+        "score":"4-0",
+        "probability":0.085268
+      },
+      {
+        "score":"3-1",
+        "probability":0.080555
+      },
+      {
+        "score":"2-1",
+        "probability":0.07359
+      }
+    ],
+    "match_id":95,
+    "round":"Round of 16",
+    "date":"2026-07-07",
+    "time":"12:00 UTC-4",
+    "group":"",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.103859}, {\"score\": \"2-0\", \"probability\": 0.094879}, {\"score\": \"4-0\", \"probability\": 0.085268}, {\"score\": \"3-1\", \"probability\": 0.080555}, {\"score\": \"2-1\", \"probability\": 0.07359}]"
+  },
+  {
+    "team1":"Canada",
+    "team2":"Portugal",
+    "expected_goals1":1.171,
+    "expected_goals2":2.124,
+    "prob_team1_win":0.203344,
+    "prob_draw":0.205505,
+    "prob_team2_win":0.591152,
+    "most_likely_score":"1-2",
+    "top_scores":[
+      {
+        "score":"1-2",
+        "probability":0.098075
+      },
+      {
+        "score":"1-1",
+        "probability":0.092357
+      },
+      {
+        "score":"0-2",
+        "probability":0.083765
+      },
+      {
+        "score":"0-1",
+        "probability":0.078881
+      },
+      {
+        "score":"1-3",
+        "probability":0.069431
+      }
+    ],
+    "match_id":96,
+    "round":"Round of 16",
+    "date":"2026-07-07",
+    "time":"13:00 UTC-7",
+    "group":"",
+    "ground":"Vancouver",
+    "status":"predicted",
+    "predicted_winner":"Portugal",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.098075}, {\"score\": \"1-1\", \"probability\": 0.092357}, {\"score\": \"0-2\", \"probability\": 0.083765}, {\"score\": \"0-1\", \"probability\": 0.078881}, {\"score\": \"1-3\", \"probability\": 0.069431}]"
+  },
+  {
+    "team1":"France",
+    "team2":"Japan",
+    "expected_goals1":2.358,
+    "expected_goals2":1.073,
+    "prob_team1_win":0.658413,
+    "prob_draw":0.183632,
+    "prob_team2_win":0.157956,
+    "most_likely_score":"2-1",
+    "top_scores":[
+      {
+        "score":"2-1",
+        "probability":0.096803
+      },
+      {
+        "score":"2-0",
+        "probability":0.090222
+      },
+      {
+        "score":"1-1",
+        "probability":0.082095
+      },
+      {
+        "score":"1-0",
+        "probability":0.076514
+      },
+      {
+        "score":"3-1",
+        "probability":0.076098
+      }
+    ],
+    "match_id":97,
+    "round":"Quarter-final",
+    "date":"2026-07-09",
+    "time":"16:00 UTC-4",
+    "group":"",
+    "ground":"Boston (Foxborough)",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.096803}, {\"score\": \"2-0\", \"probability\": 0.090222}, {\"score\": \"1-1\", \"probability\": 0.082095}, {\"score\": \"1-0\", \"probability\": 0.076514}, {\"score\": \"3-1\", \"probability\": 0.076098}]"
+  },
+  {
+    "team1":"Spain",
+    "team2":"Belgium",
+    "expected_goals1":3.248,
+    "expected_goals2":0.786,
+    "prob_team1_win":0.83949,
+    "prob_draw":0.103308,
+    "prob_team2_win":0.057202,
+    "most_likely_score":"3-0",
+    "top_scores":[
+      {
+        "score":"3-0",
+        "probability":0.10294
+      },
+      {
+        "score":"2-0",
+        "probability":0.095094
+      },
+      {
+        "score":"4-0",
+        "probability":0.083575
+      },
+      {
+        "score":"3-1",
+        "probability":0.080948
+      },
+      {
+        "score":"2-1",
+        "probability":0.074778
+      }
+    ],
+    "match_id":98,
+    "round":"Quarter-final",
+    "date":"2026-07-10",
+    "time":"12:00 UTC-7",
+    "group":"",
+    "ground":"Los Angeles (Inglewood)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.10294}, {\"score\": \"2-0\", \"probability\": 0.095094}, {\"score\": \"4-0\", \"probability\": 0.083575}, {\"score\": \"3-1\", \"probability\": 0.080948}, {\"score\": \"2-1\", \"probability\": 0.074778}]"
+  },
+  {
+    "team1":"Brazil",
+    "team2":"England",
+    "expected_goals1":1.496,
+    "expected_goals2":1.625,
+    "prob_team1_win":0.353645,
+    "prob_draw":0.237188,
+    "prob_team2_win":0.409166,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.107284
+      },
+      {
+        "score":"1-2",
+        "probability":0.087166
+      },
+      {
+        "score":"2-1",
+        "probability":0.080257
+      },
+      {
+        "score":"0-1",
+        "probability":0.071706
+      },
+      {
+        "score":"1-0",
+        "probability":0.066022
+      }
+    ],
+    "match_id":99,
+    "round":"Quarter-final",
+    "date":"2026-07-11",
+    "time":"17:00 UTC-4",
+    "group":"",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"England",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.107284}, {\"score\": \"1-2\", \"probability\": 0.087166}, {\"score\": \"2-1\", \"probability\": 0.080257}, {\"score\": \"0-1\", \"probability\": 0.071706}, {\"score\": \"1-0\", \"probability\": 0.066022}]"
+  },
+  {
+    "team1":"Argentina",
+    "team2":"Portugal",
+    "expected_goals1":2.349,
+    "expected_goals2":1.036,
+    "prob_team1_win":0.664967,
+    "prob_draw":0.182893,
+    "prob_team2_win":0.15214,
+    "most_likely_score":"2-1",
+    "top_scores":[
+      {
+        "score":"2-1",
+        "probability":0.097123
+      },
+      {
+        "score":"2-0",
+        "probability":0.093759
+      },
+      {
+        "score":"1-1",
+        "probability":0.08271
+      },
+      {
+        "score":"1-0",
+        "probability":0.079845
+      },
+      {
+        "score":"3-1",
+        "probability":0.076032
+      }
+    ],
+    "match_id":100,
+    "round":"Quarter-final",
+    "date":"2026-07-11",
+    "time":"20:00 UTC-5",
+    "group":"",
+    "ground":"Kansas City",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.097123}, {\"score\": \"2-0\", \"probability\": 0.093759}, {\"score\": \"1-1\", \"probability\": 0.08271}, {\"score\": \"1-0\", \"probability\": 0.079845}, {\"score\": \"3-1\", \"probability\": 0.076032}]"
+  },
+  {
+    "team1":"France",
+    "team2":"Spain",
+    "expected_goals1":1.421,
+    "expected_goals2":1.736,
+    "prob_team1_win":0.316059,
+    "prob_draw":0.233193,
+    "prob_team2_win":0.450748,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.105059
+      },
+      {
+        "score":"1-2",
+        "probability":0.091173
+      },
+      {
+        "score":"2-1",
+        "probability":0.074624
+      },
+      {
+        "score":"0-1",
+        "probability":0.073954
+      },
+      {
+        "score":"2-2",
+        "probability":0.064761
+      }
+    ],
+    "match_id":101,
+    "round":"Semi-final",
+    "date":"2026-07-14",
+    "time":"14:00 UTC-5",
+    "group":"",
+    "ground":"Dallas (Arlington)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105059}, {\"score\": \"1-2\", \"probability\": 0.091173}, {\"score\": \"2-1\", \"probability\": 0.074624}, {\"score\": \"0-1\", \"probability\": 0.073954}, {\"score\": \"2-2\", \"probability\": 0.064761}]"
+  },
+  {
+    "team1":"England",
+    "team2":"Argentina",
+    "expected_goals1":1.511,
+    "expected_goals2":1.677,
+    "prob_team1_win":0.347552,
+    "prob_draw":0.234055,
+    "prob_team2_win":0.418392,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.104591
+      },
+      {
+        "score":"1-2",
+        "probability":0.087701
+      },
+      {
+        "score":"2-1",
+        "probability":0.079019
+      },
+      {
+        "score":"0-1",
+        "probability":0.06922
+      },
+      {
+        "score":"2-2",
+        "probability":0.066258
+      }
+    ],
+    "match_id":102,
+    "round":"Semi-final",
+    "date":"2026-07-15",
+    "time":"15:00 UTC-4",
+    "group":"",
+    "ground":"Atlanta",
+    "status":"predicted",
+    "predicted_winner":"Argentina",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.104591}, {\"score\": \"1-2\", \"probability\": 0.087701}, {\"score\": \"2-1\", \"probability\": 0.079019}, {\"score\": \"0-1\", \"probability\": 0.06922}, {\"score\": \"2-2\", \"probability\": 0.066258}]"
+  },
+  {
+    "team1":"France",
+    "team2":"England",
+    "expected_goals1":1.917,
+    "expected_goals2":1.289,
+    "prob_team1_win":0.520445,
+    "prob_draw":0.222576,
+    "prob_team2_win":0.256978,
+    "most_likely_score":"1-1",
+    "top_scores":[
+      {
+        "score":"1-1",
+        "probability":0.100207
+      },
+      {
+        "score":"2-1",
+        "probability":0.096045
+      },
+      {
+        "score":"1-0",
+        "probability":0.07772
+      },
+      {
+        "score":"2-0",
+        "probability":0.074492
+      },
+      {
+        "score":"1-2",
+        "probability":0.0646
+      }
+    ],
+    "match_id":103,
+    "round":"Match for third place",
+    "date":"2026-07-18",
+    "time":"17:00 UTC-4",
+    "group":"",
+    "ground":"Miami (Miami Gardens)",
+    "status":"predicted",
+    "predicted_winner":"France",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.100207}, {\"score\": \"2-1\", \"probability\": 0.096045}, {\"score\": \"1-0\", \"probability\": 0.07772}, {\"score\": \"2-0\", \"probability\": 0.074492}, {\"score\": \"1-2\", \"probability\": 0.0646}]"
+  },
+  {
+    "team1":"Spain",
+    "team2":"Argentina",
+    "expected_goals1":2.034,
+    "expected_goals2":1.243,
+    "prob_team1_win":0.556231,
+    "prob_draw":0.213647,
+    "prob_team2_win":0.230122,
+    "most_likely_score":"2-1",
+    "top_scores":[
+      {
+        "score":"2-1",
+        "probability":0.097169
+      },
+      {
+        "score":"1-1",
+        "probability":0.095541
+      },
+      {
+        "score":"2-0",
+        "probability":0.078185
+      },
+      {
+        "score":"1-0",
+        "probability":0.076876
+      },
+      {
+        "score":"3-1",
+        "probability":0.065883
+      }
+    ],
+    "match_id":104,
+    "round":"Final",
+    "date":"2026-07-19",
+    "time":"15:00 UTC-4",
+    "group":"",
+    "ground":"New York\/New Jersey (East Rutherford)",
+    "status":"predicted",
+    "predicted_winner":"Spain",
+    "actual_result":"",
+    "actual_score":"",
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.097169}, {\"score\": \"1-1\", \"probability\": 0.095541}, {\"score\": \"2-0\", \"probability\": 0.078185}, {\"score\": \"1-0\", \"probability\": 0.076876}, {\"score\": \"3-1\", \"probability\": 0.065883}]"
+  }
+]

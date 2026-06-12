@@ -1,0 +1,3 @@
+match_id,match,ground,team1,team2,predicted_score,actual_score,predicted_result,actual_result,result_hit,exact_score_hit,expected_goals1,expected_goals2,actual_goals1,actual_goals2,predicted_expected_total_goals,actual_total_goals,score_mae,expected_goal_mae,brier_score,log_loss,team1_is_host,team2_is_host
+1,Mexico vs South Africa,Mexico City,Mexico,South Africa,3-0,2-0,Mexico,Mexico,True,False,3.627,0.55,2,0,4.177,2,0.5,1.0884999999999998,0.004639587497999995,0.0980065116420678,True,False
+2,South Korea vs Czech Republic,Guadalajara (Zapopan),South Korea,Czech Republic,2-0,2-1,South Korea,South Korea,True,False,2.185,0.936,2,1,3.121,3,0.5,0.1245,0.058928400562666655,0.41915539388226136,False,False

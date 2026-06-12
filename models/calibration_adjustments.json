@@ -1,0 +1,14 @@
+{
+  "completed_matches": 2,
+  "ratios": {
+    "home_goal_ratio": 0.6882312456985548,
+    "away_goal_ratio": 0.6729475100942126
+  },
+  "multipliers": {
+    "base_home_goals": 0.9688231245698555,
+    "base_away_goals": 0.9672947510094213,
+    "elo_goal_scale": 1.0
+  },
+  "host_goal_bonus_delta": -0.004880999999999999,
+  "note": "\u6837\u672c\u8f83\u5c11\u65f6\u4f7f\u7528\u5f3a\u6536\u7f29\uff0c\u907f\u514d\u4e24\u4e09\u573a\u6bd4\u8d5b\u5bfc\u81f4\u53c2\u6570\u5267\u70c8\u6446\u52a8\u3002"
+}

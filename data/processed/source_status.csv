@@ -1,0 +1,5 @@
+name,path,rows,status
+openfootball_2026,C:\Users\22792\Desktop\codexspace\2026世界杯预测\data\raw\openfootball_worldcup_2026.json,104,ok
+international_results,C:\Users\22792\Desktop\codexspace\2026世界杯预测\data\raw\international_results.csv,49477,ok
+fifa_scores_fixtures,C:\Users\22792\Desktop\codexspace\2026世界杯预测\data\raw\fifa_scores_fixtures.html,1,ok
+world_football_elo,C:\Users\22792\Desktop\codexspace\2026世界杯预测\data\raw\world_football_elo_2026.html,1,ok
