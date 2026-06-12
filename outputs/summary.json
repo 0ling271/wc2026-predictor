@@ -1,5 +1,7 @@
 {
   "matches": 104,
   "completed": 2,
-  "champion_pick": "Spain"
+  "champion_pick": "Spain",
+  "monte_carlo_champion_pick": "Spain",
+  "monte_carlo_champion_probability": 0.363
 }

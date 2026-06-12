@@ -45,6 +45,7 @@ class PredictorParams:
     attack_weight: float = 0.32
     defense_weight: float = 0.24
     host_goal_bonus: float = 0.13
+    ml_blend_weight: float = 0.22
     max_goals: int = 7
 
 
@@ -137,6 +138,12 @@ def fit_model(history: pd.DataFrame, fixtures: pd.DataFrame) -> PredictorState:
 
     state = PredictorState(params=_load_calibrated_params(), teams=ratings, trained_rows=int(len(usable)))
     save_model(state)
+    try:
+        from .ml import fit_ml_outcome_model
+
+        fit_ml_outcome_model(usable, state)
+    except Exception:
+        pass
     return state
 
 
@@ -212,6 +219,18 @@ def predict_match(state: PredictorState, team1: str, team2: str, ground: str = "
     home_win = float(np.tril(matrix, -1).sum())
     draw = float(np.trace(matrix))
     away_win = float(np.triu(matrix, 1).sum())
+    poisson_probs = np.array([home_win, draw, away_win], dtype=float)
+    ml_probs = None
+    try:
+        from .ml import predict_ml_probs
+
+        ml_probs = predict_ml_probs(state, team1, team2, ground)
+    except Exception:
+        ml_probs = None
+    if ml_probs is not None:
+        weight = float(np.clip(state.params.ml_blend_weight, 0.0, 0.5))
+        blended = (1.0 - weight) * poisson_probs + weight * ml_probs
+        home_win, draw, away_win = [float(value) for value in blended / blended.sum()]
     mu1, mu2 = expected_goals(state, team1, team2, ground)
     flat = []
     for g1 in range(max_goals + 1):
@@ -227,6 +246,7 @@ def predict_match(state: PredictorState, team1: str, team2: str, ground: str = "
         "prob_team1_win": round(home_win, 6),
         "prob_draw": round(draw, 6),
         "prob_team2_win": round(away_win, 6),
+        "model_blend": "poisson+ml" if ml_probs is not None else "poisson",
         "most_likely_score": f"{likely[1]}-{likely[2]}",
         "top_scores": [
             {"score": f"{g1}-{g2}", "probability": round(prob, 6)} for prob, g1, g2 in top

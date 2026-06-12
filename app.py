@@ -16,6 +16,7 @@ GROUP_PATH = ROOT / "outputs" / "group_tables.csv"
 BRACKET_PATH = ROOT / "outputs" / "bracket.json"
 REPORT_PATH = ROOT / "reports" / "calibration_latest.md"
 DETAIL_PATH = ROOT / "reports" / "calibration_details.csv"
+ODDS_PATH = ROOT / "outputs" / "tournament_odds.csv"
 
 
 def status_cn(value: str) -> str:
@@ -117,12 +118,16 @@ bracket = json.loads(BRACKET_PATH.read_text(encoding="utf-8")) if BRACKET_PATH.e
 completed = int((pred["status"] == "actual").sum())
 predicted = len(pred) - completed
 champion = bracket.get("champion", "")
+odds_df = pd.read_csv(ODDS_PATH) if ODDS_PATH.exists() else pd.DataFrame()
+mc_champion = odds_df.iloc[0]["team"] if not odds_df.empty else ""
 
 metric_cols = st.columns(4)
 metric_cols[0].metric("总比赛数", len(pred))
 metric_cols[1].metric("已赛", completed)
 metric_cols[2].metric("待预测/未赛", predicted)
 metric_cols[3].metric("当前冠军预测", champion)
+if mc_champion:
+    st.caption(f"蒙特卡洛夺冠概率最高：{mc_champion}（{odds_df.iloc[0]['prob_champion']:.1%}）")
 
 with st.sidebar:
     st.header("筛选")
@@ -155,6 +160,37 @@ if view.empty:
     st.stop()
 
 st.plotly_chart(filtered_probability_overview(view), use_container_width=True)
+
+if not odds_df.empty:
+    st.subheader("蒙特卡洛赛事推演")
+    top_odds = odds_df.head(16).copy()
+    fig = px.bar(
+        top_odds.sort_values("prob_champion", ascending=True),
+        x="prob_champion",
+        y="team",
+        orientation="h",
+        text=top_odds.sort_values("prob_champion", ascending=True)["prob_champion"].map(lambda value: f"{value:.1%}"),
+        labels={"prob_champion": "夺冠概率", "team": "球队"},
+        title="夺冠概率 Top 16",
+        color_discrete_sequence=["#722ed1"],
+    )
+    fig.update_layout(xaxis_tickformat=".0%", height=520, margin=dict(l=20, r=20, t=50, b=20))
+    st.plotly_chart(fig, use_container_width=True)
+    st.dataframe(
+        odds_df.rename(
+            columns={
+                "team": "球队",
+                "prob_advance_r32": "晋级32强",
+                "prob_advance_r16": "晋级16强",
+                "prob_quarterfinal": "晋级8强",
+                "prob_semifinal": "晋级4强",
+                "prob_final": "晋级决赛",
+                "prob_champion": "夺冠",
+            }
+        ),
+        use_container_width=True,
+        hide_index=True,
+    )
 
 display = view[
     [

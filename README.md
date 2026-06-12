@@ -8,7 +8,7 @@ Local, free-data-first predictor for all 104 FIFA World Cup 2026 matches.
 python -m pip install -e .
 python -m wc2026 refresh
 python -m wc2026 train
-python -m wc2026 predict
+python -m wc2026 predict --simulations 1000
 python -m wc2026 calibrate
 streamlit run app.py
 ```
@@ -19,11 +19,18 @@ streamlit run app.py
 - `outputs/predictions.json`
 - `outputs/group_tables.csv`
 - `outputs/bracket.json`
+- `outputs/tournament_odds.csv`
 - `reports/calibration_latest.md`
 
 ## Model
 
-The model is intentionally transparent: historical international results train team Elo, attack, and defense ratings. Match score probabilities come from a Poisson score matrix with host advantage and recent strength baked into ratings. Knockout matches are resolved by deterministic bracket simulation from the predicted group tables.
+The model is intentionally transparent but now uses a mainstream hybrid workflow:
+
+- Elo-style ratings quantify team strength.
+- A Poisson score matrix estimates exact-score probabilities.
+- Logistic regression and random forest models calibrate 1X2 outcome probabilities from rating and team-strength features.
+- Monte Carlo simulation repeatedly plays the full 104-match tournament to estimate advancement, final, and champion probabilities. The efficient default is 1,000 runs; increase `--simulations` for slower but smoother odds.
+- Post-match calibration writes persistent parameter adjustments after comparing predictions with actual results.
 
 ## Data Sources
 

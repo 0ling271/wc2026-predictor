@@ -116,6 +116,13 @@ def _resolve_slot(slot: str, placements: dict[str, list[str]], best_thirds: list
             if candidate not in used_thirds:
                 used_thirds.add(candidate)
                 return candidate
+        for team in best_thirds:
+            if team not in used_thirds:
+                used_thirds.add(team)
+                return team
+        for group in allowed:
+            if group in placements and len(placements[group]) >= 3:
+                return placements[group][2]
     return slot
 
 

@@ -8,6 +8,7 @@ import typer
 from .calibrate import calibration_report
 from .data import load_fixtures, load_history, refresh_data
 from .model import fit_model, load_model
+from .monte_carlo import run_monte_carlo
 from .paths import OUTPUTS_DIR, ensure_dirs
 from .simulate import predict_tournament
 
@@ -34,13 +35,15 @@ def train() -> None:
 
 
 @app.command()
-def predict() -> None:
+def predict(simulations: int = typer.Option(1000, help="Monte Carlo tournament simulations.")) -> None:
     """Predict all 104 matches and tournament path."""
     ensure_dirs()
     fixtures = load_fixtures()
     state = load_model()
     predictions, groups = predict_tournament(state, fixtures)
+    odds = run_monte_carlo(state, fixtures, simulations=simulations)
     typer.echo(f"predictions={len(predictions)} groups={groups['group_letter'].nunique()}")
+    typer.echo(f"monte_carlo_simulations={simulations} teams={len(odds)}")
     typer.echo(f"saved={OUTPUTS_DIR / 'predictions.csv'}")
 
 
@@ -51,8 +54,10 @@ def calibrate() -> None:
     fixtures = load_fixtures()
     state = load_model()
     predictions, _ = predict_tournament(state, fixtures)
+    odds = run_monte_carlo(state, fixtures, simulations=1000)
     typer.echo(report)
     typer.echo(f"regenerated_predictions={len(predictions)}")
+    typer.echo(f"regenerated_tournament_odds={len(odds)}")
 
 
 @app.command()
@@ -87,5 +92,11 @@ def export_summary() -> None:
         "completed": int((df["status"] == "actual").sum()),
         "champion_pick": json.loads((OUTPUTS_DIR / "bracket.json").read_text(encoding="utf-8")).get("champion"),
     }
+    odds_path = OUTPUTS_DIR / "tournament_odds.json"
+    if odds_path.exists():
+        odds = pd.read_json(odds_path)
+        if not odds.empty:
+            summary["monte_carlo_champion_pick"] = str(odds.iloc[0]["team"])
+            summary["monte_carlo_champion_probability"] = float(odds.iloc[0]["prob_champion"])
     (OUTPUTS_DIR / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     typer.echo(summary)
