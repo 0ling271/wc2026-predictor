@@ -46,6 +46,11 @@ class PredictorParams:
     defense_weight: float = 0.24
     host_goal_bonus: float = 0.13
     ml_blend_weight: float = 0.22
+    score_total_shrink: float = 0.68
+    score_diff_shrink: float = 0.68
+    tournament_goal_mean: float = 2.55
+    low_score_draw_boost: float = 1.08
+    one_goal_margin_boost: float = 1.04
     max_goals: int = 7
 
 
@@ -161,6 +166,11 @@ def _load_calibrated_params() -> PredictorParams:
     params.base_away_goals *= float(multipliers.get("base_away_goals", 1.0))
     params.elo_goal_scale *= float(multipliers.get("elo_goal_scale", 1.0))
     params.host_goal_bonus += float(payload.get("host_goal_bonus_delta", 0.0))
+    score = payload.get("score", {})
+    params.score_total_shrink = float(score.get("score_total_shrink", params.score_total_shrink))
+    params.score_diff_shrink = float(score.get("score_diff_shrink", params.score_diff_shrink))
+    params.low_score_draw_boost = float(score.get("low_score_draw_boost", params.low_score_draw_boost))
+    params.one_goal_margin_boost = float(score.get("one_goal_margin_boost", params.one_goal_margin_boost))
     return params
 
 
@@ -198,8 +208,14 @@ def expected_goals(state: PredictorState, team1: str, team2: str, ground: str = 
     elo_component = (r1.elo - r2.elo) * p.elo_goal_scale
     host1 = p.host_goal_bonus if is_host_advantage(team1, ground) else 0.0
     host2 = p.host_goal_bonus if is_host_advantage(team2, ground) else 0.0
-    mu1 = p.base_home_goals * math.exp(elo_component + p.attack_weight * math.log(r1.attack) - p.defense_weight * math.log(r2.defense)) + host1
-    mu2 = p.base_away_goals * math.exp(-elo_component + p.attack_weight * math.log(r2.attack) - p.defense_weight * math.log(r1.defense)) + host2
+    raw_mu1 = p.base_home_goals * math.exp(elo_component + p.attack_weight * math.log(r1.attack) - p.defense_weight * math.log(r2.defense)) + host1
+    raw_mu2 = p.base_away_goals * math.exp(-elo_component + p.attack_weight * math.log(r2.attack) - p.defense_weight * math.log(r1.defense)) + host2
+    raw_total = raw_mu1 + raw_mu2
+    raw_diff = raw_mu1 - raw_mu2
+    total = p.tournament_goal_mean + (raw_total - p.tournament_goal_mean) * p.score_total_shrink
+    diff = raw_diff * p.score_diff_shrink
+    mu1 = (total + diff) / 2.0
+    mu2 = (total - diff) / 2.0
     return float(np.clip(mu1, 0.15, 4.8)), float(np.clip(mu2, 0.15, 4.8))
 
 
@@ -209,8 +225,24 @@ def score_matrix(state: PredictorState, team1: str, team2: str, ground: str = ""
     probs1 = poisson.pmf(np.arange(max_goals + 1), mu1)
     probs2 = poisson.pmf(np.arange(max_goals + 1), mu2)
     matrix = np.outer(probs1, probs2)
+    matrix = _apply_score_shape_adjustments(matrix, state.params)
     matrix = matrix / matrix.sum()
     return matrix
+
+
+def _apply_score_shape_adjustments(matrix: np.ndarray, params: PredictorParams) -> np.ndarray:
+    adjusted = matrix.copy()
+    max_goals = adjusted.shape[0] - 1
+    for g1 in range(max_goals + 1):
+        for g2 in range(max_goals + 1):
+            total = g1 + g2
+            if g1 == g2 and total <= 2:
+                adjusted[g1, g2] *= params.low_score_draw_boost
+            if abs(g1 - g2) == 1 and total <= 3:
+                adjusted[g1, g2] *= params.one_goal_margin_boost
+            if abs(g1 - g2) >= 3:
+                adjusted[g1, g2] *= 0.92
+    return adjusted
 
 
 def predict_match(state: PredictorState, team1: str, team2: str, ground: str = "") -> dict:
@@ -237,7 +269,8 @@ def predict_match(state: PredictorState, team1: str, team2: str, ground: str = "
         for g2 in range(max_goals + 1):
             flat.append((float(matrix[g1, g2]), g1, g2))
     top = sorted(flat, reverse=True)[:5]
-    likely = top[0]
+    outcome = int(np.argmax([home_win, draw, away_win]))
+    likely = _headline_score_for_outcome(sorted(flat, reverse=True), outcome, mu1, mu2)
     return {
         "team1": team1,
         "team2": team2,
@@ -252,6 +285,47 @@ def predict_match(state: PredictorState, team1: str, team2: str, ground: str = "
             {"score": f"{g1}-{g2}", "probability": round(prob, 6)} for prob, g1, g2 in top
         ],
     }
+
+
+def _headline_score_for_outcome(
+    sorted_scores: list[tuple[float, int, int]], outcome: int, mu1: float, mu2: float
+) -> tuple[float, int, int]:
+    ranked = []
+    for score in sorted_scores:
+        prob, g1, g2 = score
+        if outcome == 0 and g1 > g2:
+            ranked.append((math.log(max(prob, 1e-12)) + _score_prior_bonus(g1, g2, mu1, mu2), score))
+        if outcome == 1 and g1 == g2:
+            ranked.append((math.log(max(prob, 1e-12)) + _score_prior_bonus(g1, g2, mu1, mu2), score))
+        if outcome == 2 and g2 > g1:
+            ranked.append((math.log(max(prob, 1e-12)) + _score_prior_bonus(g1, g2, mu1, mu2), score))
+    if ranked:
+        return max(ranked, key=lambda item: item[0])[1]
+    return sorted_scores[0]
+
+
+def _score_prior_bonus(g1: int, g2: int, mu1: float, mu2: float) -> float:
+    if g1 == g2:
+        if (g1, g2) == (1, 1):
+            return 0.20 if mu1 + mu2 >= 1.8 else 0.05
+        if (g1, g2) == (0, 0):
+            return 0.14 if mu1 + mu2 < 2.0 else -0.08
+        return -0.05
+    favorite_mu, underdog_mu = (mu1, mu2) if g1 > g2 else (mu2, mu1)
+    favorite_goals, underdog_goals = (g1, g2) if g1 > g2 else (g2, g1)
+    if (favorite_goals, underdog_goals) == (2, 0):
+        return 0.22 if underdog_mu < 0.85 else 0.05
+    if (favorite_goals, underdog_goals) == (2, 1):
+        return 0.40 if underdog_mu >= 0.9 else 0.28 if underdog_mu >= 0.75 else -0.02
+    if (favorite_goals, underdog_goals) == (1, 0):
+        return 0.04 if underdog_mu >= 0.9 else 0.12 if favorite_mu < 1.8 else -0.04
+    if (favorite_goals, underdog_goals) == (3, 0):
+        return -0.10
+    if (favorite_goals, underdog_goals) == (3, 1):
+        return 0.05 if favorite_mu >= 2.5 and underdog_mu >= 0.8 else -0.02
+    if abs(g1 - g2) >= 3:
+        return -0.18
+    return 0.0
 
 
 def choose_winner(pred: dict) -> str:

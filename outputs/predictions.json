@@ -2,33 +2,33 @@
   {
     "team1":"Mexico",
     "team2":"South Africa",
-    "expected_goals1":3.434,
-    "expected_goals2":0.553,
-    "prob_team1_win":0.827443,
-    "prob_draw":0.118357,
-    "prob_team2_win":0.0542,
+    "expected_goals1":2.849,
+    "expected_goals2":0.739,
+    "prob_team1_win":0.749012,
+    "prob_draw":0.164098,
+    "prob_team2_win":0.086889,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.128407
-      },
-      {
         "score":"2-0",
-        "probability":0.112169
+        "probability":0.115094
       },
       {
-        "score":"4-0",
-        "probability":0.110248
+        "score":"3-0",
+        "probability":0.100573
       },
       {
-        "score":"5-0",
-        "probability":0.075725
+        "score":"2-1",
+        "probability":0.088468
+      },
+      {
+        "score":"1-0",
+        "probability":0.084014
       },
       {
         "score":"3-1",
-        "probability":0.070947
+        "probability":0.080797
       }
     ],
     "match_id":1,
@@ -41,38 +41,38 @@
     "predicted_winner":"Mexico",
     "actual_result":"Mexico",
     "actual_score":"2-0",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.128407}, {\"score\": \"2-0\", \"probability\": 0.112169}, {\"score\": \"4-0\", \"probability\": 0.110248}, {\"score\": \"5-0\", \"probability\": 0.075725}, {\"score\": \"3-1\", \"probability\": 0.070947}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.115094}, {\"score\": \"3-0\", \"probability\": 0.100573}, {\"score\": \"2-1\", \"probability\": 0.088468}, {\"score\": \"1-0\", \"probability\": 0.084014}, {\"score\": \"3-1\", \"probability\": 0.080797}]"
   },
   {
     "team1":"South Korea",
     "team2":"Czech Republic",
-    "expected_goals1":2.077,
-    "expected_goals2":0.935,
-    "prob_team1_win":0.598613,
-    "prob_draw":0.237842,
-    "prob_team2_win":0.163545,
+    "expected_goals1":1.885,
+    "expected_goals2":0.969,
+    "prob_team1_win":0.552117,
+    "prob_draw":0.260981,
+    "prob_team2_win":0.186902,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.10622
+        "score":"1-1",
+        "probability":0.112462
       },
       {
         "score":"1-0",
-        "probability":0.102296
+        "probability":0.111818
       },
       {
         "score":"2-1",
-        "probability":0.099353
+        "probability":0.102094
       },
       {
-        "score":"1-1",
-        "probability":0.095683
+        "score":"2-0",
+        "probability":0.101359
       },
       {
-        "score":"3-0",
-        "probability":0.07353
+        "score":"3-1",
+        "probability":0.061697
       }
     ],
     "match_id":2,
@@ -85,38 +85,38 @@
     "predicted_winner":"South Korea",
     "actual_result":"South Korea",
     "actual_score":"2-1",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10622}, {\"score\": \"1-0\", \"probability\": 0.102296}, {\"score\": \"2-1\", \"probability\": 0.099353}, {\"score\": \"1-1\", \"probability\": 0.095683}, {\"score\": \"3-0\", \"probability\": 0.07353}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112462}, {\"score\": \"1-0\", \"probability\": 0.111818}, {\"score\": \"2-1\", \"probability\": 0.102094}, {\"score\": \"2-0\", \"probability\": 0.101359}, {\"score\": \"3-1\", \"probability\": 0.061697}]"
   },
   {
     "team1":"Czech Republic",
     "team2":"South Africa",
-    "expected_goals1":2.189,
-    "expected_goals2":0.81,
-    "prob_team1_win":0.618708,
-    "prob_draw":0.223479,
-    "prob_team2_win":0.157814,
+    "expected_goals1":1.965,
+    "expected_goals2":0.894,
+    "prob_team1_win":0.559068,
+    "prob_draw":0.251822,
+    "prob_team2_win":0.18911,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.119595
-      },
-      {
         "score":"1-0",
-        "probability":0.109263
+        "probability":0.116245
       },
       {
-        "score":"2-1",
-        "probability":0.096908
+        "score":"2-0",
+        "probability":0.109842
       },
       {
         "score":"1-1",
-        "probability":0.088535
+        "probability":0.107868
+      },
+      {
+        "score":"2-1",
+        "probability":0.102077
       },
       {
         "score":"3-0",
-        "probability":0.08727
+        "probability":0.066205
       }
     ],
     "match_id":3,
@@ -129,38 +129,38 @@
     "predicted_winner":"Czech Republic",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.119595}, {\"score\": \"1-0\", \"probability\": 0.109263}, {\"score\": \"2-1\", \"probability\": 0.096908}, {\"score\": \"1-1\", \"probability\": 0.088535}, {\"score\": \"3-0\", \"probability\": 0.08727}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.116245}, {\"score\": \"2-0\", \"probability\": 0.109842}, {\"score\": \"1-1\", \"probability\": 0.107868}, {\"score\": \"2-1\", \"probability\": 0.102077}, {\"score\": \"3-0\", \"probability\": 0.066205}]"
   },
   {
     "team1":"Mexico",
     "team2":"South Korea",
-    "expected_goals1":1.775,
-    "expected_goals2":1.214,
-    "prob_team1_win":0.464503,
-    "prob_draw":0.276198,
-    "prob_team2_win":0.259299,
+    "expected_goals1":1.669,
+    "expected_goals2":1.135,
+    "prob_team1_win":0.451977,
+    "prob_draw":0.291228,
+    "prob_team2_win":0.256795,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.108531
-      },
-      {
-        "score":"2-1",
-        "probability":0.096329
+        "probability":0.122036
       },
       {
         "score":"1-0",
-        "probability":0.089429
+        "probability":0.103516
+      },
+      {
+        "score":"2-1",
+        "probability":0.098072
       },
       {
         "score":"2-0",
-        "probability":0.079375
+        "probability":0.083065
       },
       {
-        "score":"1-2",
-        "probability":0.065856
+        "score":"0-1",
+        "probability":0.070408
       }
     ],
     "match_id":4,
@@ -173,38 +173,38 @@
     "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.108531}, {\"score\": \"2-1\", \"probability\": 0.096329}, {\"score\": \"1-0\", \"probability\": 0.089429}, {\"score\": \"2-0\", \"probability\": 0.079375}, {\"score\": \"1-2\", \"probability\": 0.065856}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.122036}, {\"score\": \"1-0\", \"probability\": 0.103516}, {\"score\": \"2-1\", \"probability\": 0.098072}, {\"score\": \"2-0\", \"probability\": 0.083065}, {\"score\": \"0-1\", \"probability\": 0.070408}]"
   },
   {
     "team1":"Czech Republic",
     "team2":"Mexico",
-    "expected_goals1":0.973,
-    "expected_goals2":1.974,
-    "prob_team1_win":0.174719,
-    "prob_draw":0.241504,
-    "prob_team2_win":0.583777,
+    "expected_goals1":1.1,
+    "expected_goals2":1.603,
+    "prob_team1_win":0.236811,
+    "prob_draw":0.276871,
+    "prob_team2_win":0.486318,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-1",
-        "probability":0.103698
-      },
-      {
-        "score":"0-2",
-        "probability":0.102368
-      },
-      {
         "score":"1-1",
-        "probability":0.100917
+        "probability":0.125415
+      },
+      {
+        "score":"0-1",
+        "probability":0.109755
       },
       {
         "score":"1-2",
-        "probability":0.099623
+        "probability":0.09682
       },
       {
-        "score":"0-3",
-        "probability":0.06737
+        "score":"0-2",
+        "probability":0.084606
+      },
+      {
+        "score":"1-0",
+        "probability":0.075322
       }
     ],
     "match_id":5,
@@ -217,38 +217,38 @@
     "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.103698}, {\"score\": \"0-2\", \"probability\": 0.102368}, {\"score\": \"1-1\", \"probability\": 0.100917}, {\"score\": \"1-2\", \"probability\": 0.099623}, {\"score\": \"0-3\", \"probability\": 0.06737}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125415}, {\"score\": \"0-1\", \"probability\": 0.109755}, {\"score\": \"1-2\", \"probability\": 0.09682}, {\"score\": \"0-2\", \"probability\": 0.084606}, {\"score\": \"1-0\", \"probability\": 0.075322}]"
   },
   {
     "team1":"South Africa",
     "team2":"South Korea",
-    "expected_goals1":0.723,
-    "expected_goals2":2.73,
-    "prob_team1_win":0.094867,
-    "prob_draw":0.169913,
-    "prob_team2_win":0.73522,
+    "expected_goals1":0.922,
+    "expected_goals2":2.044,
+    "prob_team1_win":0.164505,
+    "prob_draw":0.234069,
+    "prob_team2_win":0.601426,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.118785
-      },
-      {
-        "score":"0-3",
-        "probability":0.108092
-      },
-      {
         "score":"0-1",
-        "probability":0.087025
+        "probability":0.108852
+      },
+      {
+        "score":"0-2",
+        "probability":0.106963
+      },
+      {
+        "score":"1-1",
+        "probability":0.104263
       },
       {
         "score":"1-2",
-        "probability":0.08588
+        "probability":0.102605
       },
       {
         "score":"1-3",
-        "probability":0.078149
+        "probability":0.067216
       }
     ],
     "match_id":6,
@@ -261,38 +261,38 @@
     "predicted_winner":"South Korea",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.118785}, {\"score\": \"0-3\", \"probability\": 0.108092}, {\"score\": \"0-1\", \"probability\": 0.087025}, {\"score\": \"1-2\", \"probability\": 0.08588}, {\"score\": \"1-3\", \"probability\": 0.078149}]"
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.108852}, {\"score\": \"0-2\", \"probability\": 0.106963}, {\"score\": \"1-1\", \"probability\": 0.104263}, {\"score\": \"1-2\", \"probability\": 0.102605}, {\"score\": \"1-3\", \"probability\": 0.067216}]"
   },
   {
     "team1":"Canada",
     "team2":"Bosnia & Herzegovina",
-    "expected_goals1":2.95,
-    "expected_goals2":0.588,
-    "prob_team1_win":0.773653,
-    "prob_draw":0.165614,
-    "prob_team2_win":0.060733,
+    "expected_goals1":2.505,
+    "expected_goals2":0.76,
+    "prob_team1_win":0.691999,
+    "prob_draw":0.210305,
+    "prob_team2_win":0.097696,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.127906
-      },
-      {
-        "score":"3-0",
-        "probability":0.12578
-      },
-      {
-        "score":"4-0",
-        "probability":0.092767
+        "probability":0.121161
       },
       {
         "score":"1-0",
-        "probability":0.086712
+        "probability":0.100605
       },
       {
         "score":"2-1",
-        "probability":0.075183
+        "probability":0.095796
+      },
+      {
+        "score":"3-0",
+        "probability":0.093076
+      },
+      {
+        "score":"1-1",
+        "probability":0.079425
       }
     ],
     "match_id":7,
@@ -305,38 +305,38 @@
     "predicted_winner":"Canada",
     "actual_result":"Draw",
     "actual_score":"1-1",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.127906}, {\"score\": \"3-0\", \"probability\": 0.12578}, {\"score\": \"4-0\", \"probability\": 0.092767}, {\"score\": \"1-0\", \"probability\": 0.086712}, {\"score\": \"2-1\", \"probability\": 0.075183}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.121161}, {\"score\": \"1-0\", \"probability\": 0.100605}, {\"score\": \"2-1\", \"probability\": 0.095796}, {\"score\": \"3-0\", \"probability\": 0.093076}, {\"score\": \"1-1\", \"probability\": 0.079425}]"
   },
   {
     "team1":"Qatar",
     "team2":"Switzerland",
-    "expected_goals1":0.539,
-    "expected_goals2":3.171,
-    "prob_team1_win":0.056025,
-    "prob_draw":0.133558,
-    "prob_team2_win":0.810417,
+    "expected_goals1":0.792,
+    "expected_goals2":2.308,
+    "prob_team1_win":0.117197,
+    "prob_draw":0.207671,
+    "prob_team2_win":0.675133,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-3",
+    "most_likely_score":"0-2",
     "top_scores":[
       {
-        "score":"0-3",
-        "probability":0.132168
-      },
-      {
         "score":"0-2",
-        "probability":0.125029
-      },
-      {
-        "score":"0-4",
-        "probability":0.104787
+        "probability":0.120471
       },
       {
         "score":"0-1",
-        "probability":0.07885
+        "probability":0.108551
       },
       {
-        "score":"1-3",
-        "probability":0.071268
+        "score":"1-2",
+        "probability":0.099182
+      },
+      {
+        "score":"1-1",
+        "probability":0.089236
+      },
+      {
+        "score":"0-3",
+        "probability":0.085283
       }
     ],
     "match_id":8,
@@ -349,38 +349,38 @@
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.132168}, {\"score\": \"0-2\", \"probability\": 0.125029}, {\"score\": \"0-4\", \"probability\": 0.104787}, {\"score\": \"0-1\", \"probability\": 0.07885}, {\"score\": \"1-3\", \"probability\": 0.071268}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.120471}, {\"score\": \"0-1\", \"probability\": 0.108551}, {\"score\": \"1-2\", \"probability\": 0.099182}, {\"score\": \"1-1\", \"probability\": 0.089236}, {\"score\": \"0-3\", \"probability\": 0.085283}]"
   },
   {
     "team1":"Switzerland",
     "team2":"Bosnia & Herzegovina",
-    "expected_goals1":3.373,
-    "expected_goals2":0.474,
-    "prob_team1_win":0.831789,
-    "prob_draw":0.12085,
-    "prob_team2_win":0.047361,
+    "expected_goals1":2.808,
+    "expected_goals2":0.692,
+    "prob_team1_win":0.750827,
+    "prob_draw":0.168645,
+    "prob_team2_win":0.080528,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.139543
-      },
-      {
         "score":"2-0",
-        "probability":0.124105
+        "probability":0.121941
       },
       {
-        "score":"4-0",
-        "probability":0.117675
-      },
-      {
-        "score":"5-0",
-        "probability":0.079388
+        "score":"3-0",
+        "probability":0.104999
       },
       {
         "score":"1-0",
-        "probability":0.073584
+        "probability":0.090333
+      },
+      {
+        "score":"2-1",
+        "probability":0.087796
+      },
+      {
+        "score":"3-1",
+        "probability":0.079011
       }
     ],
     "match_id":9,
@@ -393,38 +393,38 @@
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.139543}, {\"score\": \"2-0\", \"probability\": 0.124105}, {\"score\": \"4-0\", \"probability\": 0.117675}, {\"score\": \"5-0\", \"probability\": 0.079388}, {\"score\": \"1-0\", \"probability\": 0.073584}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.121941}, {\"score\": \"3-0\", \"probability\": 0.104999}, {\"score\": \"1-0\", \"probability\": 0.090333}, {\"score\": \"2-1\", \"probability\": 0.087796}, {\"score\": \"3-1\", \"probability\": 0.079011}]"
   },
   {
     "team1":"Canada",
     "team2":"Qatar",
-    "expected_goals1":3.224,
-    "expected_goals2":0.573,
-    "prob_team1_win":0.816779,
-    "prob_draw":0.130569,
-    "prob_team2_win":0.052653,
+    "expected_goals1":2.7,
+    "expected_goals2":0.751,
+    "prob_team1_win":0.736496,
+    "prob_draw":0.176175,
+    "prob_team2_win":0.087329,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.127606
-      },
-      {
         "score":"2-0",
-        "probability":0.118737
+        "probability":0.117799
       },
       {
-        "score":"4-0",
-        "probability":0.102853
+        "score":"3-0",
+        "probability":0.097534
+      },
+      {
+        "score":"2-1",
+        "probability":0.09202
       },
       {
         "score":"1-0",
-        "probability":0.073656
+        "probability":0.090752
       },
       {
         "score":"3-1",
-        "probability":0.073064
+        "probability":0.07963
       }
     ],
     "match_id":10,
@@ -437,38 +437,38 @@
     "predicted_winner":"Canada",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.127606}, {\"score\": \"2-0\", \"probability\": 0.118737}, {\"score\": \"4-0\", \"probability\": 0.102853}, {\"score\": \"1-0\", \"probability\": 0.073656}, {\"score\": \"3-1\", \"probability\": 0.073064}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.117799}, {\"score\": \"3-0\", \"probability\": 0.097534}, {\"score\": \"2-1\", \"probability\": 0.09202}, {\"score\": \"1-0\", \"probability\": 0.090752}, {\"score\": \"3-1\", \"probability\": 0.07963}]"
   },
   {
     "team1":"Switzerland",
     "team2":"Canada",
-    "expected_goals1":1.838,
-    "expected_goals2":1.19,
-    "prob_team1_win":0.486997,
-    "prob_draw":0.251198,
-    "prob_team2_win":0.261805,
+    "expected_goals1":1.715,
+    "expected_goals2":1.133,
+    "prob_team1_win":0.46787,
+    "prob_draw":0.266936,
+    "prob_team2_win":0.265194,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.105986
-      },
-      {
-        "score":"2-1",
-        "probability":0.097375
+        "probability":0.119914
       },
       {
         "score":"1-0",
-        "probability":0.089071
+        "probability":0.10189
+      },
+      {
+        "score":"2-1",
+        "probability":0.099033
       },
       {
         "score":"2-0",
-        "probability":0.081834
+        "probability":0.084023
       },
       {
-        "score":"1-2",
-        "probability":0.063057
+        "score":"0-1",
+        "probability":0.06732
       }
     ],
     "match_id":11,
@@ -481,38 +481,38 @@
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105986}, {\"score\": \"2-1\", \"probability\": 0.097375}, {\"score\": \"1-0\", \"probability\": 0.089071}, {\"score\": \"2-0\", \"probability\": 0.081834}, {\"score\": \"1-2\", \"probability\": 0.063057}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119914}, {\"score\": \"1-0\", \"probability\": 0.10189}, {\"score\": \"2-1\", \"probability\": 0.099033}, {\"score\": \"2-0\", \"probability\": 0.084023}, {\"score\": \"0-1\", \"probability\": 0.06732}]"
   },
   {
     "team1":"Bosnia & Herzegovina",
     "team2":"Qatar",
-    "expected_goals1":1.381,
-    "expected_goals2":1.051,
-    "prob_team1_win":0.413086,
-    "prob_draw":0.290364,
-    "prob_team2_win":0.29655,
+    "expected_goals1":1.391,
+    "expected_goals2":1.038,
+    "prob_team1_win":0.411092,
+    "prob_draw":0.298431,
+    "prob_team2_win":0.290477,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.127532
+        "probability":0.134342
       },
       {
         "score":"1-0",
-        "probability":0.121332
-      },
-      {
-        "score":"0-1",
-        "probability":0.092336
-      },
-      {
-        "score":"2-1",
-        "probability":0.088071
+        "probability":0.124646
       },
       {
         "score":"0-0",
-        "probability":0.087847
+        "probability":0.093081
+      },
+      {
+        "score":"0-1",
+        "probability":0.093028
+      },
+      {
+        "score":"2-1",
+        "probability":0.08995
       }
     ],
     "match_id":12,
@@ -525,38 +525,38 @@
     "predicted_winner":"Bosnia & Herzegovina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.127532}, {\"score\": \"1-0\", \"probability\": 0.121332}, {\"score\": \"0-1\", \"probability\": 0.092336}, {\"score\": \"2-1\", \"probability\": 0.088071}, {\"score\": \"0-0\", \"probability\": 0.087847}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.134342}, {\"score\": \"1-0\", \"probability\": 0.124646}, {\"score\": \"0-0\", \"probability\": 0.093081}, {\"score\": \"0-1\", \"probability\": 0.093028}, {\"score\": \"2-1\", \"probability\": 0.08995}]"
   },
   {
     "team1":"Brazil",
     "team2":"Morocco",
-    "expected_goals1":1.921,
-    "expected_goals2":1.238,
-    "prob_team1_win":0.487247,
-    "prob_draw":0.251434,
-    "prob_team2_win":0.261319,
+    "expected_goals1":1.775,
+    "expected_goals2":1.15,
+    "prob_team1_win":0.469838,
+    "prob_draw":0.268124,
+    "prob_team2_win":0.262038,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.101099
+        "probability":0.116866
       },
       {
         "score":"2-1",
-        "probability":0.097099
+        "probability":0.099853
       },
       {
         "score":"1-0",
-        "probability":0.081678
+        "probability":0.097881
       },
       {
         "score":"2-0",
-        "probability":0.078446
+        "probability":0.083508
       },
       {
         "score":"1-2",
-        "probability":0.06257
+        "probability":0.064695
       }
     ],
     "match_id":13,
@@ -569,38 +569,38 @@
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.101099}, {\"score\": \"2-1\", \"probability\": 0.097099}, {\"score\": \"1-0\", \"probability\": 0.081678}, {\"score\": \"2-0\", \"probability\": 0.078446}, {\"score\": \"1-2\", \"probability\": 0.06257}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116866}, {\"score\": \"2-1\", \"probability\": 0.099853}, {\"score\": \"1-0\", \"probability\": 0.097881}, {\"score\": \"2-0\", \"probability\": 0.083508}, {\"score\": \"1-2\", \"probability\": 0.064695}]"
   },
   {
     "team1":"Haiti",
     "team2":"Scotland",
-    "expected_goals1":0.873,
-    "expected_goals2":2.002,
-    "prob_team1_win":0.161109,
-    "prob_draw":0.249164,
-    "prob_team2_win":0.589727,
+    "expected_goals1":1.029,
+    "expected_goals2":1.608,
+    "prob_team1_win":0.22807,
+    "prob_draw":0.289708,
+    "prob_team2_win":0.482222,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.113233
+        "score":"1-1",
+        "probability":0.125685
       },
       {
         "score":"0-1",
-        "probability":0.113107
+        "probability":0.117645
       },
       {
         "score":"1-2",
-        "probability":0.098803
+        "probability":0.097299
       },
       {
-        "score":"1-1",
-        "probability":0.098692
+        "score":"0-2",
+        "probability":0.09094
       },
       {
-        "score":"0-3",
-        "probability":0.075573
+        "score":"0-0",
+        "probability":0.075984
       }
     ],
     "match_id":14,
@@ -613,38 +613,38 @@
     "predicted_winner":"Scotland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.113233}, {\"score\": \"0-1\", \"probability\": 0.113107}, {\"score\": \"1-2\", \"probability\": 0.098803}, {\"score\": \"1-1\", \"probability\": 0.098692}, {\"score\": \"0-3\", \"probability\": 0.075573}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125685}, {\"score\": \"0-1\", \"probability\": 0.117645}, {\"score\": \"1-2\", \"probability\": 0.097299}, {\"score\": \"0-2\", \"probability\": 0.09094}, {\"score\": \"0-0\", \"probability\": 0.075984}]"
   },
   {
     "team1":"Scotland",
     "team2":"Morocco",
-    "expected_goals1":0.984,
-    "expected_goals2":2.019,
-    "prob_team1_win":0.182567,
-    "prob_draw":0.231514,
-    "prob_team2_win":0.585919,
+    "expected_goals1":1.108,
+    "expected_goals2":1.618,
+    "prob_team1_win":0.246666,
+    "prob_draw":0.268787,
+    "prob_team2_win":0.484546,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.10131
+        "score":"1-1",
+        "probability":0.124697
       },
       {
         "score":"0-1",
-        "probability":0.100368
+        "probability":0.108383
       },
       {
         "score":"1-2",
-        "probability":0.099669
+        "probability":0.097128
       },
       {
-        "score":"1-1",
-        "probability":0.098743
+        "score":"0-2",
+        "probability":0.084296
       },
       {
-        "score":"0-3",
-        "probability":0.068173
+        "score":"1-0",
+        "probability":0.074226
       }
     ],
     "match_id":15,
@@ -657,38 +657,38 @@
     "predicted_winner":"Morocco",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.10131}, {\"score\": \"0-1\", \"probability\": 0.100368}, {\"score\": \"1-2\", \"probability\": 0.099669}, {\"score\": \"1-1\", \"probability\": 0.098743}, {\"score\": \"0-3\", \"probability\": 0.068173}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124697}, {\"score\": \"0-1\", \"probability\": 0.108383}, {\"score\": \"1-2\", \"probability\": 0.097128}, {\"score\": \"0-2\", \"probability\": 0.084296}, {\"score\": \"1-0\", \"probability\": 0.074226}]"
   },
   {
     "team1":"Brazil",
     "team2":"Haiti",
-    "expected_goals1":4.561,
-    "expected_goals2":0.459,
-    "prob_team1_win":0.897516,
-    "prob_draw":0.068905,
-    "prob_team2_win":0.033579,
+    "expected_goals1":3.653,
+    "expected_goals2":0.683,
+    "prob_team1_win":0.837946,
+    "prob_draw":0.107389,
+    "prob_team2_win":0.054665,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.131173
-      },
-      {
-        "score":"5-0",
-        "probability":0.119669
-      },
-      {
         "score":"3-0",
-        "probability":0.115027
+        "probability":0.104913
       },
       {
-        "score":"6-0",
-        "probability":0.090978
+        "score":"4-0",
+        "probability":0.095818
       },
       {
         "score":"2-0",
-        "probability":0.075651
+        "probability":0.093646
+      },
+      {
+        "score":"3-1",
+        "probability":0.07786
+      },
+      {
+        "score":"5-0",
+        "probability":0.070008
       }
     ],
     "match_id":16,
@@ -701,38 +701,38 @@
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.131173}, {\"score\": \"5-0\", \"probability\": 0.119669}, {\"score\": \"3-0\", \"probability\": 0.115027}, {\"score\": \"6-0\", \"probability\": 0.090978}, {\"score\": \"2-0\", \"probability\": 0.075651}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.104913}, {\"score\": \"4-0\", \"probability\": 0.095818}, {\"score\": \"2-0\", \"probability\": 0.093646}, {\"score\": \"3-1\", \"probability\": 0.07786}, {\"score\": \"5-0\", \"probability\": 0.070008}]"
   },
   {
     "team1":"Scotland",
     "team2":"Brazil",
-    "expected_goals1":0.828,
-    "expected_goals2":2.26,
-    "prob_team1_win":0.136464,
-    "prob_draw":0.205162,
-    "prob_team2_win":0.658374,
+    "expected_goals1":0.997,
+    "expected_goals2":1.762,
+    "prob_team1_win":0.206719,
+    "prob_draw":0.255216,
+    "prob_team2_win":0.538066,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.11668
+        "score":"1-1",
+        "probability":0.118543
       },
       {
         "score":"0-1",
-        "probability":0.103244
+        "probability":0.114471
       },
       {
         "score":"1-2",
-        "probability":0.096635
+        "probability":0.100595
       },
       {
-        "score":"0-3",
-        "probability":0.08791
+        "score":"0-2",
+        "probability":0.096996
       },
       {
-        "score":"1-1",
-        "probability":0.085507
+        "score":"0-0",
+        "probability":0.067447
       }
     ],
     "match_id":17,
@@ -745,38 +745,38 @@
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.11668}, {\"score\": \"0-1\", \"probability\": 0.103244}, {\"score\": \"1-2\", \"probability\": 0.096635}, {\"score\": \"0-3\", \"probability\": 0.08791}, {\"score\": \"1-1\", \"probability\": 0.085507}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118543}, {\"score\": \"0-1\", \"probability\": 0.114471}, {\"score\": \"1-2\", \"probability\": 0.100595}, {\"score\": \"0-2\", \"probability\": 0.096996}, {\"score\": \"0-0\", \"probability\": 0.067447}]"
   },
   {
     "team1":"Morocco",
     "team2":"Haiti",
-    "expected_goals1":4.074,
-    "expected_goals2":0.545,
-    "prob_team1_win":0.866872,
-    "prob_draw":0.088405,
-    "prob_team2_win":0.044723,
+    "expected_goals1":3.306,
+    "expected_goals2":0.734,
+    "prob_team1_win":0.798497,
+    "prob_draw":0.130453,
+    "prob_team2_win":0.07105,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.11992
-      },
-      {
         "score":"3-0",
-        "probability":0.11774
-      },
-      {
-        "score":"5-0",
-        "probability":0.097712
+        "probability":0.102237
       },
       {
         "score":"2-0",
-        "probability":0.086699
+        "probability":0.100828
       },
       {
-        "score":"6-0",
-        "probability":0.066348
+        "score":"4-0",
+        "probability":0.084511
+      },
+      {
+        "score":"3-1",
+        "probability":0.08161
+      },
+      {
+        "score":"2-1",
+        "probability":0.077009
       }
     ],
     "match_id":18,
@@ -789,38 +789,38 @@
     "predicted_winner":"Morocco",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.11992}, {\"score\": \"3-0\", \"probability\": 0.11774}, {\"score\": \"5-0\", \"probability\": 0.097712}, {\"score\": \"2-0\", \"probability\": 0.086699}, {\"score\": \"6-0\", \"probability\": 0.066348}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.102237}, {\"score\": \"2-0\", \"probability\": 0.100828}, {\"score\": \"4-0\", \"probability\": 0.084511}, {\"score\": \"3-1\", \"probability\": 0.08161}, {\"score\": \"2-1\", \"probability\": 0.077009}]"
   },
   {
     "team1":"USA",
     "team2":"Paraguay",
-    "expected_goals1":1.655,
-    "expected_goals2":0.994,
-    "prob_team1_win":0.479252,
-    "prob_draw":0.293309,
-    "prob_team2_win":0.227439,
+    "expected_goals1":1.584,
+    "expected_goals2":1.004,
+    "prob_team1_win":0.456071,
+    "prob_draw":0.307033,
+    "prob_team2_win":0.236896,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"1-0",
-        "probability":0.117104
-      },
-      {
         "score":"1-1",
-        "probability":0.116377
+        "probability":0.126773
       },
       {
-        "score":"2-0",
-        "probability":0.096909
+        "score":"1-0",
+        "probability":0.121648
       },
       {
         "score":"2-1",
-        "probability":0.096307
+        "probability":0.096665
+      },
+      {
+        "score":"2-0",
+        "probability":0.09262
       },
       {
         "score":"0-0",
-        "probability":0.070754
+        "probability":0.079769
       }
     ],
     "match_id":19,
@@ -833,38 +833,38 @@
     "predicted_winner":"USA",
     "actual_result":"USA",
     "actual_score":"4-1",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.117104}, {\"score\": \"1-1\", \"probability\": 0.116377}, {\"score\": \"2-0\", \"probability\": 0.096909}, {\"score\": \"2-1\", \"probability\": 0.096307}, {\"score\": \"0-0\", \"probability\": 0.070754}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126773}, {\"score\": \"1-0\", \"probability\": 0.121648}, {\"score\": \"2-1\", \"probability\": 0.096665}, {\"score\": \"2-0\", \"probability\": 0.09262}, {\"score\": \"0-0\", \"probability\": 0.079769}]"
   },
   {
     "team1":"Australia",
     "team2":"Turkey",
-    "expected_goals1":1.354,
-    "expected_goals2":1.473,
-    "prob_team1_win":0.333724,
-    "prob_draw":0.278909,
-    "prob_team2_win":0.387367,
+    "expected_goals1":1.372,
+    "expected_goals2":1.291,
+    "prob_team1_win":0.361208,
+    "prob_draw":0.293882,
+    "prob_team2_win":0.34491,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118064
-      },
-      {
-        "score":"0-1",
-        "probability":0.087165
-      },
-      {
-        "score":"1-2",
-        "probability":0.086954
+        "probability":0.13083
       },
       {
         "score":"1-0",
-        "probability":0.080153
+        "probability":0.09761
+      },
+      {
+        "score":"0-1",
+        "probability":0.09185
       },
       {
         "score":"2-1",
-        "probability":0.079958
+        "probability":0.086402
+      },
+      {
+        "score":"1-2",
+        "probability":0.081303
       }
     ],
     "match_id":20,
@@ -874,41 +874,41 @@
     "group":"Group D",
     "ground":"Vancouver",
     "status":"predicted",
-    "predicted_winner":"Turkey",
+    "predicted_winner":"Australia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118064}, {\"score\": \"0-1\", \"probability\": 0.087165}, {\"score\": \"1-2\", \"probability\": 0.086954}, {\"score\": \"1-0\", \"probability\": 0.080153}, {\"score\": \"2-1\", \"probability\": 0.079958}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.13083}, {\"score\": \"1-0\", \"probability\": 0.09761}, {\"score\": \"0-1\", \"probability\": 0.09185}, {\"score\": \"2-1\", \"probability\": 0.086402}, {\"score\": \"1-2\", \"probability\": 0.081303}]"
   },
   {
     "team1":"USA",
     "team2":"Australia",
-    "expected_goals1":1.664,
-    "expected_goals2":1.356,
-    "prob_team1_win":0.414404,
-    "prob_draw":0.262674,
-    "prob_team2_win":0.322922,
+    "expected_goals1":1.59,
+    "expected_goals2":1.221,
+    "prob_team1_win":0.417586,
+    "prob_draw":0.276918,
+    "prob_team2_win":0.305496,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110161
-      },
-      {
-        "score":"2-1",
-        "probability":0.09164
+        "probability":0.124092
       },
       {
         "score":"1-0",
-        "probability":0.081217
+        "probability":0.097883
       },
       {
-        "score":"1-2",
-        "probability":0.07471
+        "score":"2-1",
+        "probability":0.094989
+      },
+      {
+        "score":"0-1",
+        "probability":0.075164
       },
       {
         "score":"2-0",
-        "probability":0.067562
+        "probability":0.074815
       }
     ],
     "match_id":21,
@@ -921,38 +921,38 @@
     "predicted_winner":"USA",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110161}, {\"score\": \"2-1\", \"probability\": 0.09164}, {\"score\": \"1-0\", \"probability\": 0.081217}, {\"score\": \"1-2\", \"probability\": 0.07471}, {\"score\": \"2-0\", \"probability\": 0.067562}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124092}, {\"score\": \"1-0\", \"probability\": 0.097883}, {\"score\": \"2-1\", \"probability\": 0.094989}, {\"score\": \"0-1\", \"probability\": 0.075164}, {\"score\": \"2-0\", \"probability\": 0.074815}]"
   },
   {
     "team1":"Turkey",
     "team2":"Paraguay",
-    "expected_goals1":1.709,
-    "expected_goals2":0.851,
-    "prob_team1_win":0.511317,
-    "prob_draw":0.288315,
-    "prob_team2_win":0.200368,
+    "expected_goals1":1.624,
+    "expected_goals2":0.918,
+    "prob_team1_win":0.47369,
+    "prob_draw":0.304572,
+    "prob_team2_win":0.221738,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-0",
-        "probability":0.132227
-      },
-      {
-        "score":"2-0",
-        "probability":0.112992
+        "probability":0.130629
       },
       {
         "score":"1-1",
-        "probability":0.112462
+        "probability":0.124486
+      },
+      {
+        "score":"2-0",
+        "probability":0.101984
       },
       {
         "score":"2-1",
-        "probability":0.096102
+        "probability":0.097332
       },
       {
         "score":"0-0",
-        "probability":0.077369
+        "probability":0.083536
       }
     ],
     "match_id":22,
@@ -965,38 +965,38 @@
     "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.132227}, {\"score\": \"2-0\", \"probability\": 0.112992}, {\"score\": \"1-1\", \"probability\": 0.112462}, {\"score\": \"2-1\", \"probability\": 0.096102}, {\"score\": \"0-0\", \"probability\": 0.077369}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.130629}, {\"score\": \"1-1\", \"probability\": 0.124486}, {\"score\": \"2-0\", \"probability\": 0.101984}, {\"score\": \"2-1\", \"probability\": 0.097332}, {\"score\": \"0-0\", \"probability\": 0.083536}]"
   },
   {
     "team1":"Turkey",
     "team2":"USA",
-    "expected_goals1":1.675,
-    "expected_goals2":1.225,
-    "prob_team1_win":0.443879,
-    "prob_draw":0.256755,
-    "prob_team2_win":0.299366,
+    "expected_goals1":1.6,
+    "expected_goals2":1.154,
+    "prob_team1_win":0.435577,
+    "prob_draw":0.270188,
+    "prob_team2_win":0.294234,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.112955
-      },
-      {
-        "score":"2-1",
-        "probability":0.094589
+        "probability":0.124887
       },
       {
         "score":"1-0",
-        "probability":0.09221
+        "probability":0.104184
+      },
+      {
+        "score":"2-1",
+        "probability":0.096181
       },
       {
         "score":"2-0",
-        "probability":0.077217
+        "probability":0.080118
       },
       {
-        "score":"1-2",
-        "probability":0.069183
+        "score":"0-1",
+        "probability":0.075186
       }
     ],
     "match_id":23,
@@ -1009,38 +1009,38 @@
     "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112955}, {\"score\": \"2-1\", \"probability\": 0.094589}, {\"score\": \"1-0\", \"probability\": 0.09221}, {\"score\": \"2-0\", \"probability\": 0.077217}, {\"score\": \"1-2\", \"probability\": 0.069183}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124887}, {\"score\": \"1-0\", \"probability\": 0.104184}, {\"score\": \"2-1\", \"probability\": 0.096181}, {\"score\": \"2-0\", \"probability\": 0.080118}, {\"score\": \"0-1\", \"probability\": 0.075186}]"
   },
   {
     "team1":"Paraguay",
     "team2":"Australia",
-    "expected_goals1":1.19,
-    "expected_goals2":1.384,
-    "prob_team1_win":0.313342,
-    "prob_draw":0.281364,
-    "prob_team2_win":0.405295,
+    "expected_goals1":1.255,
+    "expected_goals2":1.237,
+    "prob_team1_win":0.345352,
+    "prob_draw":0.294622,
+    "prob_team2_win":0.360026,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125561
-      },
-      {
-        "score":"0-1",
-        "probability":0.105515
+        "probability":0.135623
       },
       {
         "score":"1-0",
-        "probability":0.090716
+        "probability":0.105541
       },
       {
-        "score":"1-2",
-        "probability":0.086895
+        "score":"0-1",
+        "probability":0.104097
       },
       {
         "score":"0-0",
-        "probability":0.076233
+        "probability":0.087359
+      },
+      {
+        "score":"2-1",
+        "probability":0.081925
       }
     ],
     "match_id":24,
@@ -1053,38 +1053,38 @@
     "predicted_winner":"Australia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125561}, {\"score\": \"0-1\", \"probability\": 0.105515}, {\"score\": \"1-0\", \"probability\": 0.090716}, {\"score\": \"1-2\", \"probability\": 0.086895}, {\"score\": \"0-0\", \"probability\": 0.076233}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.135623}, {\"score\": \"1-0\", \"probability\": 0.105541}, {\"score\": \"0-1\", \"probability\": 0.104097}, {\"score\": \"0-0\", \"probability\": 0.087359}, {\"score\": \"2-1\", \"probability\": 0.081925}]"
   },
   {
     "team1":"Germany",
     "team2":"Curacao",
-    "expected_goals1":4.8,
-    "expected_goals2":0.368,
-    "prob_team1_win":0.891704,
-    "prob_draw":0.075959,
-    "prob_team2_win":0.032337,
+    "expected_goals1":4.475,
+    "expected_goals2":0.629,
+    "prob_team1_win":0.863353,
+    "prob_draw":0.094578,
+    "prob_team2_win":0.04207,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.142092
+        "probability":0.107366
       },
       {
         "score":"5-0",
-        "probability":0.136408
+        "probability":0.096082
       },
       {
         "score":"3-0",
-        "probability":0.11841
+        "probability":0.09598
       },
       {
         "score":"6-0",
-        "probability":0.109126
+        "probability":0.071654
       },
       {
-        "score":"7-0",
-        "probability":0.07483
+        "score":"2-0",
+        "probability":0.069946
       }
     ],
     "match_id":25,
@@ -1097,38 +1097,38 @@
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.142092}, {\"score\": \"5-0\", \"probability\": 0.136408}, {\"score\": \"3-0\", \"probability\": 0.11841}, {\"score\": \"6-0\", \"probability\": 0.109126}, {\"score\": \"7-0\", \"probability\": 0.07483}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.107366}, {\"score\": \"5-0\", \"probability\": 0.096082}, {\"score\": \"3-0\", \"probability\": 0.09598}, {\"score\": \"6-0\", \"probability\": 0.071654}, {\"score\": \"2-0\", \"probability\": 0.069946}]"
   },
   {
     "team1":"Ivory Coast",
     "team2":"Ecuador",
-    "expected_goals1":0.912,
-    "expected_goals2":2.101,
-    "prob_team1_win":0.16234,
-    "prob_draw":0.251987,
-    "prob_team2_win":0.585673,
+    "expected_goals1":1.057,
+    "expected_goals2":1.667,
+    "prob_team1_win":0.229634,
+    "prob_draw":0.294229,
+    "prob_team2_win":0.476137,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.108583
+        "score":"1-1",
+        "probability":0.12289
       },
       {
         "score":"0-1",
-        "probability":0.103361
+        "probability":0.111943
       },
       {
         "score":"1-2",
-        "probability":0.099073
+        "probability":0.098638
       },
       {
-        "score":"1-1",
-        "probability":0.094308
+        "score":"0-2",
+        "probability":0.089719
       },
       {
-        "score":"0-3",
-        "probability":0.076045
+        "score":"1-0",
+        "probability":0.070987
       }
     ],
     "match_id":26,
@@ -1141,38 +1141,38 @@
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.108583}, {\"score\": \"0-1\", \"probability\": 0.103361}, {\"score\": \"1-2\", \"probability\": 0.099073}, {\"score\": \"1-1\", \"probability\": 0.094308}, {\"score\": \"0-3\", \"probability\": 0.076045}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12289}, {\"score\": \"0-1\", \"probability\": 0.111943}, {\"score\": \"1-2\", \"probability\": 0.098638}, {\"score\": \"0-2\", \"probability\": 0.089719}, {\"score\": \"1-0\", \"probability\": 0.070987}]"
   },
   {
     "team1":"Germany",
     "team2":"Ivory Coast",
-    "expected_goals1":3.478,
-    "expected_goals2":0.659,
-    "prob_team1_win":0.784943,
-    "prob_draw":0.137654,
-    "prob_team2_win":0.077403,
+    "expected_goals1":2.882,
+    "expected_goals2":0.803,
+    "prob_team1_win":0.709934,
+    "prob_draw":0.180618,
+    "prob_team2_win":0.109448,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.114919
-      },
-      {
-        "score":"4-0",
-        "probability":0.099921
-      },
-      {
         "score":"2-0",
-        "probability":0.099126
+        "probability":0.10696
+      },
+      {
+        "score":"3-0",
+        "probability":0.094544
+      },
+      {
+        "score":"2-1",
+        "probability":0.08934
       },
       {
         "score":"3-1",
-        "probability":0.075776
+        "probability":0.082535
       },
       {
-        "score":"5-0",
-        "probability":0.069504
+        "score":"1-0",
+        "probability":0.077186
       }
     ],
     "match_id":27,
@@ -1185,38 +1185,38 @@
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.114919}, {\"score\": \"4-0\", \"probability\": 0.099921}, {\"score\": \"2-0\", \"probability\": 0.099126}, {\"score\": \"3-1\", \"probability\": 0.075776}, {\"score\": \"5-0\", \"probability\": 0.069504}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10696}, {\"score\": \"3-0\", \"probability\": 0.094544}, {\"score\": \"2-1\", \"probability\": 0.08934}, {\"score\": \"3-1\", \"probability\": 0.082535}, {\"score\": \"1-0\", \"probability\": 0.077186}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Curacao",
-    "expected_goals1":4.029,
-    "expected_goals2":0.436,
-    "prob_team1_win":0.887588,
-    "prob_draw":0.07531,
-    "prob_team2_win":0.037102,
+    "expected_goals1":3.274,
+    "expected_goals2":0.67,
+    "prob_team1_win":0.817803,
+    "prob_draw":0.119239,
+    "prob_team2_win":0.062958,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.133315
-      },
-      {
         "score":"3-0",
-        "probability":0.132355
-      },
-      {
-        "score":"5-0",
-        "probability":0.107426
+        "probability":0.109316
       },
       {
         "score":"2-0",
-        "probability":0.098551
+        "probability":0.108864
       },
       {
-        "score":"6-0",
-        "probability":0.072137
+        "score":"4-0",
+        "probability":0.089486
+      },
+      {
+        "score":"3-1",
+        "probability":0.079552
+      },
+      {
+        "score":"2-1",
+        "probability":0.0758
       }
     ],
     "match_id":28,
@@ -1229,38 +1229,38 @@
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.133315}, {\"score\": \"3-0\", \"probability\": 0.132355}, {\"score\": \"5-0\", \"probability\": 0.107426}, {\"score\": \"2-0\", \"probability\": 0.098551}, {\"score\": \"6-0\", \"probability\": 0.072137}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.109316}, {\"score\": \"2-0\", \"probability\": 0.108864}, {\"score\": \"4-0\", \"probability\": 0.089486}, {\"score\": \"3-1\", \"probability\": 0.079552}, {\"score\": \"2-1\", \"probability\": 0.0758}]"
   },
   {
     "team1":"Curacao",
     "team2":"Ivory Coast",
-    "expected_goals1":0.913,
-    "expected_goals2":2.305,
-    "prob_team1_win":0.136699,
-    "prob_draw":0.207973,
-    "prob_team2_win":0.655328,
+    "expected_goals1":1.058,
+    "expected_goals2":1.79,
+    "prob_team1_win":0.206032,
+    "prob_draw":0.255931,
+    "prob_team2_win":0.538038,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.106583
-      },
-      {
-        "score":"1-2",
-        "probability":0.097356
+        "score":"1-1",
+        "probability":0.117082
       },
       {
         "score":"0-1",
-        "probability":0.092463
+        "probability":0.106581
       },
       {
-        "score":"1-1",
-        "probability":0.084458
+        "score":"1-2",
+        "probability":0.100881
       },
       {
-        "score":"0-3",
-        "probability":0.081906
+        "score":"0-2",
+        "probability":0.091697
+      },
+      {
+        "score":"1-0",
+        "probability":0.063003
       }
     ],
     "match_id":29,
@@ -1273,38 +1273,38 @@
     "predicted_winner":"Ivory Coast",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.106583}, {\"score\": \"1-2\", \"probability\": 0.097356}, {\"score\": \"0-1\", \"probability\": 0.092463}, {\"score\": \"1-1\", \"probability\": 0.084458}, {\"score\": \"0-3\", \"probability\": 0.081906}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117082}, {\"score\": \"0-1\", \"probability\": 0.106581}, {\"score\": \"1-2\", \"probability\": 0.100881}, {\"score\": \"0-2\", \"probability\": 0.091697}, {\"score\": \"1-0\", \"probability\": 0.063003}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Germany",
-    "expected_goals1":1.152,
-    "expected_goals2":1.662,
-    "prob_team1_win":0.268485,
-    "prob_draw":0.272928,
-    "prob_team2_win":0.458586,
+    "expected_goals1":1.228,
+    "expected_goals2":1.404,
+    "prob_team1_win":0.315572,
+    "prob_draw":0.294782,
+    "prob_team2_win":0.389645,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.114864
+        "probability":0.131306
       },
       {
         "score":"0-1",
-        "probability":0.099676
-      },
-      {
-        "score":"1-2",
-        "probability":0.095429
-      },
-      {
-        "score":"0-2",
-        "probability":0.082811
+        "probability":0.102979
       },
       {
         "score":"1-0",
-        "probability":0.069129
+        "probability":0.090077
+      },
+      {
+        "score":"1-2",
+        "probability":0.088744
+      },
+      {
+        "score":"2-1",
+        "probability":0.077626
       }
     ],
     "match_id":30,
@@ -1317,38 +1317,38 @@
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.114864}, {\"score\": \"0-1\", \"probability\": 0.099676}, {\"score\": \"1-2\", \"probability\": 0.095429}, {\"score\": \"0-2\", \"probability\": 0.082811}, {\"score\": \"1-0\", \"probability\": 0.069129}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.131306}, {\"score\": \"0-1\", \"probability\": 0.102979}, {\"score\": \"1-0\", \"probability\": 0.090077}, {\"score\": \"1-2\", \"probability\": 0.088744}, {\"score\": \"2-1\", \"probability\": 0.077626}]"
   },
   {
     "team1":"Netherlands",
     "team2":"Japan",
-    "expected_goals1":1.808,
-    "expected_goals2":1.434,
-    "prob_team1_win":0.428453,
-    "prob_draw":0.255592,
-    "prob_team2_win":0.315955,
+    "expected_goals1":1.694,
+    "expected_goals2":1.267,
+    "prob_team1_win":0.429839,
+    "prob_draw":0.271077,
+    "prob_team2_win":0.299084,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.101407
+        "probability":0.118379
       },
       {
         "score":"2-1",
-        "probability":0.091682
-      },
-      {
-        "score":"1-2",
-        "probability":0.072695
+        "probability":0.096577
       },
       {
         "score":"1-0",
-        "probability":0.07073
+        "probability":0.089961
       },
       {
-        "score":"2-2",
-        "probability":0.065723
+        "score":"2-0",
+        "probability":0.073284
+      },
+      {
+        "score":"1-2",
+        "probability":0.072224
       }
     ],
     "match_id":31,
@@ -1361,38 +1361,38 @@
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.101407}, {\"score\": \"2-1\", \"probability\": 0.091682}, {\"score\": \"1-2\", \"probability\": 0.072695}, {\"score\": \"1-0\", \"probability\": 0.07073}, {\"score\": \"2-2\", \"probability\": 0.065723}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118379}, {\"score\": \"2-1\", \"probability\": 0.096577}, {\"score\": \"1-0\", \"probability\": 0.089961}, {\"score\": \"2-0\", \"probability\": 0.073284}, {\"score\": \"1-2\", \"probability\": 0.072224}]"
   },
   {
     "team1":"Sweden",
     "team2":"Tunisia",
-    "expected_goals1":1.59,
-    "expected_goals2":1.128,
-    "prob_team1_win":0.435,
-    "prob_draw":0.261,
-    "prob_team2_win":0.304,
+    "expected_goals1":1.539,
+    "expected_goals2":1.084,
+    "prob_team1_win":0.426262,
+    "prob_draw":0.273197,
+    "prob_team2_win":0.300541,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118427
+        "probability":0.128341
       },
       {
         "score":"1-0",
-        "probability":0.105027
+        "probability":0.114042
       },
       {
         "score":"2-1",
-        "probability":0.094143
+        "probability":0.095108
       },
       {
         "score":"2-0",
-        "probability":0.083491
+        "probability":0.084386
       },
       {
         "score":"0-1",
-        "probability":0.074488
+        "probability":0.080299
       }
     ],
     "match_id":32,
@@ -1405,38 +1405,38 @@
     "predicted_winner":"Sweden",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118427}, {\"score\": \"1-0\", \"probability\": 0.105027}, {\"score\": \"2-1\", \"probability\": 0.094143}, {\"score\": \"2-0\", \"probability\": 0.083491}, {\"score\": \"0-1\", \"probability\": 0.074488}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.128341}, {\"score\": \"1-0\", \"probability\": 0.114042}, {\"score\": \"2-1\", \"probability\": 0.095108}, {\"score\": \"2-0\", \"probability\": 0.084386}, {\"score\": \"0-1\", \"probability\": 0.080299}]"
   },
   {
     "team1":"Netherlands",
     "team2":"Sweden",
-    "expected_goals1":3.402,
-    "expected_goals2":0.574,
-    "prob_team1_win":0.815479,
-    "prob_draw":0.134255,
-    "prob_team2_win":0.050267,
+    "expected_goals1":2.828,
+    "expected_goals2":0.752,
+    "prob_team1_win":0.737364,
+    "prob_draw":0.179449,
+    "prob_team2_win":0.083187,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.126017
-      },
-      {
         "score":"2-0",
-        "probability":0.111135
+        "probability":0.114209
       },
       {
-        "score":"4-0",
-        "probability":0.107168
+        "score":"3-0",
+        "probability":0.099052
       },
       {
-        "score":"5-0",
-        "probability":0.072911
+        "score":"2-1",
+        "probability":0.089325
+      },
+      {
+        "score":"1-0",
+        "probability":0.083998
       },
       {
         "score":"3-1",
-        "probability":0.072348
+        "probability":0.080968
       }
     ],
     "match_id":33,
@@ -1449,38 +1449,38 @@
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.126017}, {\"score\": \"2-0\", \"probability\": 0.111135}, {\"score\": \"4-0\", \"probability\": 0.107168}, {\"score\": \"5-0\", \"probability\": 0.072911}, {\"score\": \"3-1\", \"probability\": 0.072348}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.114209}, {\"score\": \"3-0\", \"probability\": 0.099052}, {\"score\": \"2-1\", \"probability\": 0.089325}, {\"score\": \"1-0\", \"probability\": 0.083998}, {\"score\": \"3-1\", \"probability\": 0.080968}]"
   },
   {
     "team1":"Tunisia",
     "team2":"Japan",
-    "expected_goals1":0.699,
-    "expected_goals2":3.403,
-    "prob_team1_win":0.066546,
-    "prob_draw":0.147173,
-    "prob_team2_win":0.786281,
+    "expected_goals1":0.906,
+    "expected_goals2":2.447,
+    "prob_team1_win":0.128552,
+    "prob_draw":0.216991,
+    "prob_team2_win":0.654457,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-3",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-3",
-        "probability":0.111172
-      },
-      {
         "score":"0-2",
-        "probability":0.098014
-      },
-      {
-        "score":"0-4",
-        "probability":0.094573
-      },
-      {
-        "score":"1-3",
-        "probability":0.077749
+        "probability":0.105603
       },
       {
         "score":"1-2",
-        "probability":0.068547
+        "probability":0.099454
+      },
+      {
+        "score":"0-1",
+        "probability":0.089761
+      },
+      {
+        "score":"1-1",
+        "probability":0.084409
+      },
+      {
+        "score":"0-3",
+        "probability":0.079249
       }
     ],
     "match_id":34,
@@ -1493,38 +1493,38 @@
     "predicted_winner":"Japan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.111172}, {\"score\": \"0-2\", \"probability\": 0.098014}, {\"score\": \"0-4\", \"probability\": 0.094573}, {\"score\": \"1-3\", \"probability\": 0.077749}, {\"score\": \"1-2\", \"probability\": 0.068547}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.105603}, {\"score\": \"1-2\", \"probability\": 0.099454}, {\"score\": \"0-1\", \"probability\": 0.089761}, {\"score\": \"1-1\", \"probability\": 0.084409}, {\"score\": \"0-3\", \"probability\": 0.079249}]"
   },
   {
     "team1":"Japan",
     "team2":"Sweden",
-    "expected_goals1":3.424,
-    "expected_goals2":0.625,
-    "prob_team1_win":0.801816,
-    "prob_draw":0.146651,
-    "prob_team2_win":0.051533,
+    "expected_goals1":2.844,
+    "expected_goals2":0.782,
+    "prob_team1_win":0.725307,
+    "prob_draw":0.19055,
+    "prob_team2_win":0.084142,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.119575
-      },
-      {
         "score":"2-0",
-        "probability":0.10476
+        "probability":0.110315
       },
       {
-        "score":"4-0",
-        "probability":0.102365
+        "score":"3-0",
+        "probability":0.096218
+      },
+      {
+        "score":"2-1",
+        "probability":0.089755
       },
       {
         "score":"3-1",
-        "probability":0.074694
+        "probability":0.08182
       },
       {
-        "score":"5-0",
-        "probability":0.070105
+        "score":"1-0",
+        "probability":0.080676
       }
     ],
     "match_id":35,
@@ -1537,38 +1537,38 @@
     "predicted_winner":"Japan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.119575}, {\"score\": \"2-0\", \"probability\": 0.10476}, {\"score\": \"4-0\", \"probability\": 0.102365}, {\"score\": \"3-1\", \"probability\": 0.074694}, {\"score\": \"5-0\", \"probability\": 0.070105}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.110315}, {\"score\": \"3-0\", \"probability\": 0.096218}, {\"score\": \"2-1\", \"probability\": 0.089755}, {\"score\": \"3-1\", \"probability\": 0.08182}, {\"score\": \"1-0\", \"probability\": 0.080676}]"
   },
   {
     "team1":"Tunisia",
     "team2":"Netherlands",
-    "expected_goals1":0.643,
-    "expected_goals2":3.38,
-    "prob_team1_win":0.068259,
-    "prob_draw":0.141246,
-    "prob_team2_win":0.790494,
+    "expected_goals1":0.865,
+    "expected_goals2":2.434,
+    "prob_team1_win":0.129159,
+    "prob_draw":0.212541,
+    "prob_team2_win":0.6583,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-3",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-3",
-        "probability":0.117857
-      },
-      {
         "score":"0-2",
-        "probability":0.104597
+        "probability":0.110183
       },
       {
-        "score":"0-4",
-        "probability":0.099599
+        "score":"1-2",
+        "probability":0.099154
       },
       {
-        "score":"1-3",
-        "probability":0.075754
+        "score":"0-1",
+        "probability":0.094171
       },
       {
-        "score":"0-5",
-        "probability":0.067336
+        "score":"1-1",
+        "probability":0.084619
+      },
+      {
+        "score":"0-3",
+        "probability":0.082232
       }
     ],
     "match_id":36,
@@ -1581,38 +1581,38 @@
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.117857}, {\"score\": \"0-2\", \"probability\": 0.104597}, {\"score\": \"0-4\", \"probability\": 0.099599}, {\"score\": \"1-3\", \"probability\": 0.075754}, {\"score\": \"0-5\", \"probability\": 0.067336}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.110183}, {\"score\": \"1-2\", \"probability\": 0.099154}, {\"score\": \"0-1\", \"probability\": 0.094171}, {\"score\": \"1-1\", \"probability\": 0.084619}, {\"score\": \"0-3\", \"probability\": 0.082232}]"
   },
   {
     "team1":"Belgium",
     "team2":"Egypt",
-    "expected_goals1":3.077,
-    "expected_goals2":0.739,
-    "prob_team1_win":0.743304,
-    "prob_draw":0.164575,
-    "prob_team2_win":0.092121,
+    "expected_goals1":2.597,
+    "expected_goals2":0.851,
+    "prob_team1_win":0.668654,
+    "prob_draw":0.205118,
+    "prob_team2_win":0.126228,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.108414
-      },
-      {
         "score":"2-0",
-        "probability":0.105708
-      },
-      {
-        "score":"4-0",
-        "probability":0.083392
-      },
-      {
-        "score":"3-1",
-        "probability":0.08008
+        "probability":0.108808
       },
       {
         "score":"2-1",
-        "probability":0.078082
+        "probability":0.096258
+      },
+      {
+        "score":"1-0",
+        "probability":0.087149
+      },
+      {
+        "score":"3-0",
+        "probability":0.086655
+      },
+      {
+        "score":"3-1",
+        "probability":0.080121
       }
     ],
     "match_id":37,
@@ -1625,38 +1625,38 @@
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.108414}, {\"score\": \"2-0\", \"probability\": 0.105708}, {\"score\": \"4-0\", \"probability\": 0.083392}, {\"score\": \"3-1\", \"probability\": 0.08008}, {\"score\": \"2-1\", \"probability\": 0.078082}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.108808}, {\"score\": \"2-1\", \"probability\": 0.096258}, {\"score\": \"1-0\", \"probability\": 0.087149}, {\"score\": \"3-0\", \"probability\": 0.086655}, {\"score\": \"3-1\", \"probability\": 0.080121}]"
   },
   {
     "team1":"Iran",
     "team2":"New Zealand",
-    "expected_goals1":2.571,
-    "expected_goals2":0.911,
-    "prob_team1_win":0.687837,
-    "prob_draw":0.18704,
-    "prob_team2_win":0.125122,
+    "expected_goals1":2.237,
+    "expected_goals2":0.954,
+    "prob_team1_win":0.626418,
+    "prob_draw":0.218557,
+    "prob_team2_win":0.155025,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.102129
+        "probability":0.102975
       },
       {
         "score":"2-1",
-        "probability":0.093035
-      },
-      {
-        "score":"3-0",
-        "probability":0.087528
-      },
-      {
-        "score":"3-1",
-        "probability":0.079735
+        "probability":0.102156
       },
       {
         "score":"1-0",
-        "probability":0.079443
+        "probability":0.09574
+      },
+      {
+        "score":"1-1",
+        "probability":0.094838
+      },
+      {
+        "score":"3-1",
+        "probability":0.073251
       }
     ],
     "match_id":38,
@@ -1669,38 +1669,38 @@
     "predicted_winner":"Iran",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102129}, {\"score\": \"2-1\", \"probability\": 0.093035}, {\"score\": \"3-0\", \"probability\": 0.087528}, {\"score\": \"3-1\", \"probability\": 0.079735}, {\"score\": \"1-0\", \"probability\": 0.079443}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102975}, {\"score\": \"2-1\", \"probability\": 0.102156}, {\"score\": \"1-0\", \"probability\": 0.09574}, {\"score\": \"1-1\", \"probability\": 0.094838}, {\"score\": \"3-1\", \"probability\": 0.073251}]"
   },
   {
     "team1":"Belgium",
     "team2":"Iran",
-    "expected_goals1":2.116,
-    "expected_goals2":1.164,
-    "prob_team1_win":0.533277,
-    "prob_draw":0.239162,
-    "prob_team2_win":0.227561,
+    "expected_goals1":1.913,
+    "expected_goals2":1.106,
+    "prob_team1_win":0.502314,
+    "prob_draw":0.259141,
+    "prob_team2_win":0.238546,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-1",
-        "probability":0.098211
-      },
-      {
         "score":"1-1",
-        "probability":0.092847
+        "probability":0.110614
       },
       {
-        "score":"2-0",
-        "probability":0.084366
+        "score":"2-1",
+        "probability":0.101888
       },
       {
         "score":"1-0",
-        "probability":0.079758
+        "probability":0.096344
+      },
+      {
+        "score":"2-0",
+        "probability":0.088613
       },
       {
         "score":"3-1",
-        "probability":0.069257
+        "probability":0.062475
       }
     ],
     "match_id":39,
@@ -1713,38 +1713,38 @@
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.098211}, {\"score\": \"1-1\", \"probability\": 0.092847}, {\"score\": \"2-0\", \"probability\": 0.084366}, {\"score\": \"1-0\", \"probability\": 0.079758}, {\"score\": \"3-1\", \"probability\": 0.069257}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110614}, {\"score\": \"2-1\", \"probability\": 0.101888}, {\"score\": \"1-0\", \"probability\": 0.096344}, {\"score\": \"2-0\", \"probability\": 0.088613}, {\"score\": \"3-1\", \"probability\": 0.062475}]"
   },
   {
     "team1":"New Zealand",
     "team2":"Egypt",
-    "expected_goals1":1.546,
-    "expected_goals2":1.398,
-    "prob_team1_win":0.370082,
-    "prob_draw":0.273942,
-    "prob_team2_win":0.355976,
+    "expected_goals1":1.508,
+    "expected_goals2":1.246,
+    "prob_team1_win":0.38261,
+    "prob_draw":0.287801,
+    "prob_team2_win":0.329589,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.113837
-      },
-      {
-        "score":"2-1",
-        "probability":0.087989
+        "probability":0.126961
       },
       {
         "score":"1-0",
-        "probability":0.081418
+        "probability":0.098132
       },
       {
-        "score":"1-2",
-        "probability":0.079583
+        "score":"2-1",
+        "probability":0.092171
       },
       {
         "score":"0-1",
-        "probability":0.073639
+        "probability":0.081084
+      },
+      {
+        "score":"1-2",
+        "probability":0.076159
       }
     ],
     "match_id":40,
@@ -1757,38 +1757,38 @@
     "predicted_winner":"New Zealand",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113837}, {\"score\": \"2-1\", \"probability\": 0.087989}, {\"score\": \"1-0\", \"probability\": 0.081418}, {\"score\": \"1-2\", \"probability\": 0.079583}, {\"score\": \"0-1\", \"probability\": 0.073639}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126961}, {\"score\": \"1-0\", \"probability\": 0.098132}, {\"score\": \"2-1\", \"probability\": 0.092171}, {\"score\": \"0-1\", \"probability\": 0.081084}, {\"score\": \"1-2\", \"probability\": 0.076159}]"
   },
   {
     "team1":"Egypt",
     "team2":"Iran",
-    "expected_goals1":1.071,
-    "expected_goals2":2.104,
-    "prob_team1_win":0.19401,
-    "prob_draw":0.232434,
-    "prob_team2_win":0.573556,
+    "expected_goals1":1.17,
+    "expected_goals2":1.669,
+    "prob_team1_win":0.257223,
+    "prob_draw":0.269484,
+    "prob_team2_win":0.473293,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"1-2",
-        "probability":0.099228
-      },
-      {
         "score":"1-1",
-        "probability":0.094338
-      },
-      {
-        "score":"0-2",
-        "probability":0.092658
+        "probability":0.121535
       },
       {
         "score":"0-1",
-        "probability":0.088091
+        "probability":0.100039
       },
       {
-        "score":"1-3",
-        "probability":0.069581
+        "score":"1-2",
+        "probability":0.097643
+      },
+      {
+        "score":"0-2",
+        "probability":0.080254
+      },
+      {
+        "score":"1-0",
+        "probability":0.070138
       }
     ],
     "match_id":41,
@@ -1801,38 +1801,38 @@
     "predicted_winner":"Iran",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.099228}, {\"score\": \"1-1\", \"probability\": 0.094338}, {\"score\": \"0-2\", \"probability\": 0.092658}, {\"score\": \"0-1\", \"probability\": 0.088091}, {\"score\": \"1-3\", \"probability\": 0.069581}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121535}, {\"score\": \"0-1\", \"probability\": 0.100039}, {\"score\": \"1-2\", \"probability\": 0.097643}, {\"score\": \"0-2\", \"probability\": 0.080254}, {\"score\": \"1-0\", \"probability\": 0.070138}]"
   },
   {
     "team1":"New Zealand",
     "team2":"Belgium",
-    "expected_goals1":0.855,
-    "expected_goals2":2.762,
-    "prob_team1_win":0.100378,
-    "prob_draw":0.186544,
-    "prob_team2_win":0.713078,
+    "expected_goals1":1.017,
+    "expected_goals2":2.063,
+    "prob_team1_win":0.170631,
+    "prob_draw":0.24618,
+    "prob_team2_win":0.583189,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.103195
-      },
-      {
-        "score":"0-3",
-        "probability":0.095011
+        "score":"1-1",
+        "probability":0.103611
       },
       {
         "score":"1-2",
-        "probability":0.088277
-      },
-      {
-        "score":"1-3",
-        "probability":0.081276
+        "probability":0.102925
       },
       {
         "score":"0-1",
-        "probability":0.074723
+        "probability":0.098145
+      },
+      {
+        "score":"0-2",
+        "probability":0.097352
+      },
+      {
+        "score":"1-3",
+        "probability":0.068062
       }
     ],
     "match_id":42,
@@ -1845,38 +1845,38 @@
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.103195}, {\"score\": \"0-3\", \"probability\": 0.095011}, {\"score\": \"1-2\", \"probability\": 0.088277}, {\"score\": \"1-3\", \"probability\": 0.081276}, {\"score\": \"0-1\", \"probability\": 0.074723}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103611}, {\"score\": \"1-2\", \"probability\": 0.102925}, {\"score\": \"0-1\", \"probability\": 0.098145}, {\"score\": \"0-2\", \"probability\": 0.097352}, {\"score\": \"1-3\", \"probability\": 0.068062}]"
   },
   {
     "team1":"Spain",
     "team2":"Cape Verde",
     "expected_goals1":4.8,
-    "expected_goals2":0.24,
-    "prob_team1_win":0.910752,
-    "prob_draw":0.068141,
-    "prob_team2_win":0.021108,
+    "expected_goals2":0.552,
+    "prob_team1_win":0.890499,
+    "prob_draw":0.081559,
+    "prob_team2_win":0.027942,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.161479
+        "probability":0.115105
       },
       {
         "score":"5-0",
-        "probability":0.15502
+        "probability":0.110501
       },
       {
         "score":"3-0",
-        "probability":0.134566
+        "probability":0.095921
       },
       {
         "score":"6-0",
-        "probability":0.124016
+        "probability":0.088401
       },
       {
-        "score":"7-0",
-        "probability":0.08504
+        "score":"2-0",
+        "probability":0.065164
       }
     ],
     "match_id":43,
@@ -1889,38 +1889,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.161479}, {\"score\": \"5-0\", \"probability\": 0.15502}, {\"score\": \"3-0\", \"probability\": 0.134566}, {\"score\": \"6-0\", \"probability\": 0.124016}, {\"score\": \"7-0\", \"probability\": 0.08504}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.115105}, {\"score\": \"5-0\", \"probability\": 0.110501}, {\"score\": \"3-0\", \"probability\": 0.095921}, {\"score\": \"6-0\", \"probability\": 0.088401}, {\"score\": \"2-0\", \"probability\": 0.065164}]"
   },
   {
     "team1":"Saudi Arabia",
     "team2":"Uruguay",
-    "expected_goals1":0.698,
-    "expected_goals2":2.342,
-    "prob_team1_win":0.102493,
-    "prob_draw":0.205836,
-    "prob_team2_win":0.691671,
+    "expected_goals1":0.905,
+    "expected_goals2":1.812,
+    "prob_team1_win":0.173994,
+    "prob_draw":0.26348,
+    "prob_team2_win":0.562526,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.131543
-      },
-      {
         "score":"0-1",
-        "probability":0.112319
-      },
-      {
-        "score":"0-3",
-        "probability":0.102704
-      },
-      {
-        "score":"1-2",
-        "probability":0.091835
+        "probability":0.123014
       },
       {
         "score":"1-1",
-        "probability":0.078414
+        "probability":0.115569
+      },
+      {
+        "score":"0-2",
+        "probability":0.107142
+      },
+      {
+        "score":"1-2",
+        "probability":0.100806
+      },
+      {
+        "score":"0-0",
+        "probability":0.070514
       }
     ],
     "match_id":44,
@@ -1933,38 +1933,38 @@
     "predicted_winner":"Uruguay",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.131543}, {\"score\": \"0-1\", \"probability\": 0.112319}, {\"score\": \"0-3\", \"probability\": 0.102704}, {\"score\": \"1-2\", \"probability\": 0.091835}, {\"score\": \"1-1\", \"probability\": 0.078414}]"
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.123014}, {\"score\": \"1-1\", \"probability\": 0.115569}, {\"score\": \"0-2\", \"probability\": 0.107142}, {\"score\": \"1-2\", \"probability\": 0.100806}, {\"score\": \"0-0\", \"probability\": 0.070514}]"
   },
   {
     "team1":"Spain",
     "team2":"Saudi Arabia",
     "expected_goals1":4.8,
-    "expected_goals2":0.311,
-    "prob_team1_win":0.888929,
-    "prob_draw":0.081874,
-    "prob_team2_win":0.029197,
+    "expected_goals2":0.595,
+    "prob_team1_win":0.869298,
+    "prob_draw":0.094607,
+    "prob_team2_win":0.036095,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.150375
+        "probability":0.110217
       },
       {
         "score":"5-0",
-        "probability":0.14436
+        "probability":0.105808
       },
       {
         "score":"3-0",
-        "probability":0.125313
+        "probability":0.091848
       },
       {
         "score":"6-0",
-        "probability":0.115488
+        "probability":0.084647
       },
       {
-        "score":"7-0",
-        "probability":0.079192
+        "score":"4-1",
+        "probability":0.06553
       }
     ],
     "match_id":45,
@@ -1977,38 +1977,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.150375}, {\"score\": \"5-0\", \"probability\": 0.14436}, {\"score\": \"3-0\", \"probability\": 0.125313}, {\"score\": \"6-0\", \"probability\": 0.115488}, {\"score\": \"7-0\", \"probability\": 0.079192}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.110217}, {\"score\": \"5-0\", \"probability\": 0.105808}, {\"score\": \"3-0\", \"probability\": 0.091848}, {\"score\": \"6-0\", \"probability\": 0.084647}, {\"score\": \"4-1\", \"probability\": 0.06553}]"
   },
   {
     "team1":"Uruguay",
     "team2":"Cape Verde",
-    "expected_goals1":3.492,
-    "expected_goals2":0.461,
-    "prob_team1_win":0.85659,
-    "prob_draw":0.102132,
-    "prob_team2_win":0.041278,
+    "expected_goals1":2.892,
+    "expected_goals2":0.684,
+    "prob_team1_win":0.777219,
+    "prob_draw":0.149692,
+    "prob_team2_win":0.073089,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.13989
-      },
-      {
-        "score":"4-0",
-        "probability":0.122106
-      },
-      {
         "score":"2-0",
-        "probability":0.120197
+        "probability":0.120308
       },
       {
-        "score":"5-0",
-        "probability":0.085267
+        "score":"3-0",
+        "probability":0.106698
       },
       {
         "score":"1-0",
-        "probability":0.068851
+        "probability":0.086529
+      },
+      {
+        "score":"2-1",
+        "probability":0.085644
+      },
+      {
+        "score":"3-1",
+        "probability":0.079385
       }
     ],
     "match_id":46,
@@ -2021,38 +2021,38 @@
     "predicted_winner":"Uruguay",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.13989}, {\"score\": \"4-0\", \"probability\": 0.122106}, {\"score\": \"2-0\", \"probability\": 0.120197}, {\"score\": \"5-0\", \"probability\": 0.085267}, {\"score\": \"1-0\", \"probability\": 0.068851}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.120308}, {\"score\": \"3-0\", \"probability\": 0.106698}, {\"score\": \"1-0\", \"probability\": 0.086529}, {\"score\": \"2-1\", \"probability\": 0.085644}, {\"score\": \"3-1\", \"probability\": 0.079385}]"
   },
   {
     "team1":"Cape Verde",
     "team2":"Saudi Arabia",
-    "expected_goals1":1.048,
-    "expected_goals2":1.488,
-    "prob_team1_win":0.256148,
-    "prob_draw":0.290825,
-    "prob_team2_win":0.453027,
+    "expected_goals1":1.154,
+    "expected_goals2":1.3,
+    "prob_team1_win":0.301448,
+    "prob_draw":0.308512,
+    "prob_team2_win":0.39004,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.123502
+        "probability":0.136085
       },
       {
         "score":"0-1",
-        "probability":0.117843
-      },
-      {
-        "score":"1-2",
-        "probability":0.091883
-      },
-      {
-        "score":"0-2",
-        "probability":0.087673
+        "probability":0.113596
       },
       {
         "score":"1-0",
-        "probability":0.083001
+        "probability":0.10083
+      },
+      {
+        "score":"0-0",
+        "probability":0.090766
+      },
+      {
+        "score":"1-2",
+        "probability":0.085157
       }
     ],
     "match_id":47,
@@ -2065,38 +2065,38 @@
     "predicted_winner":"Saudi Arabia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123502}, {\"score\": \"0-1\", \"probability\": 0.117843}, {\"score\": \"1-2\", \"probability\": 0.091883}, {\"score\": \"0-2\", \"probability\": 0.087673}, {\"score\": \"1-0\", \"probability\": 0.083001}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.136085}, {\"score\": \"0-1\", \"probability\": 0.113596}, {\"score\": \"1-0\", \"probability\": 0.10083}, {\"score\": \"0-0\", \"probability\": 0.090766}, {\"score\": \"1-2\", \"probability\": 0.085157}]"
   },
   {
     "team1":"Uruguay",
     "team2":"Spain",
-    "expected_goals1":0.731,
-    "expected_goals2":2.921,
-    "prob_team1_win":0.084396,
-    "prob_draw":0.167682,
-    "prob_team2_win":0.747921,
+    "expected_goals1":0.928,
+    "expected_goals2":2.159,
+    "prob_team1_win":0.15252,
+    "prob_draw":0.233942,
+    "prob_team2_win":0.613538,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.111849
-      },
-      {
-        "score":"0-3",
-        "probability":0.108921
+        "probability":0.106192
       },
       {
         "score":"1-2",
-        "probability":0.081707
+        "probability":0.102456
+      },
+      {
+        "score":"0-1",
+        "probability":0.102321
+      },
+      {
+        "score":"1-1",
+        "probability":0.098575
       },
       {
         "score":"1-3",
-        "probability":0.079568
-      },
-      {
-        "score":"0-4",
-        "probability":0.079553
+        "probability":0.070889
       }
     ],
     "match_id":48,
@@ -2109,38 +2109,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.111849}, {\"score\": \"0-3\", \"probability\": 0.108921}, {\"score\": \"1-2\", \"probability\": 0.081707}, {\"score\": \"1-3\", \"probability\": 0.079568}, {\"score\": \"0-4\", \"probability\": 0.079553}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.106192}, {\"score\": \"1-2\", \"probability\": 0.102456}, {\"score\": \"0-1\", \"probability\": 0.102321}, {\"score\": \"1-1\", \"probability\": 0.098575}, {\"score\": \"1-3\", \"probability\": 0.070889}]"
   },
   {
     "team1":"France",
     "team2":"Senegal",
-    "expected_goals1":3.412,
-    "expected_goals2":0.684,
-    "prob_team1_win":0.78536,
-    "prob_draw":0.134731,
-    "prob_team2_win":0.079909,
+    "expected_goals1":2.835,
+    "expected_goals2":0.818,
+    "prob_team1_win":0.71042,
+    "prob_draw":0.177203,
+    "prob_team2_win":0.112377,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.112828
-      },
-      {
         "score":"2-0",
-        "probability":0.099213
+        "probability":0.106671
       },
       {
-        "score":"4-0",
-        "probability":0.096233
-      },
-      {
-        "score":"3-1",
-        "probability":0.077155
+        "score":"3-0",
+        "probability":0.092746
       },
       {
         "score":"2-1",
-        "probability":0.067845
+        "probability":0.090723
+      },
+      {
+        "score":"3-1",
+        "probability":0.082442
+      },
+      {
+        "score":"1-0",
+        "probability":0.078257
       }
     ],
     "match_id":49,
@@ -2153,38 +2153,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.112828}, {\"score\": \"2-0\", \"probability\": 0.099213}, {\"score\": \"4-0\", \"probability\": 0.096233}, {\"score\": \"3-1\", \"probability\": 0.077155}, {\"score\": \"2-1\", \"probability\": 0.067845}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.106671}, {\"score\": \"3-0\", \"probability\": 0.092746}, {\"score\": \"2-1\", \"probability\": 0.090723}, {\"score\": \"3-1\", \"probability\": 0.082442}, {\"score\": \"1-0\", \"probability\": 0.078257}]"
   },
   {
     "team1":"Iraq",
     "team2":"Norway",
-    "expected_goals1":0.745,
-    "expected_goals2":2.572,
-    "prob_team1_win":0.112109,
-    "prob_draw":0.192763,
-    "prob_team2_win":0.695127,
+    "expected_goals1":0.938,
+    "expected_goals2":1.95,
+    "prob_team1_win":0.182802,
+    "prob_draw":0.2534,
+    "prob_team2_win":0.563798,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.120493
-      },
-      {
-        "score":"0-3",
-        "probability":0.103322
-      },
-      {
         "score":"0-1",
-        "probability":0.093679
+        "probability":0.11198
+      },
+      {
+        "score":"1-1",
+        "probability":0.109105
+      },
+      {
+        "score":"0-2",
+        "probability":0.104957
       },
       {
         "score":"1-2",
-        "probability":0.089805
+        "probability":0.102414
       },
       {
         "score":"1-3",
-        "probability":0.077006
+        "probability":0.063994
       }
     ],
     "match_id":50,
@@ -2197,38 +2197,38 @@
     "predicted_winner":"Norway",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.120493}, {\"score\": \"0-3\", \"probability\": 0.103322}, {\"score\": \"0-1\", \"probability\": 0.093679}, {\"score\": \"1-2\", \"probability\": 0.089805}, {\"score\": \"1-3\", \"probability\": 0.077006}]"
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.11198}, {\"score\": \"1-1\", \"probability\": 0.109105}, {\"score\": \"0-2\", \"probability\": 0.104957}, {\"score\": \"1-2\", \"probability\": 0.102414}, {\"score\": \"1-3\", \"probability\": 0.063994}]"
   },
   {
     "team1":"France",
     "team2":"Iraq",
-    "expected_goals1":4.8,
-    "expected_goals2":0.402,
-    "prob_team1_win":0.881794,
-    "prob_draw":0.089123,
-    "prob_team2_win":0.029083,
+    "expected_goals1":3.845,
+    "expected_goals2":0.649,
+    "prob_team1_win":0.828184,
+    "prob_draw":0.124653,
+    "prob_team2_win":0.047164,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
+        "score":"3-0",
+        "probability":0.105918
+      },
+      {
         "score":"4-0",
-        "probability":0.137333
+        "probability":0.10182
+      },
+      {
+        "score":"2-0",
+        "probability":0.089821
       },
       {
         "score":"5-0",
-        "probability":0.131839
+        "probability":0.078304
       },
       {
-        "score":"3-0",
-        "probability":0.114444
-      },
-      {
-        "score":"6-0",
-        "probability":0.105472
-      },
-      {
-        "score":"7-0",
-        "probability":0.072323
+        "score":"3-1",
+        "probability":0.07471
       }
     ],
     "match_id":51,
@@ -2241,38 +2241,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.137333}, {\"score\": \"5-0\", \"probability\": 0.131839}, {\"score\": \"3-0\", \"probability\": 0.114444}, {\"score\": \"6-0\", \"probability\": 0.105472}, {\"score\": \"7-0\", \"probability\": 0.072323}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.105918}, {\"score\": \"4-0\", \"probability\": 0.10182}, {\"score\": \"2-0\", \"probability\": 0.089821}, {\"score\": \"5-0\", \"probability\": 0.078304}, {\"score\": \"3-1\", \"probability\": 0.07471}]"
   },
   {
     "team1":"Norway",
     "team2":"Senegal",
-    "expected_goals1":2.12,
-    "expected_goals2":1.086,
-    "prob_team1_win":0.54047,
-    "prob_draw":0.238513,
-    "prob_team2_win":0.221017,
+    "expected_goals1":1.916,
+    "expected_goals2":1.059,
+    "prob_team1_win":0.503721,
+    "prob_draw":0.259659,
+    "prob_team2_win":0.236621,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-1",
-        "probability":0.09904
-      },
-      {
         "score":"1-1",
-        "probability":0.093453
+        "probability":0.110843
       },
       {
-        "score":"2-0",
-        "probability":0.09116
+        "score":"2-1",
+        "probability":0.102252
       },
       {
         "score":"1-0",
-        "probability":0.086017
+        "probability":0.100786
+      },
+      {
+        "score":"2-0",
+        "probability":0.092837
       },
       {
         "score":"3-1",
-        "probability":0.069974
+        "probability":0.062791
       }
     ],
     "match_id":52,
@@ -2285,38 +2285,38 @@
     "predicted_winner":"Norway",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.09904}, {\"score\": \"1-1\", \"probability\": 0.093453}, {\"score\": \"2-0\", \"probability\": 0.09116}, {\"score\": \"1-0\", \"probability\": 0.086017}, {\"score\": \"3-1\", \"probability\": 0.069974}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110843}, {\"score\": \"2-1\", \"probability\": 0.102252}, {\"score\": \"1-0\", \"probability\": 0.100786}, {\"score\": \"2-0\", \"probability\": 0.092837}, {\"score\": \"3-1\", \"probability\": 0.062791}]"
   },
   {
     "team1":"Norway",
     "team2":"France",
-    "expected_goals1":1.021,
-    "expected_goals2":2.238,
-    "prob_team1_win":0.158571,
-    "prob_draw":0.2279,
-    "prob_team2_win":0.613529,
+    "expected_goals1":1.135,
+    "expected_goals2":1.749,
+    "prob_team1_win":0.225247,
+    "prob_draw":0.270249,
+    "prob_team2_win":0.504504,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"1-2",
-        "probability":0.098467
-      },
-      {
-        "score":"0-2",
-        "probability":0.096412
-      },
-      {
         "score":"1-1",
-        "probability":0.08798
+        "probability":0.118282
       },
       {
         "score":"0-1",
-        "probability":0.086144
+        "probability":0.100389
       },
       {
-        "score":"1-3",
-        "probability":0.073469
+        "score":"1-2",
+        "probability":0.099627
+      },
+      {
+        "score":"0-2",
+        "probability":0.084431
+      },
+      {
+        "score":"1-0",
+        "probability":0.065111
       }
     ],
     "match_id":53,
@@ -2329,38 +2329,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.098467}, {\"score\": \"0-2\", \"probability\": 0.096412}, {\"score\": \"1-1\", \"probability\": 0.08798}, {\"score\": \"0-1\", \"probability\": 0.086144}, {\"score\": \"1-3\", \"probability\": 0.073469}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118282}, {\"score\": \"0-1\", \"probability\": 0.100389}, {\"score\": \"1-2\", \"probability\": 0.099627}, {\"score\": \"0-2\", \"probability\": 0.084431}, {\"score\": \"1-0\", \"probability\": 0.065111}]"
   },
   {
     "team1":"Senegal",
     "team2":"Iraq",
-    "expected_goals1":2.345,
-    "expected_goals2":0.834,
-    "prob_team1_win":0.640936,
-    "prob_draw":0.232386,
-    "prob_team2_win":0.126678,
+    "expected_goals1":2.076,
+    "expected_goals2":0.908,
+    "prob_team1_win":0.579056,
+    "prob_draw":0.262817,
+    "prob_team2_win":0.158127,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.114745
-      },
-      {
         "score":"1-0",
-        "probability":0.097863
+        "probability":0.108712
       },
       {
-        "score":"2-1",
-        "probability":0.095741
-      },
-      {
-        "score":"3-0",
-        "probability":0.089693
+        "score":"2-0",
+        "probability":0.10852
       },
       {
         "score":"1-1",
-        "probability":0.081655
+        "probability":0.102507
+      },
+      {
+        "score":"2-1",
+        "probability":0.102478
+      },
+      {
+        "score":"3-0",
+        "probability":0.069099
       }
     ],
     "match_id":54,
@@ -2373,38 +2373,38 @@
     "predicted_winner":"Senegal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.114745}, {\"score\": \"1-0\", \"probability\": 0.097863}, {\"score\": \"2-1\", \"probability\": 0.095741}, {\"score\": \"3-0\", \"probability\": 0.089693}, {\"score\": \"1-1\", \"probability\": 0.081655}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.108712}, {\"score\": \"2-0\", \"probability\": 0.10852}, {\"score\": \"1-1\", \"probability\": 0.102507}, {\"score\": \"2-1\", \"probability\": 0.102478}, {\"score\": \"3-0\", \"probability\": 0.069099}]"
   },
   {
     "team1":"Argentina",
     "team2":"Algeria",
-    "expected_goals1":3.662,
-    "expected_goals2":0.669,
-    "prob_team1_win":0.836327,
-    "prob_draw":0.109162,
-    "prob_team2_win":0.054511,
+    "expected_goals1":3.013,
+    "expected_goals2":0.809,
+    "prob_team1_win":0.763578,
+    "prob_draw":0.151421,
+    "prob_team2_win":0.085002,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.111451
-      },
-      {
-        "score":"4-0",
-        "probability":0.102029
-      },
-      {
         "score":"2-0",
-        "probability":0.091307
+        "probability":0.102596
       },
       {
-        "score":"5-0",
-        "probability":0.074723
+        "score":"3-0",
+        "probability":0.094803
+      },
+      {
+        "score":"2-1",
+        "probability":0.08628
       },
       {
         "score":"3-1",
-        "probability":0.074509
+        "probability":0.083326
+      },
+      {
+        "score":"4-0",
+        "probability":0.071415
       }
     ],
     "match_id":55,
@@ -2417,38 +2417,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.111451}, {\"score\": \"4-0\", \"probability\": 0.102029}, {\"score\": \"2-0\", \"probability\": 0.091307}, {\"score\": \"5-0\", \"probability\": 0.074723}, {\"score\": \"3-1\", \"probability\": 0.074509}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102596}, {\"score\": \"3-0\", \"probability\": 0.094803}, {\"score\": \"2-1\", \"probability\": 0.08628}, {\"score\": \"3-1\", \"probability\": 0.083326}, {\"score\": \"4-0\", \"probability\": 0.071415}]"
   },
   {
     "team1":"Austria",
     "team2":"Jordan",
-    "expected_goals1":2.13,
-    "expected_goals2":0.885,
-    "prob_team1_win":0.60811,
-    "prob_draw":0.233162,
-    "prob_team2_win":0.158727,
+    "expected_goals1":1.924,
+    "expected_goals2":0.938,
+    "prob_team1_win":0.555913,
+    "prob_draw":0.258452,
+    "prob_team2_win":0.185635,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.111438
-      },
-      {
         "score":"1-0",
-        "probability":0.104613
-      },
-      {
-        "score":"2-1",
-        "probability":0.098621
+        "probability":0.113291
       },
       {
         "score":"1-1",
-        "probability":0.09258
+        "probability":0.110392
       },
       {
-        "score":"3-0",
-        "probability":0.079139
+        "score":"2-0",
+        "probability":0.104778
+      },
+      {
+        "score":"2-1",
+        "probability":0.102249
+      },
+      {
+        "score":"3-1",
+        "probability":0.063044
       }
     ],
     "match_id":56,
@@ -2461,38 +2461,38 @@
     "predicted_winner":"Austria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.111438}, {\"score\": \"1-0\", \"probability\": 0.104613}, {\"score\": \"2-1\", \"probability\": 0.098621}, {\"score\": \"1-1\", \"probability\": 0.09258}, {\"score\": \"3-0\", \"probability\": 0.079139}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.113291}, {\"score\": \"1-1\", \"probability\": 0.110392}, {\"score\": \"2-0\", \"probability\": 0.104778}, {\"score\": \"2-1\", \"probability\": 0.102249}, {\"score\": \"3-1\", \"probability\": 0.063044}]"
   },
   {
     "team1":"Argentina",
     "team2":"Austria",
-    "expected_goals1":3.451,
-    "expected_goals2":0.641,
-    "prob_team1_win":0.830124,
-    "prob_draw":0.114111,
-    "prob_team2_win":0.055765,
+    "expected_goals1":2.863,
+    "expected_goals2":0.792,
+    "prob_team1_win":0.754342,
+    "prob_draw":0.157561,
+    "prob_team2_win":0.088098,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.117343
-      },
-      {
         "score":"2-0",
-        "probability":0.102016
+        "probability":0.108696
       },
       {
-        "score":"4-0",
-        "probability":0.101229
+        "score":"3-0",
+        "probability":0.095433
+      },
+      {
+        "score":"2-1",
+        "probability":0.089553
       },
       {
         "score":"3-1",
-        "probability":0.075232
+        "probability":0.082175
       },
       {
-        "score":"5-0",
-        "probability":0.069862
+        "score":"1-0",
+        "probability":0.07897
       }
     ],
     "match_id":57,
@@ -2505,38 +2505,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.117343}, {\"score\": \"2-0\", \"probability\": 0.102016}, {\"score\": \"4-0\", \"probability\": 0.101229}, {\"score\": \"3-1\", \"probability\": 0.075232}, {\"score\": \"5-0\", \"probability\": 0.069862}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.108696}, {\"score\": \"3-0\", \"probability\": 0.095433}, {\"score\": \"2-1\", \"probability\": 0.089553}, {\"score\": \"3-1\", \"probability\": 0.082175}, {\"score\": \"1-0\", \"probability\": 0.07897}]"
   },
   {
     "team1":"Jordan",
     "team2":"Algeria",
-    "expected_goals1":1.096,
-    "expected_goals2":1.904,
-    "prob_team1_win":0.219642,
-    "prob_draw":0.249581,
-    "prob_team2_win":0.530778,
+    "expected_goals1":1.188,
+    "expected_goals2":1.549,
+    "prob_team1_win":0.277323,
+    "prob_draw":0.280061,
+    "prob_team2_win":0.442616,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.103985
-      },
-      {
-        "score":"1-2",
-        "probability":0.098991
+        "probability":0.126496
       },
       {
         "score":"0-1",
-        "probability":0.094894
+        "probability":0.102569
+      },
+      {
+        "score":"1-2",
+        "probability":0.094338
+      },
+      {
+        "score":"1-0",
+        "probability":0.078641
       },
       {
         "score":"0-2",
-        "probability":0.090337
-      },
-      {
-        "score":"1-3",
-        "probability":0.062824
+        "probability":0.076381
       }
     ],
     "match_id":58,
@@ -2549,38 +2549,38 @@
     "predicted_winner":"Algeria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103985}, {\"score\": \"1-2\", \"probability\": 0.098991}, {\"score\": \"0-1\", \"probability\": 0.094894}, {\"score\": \"0-2\", \"probability\": 0.090337}, {\"score\": \"1-3\", \"probability\": 0.062824}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126496}, {\"score\": \"0-1\", \"probability\": 0.102569}, {\"score\": \"1-2\", \"probability\": 0.094338}, {\"score\": \"1-0\", \"probability\": 0.078641}, {\"score\": \"0-2\", \"probability\": 0.076381}]"
   },
   {
     "team1":"Algeria",
     "team2":"Austria",
-    "expected_goals1":1.597,
-    "expected_goals2":1.393,
-    "prob_team1_win":0.394436,
-    "prob_draw":0.274303,
-    "prob_team2_win":0.331261,
+    "expected_goals1":1.544,
+    "expected_goals2":1.243,
+    "prob_team1_win":0.403884,
+    "prob_draw":0.288336,
+    "prob_team2_win":0.30778,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.111909
-      },
-      {
-        "score":"2-1",
-        "probability":0.089364
+        "probability":0.125545
       },
       {
         "score":"1-0",
-        "probability":0.080339
+        "probability":0.097282
       },
       {
-        "score":"1-2",
-        "probability":0.077942
+        "score":"2-1",
+        "probability":0.093345
       },
       {
         "score":"0-1",
-        "probability":0.070071
+        "probability":0.078289
+      },
+      {
+        "score":"1-2",
+        "probability":0.07512
       }
     ],
     "match_id":59,
@@ -2593,38 +2593,38 @@
     "predicted_winner":"Algeria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.111909}, {\"score\": \"2-1\", \"probability\": 0.089364}, {\"score\": \"1-0\", \"probability\": 0.080339}, {\"score\": \"1-2\", \"probability\": 0.077942}, {\"score\": \"0-1\", \"probability\": 0.070071}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125545}, {\"score\": \"1-0\", \"probability\": 0.097282}, {\"score\": \"2-1\", \"probability\": 0.093345}, {\"score\": \"0-1\", \"probability\": 0.078289}, {\"score\": \"1-2\", \"probability\": 0.07512}]"
   },
   {
     "team1":"Jordan",
     "team2":"Argentina",
-    "expected_goals1":0.504,
-    "expected_goals2":4.114,
-    "prob_team1_win":0.044462,
-    "prob_draw":0.089576,
-    "prob_team2_win":0.865962,
+    "expected_goals1":0.767,
+    "expected_goals2":2.873,
+    "prob_team1_win":0.090207,
+    "prob_draw":0.158734,
+    "prob_team2_win":0.751059,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-4",
+    "most_likely_score":"0-2",
     "top_scores":[
       {
-        "score":"0-4",
-        "probability":0.125072
+        "score":"0-2",
+        "probability":0.11123
       },
       {
         "score":"0-3",
-        "probability":0.121615
+        "probability":0.098005
       },
       {
-        "score":"0-5",
-        "probability":0.102903
+        "score":"1-2",
+        "probability":0.088705
       },
       {
-        "score":"0-2",
-        "probability":0.088689
+        "score":"1-3",
+        "probability":0.081687
       },
       {
-        "score":"0-6",
-        "probability":0.070552
+        "score":"0-1",
+        "probability":0.080524
       }
     ],
     "match_id":60,
@@ -2637,38 +2637,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-4\", \"probability\": 0.125072}, {\"score\": \"0-3\", \"probability\": 0.121615}, {\"score\": \"0-5\", \"probability\": 0.102903}, {\"score\": \"0-2\", \"probability\": 0.088689}, {\"score\": \"0-6\", \"probability\": 0.070552}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.11123}, {\"score\": \"0-3\", \"probability\": 0.098005}, {\"score\": \"1-2\", \"probability\": 0.088705}, {\"score\": \"1-3\", \"probability\": 0.081687}, {\"score\": \"0-1\", \"probability\": 0.080524}]"
   },
   {
     "team1":"Portugal",
     "team2":"DR Congo",
-    "expected_goals1":4.151,
-    "expected_goals2":0.505,
-    "prob_team1_win":0.839739,
-    "prob_draw":0.117714,
-    "prob_team2_win":0.042546,
+    "expected_goals1":3.361,
+    "expected_goals2":0.711,
+    "prob_team1_win":0.772512,
+    "prob_draw":0.15965,
+    "prob_team2_win":0.067838,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.125112
-      },
-      {
         "score":"3-0",
-        "probability":0.120564
-      },
-      {
-        "score":"5-0",
-        "probability":0.103865
+        "probability":0.104452
       },
       {
         "score":"2-0",
-        "probability":0.087136
+        "probability":0.101338
       },
       {
-        "score":"6-0",
-        "probability":0.071855
+        "score":"4-0",
+        "probability":0.087768
+      },
+      {
+        "score":"3-1",
+        "probability":0.08071
+      },
+      {
+        "score":"2-1",
+        "probability":0.074921
       }
     ],
     "match_id":61,
@@ -2681,38 +2681,38 @@
     "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.125112}, {\"score\": \"3-0\", \"probability\": 0.120564}, {\"score\": \"5-0\", \"probability\": 0.103865}, {\"score\": \"2-0\", \"probability\": 0.087136}, {\"score\": \"6-0\", \"probability\": 0.071855}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.104452}, {\"score\": \"2-0\", \"probability\": 0.101338}, {\"score\": \"4-0\", \"probability\": 0.087768}, {\"score\": \"3-1\", \"probability\": 0.08071}, {\"score\": \"2-1\", \"probability\": 0.074921}]"
   },
   {
     "team1":"Uzbekistan",
     "team2":"Colombia",
-    "expected_goals1":0.845,
-    "expected_goals2":2.257,
-    "prob_team1_win":0.142736,
-    "prob_draw":0.217301,
-    "prob_team2_win":0.639964,
+    "expected_goals1":1.009,
+    "expected_goals2":1.761,
+    "prob_team1_win":0.212744,
+    "prob_draw":0.266611,
+    "prob_team2_win":0.520645,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.114766
+        "score":"1-1",
+        "probability":0.118625
       },
       {
         "score":"0-1",
-        "probability":0.101676
+        "probability":0.113191
       },
       {
         "score":"1-2",
-        "probability":0.096983
+        "probability":0.100569
       },
       {
-        "score":"0-3",
-        "probability":0.086361
+        "score":"0-2",
+        "probability":0.09582
       },
       {
-        "score":"1-1",
-        "probability":0.085921
+        "score":"0-0",
+        "probability":0.066756
       }
     ],
     "match_id":62,
@@ -2725,38 +2725,38 @@
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.114766}, {\"score\": \"0-1\", \"probability\": 0.101676}, {\"score\": \"1-2\", \"probability\": 0.096983}, {\"score\": \"0-3\", \"probability\": 0.086361}, {\"score\": \"1-1\", \"probability\": 0.085921}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118625}, {\"score\": \"0-1\", \"probability\": 0.113191}, {\"score\": \"1-2\", \"probability\": 0.100569}, {\"score\": \"0-2\", \"probability\": 0.09582}, {\"score\": \"0-0\", \"probability\": 0.066756}]"
   },
   {
     "team1":"Portugal",
     "team2":"Uzbekistan",
-    "expected_goals1":3.033,
-    "expected_goals2":0.734,
-    "prob_team1_win":0.748863,
-    "prob_draw":0.170015,
-    "prob_team2_win":0.081122,
+    "expected_goals1":2.566,
+    "expected_goals2":0.848,
+    "prob_team1_win":0.673961,
+    "prob_draw":0.210518,
+    "prob_team2_win":0.115521,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.10894
-      },
-      {
         "score":"2-0",
-        "probability":0.107759
-      },
-      {
-        "score":"4-0",
-        "probability":0.0826
-      },
-      {
-        "score":"3-1",
-        "probability":0.079915
+        "probability":0.109782
       },
       {
         "score":"2-1",
-        "probability":0.079049
+        "probability":0.096772
+      },
+      {
+        "score":"1-0",
+        "probability":0.089
+      },
+      {
+        "score":"3-0",
+        "probability":0.086378
+      },
+      {
+        "score":"3-1",
+        "probability":0.07958
       }
     ],
     "match_id":63,
@@ -2769,38 +2769,38 @@
     "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.10894}, {\"score\": \"2-0\", \"probability\": 0.107759}, {\"score\": \"4-0\", \"probability\": 0.0826}, {\"score\": \"3-1\", \"probability\": 0.079915}, {\"score\": \"2-1\", \"probability\": 0.079049}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.109782}, {\"score\": \"2-1\", \"probability\": 0.096772}, {\"score\": \"1-0\", \"probability\": 0.089}, {\"score\": \"3-0\", \"probability\": 0.086378}, {\"score\": \"3-1\", \"probability\": 0.07958}]"
   },
   {
     "team1":"Colombia",
     "team2":"DR Congo",
-    "expected_goals1":3.605,
-    "expected_goals2":0.499,
-    "prob_team1_win":0.827064,
-    "prob_draw":0.115426,
-    "prob_team2_win":0.05751,
+    "expected_goals1":2.973,
+    "expected_goals2":0.707,
+    "prob_team1_win":0.750224,
+    "prob_draw":0.161519,
+    "prob_team2_win":0.088257,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.133012
-      },
-      {
-        "score":"4-0",
-        "probability":0.119879
-      },
-      {
         "score":"2-0",
-        "probability":0.110687
+        "probability":0.115033
       },
       {
-        "score":"5-0",
-        "probability":0.086435
+        "score":"3-0",
+        "probability":0.10487
+      },
+      {
+        "score":"2-1",
+        "probability":0.084585
       },
       {
         "score":"3-1",
-        "probability":0.066374
+        "probability":0.080594
+      },
+      {
+        "score":"1-0",
+        "probability":0.080486
       }
     ],
     "match_id":64,
@@ -2813,38 +2813,38 @@
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.133012}, {\"score\": \"4-0\", \"probability\": 0.119879}, {\"score\": \"2-0\", \"probability\": 0.110687}, {\"score\": \"5-0\", \"probability\": 0.086435}, {\"score\": \"3-1\", \"probability\": 0.066374}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.115033}, {\"score\": \"3-0\", \"probability\": 0.10487}, {\"score\": \"2-1\", \"probability\": 0.084585}, {\"score\": \"3-1\", \"probability\": 0.080594}, {\"score\": \"1-0\", \"probability\": 0.080486}]"
   },
   {
     "team1":"Colombia",
     "team2":"Portugal",
-    "expected_goals1":1.482,
-    "expected_goals2":1.444,
-    "prob_team1_win":0.355799,
-    "prob_draw":0.290711,
-    "prob_team2_win":0.353489,
+    "expected_goals1":1.463,
+    "expected_goals2":1.273,
+    "prob_team1_win":0.374615,
+    "prob_draw":0.305048,
+    "prob_team2_win":0.320337,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.114735
-      },
-      {
-        "score":"2-1",
-        "probability":0.085045
-      },
-      {
-        "score":"1-2",
-        "probability":0.082853
+        "probability":0.128045
       },
       {
         "score":"1-0",
-        "probability":0.079442
+        "probability":0.096824
+      },
+      {
+        "score":"2-1",
+        "probability":0.090176
       },
       {
         "score":"0-1",
-        "probability":0.077394
+        "probability":0.084299
+      },
+      {
+        "score":"1-2",
+        "probability":0.078511
       }
     ],
     "match_id":65,
@@ -2857,38 +2857,38 @@
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.114735}, {\"score\": \"2-1\", \"probability\": 0.085045}, {\"score\": \"1-2\", \"probability\": 0.082853}, {\"score\": \"1-0\", \"probability\": 0.079442}, {\"score\": \"0-1\", \"probability\": 0.077394}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.128045}, {\"score\": \"1-0\", \"probability\": 0.096824}, {\"score\": \"2-1\", \"probability\": 0.090176}, {\"score\": \"0-1\", \"probability\": 0.084299}, {\"score\": \"1-2\", \"probability\": 0.078511}]"
   },
   {
     "team1":"DR Congo",
     "team2":"Uzbekistan",
-    "expected_goals1":1.048,
-    "expected_goals2":1.784,
-    "prob_team1_win":0.226403,
-    "prob_draw":0.258372,
-    "prob_team2_win":0.515225,
+    "expected_goals1":1.154,
+    "expected_goals2":1.477,
+    "prob_team1_win":0.282504,
+    "prob_draw":0.286254,
+    "prob_team2_win":0.431242,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110178
+        "probability":0.130004
       },
       {
         "score":"0-1",
-        "probability":0.105143
+        "probability":0.108529
       },
       {
         "score":"1-2",
-        "probability":0.098273
-      },
-      {
-        "score":"0-2",
-        "probability":0.093782
+        "probability":0.092452
       },
       {
         "score":"1-0",
-        "probability":0.061762
+        "probability":0.084759
+      },
+      {
+        "score":"0-2",
+        "probability":0.077066
       }
     ],
     "match_id":66,
@@ -2901,38 +2901,38 @@
     "predicted_winner":"Uzbekistan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110178}, {\"score\": \"0-1\", \"probability\": 0.105143}, {\"score\": \"1-2\", \"probability\": 0.098273}, {\"score\": \"0-2\", \"probability\": 0.093782}, {\"score\": \"1-0\", \"probability\": 0.061762}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.130004}, {\"score\": \"0-1\", \"probability\": 0.108529}, {\"score\": \"1-2\", \"probability\": 0.092452}, {\"score\": \"1-0\", \"probability\": 0.084759}, {\"score\": \"0-2\", \"probability\": 0.077066}]"
   },
   {
     "team1":"England",
     "team2":"Croatia",
-    "expected_goals1":2.333,
-    "expected_goals2":0.993,
-    "prob_team1_win":0.623442,
-    "prob_draw":0.229474,
-    "prob_team2_win":0.147084,
+    "expected_goals1":2.068,
+    "expected_goals2":1.003,
+    "prob_team1_win":0.572998,
+    "prob_draw":0.255692,
+    "prob_team2_win":0.17131,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.098037
+        "score":"1-1",
+        "probability":0.103396
       },
       {
         "score":"2-1",
-        "probability":0.097392
+        "probability":0.102938
       },
       {
         "score":"1-0",
-        "probability":0.084047
+        "probability":0.099238
       },
       {
-        "score":"1-1",
-        "probability":0.083494
+        "score":"2-0",
+        "probability":0.098652
       },
       {
-        "score":"3-0",
-        "probability":0.076237
+        "score":"3-1",
+        "probability":0.06822
       }
     ],
     "match_id":67,
@@ -2945,38 +2945,38 @@
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.098037}, {\"score\": \"2-1\", \"probability\": 0.097392}, {\"score\": \"1-0\", \"probability\": 0.084047}, {\"score\": \"1-1\", \"probability\": 0.083494}, {\"score\": \"3-0\", \"probability\": 0.076237}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103396}, {\"score\": \"2-1\", \"probability\": 0.102938}, {\"score\": \"1-0\", \"probability\": 0.099238}, {\"score\": \"2-0\", \"probability\": 0.098652}, {\"score\": \"3-1\", \"probability\": 0.06822}]"
   },
   {
     "team1":"Ghana",
     "team2":"Panama",
-    "expected_goals1":0.797,
-    "expected_goals2":2.043,
-    "prob_team1_win":0.149404,
-    "prob_draw":0.236315,
-    "prob_team2_win":0.61428,
+    "expected_goals1":0.975,
+    "expected_goals2":1.632,
+    "prob_team1_win":0.21867,
+    "prob_draw":0.281045,
+    "prob_team2_win":0.500286,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.122024
+        "score":"1-1",
+        "probability":0.12457
       },
       {
         "score":"0-1",
-        "probability":0.119477
+        "probability":0.122987
       },
       {
         "score":"1-2",
-        "probability":0.097313
+        "probability":0.097888
       },
       {
-        "score":"1-1",
-        "probability":0.095281
+        "score":"0-2",
+        "probability":0.0965
       },
       {
-        "score":"0-3",
-        "probability":0.083084
+        "score":"0-0",
+        "probability":0.078255
       }
     ],
     "match_id":68,
@@ -2989,38 +2989,38 @@
     "predicted_winner":"Panama",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.122024}, {\"score\": \"0-1\", \"probability\": 0.119477}, {\"score\": \"1-2\", \"probability\": 0.097313}, {\"score\": \"1-1\", \"probability\": 0.095281}, {\"score\": \"0-3\", \"probability\": 0.083084}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12457}, {\"score\": \"0-1\", \"probability\": 0.122987}, {\"score\": \"1-2\", \"probability\": 0.097888}, {\"score\": \"0-2\", \"probability\": 0.0965}, {\"score\": \"0-0\", \"probability\": 0.078255}]"
   },
   {
     "team1":"England",
     "team2":"Ghana",
     "expected_goals1":4.8,
-    "expected_goals2":0.34,
-    "prob_team1_win":0.905856,
-    "prob_draw":0.075018,
-    "prob_team2_win":0.019126,
+    "expected_goals2":0.612,
+    "prob_team1_win":0.886524,
+    "prob_draw":0.087455,
+    "prob_team2_win":0.026021,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.146085
+        "probability":0.108291
       },
       {
         "score":"5-0",
-        "probability":0.140241
+        "probability":0.10396
       },
       {
         "score":"3-0",
-        "probability":0.121737
+        "probability":0.090243
       },
       {
         "score":"6-0",
-        "probability":0.112193
+        "probability":0.083168
       },
       {
-        "score":"7-0",
-        "probability":0.076932
+        "score":"4-1",
+        "probability":0.066264
       }
     ],
     "match_id":69,
@@ -3033,38 +3033,38 @@
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.146085}, {\"score\": \"5-0\", \"probability\": 0.140241}, {\"score\": \"3-0\", \"probability\": 0.121737}, {\"score\": \"6-0\", \"probability\": 0.112193}, {\"score\": \"7-0\", \"probability\": 0.076932}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.108291}, {\"score\": \"5-0\", \"probability\": 0.10396}, {\"score\": \"3-0\", \"probability\": 0.090243}, {\"score\": \"6-0\", \"probability\": 0.083168}, {\"score\": \"4-1\", \"probability\": 0.066264}]"
   },
   {
     "team1":"Panama",
     "team2":"Croatia",
-    "expected_goals1":0.899,
-    "expected_goals2":1.995,
-    "prob_team1_win":0.168713,
-    "prob_draw":0.241734,
-    "prob_team2_win":0.589553,
+    "expected_goals1":1.047,
+    "expected_goals2":1.604,
+    "prob_team1_win":0.234862,
+    "prob_draw":0.281127,
+    "prob_team2_win":0.484011,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-1",
-        "probability":0.110575
-      },
-      {
-        "score":"0-2",
-        "probability":0.110322
-      },
-      {
         "score":"1-1",
-        "probability":0.09936
+        "probability":0.125799
+      },
+      {
+        "score":"0-1",
+        "probability":0.11567
       },
       {
         "score":"1-2",
-        "probability":0.099133
+        "probability":0.097139
       },
       {
-        "score":"0-3",
-        "probability":0.07338
+        "score":"0-2",
+        "probability":0.089186
+      },
+      {
+        "score":"1-0",
+        "probability":0.075535
       }
     ],
     "match_id":70,
@@ -3077,38 +3077,38 @@
     "predicted_winner":"Croatia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.110575}, {\"score\": \"0-2\", \"probability\": 0.110322}, {\"score\": \"1-1\", \"probability\": 0.09936}, {\"score\": \"1-2\", \"probability\": 0.099133}, {\"score\": \"0-3\", \"probability\": 0.07338}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125799}, {\"score\": \"0-1\", \"probability\": 0.11567}, {\"score\": \"1-2\", \"probability\": 0.097139}, {\"score\": \"0-2\", \"probability\": 0.089186}, {\"score\": \"1-0\", \"probability\": 0.075535}]"
   },
   {
     "team1":"Panama",
     "team2":"England",
-    "expected_goals1":0.685,
-    "expected_goals2":3.061,
-    "prob_team1_win":0.079782,
-    "prob_draw":0.140456,
-    "prob_team2_win":0.779762,
+    "expected_goals1":0.895,
+    "expected_goals2":2.242,
+    "prob_team1_win":0.145721,
+    "prob_draw":0.209477,
+    "prob_team2_win":0.644801,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-3",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-3",
-        "probability":0.114409
-      },
-      {
         "score":"0-2",
-        "probability":0.112142
-      },
-      {
-        "score":"0-4",
-        "probability":0.087541
-      },
-      {
-        "score":"1-3",
-        "probability":0.078348
+        "probability":0.109182
       },
       {
         "score":"1-2",
-        "probability":0.076796
+        "probability":0.101649
+      },
+      {
+        "score":"0-1",
+        "probability":0.101288
+      },
+      {
+        "score":"1-1",
+        "probability":0.094161
+      },
+      {
+        "score":"0-3",
+        "probability":0.075071
       }
     ],
     "match_id":71,
@@ -3121,38 +3121,38 @@
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-3\", \"probability\": 0.114409}, {\"score\": \"0-2\", \"probability\": 0.112142}, {\"score\": \"0-4\", \"probability\": 0.087541}, {\"score\": \"1-3\", \"probability\": 0.078348}, {\"score\": \"1-2\", \"probability\": 0.076796}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.109182}, {\"score\": \"1-2\", \"probability\": 0.101649}, {\"score\": \"0-1\", \"probability\": 0.101288}, {\"score\": \"1-1\", \"probability\": 0.094161}, {\"score\": \"0-3\", \"probability\": 0.075071}]"
   },
   {
     "team1":"Croatia",
     "team2":"Ghana",
-    "expected_goals1":4.034,
-    "expected_goals2":0.446,
-    "prob_team1_win":0.858418,
-    "prob_draw":0.099492,
-    "prob_team2_win":0.04209,
+    "expected_goals1":3.278,
+    "expected_goals2":0.676,
+    "prob_team1_win":0.788772,
+    "prob_draw":0.143236,
+    "prob_team2_win":0.067992,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.132015
-      },
-      {
         "score":"3-0",
-        "probability":0.130895
-      },
-      {
-        "score":"5-0",
-        "probability":0.106516
+        "probability":0.108634
       },
       {
         "score":"2-0",
-        "probability":0.097338
+        "probability":0.108063
       },
       {
-        "score":"6-0",
-        "probability":0.071619
+        "score":"4-0",
+        "probability":0.089029
+      },
+      {
+        "score":"3-1",
+        "probability":0.07977
+      },
+      {
+        "score":"2-1",
+        "probability":0.075923
       }
     ],
     "match_id":72,
@@ -3165,38 +3165,38 @@
     "predicted_winner":"Croatia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.132015}, {\"score\": \"3-0\", \"probability\": 0.130895}, {\"score\": \"5-0\", \"probability\": 0.106516}, {\"score\": \"2-0\", \"probability\": 0.097338}, {\"score\": \"6-0\", \"probability\": 0.071619}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.108634}, {\"score\": \"2-0\", \"probability\": 0.108063}, {\"score\": \"4-0\", \"probability\": 0.089029}, {\"score\": \"3-1\", \"probability\": 0.07977}, {\"score\": \"2-1\", \"probability\": 0.075923}]"
   },
   {
-    "team1":"Mexico",
+    "team1":"South Korea",
     "team2":"Canada",
-    "expected_goals1":1.732,
-    "expected_goals2":1.12,
-    "prob_team1_win":0.486303,
-    "prob_draw":0.267826,
-    "prob_team2_win":0.245871,
+    "expected_goals1":1.594,
+    "expected_goals2":1.161,
+    "prob_team1_win":0.430106,
+    "prob_draw":0.276051,
+    "prob_team2_win":0.293844,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.112056
+        "probability":0.12503
       },
       {
         "score":"1-0",
-        "probability":0.100036
+        "probability":0.103722
       },
       {
         "score":"2-1",
-        "probability":0.097014
+        "probability":0.095955
       },
       {
         "score":"2-0",
-        "probability":0.086607
+        "probability":0.079484
       },
       {
         "score":"0-1",
-        "probability":0.064715
+        "probability":0.075535
       }
     ],
     "match_id":73,
@@ -3206,41 +3206,41 @@
     "group":"",
     "ground":"Los Angeles (Inglewood)",
     "status":"predicted",
-    "predicted_winner":"Mexico",
+    "predicted_winner":"South Korea",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112056}, {\"score\": \"1-0\", \"probability\": 0.100036}, {\"score\": \"2-1\", \"probability\": 0.097014}, {\"score\": \"2-0\", \"probability\": 0.086607}, {\"score\": \"0-1\", \"probability\": 0.064715}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12503}, {\"score\": \"1-0\", \"probability\": 0.103722}, {\"score\": \"2-1\", \"probability\": 0.095955}, {\"score\": \"2-0\", \"probability\": 0.079484}, {\"score\": \"0-1\", \"probability\": 0.075535}]"
   },
   {
     "team1":"Germany",
-    "team2":"Czech Republic",
-    "expected_goals1":3.215,
-    "expected_goals2":0.622,
-    "prob_team1_win":0.78448,
-    "prob_draw":0.151808,
-    "prob_team2_win":0.063713,
+    "team2":"Turkey",
+    "expected_goals1":1.879,
+    "expected_goals2":0.99,
+    "prob_team1_win":0.525957,
+    "prob_draw":0.275771,
+    "prob_team2_win":0.198272,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.121495
-      },
-      {
-        "score":"2-0",
-        "probability":0.113372
-      },
-      {
-        "score":"4-0",
-        "probability":0.09765
-      },
-      {
-        "score":"3-1",
-        "probability":0.075571
+        "score":"1-1",
+        "probability":0.112859
       },
       {
         "score":"1-0",
-        "probability":0.070528
+        "probability":0.109753
+      },
+      {
+        "score":"2-1",
+        "probability":0.102082
+      },
+      {
+        "score":"2-0",
+        "probability":0.099126
+      },
+      {
+        "score":"3-1",
+        "probability":0.061465
       }
     ],
     "match_id":74,
@@ -3253,38 +3253,38 @@
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.121495}, {\"score\": \"2-0\", \"probability\": 0.113372}, {\"score\": \"4-0\", \"probability\": 0.09765}, {\"score\": \"3-1\", \"probability\": 0.075571}, {\"score\": \"1-0\", \"probability\": 0.070528}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112859}, {\"score\": \"1-0\", \"probability\": 0.109753}, {\"score\": \"2-1\", \"probability\": 0.102082}, {\"score\": \"2-0\", \"probability\": 0.099126}, {\"score\": \"3-1\", \"probability\": 0.061465}]"
   },
   {
-    "team1":"Japan",
+    "team1":"Netherlands",
     "team2":"Morocco",
-    "expected_goals1":1.931,
-    "expected_goals2":1.386,
-    "prob_team1_win":0.449761,
-    "prob_draw":0.258401,
-    "prob_team2_win":0.291838,
+    "expected_goals1":1.773,
+    "expected_goals2":1.171,
+    "prob_team1_win":0.455598,
+    "prob_draw":0.261438,
+    "prob_team2_win":0.282963,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.097143
+        "probability":0.116622
       },
       {
         "score":"2-1",
-        "probability":0.093795
+        "probability":0.099544
       },
       {
         "score":"1-0",
-        "probability":0.070094
+        "probability":0.095879
       },
       {
         "score":"2-0",
-        "probability":0.067678
+        "probability":0.081718
       },
       {
         "score":"1-2",
-        "probability":0.067316
+        "probability":0.06577
       }
     ],
     "match_id":75,
@@ -3294,41 +3294,41 @@
     "group":"",
     "ground":"Monterrey (Guadalupe)",
     "status":"predicted",
-    "predicted_winner":"Japan",
+    "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.097143}, {\"score\": \"2-1\", \"probability\": 0.093795}, {\"score\": \"1-0\", \"probability\": 0.070094}, {\"score\": \"2-0\", \"probability\": 0.067678}, {\"score\": \"1-2\", \"probability\": 0.067316}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116622}, {\"score\": \"2-1\", \"probability\": 0.099544}, {\"score\": \"1-0\", \"probability\": 0.095879}, {\"score\": \"2-0\", \"probability\": 0.081718}, {\"score\": \"1-2\", \"probability\": 0.06577}]"
   },
   {
     "team1":"Brazil",
-    "team2":"Netherlands",
-    "expected_goals1":1.664,
-    "expected_goals2":1.384,
-    "prob_team1_win":0.410965,
-    "prob_draw":0.266891,
-    "prob_team2_win":0.322143,
+    "team2":"Japan",
+    "expected_goals1":1.696,
+    "expected_goals2":1.243,
+    "prob_team1_win":0.431762,
+    "prob_draw":0.283896,
+    "prob_team2_win":0.284343,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.109329
+        "probability":0.118857
       },
       {
         "score":"2-1",
-        "probability":0.090964
+        "probability":0.097064
       },
       {
         "score":"1-0",
-        "probability":0.078992
-      },
-      {
-        "score":"1-2",
-        "probability":0.075659
+        "probability":0.092087
       },
       {
         "score":"2-0",
-        "probability":0.065723
+        "probability":0.075091
+      },
+      {
+        "score":"1-2",
+        "probability":0.071128
       }
     ],
     "match_id":76,
@@ -3341,38 +3341,38 @@
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.109329}, {\"score\": \"2-1\", \"probability\": 0.090964}, {\"score\": \"1-0\", \"probability\": 0.078992}, {\"score\": \"1-2\", \"probability\": 0.075659}, {\"score\": \"2-0\", \"probability\": 0.065723}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118857}, {\"score\": \"2-1\", \"probability\": 0.097064}, {\"score\": \"1-0\", \"probability\": 0.092087}, {\"score\": \"2-0\", \"probability\": 0.075091}, {\"score\": \"1-2\", \"probability\": 0.071128}]"
   },
   {
     "team1":"France",
-    "team2":"Australia",
-    "expected_goals1":3.088,
-    "expected_goals2":0.741,
-    "prob_team1_win":0.770886,
-    "prob_draw":0.147338,
-    "prob_team2_win":0.081776,
+    "team2":"New Zealand",
+    "expected_goals1":3.788,
+    "expected_goals2":0.696,
+    "prob_team1_win":0.844966,
+    "prob_draw":0.103455,
+    "prob_team2_win":0.051579,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.108161
-      },
-      {
-        "score":"2-0",
-        "probability":0.105072
+        "probability":0.101811
       },
       {
         "score":"4-0",
-        "probability":0.083505
+        "probability":0.096425
+      },
+      {
+        "score":"2-0",
+        "probability":0.087635
       },
       {
         "score":"3-1",
-        "probability":0.080143
+        "probability":0.076992
       },
       {
-        "score":"2-1",
-        "probability":0.077855
+        "score":"5-0",
+        "probability":0.073059
       }
     ],
     "match_id":77,
@@ -3385,38 +3385,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.108161}, {\"score\": \"2-0\", \"probability\": 0.105072}, {\"score\": \"4-0\", \"probability\": 0.083505}, {\"score\": \"3-1\", \"probability\": 0.080143}, {\"score\": \"2-1\", \"probability\": 0.077855}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.101811}, {\"score\": \"4-0\", \"probability\": 0.096425}, {\"score\": \"2-0\", \"probability\": 0.087635}, {\"score\": \"3-1\", \"probability\": 0.076992}, {\"score\": \"5-0\", \"probability\": 0.073059}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Norway",
-    "expected_goals1":1.478,
-    "expected_goals2":1.286,
-    "prob_team1_win":0.401868,
-    "prob_draw":0.280181,
-    "prob_team2_win":0.317951,
+    "expected_goals1":1.459,
+    "expected_goals2":1.179,
+    "prob_team1_win":0.410886,
+    "prob_draw":0.292259,
+    "prob_team2_win":0.296855,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.119855
+        "probability":0.130265
       },
       {
         "score":"1-0",
-        "probability":0.093188
+        "probability":0.106419
       },
       {
         "score":"2-1",
-        "probability":0.088549
+        "probability":0.091522
       },
       {
         "score":"0-1",
-        "probability":0.081115
+        "probability":0.085964
       },
       {
-        "score":"1-2",
-        "probability":0.077077
+        "score":"0-0",
+        "probability":0.075733
       }
     ],
     "match_id":78,
@@ -3429,38 +3429,38 @@
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119855}, {\"score\": \"1-0\", \"probability\": 0.093188}, {\"score\": \"2-1\", \"probability\": 0.088549}, {\"score\": \"0-1\", \"probability\": 0.081115}, {\"score\": \"1-2\", \"probability\": 0.077077}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.130265}, {\"score\": \"1-0\", \"probability\": 0.106419}, {\"score\": \"2-1\", \"probability\": 0.091522}, {\"score\": \"0-1\", \"probability\": 0.085964}, {\"score\": \"0-0\", \"probability\": 0.075733}]"
   },
   {
-    "team1":"South Korea",
-    "team2":"Senegal",
-    "expected_goals1":1.769,
-    "expected_goals2":1.274,
-    "prob_team1_win":0.448103,
-    "prob_draw":0.254419,
-    "prob_team2_win":0.297477,
+    "team1":"Mexico",
+    "team2":"Scotland",
+    "expected_goals1":1.788,
+    "expected_goals2":0.97,
+    "prob_team1_win":0.52933,
+    "prob_draw":0.268918,
+    "prob_team2_win":0.201752,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.107549
-      },
-      {
-        "score":"2-1",
-        "probability":0.095116
+        "probability":0.117269
       },
       {
         "score":"1-0",
-        "probability":0.084408
+        "probability":0.116432
+      },
+      {
+        "score":"2-1",
+        "probability":0.100927
       },
       {
         "score":"2-0",
-        "probability":0.07465
+        "probability":0.100059
       },
       {
-        "score":"1-2",
-        "probability":0.068517
+        "score":"0-0",
+        "probability":0.067642
       }
     ],
     "match_id":79,
@@ -3470,41 +3470,41 @@
     "group":"",
     "ground":"Mexico City",
     "status":"predicted",
-    "predicted_winner":"South Korea",
+    "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.107549}, {\"score\": \"2-1\", \"probability\": 0.095116}, {\"score\": \"1-0\", \"probability\": 0.084408}, {\"score\": \"2-0\", \"probability\": 0.07465}, {\"score\": \"1-2\", \"probability\": 0.068517}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117269}, {\"score\": \"1-0\", \"probability\": 0.116432}, {\"score\": \"2-1\", \"probability\": 0.100927}, {\"score\": \"2-0\", \"probability\": 0.100059}, {\"score\": \"0-0\", \"probability\": 0.067642}]"
   },
   {
     "team1":"England",
-    "team2":"Ivory Coast",
-    "expected_goals1":4.086,
-    "expected_goals2":0.61,
-    "prob_team1_win":0.843866,
-    "prob_draw":0.106884,
-    "prob_team2_win":0.04925,
+    "team2":"Austria",
+    "expected_goals1":2.579,
+    "expected_goals2":0.866,
+    "prob_team1_win":0.692485,
+    "prob_draw":0.196641,
+    "prob_team2_win":0.110874,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.112345
+        "score":"2-0",
+        "probability":0.107467
+      },
+      {
+        "score":"2-1",
+        "probability":0.096831
+      },
+      {
+        "score":"1-0",
+        "probability":0.086687
       },
       {
         "score":"3-0",
-        "probability":0.109993
+        "probability":0.084981
       },
       {
-        "score":"5-0",
-        "probability":0.091798
-      },
-      {
-        "score":"2-0",
-        "probability":0.080767
-      },
-      {
-        "score":"4-1",
-        "probability":0.068581
+        "score":"3-1",
+        "probability":0.080028
       }
     ],
     "match_id":80,
@@ -3517,38 +3517,38 @@
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.112345}, {\"score\": \"3-0\", \"probability\": 0.109993}, {\"score\": \"5-0\", \"probability\": 0.091798}, {\"score\": \"2-0\", \"probability\": 0.080767}, {\"score\": \"4-1\", \"probability\": 0.068581}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107467}, {\"score\": \"2-1\", \"probability\": 0.096831}, {\"score\": \"1-0\", \"probability\": 0.086687}, {\"score\": \"3-0\", \"probability\": 0.084981}, {\"score\": \"3-1\", \"probability\": 0.080028}]"
   },
   {
     "team1":"USA",
-    "team2":"Algeria",
-    "expected_goals1":1.836,
-    "expected_goals2":1.273,
-    "prob_team1_win":0.464124,
-    "prob_draw":0.259111,
-    "prob_team2_win":0.276765,
+    "team2":"Bosnia & Herzegovina",
+    "expected_goals1":2.587,
+    "expected_goals2":0.738,
+    "prob_team1_win":0.710338,
+    "prob_draw":0.195988,
+    "prob_team2_win":0.093674,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"1-1",
-        "probability":0.104423
-      },
-      {
-        "score":"2-1",
-        "probability":0.09586
+        "score":"2-0",
+        "probability":0.122181
       },
       {
         "score":"1-0",
-        "probability":0.082039
+        "probability":0.098235
       },
       {
-        "score":"2-0",
-        "probability":0.075312
+        "score":"3-0",
+        "probability":0.096933
       },
       {
-        "score":"1-2",
-        "probability":0.066457
+        "score":"2-1",
+        "probability":0.093734
+      },
+      {
+        "score":"3-1",
+        "probability":0.077722
       }
     ],
     "match_id":81,
@@ -3561,38 +3561,38 @@
     "predicted_winner":"USA",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.104423}, {\"score\": \"2-1\", \"probability\": 0.09586}, {\"score\": \"1-0\", \"probability\": 0.082039}, {\"score\": \"2-0\", \"probability\": 0.075312}, {\"score\": \"1-2\", \"probability\": 0.066457}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.122181}, {\"score\": \"1-0\", \"probability\": 0.098235}, {\"score\": \"3-0\", \"probability\": 0.096933}, {\"score\": \"2-1\", \"probability\": 0.093734}, {\"score\": \"3-1\", \"probability\": 0.077722}]"
   },
   {
     "team1":"Belgium",
-    "team2":"Saudi Arabia",
-    "expected_goals1":3.556,
-    "expected_goals2":0.558,
-    "prob_team1_win":0.806744,
-    "prob_draw":0.142515,
-    "prob_team2_win":0.050741,
+    "team2":"Czech Republic",
+    "expected_goals1":2.341,
+    "expected_goals2":0.867,
+    "prob_team1_win":0.646528,
+    "prob_draw":0.224644,
+    "prob_team2_win":0.128828,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.126167
-      },
-      {
-        "score":"4-0",
-        "probability":0.112153
-      },
-      {
         "score":"2-0",
-        "probability":0.106449
+        "probability":0.111255
       },
       {
-        "score":"5-0",
-        "probability":0.079757
+        "score":"2-1",
+        "probability":0.100355
       },
       {
-        "score":"3-1",
-        "probability":0.070366
+        "score":"1-0",
+        "probability":0.098854
+      },
+      {
+        "score":"1-1",
+        "probability":0.089037
+      },
+      {
+        "score":"3-0",
+        "probability":0.079868
       }
     ],
     "match_id":82,
@@ -3605,38 +3605,38 @@
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.126167}, {\"score\": \"4-0\", \"probability\": 0.112153}, {\"score\": \"2-0\", \"probability\": 0.106449}, {\"score\": \"5-0\", \"probability\": 0.079757}, {\"score\": \"3-1\", \"probability\": 0.070366}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.111255}, {\"score\": \"2-1\", \"probability\": 0.100355}, {\"score\": \"1-0\", \"probability\": 0.098854}, {\"score\": \"1-1\", \"probability\": 0.089037}, {\"score\": \"3-0\", \"probability\": 0.079868}]"
   },
   {
-    "team1":"Colombia",
+    "team1":"Portugal",
     "team2":"Croatia",
-    "expected_goals1":1.698,
-    "expected_goals2":1.124,
-    "prob_team1_win":0.475009,
-    "prob_draw":0.263522,
-    "prob_team2_win":0.261469,
+    "expected_goals1":1.799,
+    "expected_goals2":1.09,
+    "prob_team1_win":0.485222,
+    "prob_draw":0.285158,
+    "prob_team2_win":0.22962,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.113585
+        "probability":0.116388
       },
       {
         "score":"1-0",
-        "probability":0.101093
+        "probability":0.102826
       },
       {
         "score":"2-1",
-        "probability":0.096434
+        "probability":0.10081
       },
       {
         "score":"2-0",
-        "probability":0.085829
+        "probability":0.088931
       },
       {
         "score":"0-1",
-        "probability":0.066892
+        "probability":0.062302
       }
     ],
     "match_id":83,
@@ -3646,41 +3646,41 @@
     "group":"",
     "ground":"Toronto",
     "status":"predicted",
-    "predicted_winner":"Colombia",
+    "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113585}, {\"score\": \"1-0\", \"probability\": 0.101093}, {\"score\": \"2-1\", \"probability\": 0.096434}, {\"score\": \"2-0\", \"probability\": 0.085829}, {\"score\": \"0-1\", \"probability\": 0.066892}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116388}, {\"score\": \"1-0\", \"probability\": 0.102826}, {\"score\": \"2-1\", \"probability\": 0.10081}, {\"score\": \"2-0\", \"probability\": 0.088931}, {\"score\": \"0-1\", \"probability\": 0.062302}]"
   },
   {
     "team1":"Spain",
-    "team2":"Austria",
-    "expected_goals1":4.096,
-    "expected_goals2":0.568,
-    "prob_team1_win":0.85461,
-    "prob_draw":0.098053,
-    "prob_team2_win":0.047337,
+    "team2":"Algeria",
+    "expected_goals1":3.501,
+    "expected_goals2":0.763,
+    "prob_team1_win":0.798155,
+    "prob_draw":0.132357,
+    "prob_team2_win":0.069488,
     "model_blend":"poisson+ml",
-    "most_likely_score":"4-0",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"4-0",
-        "probability":0.11723
-      },
-      {
         "score":"3-0",
-        "probability":0.114475
-      },
-      {
-        "score":"5-0",
-        "probability":0.096041
+        "probability":0.098137
       },
       {
         "score":"2-0",
-        "probability":0.083838
+        "probability":0.091418
       },
       {
-        "score":"4-1",
-        "probability":0.06663
+        "score":"4-0",
+        "probability":0.085884
+      },
+      {
+        "score":"3-1",
+        "probability":0.081406
+      },
+      {
+        "score":"2-1",
+        "probability":0.072556
       }
     ],
     "match_id":84,
@@ -3693,38 +3693,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.11723}, {\"score\": \"3-0\", \"probability\": 0.114475}, {\"score\": \"5-0\", \"probability\": 0.096041}, {\"score\": \"2-0\", \"probability\": 0.083838}, {\"score\": \"4-1\", \"probability\": 0.06663}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.098137}, {\"score\": \"2-0\", \"probability\": 0.091418}, {\"score\": \"4-0\", \"probability\": 0.085884}, {\"score\": \"3-1\", \"probability\": 0.081406}, {\"score\": \"2-1\", \"probability\": 0.072556}]"
   },
   {
     "team1":"Switzerland",
-    "team2":"Sweden",
-    "expected_goals1":2.489,
-    "expected_goals2":0.7,
-    "prob_team1_win":0.723282,
-    "prob_draw":0.179443,
-    "prob_team2_win":0.097275,
+    "team2":"Ivory Coast",
+    "expected_goals1":2.17,
+    "expected_goals2":0.911,
+    "prob_team1_win":0.603772,
+    "prob_draw":0.223588,
+    "prob_team2_win":0.172641,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.128162
-      },
-      {
-        "score":"3-0",
-        "probability":0.10633
+        "probability":0.107889
       },
       {
         "score":"1-0",
-        "probability":0.102985
+        "probability":0.103423
       },
       {
         "score":"2-1",
-        "probability":0.089743
+        "probability":0.102265
       },
       {
-        "score":"3-1",
-        "probability":0.074455
+        "score":"1-1",
+        "probability":0.097886
+      },
+      {
+        "score":"3-0",
+        "probability":0.071791
       }
     ],
     "match_id":85,
@@ -3737,38 +3737,38 @@
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.128162}, {\"score\": \"3-0\", \"probability\": 0.10633}, {\"score\": \"1-0\", \"probability\": 0.102985}, {\"score\": \"2-1\", \"probability\": 0.089743}, {\"score\": \"3-1\", \"probability\": 0.074455}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107889}, {\"score\": \"1-0\", \"probability\": 0.103423}, {\"score\": \"2-1\", \"probability\": 0.102265}, {\"score\": \"1-1\", \"probability\": 0.097886}, {\"score\": \"3-0\", \"probability\": 0.071791}]"
   },
   {
     "team1":"Argentina",
     "team2":"Uruguay",
-    "expected_goals1":2.872,
-    "expected_goals2":0.706,
-    "prob_team1_win":0.731737,
-    "prob_draw":0.177354,
-    "prob_team2_win":0.090909,
+    "expected_goals1":2.451,
+    "expected_goals2":0.831,
+    "prob_team1_win":0.655712,
+    "prob_draw":0.217774,
+    "prob_team2_win":0.126514,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.116272
-      },
-      {
-        "score":"3-0",
-        "probability":0.111296
+        "probability":0.113746
       },
       {
         "score":"2-1",
-        "probability":0.082113
+        "probability":0.098327
       },
       {
         "score":"1-0",
-        "probability":0.080981
+        "probability":0.096529
       },
       {
-        "score":"4-0",
-        "probability":0.0799
+        "score":"3-0",
+        "probability":0.085495
+      },
+      {
+        "score":"1-1",
+        "probability":0.083321
       }
     ],
     "match_id":86,
@@ -3781,38 +3781,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.116272}, {\"score\": \"3-0\", \"probability\": 0.111296}, {\"score\": \"2-1\", \"probability\": 0.082113}, {\"score\": \"1-0\", \"probability\": 0.080981}, {\"score\": \"4-0\", \"probability\": 0.0799}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.113746}, {\"score\": \"2-1\", \"probability\": 0.098327}, {\"score\": \"1-0\", \"probability\": 0.096529}, {\"score\": \"3-0\", \"probability\": 0.085495}, {\"score\": \"1-1\", \"probability\": 0.083321}]"
   },
   {
-    "team1":"Portugal",
+    "team1":"Colombia",
     "team2":"Panama",
-    "expected_goals1":2.993,
-    "expected_goals2":0.672,
-    "prob_team1_win":0.759817,
-    "prob_draw":0.167876,
-    "prob_team2_win":0.072307,
+    "expected_goals1":2.257,
+    "expected_goals2":0.806,
+    "prob_team1_win":0.669328,
+    "prob_draw":0.205569,
+    "prob_team2_win":0.125103,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.11601
+        "probability":0.119308
       },
       {
-        "score":"3-0",
-        "probability":0.115734
-      },
-      {
-        "score":"4-0",
-        "probability":0.086594
+        "score":"1-0",
+        "probability":0.109939
       },
       {
         "score":"2-1",
-        "probability":0.077999
+        "probability":0.099981
       },
       {
-        "score":"3-1",
-        "probability":0.077814
+        "score":"1-1",
+        "probability":0.091993
+      },
+      {
+        "score":"3-0",
+        "probability":0.082588
       }
     ],
     "match_id":87,
@@ -3822,41 +3822,41 @@
     "group":"",
     "ground":"Kansas City",
     "status":"predicted",
-    "predicted_winner":"Portugal",
+    "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.11601}, {\"score\": \"3-0\", \"probability\": 0.115734}, {\"score\": \"4-0\", \"probability\": 0.086594}, {\"score\": \"2-1\", \"probability\": 0.077999}, {\"score\": \"3-1\", \"probability\": 0.077814}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.119308}, {\"score\": \"1-0\", \"probability\": 0.109939}, {\"score\": \"2-1\", \"probability\": 0.099981}, {\"score\": \"1-1\", \"probability\": 0.091993}, {\"score\": \"3-0\", \"probability\": 0.082588}]"
   },
   {
-    "team1":"Turkey",
+    "team1":"Australia",
     "team2":"Iran",
-    "expected_goals1":1.736,
-    "expected_goals2":1.194,
-    "prob_team1_win":0.461453,
-    "prob_draw":0.251416,
-    "prob_team2_win":0.287131,
+    "expected_goals1":1.575,
+    "expected_goals2":1.266,
+    "prob_team1_win":0.402219,
+    "prob_draw":0.296672,
+    "prob_team2_win":0.301108,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110733
-      },
-      {
-        "score":"2-1",
-        "probability":0.096109
+        "probability":0.123692
       },
       {
         "score":"1-0",
-        "probability":0.092711
+        "probability":0.094068
       },
       {
-        "score":"2-0",
-        "probability":0.080467
+        "score":"2-1",
+        "probability":0.0938
+      },
+      {
+        "score":"0-1",
+        "probability":0.075626
       },
       {
         "score":"1-2",
-        "probability":0.066129
+        "probability":0.075411
       }
     ],
     "match_id":88,
@@ -3866,41 +3866,41 @@
     "group":"",
     "ground":"Dallas (Arlington)",
     "status":"predicted",
-    "predicted_winner":"Turkey",
+    "predicted_winner":"Australia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110733}, {\"score\": \"2-1\", \"probability\": 0.096109}, {\"score\": \"1-0\", \"probability\": 0.092711}, {\"score\": \"2-0\", \"probability\": 0.080467}, {\"score\": \"1-2\", \"probability\": 0.066129}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123692}, {\"score\": \"1-0\", \"probability\": 0.094068}, {\"score\": \"2-1\", \"probability\": 0.0938}, {\"score\": \"0-1\", \"probability\": 0.075626}, {\"score\": \"1-2\", \"probability\": 0.075411}]"
   },
   {
     "team1":"Germany",
     "team2":"France",
-    "expected_goals1":1.319,
-    "expected_goals2":1.746,
-    "prob_team1_win":0.273046,
-    "prob_draw":0.260084,
-    "prob_team2_win":0.46687,
+    "expected_goals1":1.347,
+    "expected_goals2":1.454,
+    "prob_team1_win":0.315697,
+    "prob_draw":0.281715,
+    "prob_team2_win":0.402588,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.107502
-      },
-      {
-        "score":"1-2",
-        "probability":0.093833
+        "probability":0.126301
       },
       {
         "score":"0-1",
-        "probability":0.081476
+        "probability":0.090313
       },
       {
-        "score":"0-2",
-        "probability":0.071117
+        "score":"1-2",
+        "probability":0.088427
+      },
+      {
+        "score":"1-0",
+        "probability":0.083641
       },
       {
         "score":"2-1",
-        "probability":0.070921
+        "probability":0.081895
       }
     ],
     "match_id":89,
@@ -3913,38 +3913,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.107502}, {\"score\": \"1-2\", \"probability\": 0.093833}, {\"score\": \"0-1\", \"probability\": 0.081476}, {\"score\": \"0-2\", \"probability\": 0.071117}, {\"score\": \"2-1\", \"probability\": 0.070921}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126301}, {\"score\": \"0-1\", \"probability\": 0.090313}, {\"score\": \"1-2\", \"probability\": 0.088427}, {\"score\": \"1-0\", \"probability\": 0.083641}, {\"score\": \"2-1\", \"probability\": 0.081895}]"
   },
   {
-    "team1":"Mexico",
-    "team2":"Japan",
-    "expected_goals1":1.247,
-    "expected_goals2":1.84,
-    "prob_team1_win":0.254937,
-    "prob_draw":0.269544,
-    "prob_team2_win":0.475519,
+    "team1":"South Korea",
+    "team2":"Netherlands",
+    "expected_goals1":1.193,
+    "expected_goals2":1.637,
+    "prob_team1_win":0.266325,
+    "prob_draw":0.277393,
+    "prob_team2_win":0.456282,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.104774
-      },
-      {
-        "score":"1-2",
-        "probability":0.096416
+        "probability":0.122581
       },
       {
         "score":"0-1",
-        "probability":0.08404
+        "probability":0.098962
+      },
+      {
+        "score":"1-2",
+        "probability":0.096599
       },
       {
         "score":"0-2",
-        "probability":0.077337
+        "probability":0.077871
       },
       {
-        "score":"2-1",
-        "probability":0.065311
+        "score":"1-0",
+        "probability":0.072121
       }
     ],
     "match_id":90,
@@ -3954,41 +3954,41 @@
     "group":"",
     "ground":"Houston",
     "status":"predicted",
-    "predicted_winner":"Japan",
+    "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.104774}, {\"score\": \"1-2\", \"probability\": 0.096416}, {\"score\": \"0-1\", \"probability\": 0.08404}, {\"score\": \"0-2\", \"probability\": 0.077337}, {\"score\": \"2-1\", \"probability\": 0.065311}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.122581}, {\"score\": \"0-1\", \"probability\": 0.098962}, {\"score\": \"1-2\", \"probability\": 0.096599}, {\"score\": \"0-2\", \"probability\": 0.077871}, {\"score\": \"1-0\", \"probability\": 0.072121}]"
   },
   {
     "team1":"Brazil",
     "team2":"Ecuador",
-    "expected_goals1":1.889,
-    "expected_goals2":1.002,
-    "prob_team1_win":0.531023,
-    "prob_draw":0.268336,
-    "prob_team2_win":0.20064,
+    "expected_goals1":1.752,
+    "expected_goals2":1.009,
+    "prob_team1_win":0.497345,
+    "prob_draw":0.286675,
+    "prob_team2_win":0.21598,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.105159
+        "probability":0.119044
       },
       {
         "score":"1-0",
-        "probability":0.104897
+        "probability":0.113641
       },
       {
         "score":"2-1",
-        "probability":0.099334
+        "probability":0.100424
       },
       {
         "score":"2-0",
-        "probability":0.099087
+        "probability":0.095724
       },
       {
-        "score":"3-1",
-        "probability":0.062554
+        "score":"0-0",
+        "probability":0.067356
       }
     ],
     "match_id":91,
@@ -4001,38 +4001,38 @@
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105159}, {\"score\": \"1-0\", \"probability\": 0.104897}, {\"score\": \"2-1\", \"probability\": 0.099334}, {\"score\": \"2-0\", \"probability\": 0.099087}, {\"score\": \"3-1\", \"probability\": 0.062554}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119044}, {\"score\": \"1-0\", \"probability\": 0.113641}, {\"score\": \"2-1\", \"probability\": 0.100424}, {\"score\": \"2-0\", \"probability\": 0.095724}, {\"score\": \"0-0\", \"probability\": 0.067356}]"
   },
   {
-    "team1":"South Korea",
+    "team1":"Mexico",
     "team2":"England",
-    "expected_goals1":0.978,
-    "expected_goals2":2.475,
-    "prob_team1_win":0.139079,
-    "prob_draw":0.211383,
-    "prob_team2_win":0.649538,
+    "expected_goals1":1.218,
+    "expected_goals2":1.731,
+    "prob_team1_win":0.251335,
+    "prob_draw":0.27179,
+    "prob_team2_win":0.476875,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.097363
+        "score":"1-1",
+        "probability":0.11778
       },
       {
         "score":"1-2",
-        "probability":0.095188
-      },
-      {
-        "score":"0-3",
-        "probability":0.080325
+        "probability":0.098137
       },
       {
         "score":"0-1",
-        "probability":0.078676
+        "probability":0.093117
       },
       {
-        "score":"1-3",
-        "probability":0.078531
+        "score":"0-2",
+        "probability":0.077472
+      },
+      {
+        "score":"2-1",
+        "probability":0.069072
       }
     ],
     "match_id":92,
@@ -4045,38 +4045,38 @@
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.097363}, {\"score\": \"1-2\", \"probability\": 0.095188}, {\"score\": \"0-3\", \"probability\": 0.080325}, {\"score\": \"0-1\", \"probability\": 0.078676}, {\"score\": \"1-3\", \"probability\": 0.078531}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.11778}, {\"score\": \"1-2\", \"probability\": 0.098137}, {\"score\": \"0-1\", \"probability\": 0.093117}, {\"score\": \"0-2\", \"probability\": 0.077472}, {\"score\": \"2-1\", \"probability\": 0.069072}]"
   },
   {
-    "team1":"Colombia",
+    "team1":"Portugal",
     "team2":"Spain",
-    "expected_goals1":0.962,
-    "expected_goals2":2.314,
-    "prob_team1_win":0.151784,
-    "prob_draw":0.226333,
-    "prob_team2_win":0.621883,
+    "expected_goals1":1.196,
+    "expected_goals2":1.812,
+    "prob_team1_win":0.230827,
+    "prob_draw":0.27706,
+    "prob_team2_win":0.492113,
     "model_blend":"poisson+ml",
-    "most_likely_score":"0-2",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-2",
-        "probability":0.101467
+        "score":"1-1",
+        "probability":0.114298
       },
       {
         "score":"1-2",
-        "probability":0.097566
+        "probability":0.099741
       },
       {
         "score":"0-1",
-        "probability":0.087707
+        "probability":0.092054
       },
       {
-        "score":"1-1",
-        "probability":0.084335
+        "score":"0-2",
+        "probability":0.080212
       },
       {
-        "score":"0-3",
-        "probability":0.078258
+        "score":"2-1",
+        "probability":0.0658
       }
     ],
     "match_id":93,
@@ -4089,38 +4089,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.101467}, {\"score\": \"1-2\", \"probability\": 0.097566}, {\"score\": \"0-1\", \"probability\": 0.087707}, {\"score\": \"1-1\", \"probability\": 0.084335}, {\"score\": \"0-3\", \"probability\": 0.078258}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.114298}, {\"score\": \"1-2\", \"probability\": 0.099741}, {\"score\": \"0-1\", \"probability\": 0.092054}, {\"score\": \"0-2\", \"probability\": 0.080212}, {\"score\": \"2-1\", \"probability\": 0.0658}]"
   },
   {
     "team1":"USA",
     "team2":"Belgium",
-    "expected_goals1":1.376,
-    "expected_goals2":1.749,
-    "prob_team1_win":0.288283,
-    "prob_draw":0.267104,
-    "prob_team2_win":0.444614,
+    "expected_goals1":1.385,
+    "expected_goals2":1.456,
+    "prob_team1_win":0.328125,
+    "prob_draw":0.288144,
+    "prob_team2_win":0.383731,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.105789
+        "probability":0.125007
       },
       {
         "score":"1-2",
-        "probability":0.092529
+        "probability":0.087651
       },
       {
         "score":"0-1",
-        "probability":0.07689
+        "probability":0.086915
       },
       {
         "score":"2-1",
-        "probability":0.072775
+        "probability":0.083361
       },
       {
-        "score":"0-2",
-        "probability":0.067252
+        "score":"1-0",
+        "probability":0.082661
       }
     ],
     "match_id":94,
@@ -4133,38 +4133,38 @@
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105789}, {\"score\": \"1-2\", \"probability\": 0.092529}, {\"score\": \"0-1\", \"probability\": 0.07689}, {\"score\": \"2-1\", \"probability\": 0.072775}, {\"score\": \"0-2\", \"probability\": 0.067252}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125007}, {\"score\": \"1-2\", \"probability\": 0.087651}, {\"score\": \"0-1\", \"probability\": 0.086915}, {\"score\": \"2-1\", \"probability\": 0.083361}, {\"score\": \"1-0\", \"probability\": 0.082661}]"
   },
   {
     "team1":"Argentina",
-    "team2":"Turkey",
-    "expected_goals1":2.746,
-    "expected_goals2":0.754,
-    "prob_team1_win":0.741438,
-    "prob_draw":0.170004,
-    "prob_team2_win":0.088558,
+    "team2":"Australia",
+    "expected_goals1":2.751,
+    "expected_goals2":0.835,
+    "prob_team1_win":0.73831,
+    "prob_draw":0.164693,
+    "prob_team2_win":0.096997,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.114691
-      },
-      {
-        "score":"3-0",
-        "probability":0.104993
+        "probability":0.107002
       },
       {
         "score":"2-1",
-        "probability":0.086464
+        "probability":0.092911
       },
       {
-        "score":"1-0",
-        "probability":0.083523
+        "score":"3-0",
+        "probability":0.090265
       },
       {
         "score":"3-1",
-        "probability":0.079153
+        "probability":0.081917
+      },
+      {
+        "score":"1-0",
+        "probability":0.080909
       }
     ],
     "match_id":95,
@@ -4177,38 +4177,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.114691}, {\"score\": \"3-0\", \"probability\": 0.104993}, {\"score\": \"2-1\", \"probability\": 0.086464}, {\"score\": \"1-0\", \"probability\": 0.083523}, {\"score\": \"3-1\", \"probability\": 0.079153}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107002}, {\"score\": \"2-1\", \"probability\": 0.092911}, {\"score\": \"3-0\", \"probability\": 0.090265}, {\"score\": \"3-1\", \"probability\": 0.081917}, {\"score\": \"1-0\", \"probability\": 0.080909}]"
   },
   {
     "team1":"Switzerland",
-    "team2":"Portugal",
-    "expected_goals1":1.235,
-    "expected_goals2":1.757,
-    "prob_team1_win":0.26535,
-    "prob_draw":0.261617,
-    "prob_team2_win":0.473033,
+    "team2":"Colombia",
+    "expected_goals1":1.275,
+    "expected_goals2":1.323,
+    "prob_team1_win":0.322144,
+    "prob_draw":0.297504,
+    "prob_team2_win":0.380351,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.108952
-      },
-      {
-        "score":"1-2",
-        "probability":0.095731
+        "probability":0.132796
       },
       {
         "score":"0-1",
-        "probability":0.088251
+        "probability":0.100285
       },
       {
-        "score":"0-2",
-        "probability":0.077542
+        "score":"1-0",
+        "probability":0.096687
+      },
+      {
+        "score":"1-2",
+        "probability":0.084566
       },
       {
         "score":"2-1",
-        "probability":0.067255
+        "probability":0.081531
       }
     ],
     "match_id":96,
@@ -4218,41 +4218,41 @@
     "group":"",
     "ground":"Vancouver",
     "status":"predicted",
-    "predicted_winner":"Portugal",
+    "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.108952}, {\"score\": \"1-2\", \"probability\": 0.095731}, {\"score\": \"0-1\", \"probability\": 0.088251}, {\"score\": \"0-2\", \"probability\": 0.077542}, {\"score\": \"2-1\", \"probability\": 0.067255}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.132796}, {\"score\": \"0-1\", \"probability\": 0.100285}, {\"score\": \"1-0\", \"probability\": 0.096687}, {\"score\": \"1-2\", \"probability\": 0.084566}, {\"score\": \"2-1\", \"probability\": 0.081531}]"
   },
   {
     "team1":"France",
-    "team2":"Japan",
-    "expected_goals1":2.315,
-    "expected_goals2":1.108,
-    "prob_team1_win":0.594814,
-    "prob_draw":0.222096,
-    "prob_team2_win":0.18309,
+    "team2":"Netherlands",
+    "expected_goals1":1.922,
+    "expected_goals2":1.067,
+    "prob_team1_win":0.537797,
+    "prob_draw":0.251895,
+    "prob_team2_win":0.210308,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-1",
-        "probability":0.097098
-      },
-      {
-        "score":"2-0",
-        "probability":0.087654
-      },
-      {
         "score":"1-1",
-        "probability":0.083886
+        "probability":0.110503
+      },
+      {
+        "score":"2-1",
+        "probability":0.102245
       },
       {
         "score":"1-0",
-        "probability":0.075727
+        "probability":0.099688
+      },
+      {
+        "score":"2-0",
+        "probability":0.092101
       },
       {
         "score":"3-1",
-        "probability":0.074928
+        "probability":0.062976
       }
     ],
     "match_id":97,
@@ -4265,38 +4265,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.097098}, {\"score\": \"2-0\", \"probability\": 0.087654}, {\"score\": \"1-1\", \"probability\": 0.083886}, {\"score\": \"1-0\", \"probability\": 0.075727}, {\"score\": \"3-1\", \"probability\": 0.074928}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110503}, {\"score\": \"2-1\", \"probability\": 0.102245}, {\"score\": \"1-0\", \"probability\": 0.099688}, {\"score\": \"2-0\", \"probability\": 0.092101}, {\"score\": \"3-1\", \"probability\": 0.062976}]"
   },
   {
     "team1":"Spain",
     "team2":"Belgium",
-    "expected_goals1":3.177,
-    "expected_goals2":0.815,
-    "prob_team1_win":0.779054,
-    "prob_draw":0.142765,
-    "prob_team2_win":0.078181,
+    "expected_goals1":2.669,
+    "expected_goals2":0.896,
+    "prob_team1_win":0.707666,
+    "prob_draw":0.181617,
+    "prob_team2_win":0.110717,
     "model_blend":"poisson+ml",
-    "most_likely_score":"3-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.100344
-      },
-      {
         "score":"2-0",
-        "probability":0.09474
-      },
-      {
-        "score":"3-1",
-        "probability":0.081733
-      },
-      {
-        "score":"4-0",
-        "probability":0.07971
+        "probability":0.102444
       },
       {
         "score":"2-1",
-        "probability":0.077167
+        "probability":0.095473
+      },
+      {
+        "score":"3-0",
+        "probability":0.083837
+      },
+      {
+        "score":"3-1",
+        "probability":0.081659
+      },
+      {
+        "score":"1-0",
+        "probability":0.079849
       }
     ],
     "match_id":98,
@@ -4309,38 +4309,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.100344}, {\"score\": \"2-0\", \"probability\": 0.09474}, {\"score\": \"3-1\", \"probability\": 0.081733}, {\"score\": \"4-0\", \"probability\": 0.07971}, {\"score\": \"2-1\", \"probability\": 0.077167}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102444}, {\"score\": \"2-1\", \"probability\": 0.095473}, {\"score\": \"3-0\", \"probability\": 0.083837}, {\"score\": \"3-1\", \"probability\": 0.081659}, {\"score\": \"1-0\", \"probability\": 0.079849}]"
   },
   {
     "team1":"Brazil",
     "team2":"England",
-    "expected_goals1":1.475,
-    "expected_goals2":1.671,
-    "prob_team1_win":0.322821,
-    "prob_draw":0.274652,
-    "prob_team2_win":0.402526,
+    "expected_goals1":1.457,
+    "expected_goals2":1.409,
+    "prob_team1_win":0.354563,
+    "prob_draw":0.292987,
+    "prob_team2_win":0.35245,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.106114
-      },
-      {
-        "score":"1-2",
-        "probability":0.088642
+        "probability":0.124164
       },
       {
         "score":"2-1",
-        "probability":0.07825
+        "probability":0.087118
+      },
+      {
+        "score":"1-0",
+        "probability":0.084848
+      },
+      {
+        "score":"1-2",
+        "probability":0.084243
       },
       {
         "score":"0-1",
-        "probability":0.071951
-      },
-      {
-        "score":"2-2",
-        "probability":0.065365
+        "probability":0.082049
       }
     ],
     "match_id":99,
@@ -4350,41 +4350,41 @@
     "group":"",
     "ground":"Miami (Miami Gardens)",
     "status":"predicted",
-    "predicted_winner":"England",
+    "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.106114}, {\"score\": \"1-2\", \"probability\": 0.088642}, {\"score\": \"2-1\", \"probability\": 0.07825}, {\"score\": \"0-1\", \"probability\": 0.071951}, {\"score\": \"2-2\", \"probability\": 0.065365}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124164}, {\"score\": \"2-1\", \"probability\": 0.087118}, {\"score\": \"1-0\", \"probability\": 0.084848}, {\"score\": \"1-2\", \"probability\": 0.084243}, {\"score\": \"0-1\", \"probability\": 0.082049}]"
   },
   {
     "team1":"Argentina",
-    "team2":"Portugal",
-    "expected_goals1":2.304,
-    "expected_goals2":1.07,
-    "prob_team1_win":0.611044,
-    "prob_draw":0.216148,
-    "prob_team2_win":0.172808,
+    "team2":"Colombia",
+    "expected_goals1":2.026,
+    "expected_goals2":0.965,
+    "prob_team1_win":0.561156,
+    "prob_draw":0.266358,
+    "prob_team2_win":0.172487,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-1",
-        "probability":0.097536
-      },
-      {
-        "score":"2-0",
-        "probability":0.091129
-      },
-      {
         "score":"1-1",
-        "probability":0.084682
+        "probability":0.105425
       },
       {
         "score":"1-0",
-        "probability":0.079119
+        "probability":0.105198
+      },
+      {
+        "score":"2-1",
+        "probability":0.102841
+      },
+      {
+        "score":"2-0",
+        "probability":0.102467
       },
       {
         "score":"3-1",
-        "probability":0.074895
+        "probability":0.066781
       }
     ],
     "match_id":100,
@@ -4397,38 +4397,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.097536}, {\"score\": \"2-0\", \"probability\": 0.091129}, {\"score\": \"1-1\", \"probability\": 0.084682}, {\"score\": \"1-0\", \"probability\": 0.079119}, {\"score\": \"3-1\", \"probability\": 0.074895}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105425}, {\"score\": \"1-0\", \"probability\": 0.105198}, {\"score\": \"2-1\", \"probability\": 0.102841}, {\"score\": \"2-0\", \"probability\": 0.102467}, {\"score\": \"3-1\", \"probability\": 0.066781}]"
   },
   {
     "team1":"France",
     "team2":"Spain",
-    "expected_goals1":1.401,
-    "expected_goals2":1.783,
-    "prob_team1_win":0.290363,
-    "prob_draw":0.269565,
-    "prob_team2_win":0.440073,
+    "expected_goals1":1.405,
+    "expected_goals2":1.477,
+    "prob_team1_win":0.330896,
+    "prob_draw":0.290986,
+    "prob_team2_win":0.378118,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.103506
+        "probability":0.123584
       },
       {
         "score":"1-2",
-        "probability":0.092298
+        "probability":0.08787
       },
       {
         "score":"0-1",
-        "probability":0.073871
+        "probability":0.084711
       },
       {
         "score":"2-1",
-        "probability":0.072516
+        "probability":0.083594
       },
       {
-        "score":"0-2",
-        "probability":0.065872
+        "score":"1-0",
+        "probability":0.080588
       }
     ],
     "match_id":101,
@@ -4441,38 +4441,38 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103506}, {\"score\": \"1-2\", \"probability\": 0.092298}, {\"score\": \"0-1\", \"probability\": 0.073871}, {\"score\": \"2-1\", \"probability\": 0.072516}, {\"score\": \"0-2\", \"probability\": 0.065872}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123584}, {\"score\": \"1-2\", \"probability\": 0.08787}, {\"score\": \"0-1\", \"probability\": 0.084711}, {\"score\": \"2-1\", \"probability\": 0.083594}, {\"score\": \"1-0\", \"probability\": 0.080588}]"
   },
   {
-    "team1":"England",
+    "team1":"Brazil",
     "team2":"Argentina",
-    "expected_goals1":1.49,
-    "expected_goals2":1.723,
-    "prob_team1_win":0.311629,
-    "prob_draw":0.273405,
-    "prob_team2_win":0.414966,
+    "expected_goals1":1.287,
+    "expected_goals2":1.54,
+    "prob_team1_win":0.291104,
+    "prob_draw":0.285474,
+    "prob_team2_win":0.423421,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.103335
-      },
-      {
-        "score":"1-2",
-        "probability":0.089041
-      },
-      {
-        "score":"2-1",
-        "probability":0.076994
+        "probability":0.124606
       },
       {
         "score":"0-1",
-        "probability":0.069343
+        "probability":0.093201
       },
       {
-        "score":"2-2",
-        "probability":0.066344
+        "score":"1-2",
+        "probability":0.092412
+      },
+      {
+        "score":"1-0",
+        "probability":0.0779
+      },
+      {
+        "score":"2-1",
+        "probability":0.07724
       }
     ],
     "match_id":102,
@@ -4485,38 +4485,38 @@
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103335}, {\"score\": \"1-2\", \"probability\": 0.089041}, {\"score\": \"2-1\", \"probability\": 0.076994}, {\"score\": \"0-1\", \"probability\": 0.069343}, {\"score\": \"2-2\", \"probability\": 0.066344}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124606}, {\"score\": \"0-1\", \"probability\": 0.093201}, {\"score\": \"1-2\", \"probability\": 0.092412}, {\"score\": \"1-0\", \"probability\": 0.0779}, {\"score\": \"2-1\", \"probability\": 0.07724}]"
   },
   {
     "team1":"France",
-    "team2":"England",
-    "expected_goals1":1.886,
-    "expected_goals2":1.328,
-    "prob_team1_win":0.462729,
-    "prob_draw":0.255343,
-    "prob_team2_win":0.281928,
+    "team2":"Brazil",
+    "expected_goals1":1.879,
+    "expected_goals2":1.068,
+    "prob_team1_win":0.50547,
+    "prob_draw":0.267303,
+    "prob_team2_win":0.227227,
     "model_blend":"poisson+ml",
-    "most_likely_score":"1-1",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.100762
+        "probability":0.112624
       },
       {
         "score":"2-1",
-        "probability":0.095005
+        "probability":0.10189
       },
       {
         "score":"1-0",
-        "probability":0.075856
+        "probability":0.101519
       },
       {
         "score":"2-0",
-        "probability":0.071522
+        "probability":0.091707
       },
       {
-        "score":"1-2",
-        "probability":0.066923
+        "score":"3-1",
+        "probability":0.061362
       }
     ],
     "match_id":103,
@@ -4529,38 +4529,38 @@
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.100762}, {\"score\": \"2-1\", \"probability\": 0.095005}, {\"score\": \"1-0\", \"probability\": 0.075856}, {\"score\": \"2-0\", \"probability\": 0.071522}, {\"score\": \"1-2\", \"probability\": 0.066923}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112624}, {\"score\": \"2-1\", \"probability\": 0.10189}, {\"score\": \"1-0\", \"probability\": 0.101519}, {\"score\": \"2-0\", \"probability\": 0.091707}, {\"score\": \"3-1\", \"probability\": 0.061362}]"
   },
   {
     "team1":"Spain",
     "team2":"Argentina",
-    "expected_goals1":2.001,
-    "expected_goals2":1.281,
-    "prob_team1_win":0.48093,
-    "prob_draw":0.261575,
-    "prob_team2_win":0.257494,
+    "expected_goals1":1.831,
+    "expected_goals2":1.175,
+    "prob_team1_win":0.462993,
+    "prob_draw":0.278972,
+    "prob_team2_win":0.258035,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-1",
-        "probability":0.096429
-      },
-      {
         "score":"1-1",
-        "probability":0.096393
+        "probability":0.113722
       },
       {
-        "score":"2-0",
-        "probability":0.075304
+        "score":"2-1",
+        "probability":0.100278
       },
       {
         "score":"1-0",
-        "probability":0.075276
+        "probability":0.093171
       },
       {
-        "score":"3-1",
-        "probability":0.064309
+        "score":"2-0",
+        "probability":0.082036
+      },
+      {
+        "score":"1-2",
+        "probability":0.064357
       }
     ],
     "match_id":104,
@@ -4573,6 +4573,6 @@
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.096429}, {\"score\": \"1-1\", \"probability\": 0.096393}, {\"score\": \"2-0\", \"probability\": 0.075304}, {\"score\": \"1-0\", \"probability\": 0.075276}, {\"score\": \"3-1\", \"probability\": 0.064309}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113722}, {\"score\": \"2-1\", \"probability\": 0.100278}, {\"score\": \"1-0\", \"probability\": 0.093171}, {\"score\": \"2-0\", \"probability\": 0.082036}, {\"score\": \"1-2\", \"probability\": 0.064357}]"
   }
 ]

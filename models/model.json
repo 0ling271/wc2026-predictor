@@ -1,12 +1,17 @@
 {
   "params": {
-    "base_home_goals": 1.2780813066763481,
-    "base_away_goals": 1.0953555431919537,
+    "base_home_goals": 1.3371697648889869,
+    "base_away_goals": 0.965282591852507,
     "elo_goal_scale": 0.0032,
     "attack_weight": 0.32,
     "defense_weight": 0.24,
-    "host_goal_bonus": 0.1256109090909091,
+    "host_goal_bonus": 0.12871818181818181,
     "ml_blend_weight": 0.22,
+    "score_total_shrink": 0.68,
+    "score_diff_shrink": 0.68,
+    "tournament_goal_mean": 2.55,
+    "low_score_draw_boost": 1.08,
+    "one_goal_margin_boost": 1.04,
     "max_goals": 7
   },
   "teams": {
@@ -398,12 +403,12 @@
   "trained_rows": 49405,
   "last_calibration": {
     "completed_matches": 4,
-    "home_goal_ratio": 0.8687258687258688,
-    "away_goal_ratio": 0.972447325769854,
-    "home_goal_multiplier": 0.9761319761319761,
-    "away_goal_multiplier": 0.9949904228672461,
+    "home_goal_ratio": 1.0235414534288638,
+    "away_goal_ratio": 0.8517887563884157,
+    "home_goal_multiplier": 1.0042802642597934,
+    "away_goal_multiplier": 0.9730525011615301,
     "elo_goal_scale_multiplier": 1.0,
-    "host_goal_bonus_delta": -0.002241818181818182,
+    "host_goal_bonus_delta": 0.0001563636363636369,
     "note": "\u6837\u672c\u8f83\u5c11\u65f6\u4f7f\u7528\u5f3a\u6536\u7f29\uff0c\u907f\u514d\u4e24\u4e09\u573a\u6bd4\u8d5b\u5bfc\u81f4\u53c2\u6570\u5267\u70c8\u6446\u52a8\u3002"
   }
 }
