@@ -5,7 +5,7 @@ match_id,round,date,time,team1,team2,group,ground,actual_goals1,actual_goals2
 4,Matchday 8,2026-06-18,19:00 UTC-6,Mexico,South Korea,Group A,Guadalajara (Zapopan),,
 5,Matchday 14,2026-06-24,19:00 UTC-6,Czech Republic,Mexico,Group A,Mexico City,,
 6,Matchday 14,2026-06-24,19:00 UTC-6,South Africa,South Korea,Group A,Monterrey (Guadalupe),,
-7,Matchday 2,2026-06-12,15:00 UTC-4,Canada,Bosnia & Herzegovina,Group B,Toronto,,
+7,Matchday 2,2026-06-12,15:00 UTC-4,Canada,Bosnia & Herzegovina,Group B,Toronto,1.0,1.0
 8,Matchday 3,2026-06-13,12:00 UTC-7,Qatar,Switzerland,Group B,San Francisco Bay Area (Santa Clara),,
 9,Matchday 8,2026-06-18,12:00 UTC-7,Switzerland,Bosnia & Herzegovina,Group B,Los Angeles (Inglewood),,
 10,Matchday 8,2026-06-18,15:00 UTC-7,Canada,Qatar,Group B,Vancouver,,
@@ -17,7 +17,7 @@ match_id,round,date,time,team1,team2,group,ground,actual_goals1,actual_goals2
 16,Matchday 9,2026-06-19,20:30 UTC-4,Brazil,Haiti,Group C,Philadelphia,,
 17,Matchday 14,2026-06-24,18:00 UTC-4,Scotland,Brazil,Group C,Miami (Miami Gardens),,
 18,Matchday 14,2026-06-24,18:00 UTC-4,Morocco,Haiti,Group C,Atlanta,,
-19,Matchday 2,2026-06-12,18:00 UTC-7,USA,Paraguay,Group D,Los Angeles (Inglewood),,
+19,Matchday 2,2026-06-12,18:00 UTC-7,USA,Paraguay,Group D,Los Angeles (Inglewood),4.0,1.0
 20,Matchday 3,2026-06-13,21:00 UTC-7,Australia,Turkey,Group D,Vancouver,,
 21,Matchday 9,2026-06-19,12:00 UTC-7,USA,Australia,Group D,Seattle,,
 22,Matchday 9,2026-06-19,20:00 UTC-7,Turkey,Paraguay,Group D,San Francisco Bay Area (Santa Clara),,
