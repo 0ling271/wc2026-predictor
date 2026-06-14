@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-15",
+  "matches": [
+    {
+      "match_id": 37,
+      "team1_xg_delta": 0.05,
+      "team2_xg_delta": 0.07,
+      "tempo_delta": 0.03,
+      "objective_weight": 0.55,
+      "notes": [
+        "Belgium core attackers are available, with De Bruyne and Lukaku still central to chance creation.",
+        "Egypt have Salah and Marmoush as transition threats, so Egypt scoring probability is nudged upward.",
+        "Seattle noon forecast is warm and sunny but not extreme, so weather has only a small tempo boost."
+      ],
+      "sources": [
+        "Goal.com Belgium vs Egypt team news",
+        "JuveFC Belgium vs Egypt preview",
+        "Weather Seattle 2026-06-15"
+      ]
+    },
+    {
+      "match_id": 38,
+      "team1_xg_delta": 0.10,
+      "team2_xg_delta": 0.02,
+      "tempo_delta": 0.00,
+      "objective_weight": 0.55,
+      "notes": [
+        "No reported injuries or suspensions for either side.",
+        "Iran recent form and attacking output are stronger; New Zealand recent defensive form is weak.",
+        "Inglewood evening forecast is mild, and SoFi conditions should not meaningfully penalize either team."
+      ],
+      "sources": [
+        "Goal.com Iran vs New Zealand team news and form",
+        "SheKicks Iran vs New Zealand preview",
+        "Weather Inglewood 2026-06-15"
+      ]
+    },
+    {
+      "match_id": 43,
+      "team1_xg_delta": -0.55,
+      "team2_xg_delta": 0.05,
+      "tempo_delta": -0.03,
+      "objective_weight": 0.65,
+      "notes": [
+        "Spain remain heavy favourites, but Yamal and Nico Williams are expected to be managed rather than both risked from the start.",
+        "Cape Verde report no major fitness concerns and enter with good recent form.",
+        "Atlanta forecast includes storms, but stadium conditions reduce weather impact; rotation is the larger adjustment."
+      ],
+      "sources": [
+        "Sports Mole Spain vs Cape Verde team news",
+        "ESPN/Fox Spain Yamal and Williams training updates",
+        "Weather Atlanta 2026-06-15"
+      ]
+    },
+    {
+      "match_id": 44,
+      "team1_xg_delta": 0.18,
+      "team2_xg_delta": -0.12,
+      "tempo_delta": -0.05,
+      "objective_weight": 0.6,
+      "notes": [
+        "Uruguay are still stronger, but several defenders/creators have fitness doubts in the latest team-news cycle.",
+        "Saudi Arabia are more acclimatized to hot, humid conditions and may benefit from Miami weather if Uruguay press aggressively.",
+        "Miami forecast is hot with shower/thunderstorm risk, which slightly reduces tempo and increases draw/low-margin outcomes."
+      ],
+      "sources": [
+        "Sports Mole Uruguay injury concerns",
+        "SheKicks Saudi Arabia vs Uruguay preview",
+        "Weather Miami Gardens 2026-06-15"
+      ]
+    }
+  ]
+}

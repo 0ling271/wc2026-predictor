@@ -9,6 +9,7 @@ from .calibrate import calibration_report
 from .data import load_fixtures, load_history, refresh_data
 from .model import fit_model, load_model
 from .monte_carlo import run_monte_carlo
+from .objective import objective_predict
 from .paths import OUTPUTS_DIR, ensure_dirs
 from .simulate import predict_tournament
 
@@ -100,3 +101,10 @@ def export_summary() -> None:
             summary["monte_carlo_champion_probability"] = float(odds.iloc[0]["prob_champion"])
     (OUTPUTS_DIR / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     typer.echo(summary)
+
+
+@app.command()
+def objective(date: str) -> None:
+    """Apply match-level objective adjustments for a specific date."""
+    df = objective_predict(date)
+    typer.echo(f"objective_predictions={len(df)} saved={OUTPUTS_DIR / f'objective_predictions_{date}.csv'}")

@@ -19,6 +19,15 @@ DETAIL_PATH = ROOT / "reports" / "calibration_details.csv"
 ODDS_PATH = ROOT / "outputs" / "tournament_odds.csv"
 
 
+def load_objective_predictions() -> pd.DataFrame:
+    frames = []
+    for path in sorted((ROOT / "outputs").glob("objective_predictions_*.csv")):
+        frame = pd.read_csv(path)
+        frame["adjustment_date"] = path.stem.replace("objective_predictions_", "")
+        frames.append(frame)
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
 def status_cn(value: str) -> str:
     return {"actual": "已赛", "predicted": "预测"}.get(str(value), str(value))
 
@@ -191,6 +200,53 @@ if not odds_df.empty:
         use_container_width=True,
         hide_index=True,
     )
+
+objective_df = load_objective_predictions()
+if not objective_df.empty:
+    st.subheader("赛前客观因素修正预测")
+    latest_objective_date = sorted(objective_df["adjustment_date"].dropna().unique())[-1]
+    objective_view = objective_df[objective_df["adjustment_date"] == latest_objective_date].copy()
+    objective_view = sort_by_kickoff(objective_view).reset_index(drop=True)
+    st.caption(f"当前显示：{latest_objective_date}，仅对这一天赛前指定的比赛加入球队状态、预计阵容、气候与场地等客观因素。")
+    objective_display = objective_view[
+        [
+            "match_id",
+            "date",
+            "time",
+            "ground",
+            "team1",
+            "team2",
+            "base_score",
+            "adjusted_score",
+            "adjusted_prediction",
+            "adjusted_expected_goals1",
+            "adjusted_expected_goals2",
+            "adjusted_prob_team1_win",
+            "adjusted_prob_draw",
+            "adjusted_prob_team2_win",
+            "objective_notes",
+        ]
+    ].rename(
+        columns={
+            "match_id": "场次",
+            "date": "日期",
+            "time": "开球时间",
+            "ground": "比赛地",
+            "team1": "球队1",
+            "team2": "球队2",
+            "base_score": "基础比分",
+            "adjusted_score": "修正比分",
+            "adjusted_prediction": "修正结果",
+            "adjusted_expected_goals1": "球队1修正xG",
+            "adjusted_expected_goals2": "球队2修正xG",
+            "adjusted_prob_team1_win": "球队1胜率",
+            "adjusted_prob_draw": "平局概率",
+            "adjusted_prob_team2_win": "球队2胜率",
+            "objective_notes": "客观因素摘要",
+        }
+    )
+    objective_display["修正结果"] = objective_display["修正结果"].map(result_cn)
+    st.dataframe(objective_display, use_container_width=True, hide_index=True)
 
 display = view[
     [
