@@ -21,16 +21,23 @@ def objective_predict(date: str, adjustments_path: Path | None = None) -> pd.Dat
     predictions_path = OUTPUTS_DIR / "predictions.json"
     if not predictions_path.exists():
         raise FileNotFoundError("Run predict first: missing outputs/predictions.json")
-    predictions = pd.read_json(predictions_path)
+    predictions = pd.read_json(predictions_path, convert_dates=False)
     adjustments_path = adjustments_path or PROCESSED_DIR / f"objective_adjustments_{date}.json"
     adjustments = load_adjustments(adjustments_path)
     rows = []
-    for row in predictions[predictions["date"].astype(str).eq(date)].itertuples(index=False):
+    date_column = "china_date" if "china_date" in predictions.columns else "date"
+    for row in predictions[predictions[date_column].astype(str).eq(date)].itertuples(index=False):
         item = adjustments.get(int(row.match_id))
         if not item:
             continue
         rows.append(_adjust_row(row._asdict(), item))
     output = pd.DataFrame(rows)
+    if {"china_date", "china_time"}.issubset(output.columns) and not output.empty:
+        output["_kickoff_sort"] = pd.to_datetime(
+            output["china_date"].astype(str) + " " + output["china_time"].astype(str),
+            errors="coerce",
+        )
+        output = output.sort_values(["_kickoff_sort", "match_id"], na_position="last").drop(columns=["_kickoff_sort"])
     output.to_csv(OUTPUTS_DIR / f"objective_predictions_{date}.csv", index=False, encoding="utf-8")
     (OUTPUTS_DIR / f"objective_predictions_{date}.json").write_text(
         output.to_json(orient="records", force_ascii=False, indent=2), encoding="utf-8"
@@ -65,6 +72,8 @@ def _adjust_row(row: dict, item: dict) -> dict:
         "match_id": int(row["match_id"]),
         "date": row["date"],
         "time": row["time"],
+        "china_date": row.get("china_date", row["date"]),
+        "china_time": row.get("china_time", ""),
         "ground": row["ground"],
         "team1": team1,
         "team2": team2,

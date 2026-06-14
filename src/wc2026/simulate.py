@@ -183,7 +183,7 @@ def predict_tournament(state: PredictorState, fixtures: pd.DataFrame) -> tuple[p
 
 
 def _row_meta(row) -> dict:
-    return {
+    meta = {
         "match_id": int(row.match_id),
         "round": row.round,
         "date": row.date,
@@ -191,6 +191,11 @@ def _row_meta(row) -> dict:
         "group": row.group,
         "ground": row.ground,
     }
+    if hasattr(row, "china_date"):
+        meta["china_date"] = row.china_date
+    if hasattr(row, "china_time"):
+        meta["china_time"] = row.china_time
+    return meta
 
 
 def _actual_winner(team1: str, team2: str, g1: int, g2: int) -> str:

@@ -2,33 +2,33 @@
   {
     "team1":"Mexico",
     "team2":"South Africa",
-    "expected_goals1":2.849,
-    "expected_goals2":0.739,
-    "prob_team1_win":0.749012,
-    "prob_draw":0.164098,
-    "prob_team2_win":0.086889,
+    "expected_goals1":2.832,
+    "expected_goals2":0.763,
+    "prob_team1_win":0.741966,
+    "prob_draw":0.168111,
+    "prob_team2_win":0.089923,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.115094
+        "probability":0.112871
       },
       {
         "score":"3-0",
-        "probability":0.100573
+        "probability":0.098034
       },
       {
         "score":"2-1",
-        "probability":0.088468
+        "probability":0.089526
       },
       {
         "score":"1-0",
-        "probability":0.084014
+        "probability":0.082893
       },
       {
         "score":"3-1",
-        "probability":0.080797
+        "probability":0.081269
       }
     ],
     "match_id":1,
@@ -37,42 +37,44 @@
     "time":"13:00 UTC-6",
     "group":"Group A",
     "ground":"Mexico City",
+    "china_date":"2026-06-12",
+    "china_time":"03:00",
     "status":"actual",
     "predicted_winner":"Mexico",
     "actual_result":"Mexico",
     "actual_score":"2-0",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.115094}, {\"score\": \"3-0\", \"probability\": 0.100573}, {\"score\": \"2-1\", \"probability\": 0.088468}, {\"score\": \"1-0\", \"probability\": 0.084014}, {\"score\": \"3-1\", \"probability\": 0.080797}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.112871}, {\"score\": \"3-0\", \"probability\": 0.098034}, {\"score\": \"2-1\", \"probability\": 0.089526}, {\"score\": \"1-0\", \"probability\": 0.082893}, {\"score\": \"3-1\", \"probability\": 0.081269}]"
   },
   {
     "team1":"South Korea",
     "team2":"Czech Republic",
-    "expected_goals1":1.885,
-    "expected_goals2":0.969,
-    "prob_team1_win":0.552117,
-    "prob_draw":0.260981,
-    "prob_team2_win":0.186902,
+    "expected_goals1":1.874,
+    "expected_goals2":1.008,
+    "prob_team1_win":0.540972,
+    "prob_draw":0.263737,
+    "prob_team2_win":0.195291,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.112462
+        "probability":0.113091
       },
       {
         "score":"1-0",
-        "probability":0.111818
+        "probability":0.107994
       },
       {
         "score":"2-1",
-        "probability":0.102094
+        "probability":0.102045
       },
       {
         "score":"2-0",
-        "probability":0.101359
+        "probability":0.097302
       },
       {
         "score":"3-1",
-        "probability":0.061697
+        "probability":0.061295
       }
     ],
     "match_id":2,
@@ -81,42 +83,44 @@
     "time":"20:00 UTC-6",
     "group":"Group A",
     "ground":"Guadalajara (Zapopan)",
+    "china_date":"2026-06-12",
+    "china_time":"10:00",
     "status":"actual",
     "predicted_winner":"South Korea",
     "actual_result":"South Korea",
     "actual_score":"2-1",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112462}, {\"score\": \"1-0\", \"probability\": 0.111818}, {\"score\": \"2-1\", \"probability\": 0.102094}, {\"score\": \"2-0\", \"probability\": 0.101359}, {\"score\": \"3-1\", \"probability\": 0.061697}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113091}, {\"score\": \"1-0\", \"probability\": 0.107994}, {\"score\": \"2-1\", \"probability\": 0.102045}, {\"score\": \"2-0\", \"probability\": 0.097302}, {\"score\": \"3-1\", \"probability\": 0.061295}]"
   },
   {
     "team1":"Czech Republic",
     "team2":"South Africa",
-    "expected_goals1":1.965,
-    "expected_goals2":0.894,
-    "prob_team1_win":0.559068,
-    "prob_draw":0.251822,
-    "prob_team2_win":0.18911,
+    "expected_goals1":1.953,
+    "expected_goals2":0.928,
+    "prob_team1_win":0.550706,
+    "prob_draw":0.253523,
+    "prob_team2_win":0.195771,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-0",
-        "probability":0.116245
-      },
-      {
-        "score":"2-0",
-        "probability":0.109842
+        "probability":0.112916
       },
       {
         "score":"1-1",
-        "probability":0.107868
+        "probability":0.108832
+      },
+      {
+        "score":"2-0",
+        "probability":0.106044
       },
       {
         "score":"2-1",
-        "probability":0.102077
+        "probability":0.102361
       },
       {
-        "score":"3-0",
-        "probability":0.066205
+        "score":"3-1",
+        "probability":0.064088
       }
     ],
     "match_id":3,
@@ -125,42 +129,44 @@
     "time":"12:00 UTC-4",
     "group":"Group A",
     "ground":"Atlanta",
+    "china_date":"2026-06-19",
+    "china_time":"00:00",
     "status":"predicted",
     "predicted_winner":"Czech Republic",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.116245}, {\"score\": \"2-0\", \"probability\": 0.109842}, {\"score\": \"1-1\", \"probability\": 0.107868}, {\"score\": \"2-1\", \"probability\": 0.102077}, {\"score\": \"3-0\", \"probability\": 0.066205}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.112916}, {\"score\": \"1-1\", \"probability\": 0.108832}, {\"score\": \"2-0\", \"probability\": 0.106044}, {\"score\": \"2-1\", \"probability\": 0.102361}, {\"score\": \"3-1\", \"probability\": 0.064088}]"
   },
   {
     "team1":"Mexico",
     "team2":"South Korea",
-    "expected_goals1":1.669,
-    "expected_goals2":1.135,
-    "prob_team1_win":0.451977,
-    "prob_draw":0.291228,
-    "prob_team2_win":0.256795,
+    "expected_goals1":1.661,
+    "expected_goals2":1.187,
+    "prob_team1_win":0.441909,
+    "prob_draw":0.289882,
+    "prob_team2_win":0.268209,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.122036
+        "probability":0.121591
       },
       {
         "score":"1-0",
-        "probability":0.103516
+        "probability":0.09864
       },
       {
         "score":"2-1",
-        "probability":0.098072
+        "probability":0.097237
       },
       {
         "score":"2-0",
-        "probability":0.083065
+        "probability":0.078767
       },
       {
         "score":"0-1",
-        "probability":0.070408
+        "probability":0.070495
       }
     ],
     "match_id":4,
@@ -169,42 +175,44 @@
     "time":"19:00 UTC-6",
     "group":"Group A",
     "ground":"Guadalajara (Zapopan)",
+    "china_date":"2026-06-19",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.122036}, {\"score\": \"1-0\", \"probability\": 0.103516}, {\"score\": \"2-1\", \"probability\": 0.098072}, {\"score\": \"2-0\", \"probability\": 0.083065}, {\"score\": \"0-1\", \"probability\": 0.070408}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121591}, {\"score\": \"1-0\", \"probability\": 0.09864}, {\"score\": \"2-1\", \"probability\": 0.097237}, {\"score\": \"2-0\", \"probability\": 0.078767}, {\"score\": \"0-1\", \"probability\": 0.070495}]"
   },
   {
     "team1":"Czech Republic",
     "team2":"Mexico",
-    "expected_goals1":1.1,
-    "expected_goals2":1.603,
-    "prob_team1_win":0.236811,
-    "prob_draw":0.276871,
-    "prob_team2_win":0.486318,
+    "expected_goals1":1.095,
+    "expected_goals2":1.683,
+    "prob_team1_win":0.227018,
+    "prob_draw":0.272409,
+    "prob_team2_win":0.500573,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125415
+        "probability":0.121852
       },
       {
         "score":"0-1",
-        "probability":0.109755
+        "probability":0.107157
       },
       {
         "score":"1-2",
-        "probability":0.09682
+        "probability":0.09875
       },
       {
         "score":"0-2",
-        "probability":0.084606
+        "probability":0.086713
       },
       {
         "score":"1-0",
-        "probability":0.075322
+        "probability":0.069713
       }
     ],
     "match_id":5,
@@ -213,42 +221,44 @@
     "time":"19:00 UTC-6",
     "group":"Group A",
     "ground":"Mexico City",
+    "china_date":"2026-06-25",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125415}, {\"score\": \"0-1\", \"probability\": 0.109755}, {\"score\": \"1-2\", \"probability\": 0.09682}, {\"score\": \"0-2\", \"probability\": 0.084606}, {\"score\": \"1-0\", \"probability\": 0.075322}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121852}, {\"score\": \"0-1\", \"probability\": 0.107157}, {\"score\": \"1-2\", \"probability\": 0.09875}, {\"score\": \"0-2\", \"probability\": 0.086713}, {\"score\": \"1-0\", \"probability\": 0.069713}]"
   },
   {
     "team1":"South Africa",
     "team2":"South Korea",
-    "expected_goals1":0.922,
-    "expected_goals2":2.044,
-    "prob_team1_win":0.164505,
-    "prob_draw":0.234069,
-    "prob_team2_win":0.601426,
+    "expected_goals1":0.918,
+    "expected_goals2":2.16,
+    "prob_team1_win":0.154547,
+    "prob_draw":0.228237,
+    "prob_team2_win":0.617215,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"0-1",
-        "probability":0.108852
-      },
-      {
         "score":"0-2",
-        "probability":0.106963
+        "probability":0.107181
       },
       {
-        "score":"1-1",
-        "probability":0.104263
+        "score":"0-1",
+        "probability":0.103194
       },
       {
         "score":"1-2",
-        "probability":0.102605
+        "probability":0.102372
       },
       {
-        "score":"1-3",
-        "probability":0.067216
+        "score":"1-1",
+        "probability":0.098418
+      },
+      {
+        "score":"0-3",
+        "probability":0.071009
       }
     ],
     "match_id":6,
@@ -257,42 +267,44 @@
     "time":"19:00 UTC-6",
     "group":"Group A",
     "ground":"Monterrey (Guadalupe)",
+    "china_date":"2026-06-25",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"South Korea",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.108852}, {\"score\": \"0-2\", \"probability\": 0.106963}, {\"score\": \"1-1\", \"probability\": 0.104263}, {\"score\": \"1-2\", \"probability\": 0.102605}, {\"score\": \"1-3\", \"probability\": 0.067216}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.107181}, {\"score\": \"0-1\", \"probability\": 0.103194}, {\"score\": \"1-2\", \"probability\": 0.102372}, {\"score\": \"1-1\", \"probability\": 0.098418}, {\"score\": \"0-3\", \"probability\": 0.071009}]"
   },
   {
     "team1":"Canada",
     "team2":"Bosnia & Herzegovina",
-    "expected_goals1":2.505,
-    "expected_goals2":0.76,
-    "prob_team1_win":0.691999,
-    "prob_draw":0.210305,
-    "prob_team2_win":0.097696,
+    "expected_goals1":2.49,
+    "expected_goals2":0.785,
+    "prob_team1_win":0.684723,
+    "prob_draw":0.213082,
+    "prob_team2_win":0.102195,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.121161
+        "probability":0.118412
       },
       {
         "score":"1-0",
-        "probability":0.100605
+        "probability":0.098898
       },
       {
         "score":"2-1",
-        "probability":0.095796
+        "probability":0.09671
       },
       {
         "score":"3-0",
-        "probability":0.093076
+        "probability":0.090435
       },
       {
         "score":"1-1",
-        "probability":0.079425
+        "probability":0.080653
       }
     ],
     "match_id":7,
@@ -301,42 +313,44 @@
     "time":"15:00 UTC-4",
     "group":"Group B",
     "ground":"Toronto",
+    "china_date":"2026-06-13",
+    "china_time":"03:00",
     "status":"actual",
     "predicted_winner":"Canada",
     "actual_result":"Draw",
     "actual_score":"1-1",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.121161}, {\"score\": \"1-0\", \"probability\": 0.100605}, {\"score\": \"2-1\", \"probability\": 0.095796}, {\"score\": \"3-0\", \"probability\": 0.093076}, {\"score\": \"1-1\", \"probability\": 0.079425}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.118412}, {\"score\": \"1-0\", \"probability\": 0.098898}, {\"score\": \"2-1\", \"probability\": 0.09671}, {\"score\": \"3-0\", \"probability\": 0.090435}, {\"score\": \"1-1\", \"probability\": 0.080653}]"
   },
   {
     "team1":"Qatar",
     "team2":"Switzerland",
-    "expected_goals1":0.792,
-    "expected_goals2":2.308,
-    "prob_team1_win":0.117197,
-    "prob_draw":0.207671,
-    "prob_team2_win":0.675133,
+    "expected_goals1":0.789,
+    "expected_goals2":2.444,
+    "prob_team1_win":0.109307,
+    "prob_draw":0.19866,
+    "prob_team2_win":0.692033,
     "model_blend":"poisson+ml",
     "most_likely_score":"0-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.120471
+        "probability":0.118854
       },
       {
         "score":"0-1",
-        "probability":0.108551
+        "probability":0.101165
       },
       {
         "score":"1-2",
-        "probability":0.099182
-      },
-      {
-        "score":"1-1",
-        "probability":0.089236
+        "probability":0.097485
       },
       {
         "score":"0-3",
-        "probability":0.085283
+        "probability":0.089069
+      },
+      {
+        "score":"1-1",
+        "probability":0.082854
       }
     ],
     "match_id":8,
@@ -345,42 +359,44 @@
     "time":"12:00 UTC-7",
     "group":"Group B",
     "ground":"San Francisco Bay Area (Santa Clara)",
-    "status":"predicted",
+    "china_date":"2026-06-14",
+    "china_time":"03:00",
+    "status":"actual",
     "predicted_winner":"Switzerland",
-    "actual_result":"",
-    "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.120471}, {\"score\": \"0-1\", \"probability\": 0.108551}, {\"score\": \"1-2\", \"probability\": 0.099182}, {\"score\": \"1-1\", \"probability\": 0.089236}, {\"score\": \"0-3\", \"probability\": 0.085283}]"
+    "actual_result":"Draw",
+    "actual_score":"1-1",
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.118854}, {\"score\": \"0-1\", \"probability\": 0.101165}, {\"score\": \"1-2\", \"probability\": 0.097485}, {\"score\": \"0-3\", \"probability\": 0.089069}, {\"score\": \"1-1\", \"probability\": 0.082854}]"
   },
   {
     "team1":"Switzerland",
     "team2":"Bosnia & Herzegovina",
-    "expected_goals1":2.808,
-    "expected_goals2":0.692,
-    "prob_team1_win":0.750827,
-    "prob_draw":0.168645,
-    "prob_team2_win":0.080528,
+    "expected_goals1":2.789,
+    "expected_goals2":0.713,
+    "prob_team1_win":0.746285,
+    "prob_draw":0.171713,
+    "prob_team2_win":0.082002,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.121941
+        "probability":0.120004
       },
       {
         "score":"3-0",
-        "probability":0.104999
+        "probability":0.10265
       },
       {
         "score":"1-0",
-        "probability":0.090333
+        "probability":0.089488
       },
       {
         "score":"2-1",
-        "probability":0.087796
+        "probability":0.088927
       },
       {
         "score":"3-1",
-        "probability":0.079011
+        "probability":0.079501
       }
     ],
     "match_id":9,
@@ -389,42 +405,44 @@
     "time":"12:00 UTC-7",
     "group":"Group B",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-19",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.121941}, {\"score\": \"3-0\", \"probability\": 0.104999}, {\"score\": \"1-0\", \"probability\": 0.090333}, {\"score\": \"2-1\", \"probability\": 0.087796}, {\"score\": \"3-1\", \"probability\": 0.079011}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.120004}, {\"score\": \"3-0\", \"probability\": 0.10265}, {\"score\": \"1-0\", \"probability\": 0.089488}, {\"score\": \"2-1\", \"probability\": 0.088927}, {\"score\": \"3-1\", \"probability\": 0.079501}]"
   },
   {
     "team1":"Canada",
     "team2":"Qatar",
-    "expected_goals1":2.7,
-    "expected_goals2":0.751,
-    "prob_team1_win":0.736496,
-    "prob_draw":0.176175,
-    "prob_team2_win":0.087329,
+    "expected_goals1":2.684,
+    "expected_goals2":0.776,
+    "prob_team1_win":0.725698,
+    "prob_draw":0.181032,
+    "prob_team2_win":0.09327,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.117799
+        "probability":0.115326
       },
       {
         "score":"3-0",
-        "probability":0.097534
+        "probability":0.094918
       },
       {
         "score":"2-1",
-        "probability":0.09202
+        "probability":0.093018
       },
       {
         "score":"1-0",
-        "probability":0.090752
+        "probability":0.089379
       },
       {
         "score":"3-1",
-        "probability":0.07963
+        "probability":0.080014
       }
     ],
     "match_id":10,
@@ -433,42 +451,44 @@
     "time":"15:00 UTC-7",
     "group":"Group B",
     "ground":"Vancouver",
+    "china_date":"2026-06-19",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Canada",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.117799}, {\"score\": \"3-0\", \"probability\": 0.097534}, {\"score\": \"2-1\", \"probability\": 0.09202}, {\"score\": \"1-0\", \"probability\": 0.090752}, {\"score\": \"3-1\", \"probability\": 0.07963}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.115326}, {\"score\": \"3-0\", \"probability\": 0.094918}, {\"score\": \"2-1\", \"probability\": 0.093018}, {\"score\": \"1-0\", \"probability\": 0.089379}, {\"score\": \"3-1\", \"probability\": 0.080014}]"
   },
   {
     "team1":"Switzerland",
     "team2":"Canada",
-    "expected_goals1":1.715,
-    "expected_goals2":1.133,
-    "prob_team1_win":0.46787,
-    "prob_draw":0.266936,
-    "prob_team2_win":0.265194,
+    "expected_goals1":1.705,
+    "expected_goals2":1.18,
+    "prob_team1_win":0.457624,
+    "prob_draw":0.268595,
+    "prob_team2_win":0.273782,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.119914
-      },
-      {
-        "score":"1-0",
-        "probability":0.10189
+        "probability":0.119681
       },
       {
         "score":"2-1",
-        "probability":0.099033
+        "probability":0.09826
+      },
+      {
+        "score":"1-0",
+        "probability":0.0977
       },
       {
         "score":"2-0",
-        "probability":0.084023
+        "probability":0.080095
       },
       {
-        "score":"0-1",
-        "probability":0.06732
+        "score":"1-2",
+        "probability":0.067975
       }
     ],
     "match_id":11,
@@ -477,42 +497,44 @@
     "time":"12:00 UTC-7",
     "group":"Group B",
     "ground":"Vancouver",
+    "china_date":"2026-06-25",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119914}, {\"score\": \"1-0\", \"probability\": 0.10189}, {\"score\": \"2-1\", \"probability\": 0.099033}, {\"score\": \"2-0\", \"probability\": 0.084023}, {\"score\": \"0-1\", \"probability\": 0.06732}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119681}, {\"score\": \"2-1\", \"probability\": 0.09826}, {\"score\": \"1-0\", \"probability\": 0.0977}, {\"score\": \"2-0\", \"probability\": 0.080095}, {\"score\": \"1-2\", \"probability\": 0.067975}]"
   },
   {
     "team1":"Bosnia & Herzegovina",
     "team2":"Qatar",
-    "expected_goals1":1.391,
-    "expected_goals2":1.038,
-    "prob_team1_win":0.411092,
-    "prob_draw":0.298431,
-    "prob_team2_win":0.290477,
+    "expected_goals1":1.383,
+    "expected_goals2":1.083,
+    "prob_team1_win":0.401921,
+    "prob_draw":0.298179,
+    "prob_team2_win":0.2999,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.134342
+        "probability":0.134333
       },
       {
         "score":"1-0",
-        "probability":0.124646
-      },
-      {
-        "score":"0-0",
-        "probability":0.093081
+        "probability":0.119476
       },
       {
         "score":"0-1",
-        "probability":0.093028
+        "probability":0.093532
+      },
+      {
+        "score":"0-0",
+        "probability":0.089709
       },
       {
         "score":"2-1",
-        "probability":0.08995
+        "probability":0.089454
       }
     ],
     "match_id":12,
@@ -521,42 +543,44 @@
     "time":"12:00 UTC-7",
     "group":"Group B",
     "ground":"Seattle",
+    "china_date":"2026-06-25",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Bosnia & Herzegovina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.134342}, {\"score\": \"1-0\", \"probability\": 0.124646}, {\"score\": \"0-0\", \"probability\": 0.093081}, {\"score\": \"0-1\", \"probability\": 0.093028}, {\"score\": \"2-1\", \"probability\": 0.08995}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.134333}, {\"score\": \"1-0\", \"probability\": 0.119476}, {\"score\": \"0-1\", \"probability\": 0.093532}, {\"score\": \"0-0\", \"probability\": 0.089709}, {\"score\": \"2-1\", \"probability\": 0.089454}]"
   },
   {
     "team1":"Brazil",
     "team2":"Morocco",
-    "expected_goals1":1.775,
-    "expected_goals2":1.15,
-    "prob_team1_win":0.469838,
-    "prob_draw":0.268124,
-    "prob_team2_win":0.262038,
+    "expected_goals1":1.764,
+    "expected_goals2":1.203,
+    "prob_team1_win":0.456865,
+    "prob_draw":0.271905,
+    "prob_team2_win":0.27123,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.116866
+        "probability":0.116495
       },
       {
         "score":"2-1",
-        "probability":0.099853
+        "probability":0.098945
       },
       {
         "score":"1-0",
-        "probability":0.097881
+        "probability":0.093286
       },
       {
         "score":"2-0",
-        "probability":0.083508
+        "probability":0.079115
       },
       {
         "score":"1-2",
-        "probability":0.064695
+        "probability":0.067451
       }
     ],
     "match_id":13,
@@ -565,42 +589,44 @@
     "time":"18:00 UTC-4",
     "group":"Group C",
     "ground":"New York\/New Jersey (East Rutherford)",
-    "status":"predicted",
+    "china_date":"2026-06-14",
+    "china_time":"06:00",
+    "status":"actual",
     "predicted_winner":"Brazil",
-    "actual_result":"",
-    "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116866}, {\"score\": \"2-1\", \"probability\": 0.099853}, {\"score\": \"1-0\", \"probability\": 0.097881}, {\"score\": \"2-0\", \"probability\": 0.083508}, {\"score\": \"1-2\", \"probability\": 0.064695}]"
+    "actual_result":"Draw",
+    "actual_score":"1-1",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116495}, {\"score\": \"2-1\", \"probability\": 0.098945}, {\"score\": \"1-0\", \"probability\": 0.093286}, {\"score\": \"2-0\", \"probability\": 0.079115}, {\"score\": \"1-2\", \"probability\": 0.067451}]"
   },
   {
     "team1":"Haiti",
     "team2":"Scotland",
-    "expected_goals1":1.029,
-    "expected_goals2":1.608,
-    "prob_team1_win":0.22807,
-    "prob_draw":0.289708,
-    "prob_team2_win":0.482222,
+    "expected_goals1":1.024,
+    "expected_goals2":1.693,
+    "prob_team1_win":0.217772,
+    "prob_draw":0.283753,
+    "prob_team2_win":0.498475,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125685
+        "probability":0.121806
       },
       {
         "score":"0-1",
-        "probability":0.117645
+        "probability":0.114547
       },
       {
         "score":"1-2",
-        "probability":0.097299
+        "probability":0.099305
       },
       {
         "score":"0-2",
-        "probability":0.09094
+        "probability":0.093249
       },
       {
         "score":"0-0",
-        "probability":0.075984
+        "probability":0.070251
       }
     ],
     "match_id":14,
@@ -609,42 +635,44 @@
     "time":"21:00 UTC-4",
     "group":"Group C",
     "ground":"Boston (Foxborough)",
-    "status":"predicted",
+    "china_date":"2026-06-14",
+    "china_time":"09:00",
+    "status":"actual",
     "predicted_winner":"Scotland",
-    "actual_result":"",
-    "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125685}, {\"score\": \"0-1\", \"probability\": 0.117645}, {\"score\": \"1-2\", \"probability\": 0.097299}, {\"score\": \"0-2\", \"probability\": 0.09094}, {\"score\": \"0-0\", \"probability\": 0.075984}]"
+    "actual_result":"Scotland",
+    "actual_score":"0-1",
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121806}, {\"score\": \"0-1\", \"probability\": 0.114547}, {\"score\": \"1-2\", \"probability\": 0.099305}, {\"score\": \"0-2\", \"probability\": 0.093249}, {\"score\": \"0-0\", \"probability\": 0.070251}]"
   },
   {
     "team1":"Scotland",
     "team2":"Morocco",
-    "expected_goals1":1.108,
-    "expected_goals2":1.618,
-    "prob_team1_win":0.246666,
-    "prob_draw":0.268787,
-    "prob_team2_win":0.484546,
+    "expected_goals1":1.103,
+    "expected_goals2":1.704,
+    "prob_team1_win":0.23488,
+    "prob_draw":0.26538,
+    "prob_team2_win":0.49974,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.124697
+        "probability":0.120812
       },
       {
         "score":"0-1",
-        "probability":0.108383
+        "probability":0.105519
       },
       {
         "score":"1-2",
-        "probability":0.097128
+        "probability":0.099111
       },
       {
         "score":"0-2",
-        "probability":0.084296
+        "probability":0.086438
       },
       {
         "score":"1-0",
-        "probability":0.074226
+        "probability":0.068279
       }
     ],
     "match_id":15,
@@ -653,42 +681,44 @@
     "time":"18:00 UTC-4",
     "group":"Group C",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-06-20",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Morocco",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124697}, {\"score\": \"0-1\", \"probability\": 0.108383}, {\"score\": \"1-2\", \"probability\": 0.097128}, {\"score\": \"0-2\", \"probability\": 0.084296}, {\"score\": \"1-0\", \"probability\": 0.074226}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.120812}, {\"score\": \"0-1\", \"probability\": 0.105519}, {\"score\": \"1-2\", \"probability\": 0.099111}, {\"score\": \"0-2\", \"probability\": 0.086438}, {\"score\": \"1-0\", \"probability\": 0.068279}]"
   },
   {
     "team1":"Brazil",
     "team2":"Haiti",
-    "expected_goals1":3.653,
-    "expected_goals2":0.683,
-    "prob_team1_win":0.837946,
-    "prob_draw":0.107389,
-    "prob_team2_win":0.054665,
+    "expected_goals1":3.628,
+    "expected_goals2":0.702,
+    "prob_team1_win":0.830656,
+    "prob_draw":0.11137,
+    "prob_team2_win":0.057974,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.104913
+        "probability":0.103132
       },
       {
         "score":"4-0",
-        "probability":0.095818
+        "probability":0.093546
       },
       {
         "score":"2-0",
-        "probability":0.093646
+        "probability":0.092691
       },
       {
         "score":"3-1",
-        "probability":0.07786
+        "probability":0.078731
       },
       {
         "score":"5-0",
-        "probability":0.070008
+        "probability":0.06788
       }
     ],
     "match_id":16,
@@ -697,42 +727,44 @@
     "time":"20:30 UTC-4",
     "group":"Group C",
     "ground":"Philadelphia",
+    "china_date":"2026-06-20",
+    "china_time":"08:30",
     "status":"predicted",
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.104913}, {\"score\": \"4-0\", \"probability\": 0.095818}, {\"score\": \"2-0\", \"probability\": 0.093646}, {\"score\": \"3-1\", \"probability\": 0.07786}, {\"score\": \"5-0\", \"probability\": 0.070008}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.103132}, {\"score\": \"4-0\", \"probability\": 0.093546}, {\"score\": \"2-0\", \"probability\": 0.092691}, {\"score\": \"3-1\", \"probability\": 0.078731}, {\"score\": \"5-0\", \"probability\": 0.06788}]"
   },
   {
     "team1":"Scotland",
     "team2":"Brazil",
-    "expected_goals1":0.997,
-    "expected_goals2":1.762,
-    "prob_team1_win":0.206719,
-    "prob_draw":0.255216,
-    "prob_team2_win":0.538066,
+    "expected_goals1":0.993,
+    "expected_goals2":1.859,
+    "prob_team1_win":0.195925,
+    "prob_draw":0.250801,
+    "prob_team2_win":0.553275,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118543
+        "probability":0.113837
       },
       {
         "score":"0-1",
-        "probability":0.114471
+        "probability":0.110429
       },
       {
         "score":"1-2",
-        "probability":0.100595
+        "probability":0.101887
       },
       {
         "score":"0-2",
-        "probability":0.096996
+        "probability":0.098691
       },
       {
         "score":"0-0",
-        "probability":0.067447
+        "probability":0.061691
       }
     ],
     "match_id":17,
@@ -741,42 +773,44 @@
     "time":"18:00 UTC-4",
     "group":"Group C",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-06-25",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118543}, {\"score\": \"0-1\", \"probability\": 0.114471}, {\"score\": \"1-2\", \"probability\": 0.100595}, {\"score\": \"0-2\", \"probability\": 0.096996}, {\"score\": \"0-0\", \"probability\": 0.067447}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113837}, {\"score\": \"0-1\", \"probability\": 0.110429}, {\"score\": \"1-2\", \"probability\": 0.101887}, {\"score\": \"0-2\", \"probability\": 0.098691}, {\"score\": \"0-0\", \"probability\": 0.061691}]"
   },
   {
     "team1":"Morocco",
     "team2":"Haiti",
-    "expected_goals1":3.306,
-    "expected_goals2":0.734,
-    "prob_team1_win":0.798497,
-    "prob_draw":0.130453,
-    "prob_team2_win":0.07105,
+    "expected_goals1":3.284,
+    "expected_goals2":0.758,
+    "prob_team1_win":0.795939,
+    "prob_draw":0.131917,
+    "prob_team2_win":0.072143,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.102237
+        "probability":0.099934
       },
       {
         "score":"2-0",
-        "probability":0.100828
-      },
-      {
-        "score":"4-0",
-        "probability":0.084511
+        "probability":0.099227
       },
       {
         "score":"3-1",
-        "probability":0.08161
+        "probability":0.082296
+      },
+      {
+        "score":"4-0",
+        "probability":0.082048
       },
       {
         "score":"2-1",
-        "probability":0.077009
+        "probability":0.078183
       }
     ],
     "match_id":18,
@@ -785,42 +819,44 @@
     "time":"18:00 UTC-4",
     "group":"Group C",
     "ground":"Atlanta",
+    "china_date":"2026-06-25",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Morocco",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.102237}, {\"score\": \"2-0\", \"probability\": 0.100828}, {\"score\": \"4-0\", \"probability\": 0.084511}, {\"score\": \"3-1\", \"probability\": 0.08161}, {\"score\": \"2-1\", \"probability\": 0.077009}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.099934}, {\"score\": \"2-0\", \"probability\": 0.099227}, {\"score\": \"3-1\", \"probability\": 0.082296}, {\"score\": \"4-0\", \"probability\": 0.082048}, {\"score\": \"2-1\", \"probability\": 0.078183}]"
   },
   {
     "team1":"USA",
     "team2":"Paraguay",
-    "expected_goals1":1.584,
-    "expected_goals2":1.004,
-    "prob_team1_win":0.456071,
-    "prob_draw":0.307033,
-    "prob_team2_win":0.236896,
+    "expected_goals1":1.576,
+    "expected_goals2":1.046,
+    "prob_team1_win":0.444418,
+    "prob_draw":0.308162,
+    "prob_team2_win":0.247421,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.126773
+        "probability":0.127011
       },
       {
         "score":"1-0",
-        "probability":0.121648
+        "probability":0.116937
       },
       {
         "score":"2-1",
-        "probability":0.096665
+        "probability":0.096389
       },
       {
         "score":"2-0",
-        "probability":0.09262
+        "probability":0.088612
       },
       {
-        "score":"0-0",
-        "probability":0.079769
+        "score":"0-1",
+        "probability":0.077597
       }
     ],
     "match_id":19,
@@ -829,42 +865,44 @@
     "time":"18:00 UTC-7",
     "group":"Group D",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-13",
+    "china_time":"09:00",
     "status":"actual",
     "predicted_winner":"USA",
     "actual_result":"USA",
     "actual_score":"4-1",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126773}, {\"score\": \"1-0\", \"probability\": 0.121648}, {\"score\": \"2-1\", \"probability\": 0.096665}, {\"score\": \"2-0\", \"probability\": 0.09262}, {\"score\": \"0-0\", \"probability\": 0.079769}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.127011}, {\"score\": \"1-0\", \"probability\": 0.116937}, {\"score\": \"2-1\", \"probability\": 0.096389}, {\"score\": \"2-0\", \"probability\": 0.088612}, {\"score\": \"0-1\", \"probability\": 0.077597}]"
   },
   {
     "team1":"Australia",
     "team2":"Turkey",
-    "expected_goals1":1.372,
-    "expected_goals2":1.291,
-    "prob_team1_win":0.361208,
-    "prob_draw":0.293882,
-    "prob_team2_win":0.34491,
+    "expected_goals1":1.364,
+    "expected_goals2":1.354,
+    "prob_team1_win":0.350933,
+    "prob_draw":0.289702,
+    "prob_team2_win":0.359365,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.13083
+        "probability":0.129217
       },
       {
         "score":"1-0",
-        "probability":0.09761
+        "probability":0.091931
       },
       {
         "score":"0-1",
-        "probability":0.09185
+        "probability":0.091211
       },
       {
         "score":"2-1",
-        "probability":0.086402
+        "probability":0.084875
       },
       {
         "score":"1-2",
-        "probability":0.081303
+        "probability":0.08421
       }
     ],
     "match_id":20,
@@ -873,42 +911,44 @@
     "time":"21:00 UTC-7",
     "group":"Group D",
     "ground":"Vancouver",
+    "china_date":"2026-06-14",
+    "china_time":"12:00",
     "status":"predicted",
-    "predicted_winner":"Australia",
+    "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.13083}, {\"score\": \"1-0\", \"probability\": 0.09761}, {\"score\": \"0-1\", \"probability\": 0.09185}, {\"score\": \"2-1\", \"probability\": 0.086402}, {\"score\": \"1-2\", \"probability\": 0.081303}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.129217}, {\"score\": \"1-0\", \"probability\": 0.091931}, {\"score\": \"0-1\", \"probability\": 0.091211}, {\"score\": \"2-1\", \"probability\": 0.084875}, {\"score\": \"1-2\", \"probability\": 0.08421}]"
   },
   {
     "team1":"USA",
     "team2":"Australia",
-    "expected_goals1":1.59,
-    "expected_goals2":1.221,
-    "prob_team1_win":0.417586,
-    "prob_draw":0.276918,
-    "prob_team2_win":0.305496,
+    "expected_goals1":1.582,
+    "expected_goals2":1.279,
+    "prob_team1_win":0.407532,
+    "prob_draw":0.280601,
+    "prob_team2_win":0.311867,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.124092
-      },
-      {
-        "score":"1-0",
-        "probability":0.097883
+        "probability":0.123072
       },
       {
         "score":"2-1",
-        "probability":0.094989
+        "probability":0.093761
+      },
+      {
+        "score":"1-0",
+        "probability":0.092685
+      },
+      {
+        "score":"1-2",
+        "probability":0.07577
       },
       {
         "score":"0-1",
-        "probability":0.075164
-      },
-      {
-        "score":"2-0",
-        "probability":0.074815
+        "probability":0.0749
       }
     ],
     "match_id":21,
@@ -917,42 +957,44 @@
     "time":"12:00 UTC-7",
     "group":"Group D",
     "ground":"Seattle",
+    "china_date":"2026-06-20",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"USA",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124092}, {\"score\": \"1-0\", \"probability\": 0.097883}, {\"score\": \"2-1\", \"probability\": 0.094989}, {\"score\": \"0-1\", \"probability\": 0.075164}, {\"score\": \"2-0\", \"probability\": 0.074815}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123072}, {\"score\": \"2-1\", \"probability\": 0.093761}, {\"score\": \"1-0\", \"probability\": 0.092685}, {\"score\": \"1-2\", \"probability\": 0.07577}, {\"score\": \"0-1\", \"probability\": 0.0749}]"
   },
   {
     "team1":"Turkey",
     "team2":"Paraguay",
-    "expected_goals1":1.624,
-    "expected_goals2":0.918,
-    "prob_team1_win":0.47369,
-    "prob_draw":0.304572,
-    "prob_team2_win":0.221738,
+    "expected_goals1":1.615,
+    "expected_goals2":0.954,
+    "prob_team1_win":0.463132,
+    "prob_draw":0.303679,
+    "prob_team2_win":0.233188,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-0",
-        "probability":0.130629
+        "probability":0.126421
       },
       {
         "score":"1-1",
-        "probability":0.124486
+        "probability":0.125239
       },
       {
         "score":"2-0",
-        "probability":0.101984
+        "probability":0.098129
       },
       {
         "score":"2-1",
-        "probability":0.097332
+        "probability":0.097356
       },
       {
         "score":"0-0",
-        "probability":0.083536
+        "probability":0.081314
       }
     ],
     "match_id":22,
@@ -961,42 +1003,44 @@
     "time":"20:00 UTC-7",
     "group":"Group D",
     "ground":"San Francisco Bay Area (Santa Clara)",
+    "china_date":"2026-06-20",
+    "china_time":"11:00",
     "status":"predicted",
     "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.130629}, {\"score\": \"1-1\", \"probability\": 0.124486}, {\"score\": \"2-0\", \"probability\": 0.101984}, {\"score\": \"2-1\", \"probability\": 0.097332}, {\"score\": \"0-0\", \"probability\": 0.083536}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.126421}, {\"score\": \"1-1\", \"probability\": 0.125239}, {\"score\": \"2-0\", \"probability\": 0.098129}, {\"score\": \"2-1\", \"probability\": 0.097356}, {\"score\": \"0-0\", \"probability\": 0.081314}]"
   },
   {
     "team1":"Turkey",
     "team2":"USA",
-    "expected_goals1":1.6,
-    "expected_goals2":1.154,
-    "prob_team1_win":0.435577,
-    "prob_draw":0.270188,
-    "prob_team2_win":0.294234,
+    "expected_goals1":1.59,
+    "expected_goals2":1.202,
+    "prob_team1_win":0.425321,
+    "prob_draw":0.271966,
+    "prob_team2_win":0.302713,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.124887
+        "probability":0.124449
       },
       {
         "score":"1-0",
-        "probability":0.104184
+        "probability":0.09969
       },
       {
         "score":"2-1",
-        "probability":0.096181
+        "probability":0.095293
       },
       {
         "score":"2-0",
-        "probability":0.080118
+        "probability":0.076221
       },
       {
         "score":"0-1",
-        "probability":0.075186
+        "probability":0.075355
       }
     ],
     "match_id":23,
@@ -1005,42 +1049,44 @@
     "time":"19:00 UTC-7",
     "group":"Group D",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-26",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124887}, {\"score\": \"1-0\", \"probability\": 0.104184}, {\"score\": \"2-1\", \"probability\": 0.096181}, {\"score\": \"2-0\", \"probability\": 0.080118}, {\"score\": \"0-1\", \"probability\": 0.075186}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124449}, {\"score\": \"1-0\", \"probability\": 0.09969}, {\"score\": \"2-1\", \"probability\": 0.095293}, {\"score\": \"2-0\", \"probability\": 0.076221}, {\"score\": \"0-1\", \"probability\": 0.075355}]"
   },
   {
     "team1":"Paraguay",
     "team2":"Australia",
-    "expected_goals1":1.255,
-    "expected_goals2":1.237,
-    "prob_team1_win":0.345352,
-    "prob_draw":0.294622,
-    "prob_team2_win":0.360026,
+    "expected_goals1":1.248,
+    "expected_goals2":1.296,
+    "prob_team1_win":0.335726,
+    "prob_draw":0.288814,
+    "prob_team2_win":0.37546,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.135623
-      },
-      {
-        "score":"1-0",
-        "probability":0.105541
+        "probability":0.134247
       },
       {
         "score":"0-1",
-        "probability":0.104097
+        "probability":0.10358
+      },
+      {
+        "score":"1-0",
+        "probability":0.099713
+      },
+      {
+        "score":"1-2",
+        "probability":0.083801
       },
       {
         "score":"0-0",
-        "probability":0.087359
-      },
-      {
-        "score":"2-1",
-        "probability":0.081925
+        "probability":0.082966
       }
     ],
     "match_id":24,
@@ -1049,42 +1095,44 @@
     "time":"19:00 UTC-7",
     "group":"Group D",
     "ground":"San Francisco Bay Area (Santa Clara)",
+    "china_date":"2026-06-26",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Australia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.135623}, {\"score\": \"1-0\", \"probability\": 0.105541}, {\"score\": \"0-1\", \"probability\": 0.104097}, {\"score\": \"0-0\", \"probability\": 0.087359}, {\"score\": \"2-1\", \"probability\": 0.081925}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.134247}, {\"score\": \"0-1\", \"probability\": 0.10358}, {\"score\": \"1-0\", \"probability\": 0.099713}, {\"score\": \"1-2\", \"probability\": 0.083801}, {\"score\": \"0-0\", \"probability\": 0.082966}]"
   },
   {
     "team1":"Germany",
     "team2":"Curacao",
-    "expected_goals1":4.475,
-    "expected_goals2":0.629,
-    "prob_team1_win":0.863353,
-    "prob_draw":0.094578,
-    "prob_team2_win":0.04207,
+    "expected_goals1":4.443,
+    "expected_goals2":0.644,
+    "prob_team1_win":0.863161,
+    "prob_draw":0.094793,
+    "prob_team2_win":0.042046,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.107366
-      },
-      {
-        "score":"5-0",
-        "probability":0.096082
+        "probability":0.105668
       },
       {
         "score":"3-0",
-        "probability":0.09598
+        "probability":0.095128
       },
       {
-        "score":"6-0",
-        "probability":0.071654
+        "score":"5-0",
+        "probability":0.0939
       },
       {
         "score":"2-0",
-        "probability":0.069946
+        "probability":0.069815
+      },
+      {
+        "score":"6-0",
+        "probability":0.069536
       }
     ],
     "match_id":25,
@@ -1093,42 +1141,44 @@
     "time":"12:00 UTC-5",
     "group":"Group E",
     "ground":"Houston",
+    "china_date":"2026-06-15",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.107366}, {\"score\": \"5-0\", \"probability\": 0.096082}, {\"score\": \"3-0\", \"probability\": 0.09598}, {\"score\": \"6-0\", \"probability\": 0.071654}, {\"score\": \"2-0\", \"probability\": 0.069946}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.105668}, {\"score\": \"3-0\", \"probability\": 0.095128}, {\"score\": \"5-0\", \"probability\": 0.0939}, {\"score\": \"2-0\", \"probability\": 0.069815}, {\"score\": \"6-0\", \"probability\": 0.069536}]"
   },
   {
     "team1":"Ivory Coast",
     "team2":"Ecuador",
-    "expected_goals1":1.057,
-    "expected_goals2":1.667,
-    "prob_team1_win":0.229634,
-    "prob_draw":0.294229,
-    "prob_team2_win":0.476137,
+    "expected_goals1":1.052,
+    "expected_goals2":1.757,
+    "prob_team1_win":0.220545,
+    "prob_draw":0.287338,
+    "prob_team2_win":0.492117,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.12289
+        "probability":0.118699
       },
       {
         "score":"0-1",
-        "probability":0.111943
+        "probability":0.10864
       },
       {
         "score":"1-2",
-        "probability":0.098638
+        "probability":0.100397
       },
       {
         "score":"0-2",
-        "probability":0.089719
+        "probability":0.091752
       },
       {
         "score":"1-0",
-        "probability":0.070987
+        "probability":0.065067
       }
     ],
     "match_id":26,
@@ -1137,42 +1187,44 @@
     "time":"19:00 UTC-4",
     "group":"Group E",
     "ground":"Philadelphia",
+    "china_date":"2026-06-15",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12289}, {\"score\": \"0-1\", \"probability\": 0.111943}, {\"score\": \"1-2\", \"probability\": 0.098638}, {\"score\": \"0-2\", \"probability\": 0.089719}, {\"score\": \"1-0\", \"probability\": 0.070987}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118699}, {\"score\": \"0-1\", \"probability\": 0.10864}, {\"score\": \"1-2\", \"probability\": 0.100397}, {\"score\": \"0-2\", \"probability\": 0.091752}, {\"score\": \"1-0\", \"probability\": 0.065067}]"
   },
   {
     "team1":"Germany",
     "team2":"Ivory Coast",
-    "expected_goals1":2.882,
-    "expected_goals2":0.803,
-    "prob_team1_win":0.709934,
-    "prob_draw":0.180618,
-    "prob_team2_win":0.109448,
+    "expected_goals1":2.863,
+    "expected_goals2":0.831,
+    "prob_team1_win":0.702477,
+    "prob_draw":0.183173,
+    "prob_team2_win":0.114349,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.10696
+        "probability":0.104477
       },
       {
         "score":"3-0",
-        "probability":0.094544
+        "probability":0.091738
       },
       {
         "score":"2-1",
-        "probability":0.08934
+        "probability":0.090322
       },
       {
         "score":"3-1",
-        "probability":0.082535
+        "probability":0.08289
       },
       {
         "score":"1-0",
-        "probability":0.077186
+        "probability":0.075896
       }
     ],
     "match_id":27,
@@ -1181,42 +1233,44 @@
     "time":"16:00 UTC-4",
     "group":"Group E",
     "ground":"Toronto",
+    "china_date":"2026-06-21",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10696}, {\"score\": \"3-0\", \"probability\": 0.094544}, {\"score\": \"2-1\", \"probability\": 0.08934}, {\"score\": \"3-1\", \"probability\": 0.082535}, {\"score\": \"1-0\", \"probability\": 0.077186}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.104477}, {\"score\": \"3-0\", \"probability\": 0.091738}, {\"score\": \"2-1\", \"probability\": 0.090322}, {\"score\": \"3-1\", \"probability\": 0.08289}, {\"score\": \"1-0\", \"probability\": 0.075896}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Curacao",
-    "expected_goals1":3.274,
-    "expected_goals2":0.67,
-    "prob_team1_win":0.817803,
-    "prob_draw":0.119239,
-    "prob_team2_win":0.062958,
+    "expected_goals1":3.252,
+    "expected_goals2":0.688,
+    "prob_team1_win":0.810905,
+    "prob_draw":0.122486,
+    "prob_team2_win":0.066609,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.109316
+        "score":"2-0",
+        "probability":0.107615
       },
       {
-        "score":"2-0",
-        "probability":0.108864
+        "score":"3-0",
+        "probability":0.107332
       },
       {
         "score":"4-0",
-        "probability":0.089486
+        "probability":0.08727
       },
       {
         "score":"3-1",
-        "probability":0.079552
+        "probability":0.08028
       },
       {
         "score":"2-1",
-        "probability":0.0758
+        "probability":0.077014
       }
     ],
     "match_id":28,
@@ -1225,42 +1279,44 @@
     "time":"19:00 UTC-5",
     "group":"Group E",
     "ground":"Kansas City",
+    "china_date":"2026-06-21",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.109316}, {\"score\": \"2-0\", \"probability\": 0.108864}, {\"score\": \"4-0\", \"probability\": 0.089486}, {\"score\": \"3-1\", \"probability\": 0.079552}, {\"score\": \"2-1\", \"probability\": 0.0758}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107615}, {\"score\": \"3-0\", \"probability\": 0.107332}, {\"score\": \"4-0\", \"probability\": 0.08727}, {\"score\": \"3-1\", \"probability\": 0.08028}, {\"score\": \"2-1\", \"probability\": 0.077014}]"
   },
   {
     "team1":"Curacao",
     "team2":"Ivory Coast",
-    "expected_goals1":1.058,
-    "expected_goals2":1.79,
-    "prob_team1_win":0.206032,
-    "prob_draw":0.255931,
-    "prob_team2_win":0.538038,
+    "expected_goals1":1.053,
+    "expected_goals2":1.888,
+    "prob_team1_win":0.195377,
+    "prob_draw":0.249393,
+    "prob_team2_win":0.55523,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.117082
+        "probability":0.112275
       },
       {
         "score":"0-1",
-        "probability":0.106581
+        "probability":0.102691
       },
       {
         "score":"1-2",
-        "probability":0.100881
+        "probability":0.102055
       },
       {
         "score":"0-2",
-        "probability":0.091697
+        "probability":0.093206
       },
       {
-        "score":"1-0",
-        "probability":0.063003
+        "score":"1-3",
+        "probability":0.061752
       }
     ],
     "match_id":29,
@@ -1269,42 +1325,44 @@
     "time":"16:00 UTC-4",
     "group":"Group E",
     "ground":"Philadelphia",
+    "china_date":"2026-06-26",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Ivory Coast",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117082}, {\"score\": \"0-1\", \"probability\": 0.106581}, {\"score\": \"1-2\", \"probability\": 0.100881}, {\"score\": \"0-2\", \"probability\": 0.091697}, {\"score\": \"1-0\", \"probability\": 0.063003}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112275}, {\"score\": \"0-1\", \"probability\": 0.102691}, {\"score\": \"1-2\", \"probability\": 0.102055}, {\"score\": \"0-2\", \"probability\": 0.093206}, {\"score\": \"1-3\", \"probability\": 0.061752}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Germany",
-    "expected_goals1":1.228,
-    "expected_goals2":1.404,
-    "prob_team1_win":0.315572,
-    "prob_draw":0.294782,
-    "prob_team2_win":0.389645,
+    "expected_goals1":1.222,
+    "expected_goals2":1.475,
+    "prob_team1_win":0.305248,
+    "prob_draw":0.291391,
+    "prob_team2_win":0.403361,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.131306
+        "probability":0.12882
       },
       {
         "score":"0-1",
-        "probability":0.102979
-      },
-      {
-        "score":"1-0",
-        "probability":0.090077
+        "probability":0.101553
       },
       {
         "score":"1-2",
-        "probability":0.088744
+        "probability":0.091461
+      },
+      {
+        "score":"1-0",
+        "probability":0.084124
       },
       {
         "score":"2-1",
-        "probability":0.077626
+        "probability":0.075765
       }
     ],
     "match_id":30,
@@ -1313,42 +1371,44 @@
     "time":"16:00 UTC-4",
     "group":"Group E",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-06-26",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.131306}, {\"score\": \"0-1\", \"probability\": 0.102979}, {\"score\": \"1-0\", \"probability\": 0.090077}, {\"score\": \"1-2\", \"probability\": 0.088744}, {\"score\": \"2-1\", \"probability\": 0.077626}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12882}, {\"score\": \"0-1\", \"probability\": 0.101553}, {\"score\": \"1-2\", \"probability\": 0.091461}, {\"score\": \"1-0\", \"probability\": 0.084124}, {\"score\": \"2-1\", \"probability\": 0.075765}]"
   },
   {
     "team1":"Netherlands",
     "team2":"Japan",
-    "expected_goals1":1.694,
-    "expected_goals2":1.267,
-    "prob_team1_win":0.429839,
-    "prob_draw":0.271077,
-    "prob_team2_win":0.299084,
+    "expected_goals1":1.685,
+    "expected_goals2":1.328,
+    "prob_team1_win":0.418522,
+    "prob_draw":0.274358,
+    "prob_team2_win":0.30712,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118379
+        "probability":0.117255
       },
       {
         "score":"2-1",
-        "probability":0.096577
+        "probability":0.095101
       },
       {
         "score":"1-0",
-        "probability":0.089961
-      },
-      {
-        "score":"2-0",
-        "probability":0.073284
+        "probability":0.085004
       },
       {
         "score":"1-2",
-        "probability":0.072224
+        "probability":0.074992
+      },
+      {
+        "score":"2-0",
+        "probability":0.068841
       }
     ],
     "match_id":31,
@@ -1357,42 +1417,44 @@
     "time":"15:00 UTC-5",
     "group":"Group F",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-06-15",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118379}, {\"score\": \"2-1\", \"probability\": 0.096577}, {\"score\": \"1-0\", \"probability\": 0.089961}, {\"score\": \"2-0\", \"probability\": 0.073284}, {\"score\": \"1-2\", \"probability\": 0.072224}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117255}, {\"score\": \"2-1\", \"probability\": 0.095101}, {\"score\": \"1-0\", \"probability\": 0.085004}, {\"score\": \"1-2\", \"probability\": 0.074992}, {\"score\": \"2-0\", \"probability\": 0.068841}]"
   },
   {
     "team1":"Sweden",
     "team2":"Tunisia",
-    "expected_goals1":1.539,
-    "expected_goals2":1.084,
-    "prob_team1_win":0.426262,
-    "prob_draw":0.273197,
-    "prob_team2_win":0.300541,
+    "expected_goals1":1.53,
+    "expected_goals2":1.132,
+    "prob_team1_win":0.416593,
+    "prob_draw":0.274707,
+    "prob_team2_win":0.3087,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.128341
+        "probability":0.128169
       },
       {
         "score":"1-0",
-        "probability":0.114042
+        "probability":0.109048
       },
       {
         "score":"2-1",
-        "probability":0.095108
-      },
-      {
-        "score":"2-0",
-        "probability":0.084386
+        "probability":0.094442
       },
       {
         "score":"0-1",
-        "probability":0.080299
+        "probability":0.080647
+      },
+      {
+        "score":"2-0",
+        "probability":0.080234
       }
     ],
     "match_id":32,
@@ -1401,42 +1463,44 @@
     "time":"20:00 UTC-6",
     "group":"Group F",
     "ground":"Monterrey (Guadalupe)",
+    "china_date":"2026-06-15",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Sweden",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.128341}, {\"score\": \"1-0\", \"probability\": 0.114042}, {\"score\": \"2-1\", \"probability\": 0.095108}, {\"score\": \"2-0\", \"probability\": 0.084386}, {\"score\": \"0-1\", \"probability\": 0.080299}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.128169}, {\"score\": \"1-0\", \"probability\": 0.109048}, {\"score\": \"2-1\", \"probability\": 0.094442}, {\"score\": \"0-1\", \"probability\": 0.080647}, {\"score\": \"2-0\", \"probability\": 0.080234}]"
   },
   {
     "team1":"Netherlands",
     "team2":"Sweden",
-    "expected_goals1":2.828,
-    "expected_goals2":0.752,
-    "prob_team1_win":0.737364,
-    "prob_draw":0.179449,
-    "prob_team2_win":0.083187,
+    "expected_goals1":2.809,
+    "expected_goals2":0.777,
+    "prob_team1_win":0.731792,
+    "prob_draw":0.181037,
+    "prob_team2_win":0.08717,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.114209
+        "probability":0.111929
       },
       {
         "score":"3-0",
-        "probability":0.099052
+        "probability":0.096434
       },
       {
         "score":"2-1",
-        "probability":0.089325
+        "probability":0.090393
       },
       {
         "score":"1-0",
-        "probability":0.083998
+        "probability":0.082868
       },
       {
         "score":"3-1",
-        "probability":0.080968
+        "probability":0.081396
       }
     ],
     "match_id":33,
@@ -1445,42 +1509,44 @@
     "time":"12:00 UTC-5",
     "group":"Group F",
     "ground":"Houston",
+    "china_date":"2026-06-21",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.114209}, {\"score\": \"3-0\", \"probability\": 0.099052}, {\"score\": \"2-1\", \"probability\": 0.089325}, {\"score\": \"1-0\", \"probability\": 0.083998}, {\"score\": \"3-1\", \"probability\": 0.080968}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.111929}, {\"score\": \"3-0\", \"probability\": 0.096434}, {\"score\": \"2-1\", \"probability\": 0.090393}, {\"score\": \"1-0\", \"probability\": 0.082868}, {\"score\": \"3-1\", \"probability\": 0.081396}]"
   },
   {
     "team1":"Tunisia",
     "team2":"Japan",
-    "expected_goals1":0.906,
-    "expected_goals2":2.447,
-    "prob_team1_win":0.128552,
-    "prob_draw":0.216991,
-    "prob_team2_win":0.654457,
+    "expected_goals1":0.902,
+    "expected_goals2":2.592,
+    "prob_team1_win":0.121307,
+    "prob_draw":0.208237,
+    "prob_team2_win":0.670457,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.105603
+        "probability":0.103441
       },
       {
         "score":"1-2",
-        "probability":0.099454
+        "probability":0.097005
       },
       {
         "score":"0-1",
-        "probability":0.089761
-      },
-      {
-        "score":"1-1",
-        "probability":0.084409
+        "probability":0.083
       },
       {
         "score":"0-3",
-        "probability":0.079249
+        "probability":0.082231
+      },
+      {
+        "score":"1-3",
+        "probability":0.080597
       }
     ],
     "match_id":34,
@@ -1489,42 +1555,44 @@
     "time":"22:00 UTC-6",
     "group":"Group F",
     "ground":"Monterrey (Guadalupe)",
+    "china_date":"2026-06-21",
+    "china_time":"12:00",
     "status":"predicted",
     "predicted_winner":"Japan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.105603}, {\"score\": \"1-2\", \"probability\": 0.099454}, {\"score\": \"0-1\", \"probability\": 0.089761}, {\"score\": \"1-1\", \"probability\": 0.084409}, {\"score\": \"0-3\", \"probability\": 0.079249}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.103441}, {\"score\": \"1-2\", \"probability\": 0.097005}, {\"score\": \"0-1\", \"probability\": 0.083}, {\"score\": \"0-3\", \"probability\": 0.082231}, {\"score\": \"1-3\", \"probability\": 0.080597}]"
   },
   {
     "team1":"Japan",
     "team2":"Sweden",
-    "expected_goals1":2.844,
-    "expected_goals2":0.782,
-    "prob_team1_win":0.725307,
-    "prob_draw":0.19055,
-    "prob_team2_win":0.084142,
+    "expected_goals1":2.825,
+    "expected_goals2":0.809,
+    "prob_team1_win":0.721494,
+    "prob_draw":0.190318,
+    "prob_team2_win":0.088188,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.110315
+        "probability":0.10789
       },
       {
         "score":"3-0",
-        "probability":0.096218
+        "probability":0.093482
       },
       {
         "score":"2-1",
-        "probability":0.089755
+        "probability":0.090772
       },
       {
         "score":"3-1",
-        "probability":0.08182
+        "probability":0.0822
       },
       {
         "score":"1-0",
-        "probability":0.080676
+        "probability":0.079427
       }
     ],
     "match_id":35,
@@ -1533,42 +1601,44 @@
     "time":"18:00 UTC-5",
     "group":"Group F",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-06-26",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Japan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.110315}, {\"score\": \"3-0\", \"probability\": 0.096218}, {\"score\": \"2-1\", \"probability\": 0.089755}, {\"score\": \"3-1\", \"probability\": 0.08182}, {\"score\": \"1-0\", \"probability\": 0.080676}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.10789}, {\"score\": \"3-0\", \"probability\": 0.093482}, {\"score\": \"2-1\", \"probability\": 0.090772}, {\"score\": \"3-1\", \"probability\": 0.0822}, {\"score\": \"1-0\", \"probability\": 0.079427}]"
   },
   {
     "team1":"Tunisia",
     "team2":"Netherlands",
-    "expected_goals1":0.865,
-    "expected_goals2":2.434,
-    "prob_team1_win":0.129159,
-    "prob_draw":0.212541,
-    "prob_team2_win":0.6583,
+    "expected_goals1":0.862,
+    "expected_goals2":2.578,
+    "prob_team1_win":0.120764,
+    "prob_draw":0.205302,
+    "prob_team2_win":0.673934,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.110183
+        "probability":0.107983
       },
       {
         "score":"1-2",
-        "probability":0.099154
+        "probability":0.096777
       },
       {
         "score":"0-1",
-        "probability":0.094171
-      },
-      {
-        "score":"1-1",
-        "probability":0.084619
+        "probability":0.087128
       },
       {
         "score":"0-3",
-        "probability":0.082232
+        "probability":0.085365
+      },
+      {
+        "score":"1-3",
+        "probability":0.079961
       }
     ],
     "match_id":36,
@@ -1577,42 +1647,44 @@
     "time":"18:00 UTC-5",
     "group":"Group F",
     "ground":"Kansas City",
+    "china_date":"2026-06-26",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.110183}, {\"score\": \"1-2\", \"probability\": 0.099154}, {\"score\": \"0-1\", \"probability\": 0.094171}, {\"score\": \"1-1\", \"probability\": 0.084619}, {\"score\": \"0-3\", \"probability\": 0.082232}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.107983}, {\"score\": \"1-2\", \"probability\": 0.096777}, {\"score\": \"0-1\", \"probability\": 0.087128}, {\"score\": \"0-3\", \"probability\": 0.085365}, {\"score\": \"1-3\", \"probability\": 0.079961}]"
   },
   {
     "team1":"Belgium",
     "team2":"Egypt",
-    "expected_goals1":2.597,
-    "expected_goals2":0.851,
-    "prob_team1_win":0.668654,
-    "prob_draw":0.205118,
-    "prob_team2_win":0.126228,
+    "expected_goals1":2.58,
+    "expected_goals2":0.882,
+    "prob_team1_win":0.661744,
+    "prob_draw":0.20881,
+    "prob_team2_win":0.129446,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.108808
+        "probability":0.105743
       },
       {
         "score":"2-1",
-        "probability":0.096258
+        "probability":0.097012
       },
       {
         "score":"1-0",
-        "probability":0.087149
+        "probability":0.085248
       },
       {
         "score":"3-0",
-        "probability":0.086655
+        "probability":0.083666
       },
       {
         "score":"3-1",
-        "probability":0.080121
+        "probability":0.080224
       }
     ],
     "match_id":37,
@@ -1621,42 +1693,44 @@
     "time":"12:00 UTC-7",
     "group":"Group G",
     "ground":"Seattle",
+    "china_date":"2026-06-16",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.108808}, {\"score\": \"2-1\", \"probability\": 0.096258}, {\"score\": \"1-0\", \"probability\": 0.087149}, {\"score\": \"3-0\", \"probability\": 0.086655}, {\"score\": \"3-1\", \"probability\": 0.080121}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.105743}, {\"score\": \"2-1\", \"probability\": 0.097012}, {\"score\": \"1-0\", \"probability\": 0.085248}, {\"score\": \"3-0\", \"probability\": 0.083666}, {\"score\": \"3-1\", \"probability\": 0.080224}]"
   },
   {
     "team1":"Iran",
     "team2":"New Zealand",
-    "expected_goals1":2.237,
-    "expected_goals2":0.954,
-    "prob_team1_win":0.626418,
-    "prob_draw":0.218557,
-    "prob_team2_win":0.155025,
+    "expected_goals1":2.223,
+    "expected_goals2":0.993,
+    "prob_team1_win":0.614838,
+    "prob_draw":0.223817,
+    "prob_team2_win":0.161345,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.102975
-      },
-      {
         "score":"2-1",
-        "probability":0.102156
+        "probability":0.102359
       },
       {
-        "score":"1-0",
-        "probability":0.09574
+        "score":"2-0",
+        "probability":0.09914
       },
       {
         "score":"1-1",
-        "probability":0.094838
+        "probability":0.095628
+      },
+      {
+        "score":"1-0",
+        "probability":0.092759
       },
       {
         "score":"3-1",
-        "probability":0.073251
+        "probability":0.072934
       }
     ],
     "match_id":38,
@@ -1665,42 +1739,44 @@
     "time":"18:00 UTC-7",
     "group":"Group G",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-16",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Iran",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102975}, {\"score\": \"2-1\", \"probability\": 0.102156}, {\"score\": \"1-0\", \"probability\": 0.09574}, {\"score\": \"1-1\", \"probability\": 0.094838}, {\"score\": \"3-1\", \"probability\": 0.073251}]"
+    "top_scores_json":"[{\"score\": \"2-1\", \"probability\": 0.102359}, {\"score\": \"2-0\", \"probability\": 0.09914}, {\"score\": \"1-1\", \"probability\": 0.095628}, {\"score\": \"1-0\", \"probability\": 0.092759}, {\"score\": \"3-1\", \"probability\": 0.072934}]"
   },
   {
     "team1":"Belgium",
     "team2":"Iran",
-    "expected_goals1":1.913,
-    "expected_goals2":1.106,
-    "prob_team1_win":0.502314,
-    "prob_draw":0.259141,
-    "prob_team2_win":0.238546,
+    "expected_goals1":1.901,
+    "expected_goals2":1.155,
+    "prob_team1_win":0.491702,
+    "prob_draw":0.25866,
+    "prob_team2_win":0.249638,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110614
+        "probability":0.110584
       },
       {
         "score":"2-1",
-        "probability":0.101888
+        "probability":0.101243
       },
       {
         "score":"1-0",
-        "probability":0.096344
+        "probability":0.092177
       },
       {
         "score":"2-0",
-        "probability":0.088613
+        "probability":0.084266
       },
       {
         "score":"3-1",
-        "probability":0.062475
+        "probability":0.061702
       }
     ],
     "match_id":39,
@@ -1709,42 +1785,44 @@
     "time":"12:00 UTC-7",
     "group":"Group G",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-22",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110614}, {\"score\": \"2-1\", \"probability\": 0.101888}, {\"score\": \"1-0\", \"probability\": 0.096344}, {\"score\": \"2-0\", \"probability\": 0.088613}, {\"score\": \"3-1\", \"probability\": 0.062475}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110584}, {\"score\": \"2-1\", \"probability\": 0.101243}, {\"score\": \"1-0\", \"probability\": 0.092177}, {\"score\": \"2-0\", \"probability\": 0.084266}, {\"score\": \"3-1\", \"probability\": 0.061702}]"
   },
   {
     "team1":"New Zealand",
     "team2":"Egypt",
-    "expected_goals1":1.508,
-    "expected_goals2":1.246,
-    "prob_team1_win":0.38261,
-    "prob_draw":0.287801,
-    "prob_team2_win":0.329589,
+    "expected_goals1":1.499,
+    "expected_goals2":1.306,
+    "prob_team1_win":0.370785,
+    "prob_draw":0.290249,
+    "prob_team2_win":0.338966,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.126961
+        "probability":0.125771
       },
       {
         "score":"1-0",
-        "probability":0.098132
+        "probability":0.092771
       },
       {
         "score":"2-1",
-        "probability":0.092171
+        "probability":0.090794
       },
       {
         "score":"0-1",
-        "probability":0.081084
+        "probability":0.080779
       },
       {
         "score":"1-2",
-        "probability":0.076159
+        "probability":0.079057
       }
     ],
     "match_id":40,
@@ -1753,42 +1831,44 @@
     "time":"18:00 UTC-7",
     "group":"Group G",
     "ground":"Vancouver",
+    "china_date":"2026-06-22",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"New Zealand",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126961}, {\"score\": \"1-0\", \"probability\": 0.098132}, {\"score\": \"2-1\", \"probability\": 0.092171}, {\"score\": \"0-1\", \"probability\": 0.081084}, {\"score\": \"1-2\", \"probability\": 0.076159}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125771}, {\"score\": \"1-0\", \"probability\": 0.092771}, {\"score\": \"2-1\", \"probability\": 0.090794}, {\"score\": \"0-1\", \"probability\": 0.080779}, {\"score\": \"1-2\", \"probability\": 0.079057}]"
   },
   {
     "team1":"Egypt",
     "team2":"Iran",
-    "expected_goals1":1.17,
-    "expected_goals2":1.669,
-    "prob_team1_win":0.257223,
-    "prob_draw":0.269484,
-    "prob_team2_win":0.473293,
+    "expected_goals1":1.164,
+    "expected_goals2":1.758,
+    "prob_team1_win":0.245651,
+    "prob_draw":0.264794,
+    "prob_team2_win":0.489555,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.121535
-      },
-      {
-        "score":"0-1",
-        "probability":0.100039
+        "probability":0.117427
       },
       {
         "score":"1-2",
-        "probability":0.097643
+        "probability":0.099417
+      },
+      {
+        "score":"0-1",
+        "probability":0.097145
       },
       {
         "score":"0-2",
-        "probability":0.080254
+        "probability":0.082124
       },
       {
-        "score":"1-0",
-        "probability":0.070138
+        "score":"2-1",
+        "probability":0.065812
       }
     ],
     "match_id":41,
@@ -1797,42 +1877,44 @@
     "time":"20:00 UTC-7",
     "group":"Group G",
     "ground":"Seattle",
+    "china_date":"2026-06-27",
+    "china_time":"11:00",
     "status":"predicted",
     "predicted_winner":"Iran",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121535}, {\"score\": \"0-1\", \"probability\": 0.100039}, {\"score\": \"1-2\", \"probability\": 0.097643}, {\"score\": \"0-2\", \"probability\": 0.080254}, {\"score\": \"1-0\", \"probability\": 0.070138}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117427}, {\"score\": \"1-2\", \"probability\": 0.099417}, {\"score\": \"0-1\", \"probability\": 0.097145}, {\"score\": \"0-2\", \"probability\": 0.082124}, {\"score\": \"2-1\", \"probability\": 0.065812}]"
   },
   {
     "team1":"New Zealand",
     "team2":"Belgium",
-    "expected_goals1":1.017,
-    "expected_goals2":2.063,
-    "prob_team1_win":0.170631,
-    "prob_draw":0.24618,
-    "prob_team2_win":0.583189,
+    "expected_goals1":1.012,
+    "expected_goals2":2.181,
+    "prob_team1_win":0.159222,
+    "prob_draw":0.236686,
+    "prob_team2_win":0.604092,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
-        "score":"1-1",
-        "probability":0.103611
-      },
-      {
         "score":"1-2",
-        "probability":0.102925
+        "probability":0.10261
       },
       {
-        "score":"0-1",
-        "probability":0.098145
+        "score":"1-1",
+        "probability":0.097713
       },
       {
         "score":"0-2",
-        "probability":0.097352
+        "probability":0.097503
+      },
+      {
+        "score":"0-1",
+        "probability":0.092988
       },
       {
         "score":"1-3",
-        "probability":0.068062
+        "probability":0.071729
       }
     ],
     "match_id":42,
@@ -1841,42 +1923,44 @@
     "time":"20:00 UTC-7",
     "group":"Group G",
     "ground":"Vancouver",
+    "china_date":"2026-06-27",
+    "china_time":"11:00",
     "status":"predicted",
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103611}, {\"score\": \"1-2\", \"probability\": 0.102925}, {\"score\": \"0-1\", \"probability\": 0.098145}, {\"score\": \"0-2\", \"probability\": 0.097352}, {\"score\": \"1-3\", \"probability\": 0.068062}]"
+    "top_scores_json":"[{\"score\": \"1-2\", \"probability\": 0.10261}, {\"score\": \"1-1\", \"probability\": 0.097713}, {\"score\": \"0-2\", \"probability\": 0.097503}, {\"score\": \"0-1\", \"probability\": 0.092988}, {\"score\": \"1-3\", \"probability\": 0.071729}]"
   },
   {
     "team1":"Spain",
     "team2":"Cape Verde",
     "expected_goals1":4.8,
-    "expected_goals2":0.552,
-    "prob_team1_win":0.890499,
-    "prob_draw":0.081559,
-    "prob_team2_win":0.027942,
+    "expected_goals2":0.562,
+    "prob_team1_win":0.889113,
+    "prob_draw":0.083227,
+    "prob_team2_win":0.02766,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.115105
+        "probability":0.113913
       },
       {
         "score":"5-0",
-        "probability":0.110501
+        "probability":0.109356
       },
       {
         "score":"3-0",
-        "probability":0.095921
+        "probability":0.094927
       },
       {
         "score":"6-0",
-        "probability":0.088401
+        "probability":0.087485
       },
       {
         "score":"2-0",
-        "probability":0.065164
+        "probability":0.064489
       }
     ],
     "match_id":43,
@@ -1885,42 +1969,44 @@
     "time":"12:00 UTC-4",
     "group":"Group H",
     "ground":"Atlanta",
+    "china_date":"2026-06-16",
+    "china_time":"00:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.115105}, {\"score\": \"5-0\", \"probability\": 0.110501}, {\"score\": \"3-0\", \"probability\": 0.095921}, {\"score\": \"6-0\", \"probability\": 0.088401}, {\"score\": \"2-0\", \"probability\": 0.065164}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.113913}, {\"score\": \"5-0\", \"probability\": 0.109356}, {\"score\": \"3-0\", \"probability\": 0.094927}, {\"score\": \"6-0\", \"probability\": 0.087485}, {\"score\": \"2-0\", \"probability\": 0.064489}]"
   },
   {
     "team1":"Saudi Arabia",
     "team2":"Uruguay",
-    "expected_goals1":0.905,
-    "expected_goals2":1.812,
-    "prob_team1_win":0.173994,
-    "prob_draw":0.26348,
-    "prob_team2_win":0.562526,
+    "expected_goals1":0.901,
+    "expected_goals2":1.912,
+    "prob_team1_win":0.165652,
+    "prob_draw":0.255956,
+    "prob_team2_win":0.578392,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-1",
-        "probability":0.123014
+        "probability":0.118257
       },
       {
         "score":"1-1",
-        "probability":0.115569
+        "probability":0.110629
       },
       {
         "score":"0-2",
-        "probability":0.107142
+        "probability":0.10868
       },
       {
         "score":"1-2",
-        "probability":0.100806
+        "probability":0.10182
       },
       {
         "score":"0-0",
-        "probability":0.070514
+        "probability":0.064244
       }
     ],
     "match_id":44,
@@ -1929,42 +2015,44 @@
     "time":"18:00 UTC-4",
     "group":"Group H",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-06-16",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Uruguay",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.123014}, {\"score\": \"1-1\", \"probability\": 0.115569}, {\"score\": \"0-2\", \"probability\": 0.107142}, {\"score\": \"1-2\", \"probability\": 0.100806}, {\"score\": \"0-0\", \"probability\": 0.070514}]"
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.118257}, {\"score\": \"1-1\", \"probability\": 0.110629}, {\"score\": \"0-2\", \"probability\": 0.10868}, {\"score\": \"1-2\", \"probability\": 0.10182}, {\"score\": \"0-0\", \"probability\": 0.064244}]"
   },
   {
     "team1":"Spain",
     "team2":"Saudi Arabia",
     "expected_goals1":4.8,
-    "expected_goals2":0.595,
-    "prob_team1_win":0.869298,
-    "prob_draw":0.094607,
-    "prob_team2_win":0.036095,
+    "expected_goals2":0.608,
+    "prob_team1_win":0.868127,
+    "prob_draw":0.097199,
+    "prob_team2_win":0.034674,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.110217
+        "probability":0.108739
       },
       {
         "score":"5-0",
-        "probability":0.105808
+        "probability":0.10439
       },
       {
         "score":"3-0",
-        "probability":0.091848
+        "probability":0.090616
       },
       {
         "score":"6-0",
-        "probability":0.084647
+        "probability":0.083512
       },
       {
         "score":"4-1",
-        "probability":0.06553
+        "probability":0.066096
       }
     ],
     "match_id":45,
@@ -1973,42 +2061,44 @@
     "time":"12:00 UTC-4",
     "group":"Group H",
     "ground":"Atlanta",
+    "china_date":"2026-06-22",
+    "china_time":"00:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.110217}, {\"score\": \"5-0\", \"probability\": 0.105808}, {\"score\": \"3-0\", \"probability\": 0.091848}, {\"score\": \"6-0\", \"probability\": 0.084647}, {\"score\": \"4-1\", \"probability\": 0.06553}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.108739}, {\"score\": \"5-0\", \"probability\": 0.10439}, {\"score\": \"3-0\", \"probability\": 0.090616}, {\"score\": \"6-0\", \"probability\": 0.083512}, {\"score\": \"4-1\", \"probability\": 0.066096}]"
   },
   {
     "team1":"Uruguay",
     "team2":"Cape Verde",
-    "expected_goals1":2.892,
-    "expected_goals2":0.684,
-    "prob_team1_win":0.777219,
-    "prob_draw":0.149692,
-    "prob_team2_win":0.073089,
+    "expected_goals1":2.873,
+    "expected_goals2":0.704,
+    "prob_team1_win":0.766293,
+    "prob_draw":0.156077,
+    "prob_team2_win":0.077631,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.120308
+        "probability":0.118524
       },
       {
         "score":"3-0",
-        "probability":0.106698
-      },
-      {
-        "score":"1-0",
-        "probability":0.086529
+        "probability":0.10442
       },
       {
         "score":"2-1",
-        "probability":0.085644
+        "probability":0.0868
+      },
+      {
+        "score":"1-0",
+        "probability":0.085814
       },
       {
         "score":"3-1",
-        "probability":0.079385
+        "probability":0.079924
       }
     ],
     "match_id":46,
@@ -2017,42 +2107,44 @@
     "time":"18:00 UTC-4",
     "group":"Group H",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-06-22",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Uruguay",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.120308}, {\"score\": \"3-0\", \"probability\": 0.106698}, {\"score\": \"1-0\", \"probability\": 0.086529}, {\"score\": \"2-1\", \"probability\": 0.085644}, {\"score\": \"3-1\", \"probability\": 0.079385}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.118524}, {\"score\": \"3-0\", \"probability\": 0.10442}, {\"score\": \"2-1\", \"probability\": 0.0868}, {\"score\": \"1-0\", \"probability\": 0.085814}, {\"score\": \"3-1\", \"probability\": 0.079924}]"
   },
   {
     "team1":"Cape Verde",
     "team2":"Saudi Arabia",
-    "expected_goals1":1.154,
-    "expected_goals2":1.3,
-    "prob_team1_win":0.301448,
-    "prob_draw":0.308512,
-    "prob_team2_win":0.39004,
+    "expected_goals1":1.148,
+    "expected_goals2":1.363,
+    "prob_team1_win":0.290432,
+    "prob_draw":0.30505,
+    "prob_team2_win":0.404517,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.136085
+        "probability":0.134215
       },
       {
         "score":"0-1",
-        "probability":0.113596
+        "probability":0.112596
       },
       {
         "score":"1-0",
-        "probability":0.10083
-      },
-      {
-        "score":"0-0",
-        "probability":0.090766
+        "probability":0.094813
       },
       {
         "score":"1-2",
-        "probability":0.085157
+        "probability":0.088089
+      },
+      {
+        "score":"0-0",
+        "probability":0.085777
       }
     ],
     "match_id":47,
@@ -2061,42 +2153,44 @@
     "time":"19:00 UTC-5",
     "group":"Group H",
     "ground":"Houston",
+    "china_date":"2026-06-27",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"Saudi Arabia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.136085}, {\"score\": \"0-1\", \"probability\": 0.113596}, {\"score\": \"1-0\", \"probability\": 0.10083}, {\"score\": \"0-0\", \"probability\": 0.090766}, {\"score\": \"1-2\", \"probability\": 0.085157}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.134215}, {\"score\": \"0-1\", \"probability\": 0.112596}, {\"score\": \"1-0\", \"probability\": 0.094813}, {\"score\": \"1-2\", \"probability\": 0.088089}, {\"score\": \"0-0\", \"probability\": 0.085777}]"
   },
   {
     "team1":"Uruguay",
     "team2":"Spain",
-    "expected_goals1":0.928,
-    "expected_goals2":2.159,
-    "prob_team1_win":0.15252,
-    "prob_draw":0.233942,
-    "prob_team2_win":0.613538,
+    "expected_goals1":0.924,
+    "expected_goals2":2.283,
+    "prob_team1_win":0.144099,
+    "prob_draw":0.223157,
+    "prob_team2_win":0.632744,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.106192
+        "probability":0.105741
       },
       {
         "score":"1-2",
-        "probability":0.102456
+        "probability":0.10158
       },
       {
         "score":"0-1",
-        "probability":0.102321
+        "probability":0.096325
       },
       {
         "score":"1-1",
-        "probability":0.098575
+        "probability":0.092398
       },
       {
         "score":"1-3",
-        "probability":0.070889
+        "probability":0.07434
       }
     ],
     "match_id":48,
@@ -2105,42 +2199,44 @@
     "time":"18:00 UTC-6",
     "group":"Group H",
     "ground":"Guadalajara (Zapopan)",
+    "china_date":"2026-06-27",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.106192}, {\"score\": \"1-2\", \"probability\": 0.102456}, {\"score\": \"0-1\", \"probability\": 0.102321}, {\"score\": \"1-1\", \"probability\": 0.098575}, {\"score\": \"1-3\", \"probability\": 0.070889}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.105741}, {\"score\": \"1-2\", \"probability\": 0.10158}, {\"score\": \"0-1\", \"probability\": 0.096325}, {\"score\": \"1-1\", \"probability\": 0.092398}, {\"score\": \"1-3\", \"probability\": 0.07434}]"
   },
   {
     "team1":"France",
     "team2":"Senegal",
-    "expected_goals1":2.835,
-    "expected_goals2":0.818,
-    "prob_team1_win":0.71042,
-    "prob_draw":0.177203,
-    "prob_team2_win":0.112377,
+    "expected_goals1":2.816,
+    "expected_goals2":0.847,
+    "prob_team1_win":0.703545,
+    "prob_draw":0.181883,
+    "prob_team2_win":0.114572,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.106671
-      },
-      {
-        "score":"3-0",
-        "probability":0.092746
+        "probability":0.104057
       },
       {
         "score":"2-1",
-        "probability":0.090723
+        "probability":0.091657
+      },
+      {
+        "score":"3-0",
+        "probability":0.089877
       },
       {
         "score":"3-1",
-        "probability":0.082442
+        "probability":0.082741
       },
       {
         "score":"1-0",
-        "probability":0.078257
+        "probability":0.076847
       }
     ],
     "match_id":49,
@@ -2149,42 +2245,44 @@
     "time":"15:00 UTC-4",
     "group":"Group I",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-06-17",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.106671}, {\"score\": \"3-0\", \"probability\": 0.092746}, {\"score\": \"2-1\", \"probability\": 0.090723}, {\"score\": \"3-1\", \"probability\": 0.082442}, {\"score\": \"1-0\", \"probability\": 0.078257}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.104057}, {\"score\": \"2-1\", \"probability\": 0.091657}, {\"score\": \"3-0\", \"probability\": 0.089877}, {\"score\": \"3-1\", \"probability\": 0.082741}, {\"score\": \"1-0\", \"probability\": 0.076847}]"
   },
   {
     "team1":"Iraq",
     "team2":"Norway",
-    "expected_goals1":0.938,
-    "expected_goals2":1.95,
-    "prob_team1_win":0.182802,
-    "prob_draw":0.2534,
-    "prob_team2_win":0.563798,
+    "expected_goals1":0.934,
+    "expected_goals2":2.059,
+    "prob_team1_win":0.171558,
+    "prob_draw":0.245065,
+    "prob_team2_win":0.583377,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-1",
-        "probability":0.11198
-      },
-      {
-        "score":"1-1",
-        "probability":0.109105
+        "probability":0.106781
       },
       {
         "score":"0-2",
-        "probability":0.104957
+        "probability":0.105718
+      },
+      {
+        "score":"1-1",
+        "probability":0.103586
       },
       {
         "score":"1-2",
-        "probability":0.102414
+        "probability":0.102707
       },
       {
         "score":"1-3",
-        "probability":0.063994
+        "probability":0.06779
       }
     ],
     "match_id":50,
@@ -2193,42 +2291,44 @@
     "time":"18:00 UTC-4",
     "group":"Group I",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-06-17",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Norway",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.11198}, {\"score\": \"1-1\", \"probability\": 0.109105}, {\"score\": \"0-2\", \"probability\": 0.104957}, {\"score\": \"1-2\", \"probability\": 0.102414}, {\"score\": \"1-3\", \"probability\": 0.063994}]"
+    "top_scores_json":"[{\"score\": \"0-1\", \"probability\": 0.106781}, {\"score\": \"0-2\", \"probability\": 0.105718}, {\"score\": \"1-1\", \"probability\": 0.103586}, {\"score\": \"1-2\", \"probability\": 0.102707}, {\"score\": \"1-3\", \"probability\": 0.06779}]"
   },
   {
     "team1":"France",
     "team2":"Iraq",
-    "expected_goals1":3.845,
-    "expected_goals2":0.649,
-    "prob_team1_win":0.828184,
-    "prob_draw":0.124653,
-    "prob_team2_win":0.047164,
+    "expected_goals1":3.819,
+    "expected_goals2":0.666,
+    "prob_team1_win":0.82271,
+    "prob_draw":0.129465,
+    "prob_team2_win":0.047826,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.105918
+        "probability":0.104484
       },
       {
         "score":"4-0",
-        "probability":0.10182
+        "probability":0.099749
       },
       {
         "score":"2-0",
-        "probability":0.089821
+        "probability":0.08922
       },
       {
         "score":"5-0",
-        "probability":0.078304
+        "probability":0.076183
       },
       {
         "score":"3-1",
-        "probability":0.07471
+        "probability":0.075646
       }
     ],
     "match_id":51,
@@ -2237,42 +2337,44 @@
     "time":"17:00 UTC-4",
     "group":"Group I",
     "ground":"Philadelphia",
+    "china_date":"2026-06-23",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.105918}, {\"score\": \"4-0\", \"probability\": 0.10182}, {\"score\": \"2-0\", \"probability\": 0.089821}, {\"score\": \"5-0\", \"probability\": 0.078304}, {\"score\": \"3-1\", \"probability\": 0.07471}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.104484}, {\"score\": \"4-0\", \"probability\": 0.099749}, {\"score\": \"2-0\", \"probability\": 0.08922}, {\"score\": \"5-0\", \"probability\": 0.076183}, {\"score\": \"3-1\", \"probability\": 0.075646}]"
   },
   {
     "team1":"Norway",
     "team2":"Senegal",
-    "expected_goals1":1.916,
-    "expected_goals2":1.059,
-    "prob_team1_win":0.503721,
-    "prob_draw":0.259659,
-    "prob_team2_win":0.236621,
+    "expected_goals1":1.904,
+    "expected_goals2":1.105,
+    "prob_team1_win":0.493583,
+    "prob_draw":0.260362,
+    "prob_team2_win":0.246054,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110843
+        "probability":0.111052
       },
       {
         "score":"2-1",
-        "probability":0.102252
+        "probability":0.101823
       },
       {
         "score":"1-0",
-        "probability":0.100786
+        "probability":0.096742
       },
       {
         "score":"2-0",
-        "probability":0.092837
+        "probability":0.088572
       },
       {
         "score":"3-1",
-        "probability":0.062791
+        "probability":0.062149
       }
     ],
     "match_id":52,
@@ -2281,42 +2383,44 @@
     "time":"20:00 UTC-4",
     "group":"Group I",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-06-23",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"Norway",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110843}, {\"score\": \"2-1\", \"probability\": 0.102252}, {\"score\": \"1-0\", \"probability\": 0.100786}, {\"score\": \"2-0\", \"probability\": 0.092837}, {\"score\": \"3-1\", \"probability\": 0.062791}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.111052}, {\"score\": \"2-1\", \"probability\": 0.101823}, {\"score\": \"1-0\", \"probability\": 0.096742}, {\"score\": \"2-0\", \"probability\": 0.088572}, {\"score\": \"3-1\", \"probability\": 0.062149}]"
   },
   {
     "team1":"Norway",
     "team2":"France",
-    "expected_goals1":1.135,
-    "expected_goals2":1.749,
-    "prob_team1_win":0.225247,
-    "prob_draw":0.270249,
-    "prob_team2_win":0.504504,
+    "expected_goals1":1.129,
+    "expected_goals2":1.845,
+    "prob_team1_win":0.214144,
+    "prob_draw":0.262213,
+    "prob_team2_win":0.523643,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118282
-      },
-      {
-        "score":"0-1",
-        "probability":0.100389
+        "probability":0.113727
       },
       {
         "score":"1-2",
-        "probability":0.099627
+        "probability":0.101019
+      },
+      {
+        "score":"0-1",
+        "probability":0.097002
       },
       {
         "score":"0-2",
-        "probability":0.084431
+        "probability":0.086035
       },
       {
-        "score":"1-0",
-        "probability":0.065111
+        "score":"2-1",
+        "probability":0.061821
       }
     ],
     "match_id":53,
@@ -2325,42 +2429,44 @@
     "time":"15:00 UTC-4",
     "group":"Group I",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-06-27",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118282}, {\"score\": \"0-1\", \"probability\": 0.100389}, {\"score\": \"1-2\", \"probability\": 0.099627}, {\"score\": \"0-2\", \"probability\": 0.084431}, {\"score\": \"1-0\", \"probability\": 0.065111}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113727}, {\"score\": \"1-2\", \"probability\": 0.101019}, {\"score\": \"0-1\", \"probability\": 0.097002}, {\"score\": \"0-2\", \"probability\": 0.086035}, {\"score\": \"2-1\", \"probability\": 0.061821}]"
   },
   {
     "team1":"Senegal",
     "team2":"Iraq",
-    "expected_goals1":2.076,
-    "expected_goals2":0.908,
-    "prob_team1_win":0.579056,
-    "prob_draw":0.262817,
-    "prob_team2_win":0.158127,
+    "expected_goals1":2.063,
+    "expected_goals2":0.944,
+    "prob_team1_win":0.570657,
+    "prob_draw":0.264521,
+    "prob_team2_win":0.164822,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-0",
-        "probability":0.108712
+        "probability":0.105563
       },
       {
         "score":"2-0",
-        "probability":0.10852
+        "probability":0.104724
       },
       {
         "score":"1-1",
-        "probability":0.102507
+        "probability":0.10344
       },
       {
         "score":"2-1",
-        "probability":0.102478
+        "probability":0.10277
       },
       {
-        "score":"3-0",
-        "probability":0.069099
+        "score":"3-1",
+        "probability":0.067969
       }
     ],
     "match_id":54,
@@ -2369,42 +2475,44 @@
     "time":"15:00 UTC-4",
     "group":"Group I",
     "ground":"Toronto",
+    "china_date":"2026-06-27",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Senegal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.108712}, {\"score\": \"2-0\", \"probability\": 0.10852}, {\"score\": \"1-1\", \"probability\": 0.102507}, {\"score\": \"2-1\", \"probability\": 0.102478}, {\"score\": \"3-0\", \"probability\": 0.069099}]"
+    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.105563}, {\"score\": \"2-0\", \"probability\": 0.104724}, {\"score\": \"1-1\", \"probability\": 0.10344}, {\"score\": \"2-1\", \"probability\": 0.10277}, {\"score\": \"3-1\", \"probability\": 0.067969}]"
   },
   {
     "team1":"Argentina",
     "team2":"Algeria",
-    "expected_goals1":3.013,
-    "expected_goals2":0.809,
-    "prob_team1_win":0.763578,
-    "prob_draw":0.151421,
-    "prob_team2_win":0.085002,
+    "expected_goals1":2.993,
+    "expected_goals2":0.837,
+    "prob_team1_win":0.756006,
+    "prob_draw":0.155909,
+    "prob_team2_win":0.088085,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.102596
+        "probability":0.100255
       },
       {
         "score":"3-0",
-        "probability":0.094803
+        "probability":0.092022
       },
       {
         "score":"2-1",
-        "probability":0.08628
+        "probability":0.087284
       },
       {
         "score":"3-1",
-        "probability":0.083326
+        "probability":0.083734
       },
       {
-        "score":"4-0",
-        "probability":0.071415
+        "score":"1-0",
+        "probability":0.06967
       }
     ],
     "match_id":55,
@@ -2413,42 +2521,44 @@
     "time":"20:00 UTC-5",
     "group":"Group J",
     "ground":"Kansas City",
+    "china_date":"2026-06-17",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102596}, {\"score\": \"3-0\", \"probability\": 0.094803}, {\"score\": \"2-1\", \"probability\": 0.08628}, {\"score\": \"3-1\", \"probability\": 0.083326}, {\"score\": \"4-0\", \"probability\": 0.071415}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.100255}, {\"score\": \"3-0\", \"probability\": 0.092022}, {\"score\": \"2-1\", \"probability\": 0.087284}, {\"score\": \"3-1\", \"probability\": 0.083734}, {\"score\": \"1-0\", \"probability\": 0.06967}]"
   },
   {
     "team1":"Austria",
     "team2":"Jordan",
-    "expected_goals1":1.924,
-    "expected_goals2":0.938,
-    "prob_team1_win":0.555913,
-    "prob_draw":0.258452,
-    "prob_team2_win":0.185635,
+    "expected_goals1":1.912,
+    "expected_goals2":0.976,
+    "prob_team1_win":0.551159,
+    "prob_draw":0.256916,
+    "prob_team2_win":0.191925,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"1-0",
-        "probability":0.113291
-      },
-      {
         "score":"1-1",
-        "probability":0.110392
+        "probability":0.111167
       },
       {
-        "score":"2-0",
-        "probability":0.104778
+        "score":"1-0",
+        "probability":0.109673
       },
       {
         "score":"2-1",
-        "probability":0.102249
+        "probability":0.102341
+      },
+      {
+        "score":"2-0",
+        "probability":0.100817
       },
       {
         "score":"3-1",
-        "probability":0.063044
+        "probability":0.062718
       }
     ],
     "match_id":56,
@@ -2457,42 +2567,44 @@
     "time":"21:00 UTC-7",
     "group":"Group J",
     "ground":"San Francisco Bay Area (Santa Clara)",
+    "china_date":"2026-06-17",
+    "china_time":"12:00",
     "status":"predicted",
     "predicted_winner":"Austria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-0\", \"probability\": 0.113291}, {\"score\": \"1-1\", \"probability\": 0.110392}, {\"score\": \"2-0\", \"probability\": 0.104778}, {\"score\": \"2-1\", \"probability\": 0.102249}, {\"score\": \"3-1\", \"probability\": 0.063044}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.111167}, {\"score\": \"1-0\", \"probability\": 0.109673}, {\"score\": \"2-1\", \"probability\": 0.102341}, {\"score\": \"2-0\", \"probability\": 0.100817}, {\"score\": \"3-1\", \"probability\": 0.062718}]"
   },
   {
     "team1":"Argentina",
     "team2":"Austria",
-    "expected_goals1":2.863,
-    "expected_goals2":0.792,
-    "prob_team1_win":0.754342,
-    "prob_draw":0.157561,
-    "prob_team2_win":0.088098,
+    "expected_goals1":2.844,
+    "expected_goals2":0.82,
+    "prob_team1_win":0.745884,
+    "prob_draw":0.16021,
+    "prob_team2_win":0.093906,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.108696
+        "probability":0.106244
       },
       {
         "score":"3-0",
-        "probability":0.095433
+        "probability":0.092663
       },
       {
         "score":"2-1",
-        "probability":0.089553
+        "probability":0.090555
       },
       {
         "score":"3-1",
-        "probability":0.082175
+        "probability":0.082545
       },
       {
         "score":"1-0",
-        "probability":0.07897
+        "probability":0.077702
       }
     ],
     "match_id":57,
@@ -2501,42 +2613,44 @@
     "time":"12:00 UTC-5",
     "group":"Group J",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-06-23",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.108696}, {\"score\": \"3-0\", \"probability\": 0.095433}, {\"score\": \"2-1\", \"probability\": 0.089553}, {\"score\": \"3-1\", \"probability\": 0.082175}, {\"score\": \"1-0\", \"probability\": 0.07897}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.106244}, {\"score\": \"3-0\", \"probability\": 0.092663}, {\"score\": \"2-1\", \"probability\": 0.090555}, {\"score\": \"3-1\", \"probability\": 0.082545}, {\"score\": \"1-0\", \"probability\": 0.077702}]"
   },
   {
     "team1":"Jordan",
     "team2":"Algeria",
-    "expected_goals1":1.188,
-    "expected_goals2":1.549,
-    "prob_team1_win":0.277323,
-    "prob_draw":0.280061,
-    "prob_team2_win":0.442616,
+    "expected_goals1":1.182,
+    "expected_goals2":1.63,
+    "prob_team1_win":0.265505,
+    "prob_draw":0.276291,
+    "prob_team2_win":0.458204,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.126496
+        "probability":0.123077
       },
       {
         "score":"0-1",
-        "probability":0.102569
+        "probability":0.100305
       },
       {
         "score":"1-2",
-        "probability":0.094338
-      },
-      {
-        "score":"1-0",
-        "probability":0.078641
+        "probability":0.096602
       },
       {
         "score":"0-2",
-        "probability":0.076381
+        "probability":0.078612
+      },
+      {
+        "score":"1-0",
+        "probability":0.072704
       }
     ],
     "match_id":58,
@@ -2545,42 +2659,44 @@
     "time":"20:00 UTC-7",
     "group":"Group J",
     "ground":"San Francisco Bay Area (Santa Clara)",
+    "china_date":"2026-06-23",
+    "china_time":"11:00",
     "status":"predicted",
     "predicted_winner":"Algeria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126496}, {\"score\": \"0-1\", \"probability\": 0.102569}, {\"score\": \"1-2\", \"probability\": 0.094338}, {\"score\": \"1-0\", \"probability\": 0.078641}, {\"score\": \"0-2\", \"probability\": 0.076381}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123077}, {\"score\": \"0-1\", \"probability\": 0.100305}, {\"score\": \"1-2\", \"probability\": 0.096602}, {\"score\": \"0-2\", \"probability\": 0.078612}, {\"score\": \"1-0\", \"probability\": 0.072704}]"
   },
   {
     "team1":"Algeria",
     "team2":"Austria",
-    "expected_goals1":1.544,
-    "expected_goals2":1.243,
-    "prob_team1_win":0.403884,
-    "prob_draw":0.288336,
-    "prob_team2_win":0.30778,
+    "expected_goals1":1.535,
+    "expected_goals2":1.302,
+    "prob_team1_win":0.393104,
+    "prob_draw":0.288261,
+    "prob_team2_win":0.318635,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125545
+        "probability":0.124412
       },
       {
         "score":"1-0",
-        "probability":0.097282
+        "probability":0.092005
       },
       {
         "score":"2-1",
-        "probability":0.093345
+        "probability":0.091977
       },
       {
         "score":"0-1",
-        "probability":0.078289
+        "probability":0.078025
       },
       {
         "score":"1-2",
-        "probability":0.07512
+        "probability":0.078002
       }
     ],
     "match_id":59,
@@ -2589,42 +2705,44 @@
     "time":"21:00 UTC-5",
     "group":"Group J",
     "ground":"Kansas City",
+    "china_date":"2026-06-28",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Algeria",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125545}, {\"score\": \"1-0\", \"probability\": 0.097282}, {\"score\": \"2-1\", \"probability\": 0.093345}, {\"score\": \"0-1\", \"probability\": 0.078289}, {\"score\": \"1-2\", \"probability\": 0.07512}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124412}, {\"score\": \"1-0\", \"probability\": 0.092005}, {\"score\": \"2-1\", \"probability\": 0.091977}, {\"score\": \"0-1\", \"probability\": 0.078025}, {\"score\": \"1-2\", \"probability\": 0.078002}]"
   },
   {
     "team1":"Jordan",
     "team2":"Argentina",
-    "expected_goals1":0.767,
-    "expected_goals2":2.873,
-    "prob_team1_win":0.090207,
-    "prob_draw":0.158734,
-    "prob_team2_win":0.751059,
+    "expected_goals1":0.764,
+    "expected_goals2":3.049,
+    "prob_team1_win":0.084952,
+    "prob_draw":0.14715,
+    "prob_team2_win":0.767898,
     "model_blend":"poisson+ml",
     "most_likely_score":"0-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.11123
+        "probability":0.106224
       },
       {
         "score":"0-3",
-        "probability":0.098005
+        "probability":0.099311
       },
       {
         "score":"1-2",
-        "probability":0.088705
+        "probability":0.084407
       },
       {
         "score":"1-3",
-        "probability":0.081687
+        "probability":0.082477
       },
       {
-        "score":"0-1",
-        "probability":0.080524
+        "score":"0-4",
+        "probability":0.075691
       }
     ],
     "match_id":60,
@@ -2633,42 +2751,44 @@
     "time":"21:00 UTC-5",
     "group":"Group J",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-06-28",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.11123}, {\"score\": \"0-3\", \"probability\": 0.098005}, {\"score\": \"1-2\", \"probability\": 0.088705}, {\"score\": \"1-3\", \"probability\": 0.081687}, {\"score\": \"0-1\", \"probability\": 0.080524}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.106224}, {\"score\": \"0-3\", \"probability\": 0.099311}, {\"score\": \"1-2\", \"probability\": 0.084407}, {\"score\": \"1-3\", \"probability\": 0.082477}, {\"score\": \"0-4\", \"probability\": 0.075691}]"
   },
   {
     "team1":"Portugal",
     "team2":"DR Congo",
-    "expected_goals1":3.361,
-    "expected_goals2":0.711,
-    "prob_team1_win":0.772512,
-    "prob_draw":0.15965,
-    "prob_team2_win":0.067838,
+    "expected_goals1":3.338,
+    "expected_goals2":0.732,
+    "prob_team1_win":0.768397,
+    "prob_draw":0.160756,
+    "prob_team2_win":0.070847,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.104452
+        "probability":0.102303
       },
       {
         "score":"2-0",
-        "probability":0.101338
+        "probability":0.099929
       },
       {
         "score":"4-0",
-        "probability":0.087768
+        "probability":0.08538
       },
       {
         "score":"3-1",
-        "probability":0.08071
+        "probability":0.081447
       },
       {
         "score":"2-1",
-        "probability":0.074921
+        "probability":0.07612
       }
     ],
     "match_id":61,
@@ -2677,42 +2797,44 @@
     "time":"12:00 UTC-5",
     "group":"Group K",
     "ground":"Houston",
+    "china_date":"2026-06-18",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.104452}, {\"score\": \"2-0\", \"probability\": 0.101338}, {\"score\": \"4-0\", \"probability\": 0.087768}, {\"score\": \"3-1\", \"probability\": 0.08071}, {\"score\": \"2-1\", \"probability\": 0.074921}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.102303}, {\"score\": \"2-0\", \"probability\": 0.099929}, {\"score\": \"4-0\", \"probability\": 0.08538}, {\"score\": \"3-1\", \"probability\": 0.081447}, {\"score\": \"2-1\", \"probability\": 0.07612}]"
   },
   {
     "team1":"Uzbekistan",
     "team2":"Colombia",
-    "expected_goals1":1.009,
-    "expected_goals2":1.761,
-    "prob_team1_win":0.212744,
-    "prob_draw":0.266611,
-    "prob_team2_win":0.520645,
+    "expected_goals1":1.005,
+    "expected_goals2":1.857,
+    "prob_team1_win":0.200708,
+    "prob_draw":0.261552,
+    "prob_team2_win":0.53774,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118625
+        "probability":0.113931
       },
       {
         "score":"0-1",
-        "probability":0.113191
+        "probability":0.109213
       },
       {
         "score":"1-2",
-        "probability":0.100569
+        "probability":0.101873
       },
       {
         "score":"0-2",
-        "probability":0.09582
+        "probability":0.09751
       },
       {
         "score":"0-0",
-        "probability":0.066756
+        "probability":0.06107
       }
     ],
     "match_id":62,
@@ -2721,42 +2843,44 @@
     "time":"20:00 UTC-6",
     "group":"Group K",
     "ground":"Mexico City",
+    "china_date":"2026-06-18",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118625}, {\"score\": \"0-1\", \"probability\": 0.113191}, {\"score\": \"1-2\", \"probability\": 0.100569}, {\"score\": \"0-2\", \"probability\": 0.09582}, {\"score\": \"0-0\", \"probability\": 0.066756}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113931}, {\"score\": \"0-1\", \"probability\": 0.109213}, {\"score\": \"1-2\", \"probability\": 0.101873}, {\"score\": \"0-2\", \"probability\": 0.09751}, {\"score\": \"0-0\", \"probability\": 0.06107}]"
   },
   {
     "team1":"Portugal",
     "team2":"Uzbekistan",
-    "expected_goals1":2.566,
-    "expected_goals2":0.848,
-    "prob_team1_win":0.673961,
-    "prob_draw":0.210518,
-    "prob_team2_win":0.115521,
+    "expected_goals1":2.549,
+    "expected_goals2":0.879,
+    "prob_team1_win":0.666272,
+    "prob_draw":0.214201,
+    "prob_team2_win":0.119527,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.109782
+        "probability":0.106693
       },
       {
         "score":"2-1",
-        "probability":0.096772
+        "probability":0.097521
       },
       {
         "score":"1-0",
-        "probability":0.089
+        "probability":0.08706
       },
       {
         "score":"3-0",
-        "probability":0.086378
+        "probability":0.083403
       },
       {
         "score":"3-1",
-        "probability":0.07958
+        "probability":0.079676
       }
     ],
     "match_id":63,
@@ -2765,42 +2889,44 @@
     "time":"12:00 UTC-5",
     "group":"Group K",
     "ground":"Houston",
+    "china_date":"2026-06-24",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.109782}, {\"score\": \"2-1\", \"probability\": 0.096772}, {\"score\": \"1-0\", \"probability\": 0.089}, {\"score\": \"3-0\", \"probability\": 0.086378}, {\"score\": \"3-1\", \"probability\": 0.07958}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.106693}, {\"score\": \"2-1\", \"probability\": 0.097521}, {\"score\": \"1-0\", \"probability\": 0.08706}, {\"score\": \"3-0\", \"probability\": 0.083403}, {\"score\": \"3-1\", \"probability\": 0.079676}]"
   },
   {
     "team1":"Colombia",
     "team2":"DR Congo",
-    "expected_goals1":2.973,
-    "expected_goals2":0.707,
-    "prob_team1_win":0.750224,
-    "prob_draw":0.161519,
-    "prob_team2_win":0.088257,
+    "expected_goals1":2.953,
+    "expected_goals2":0.728,
+    "prob_team1_win":0.743974,
+    "prob_draw":0.163906,
+    "prob_team2_win":0.09212,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.115033
+        "probability":0.1132
       },
       {
         "score":"3-0",
-        "probability":0.10487
+        "probability":0.102513
       },
       {
         "score":"2-1",
-        "probability":0.084585
+        "probability":0.085743
       },
       {
         "score":"3-1",
-        "probability":0.080594
+        "probability":0.081154
       },
       {
         "score":"1-0",
-        "probability":0.080486
+        "probability":0.079734
       }
     ],
     "match_id":64,
@@ -2809,42 +2935,44 @@
     "time":"20:00 UTC-6",
     "group":"Group K",
     "ground":"Guadalajara (Zapopan)",
+    "china_date":"2026-06-24",
+    "china_time":"10:00",
     "status":"predicted",
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.115033}, {\"score\": \"3-0\", \"probability\": 0.10487}, {\"score\": \"2-1\", \"probability\": 0.084585}, {\"score\": \"3-1\", \"probability\": 0.080594}, {\"score\": \"1-0\", \"probability\": 0.080486}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.1132}, {\"score\": \"3-0\", \"probability\": 0.102513}, {\"score\": \"2-1\", \"probability\": 0.085743}, {\"score\": \"3-1\", \"probability\": 0.081154}, {\"score\": \"1-0\", \"probability\": 0.079734}]"
   },
   {
     "team1":"Colombia",
     "team2":"Portugal",
-    "expected_goals1":1.463,
-    "expected_goals2":1.273,
-    "prob_team1_win":0.374615,
-    "prob_draw":0.305048,
-    "prob_team2_win":0.320337,
+    "expected_goals1":1.455,
+    "expected_goals2":1.335,
+    "prob_team1_win":0.365809,
+    "prob_draw":0.29945,
+    "prob_team2_win":0.334742,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.128045
+        "probability":0.126636
       },
       {
         "score":"1-0",
-        "probability":0.096824
+        "probability":0.091339
       },
       {
         "score":"2-1",
-        "probability":0.090176
+        "probability":0.088688
       },
       {
         "score":"0-1",
-        "probability":0.084299
+        "probability":0.083837
       },
       {
         "score":"1-2",
-        "probability":0.078511
+        "probability":0.081404
       }
     ],
     "match_id":65,
@@ -2853,42 +2981,44 @@
     "time":"19:30 UTC-4",
     "group":"Group K",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-06-28",
+    "china_time":"07:30",
     "status":"predicted",
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.128045}, {\"score\": \"1-0\", \"probability\": 0.096824}, {\"score\": \"2-1\", \"probability\": 0.090176}, {\"score\": \"0-1\", \"probability\": 0.084299}, {\"score\": \"1-2\", \"probability\": 0.078511}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126636}, {\"score\": \"1-0\", \"probability\": 0.091339}, {\"score\": \"2-1\", \"probability\": 0.088688}, {\"score\": \"0-1\", \"probability\": 0.083837}, {\"score\": \"1-2\", \"probability\": 0.081404}]"
   },
   {
     "team1":"DR Congo",
     "team2":"Uzbekistan",
-    "expected_goals1":1.154,
-    "expected_goals2":1.477,
-    "prob_team1_win":0.282504,
-    "prob_draw":0.286254,
-    "prob_team2_win":0.431242,
+    "expected_goals1":1.148,
+    "expected_goals2":1.553,
+    "prob_team1_win":0.272188,
+    "prob_draw":0.280419,
+    "prob_team2_win":0.447393,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.130004
+        "probability":0.126989
       },
       {
         "score":"0-1",
-        "probability":0.108529
+        "probability":0.106543
       },
       {
         "score":"1-2",
-        "probability":0.092452
-      },
-      {
-        "score":"1-0",
-        "probability":0.084759
+        "probability":0.094961
       },
       {
         "score":"0-2",
-        "probability":0.077066
+        "probability":0.079554
+      },
+      {
+        "score":"1-0",
+        "probability":0.078737
       }
     ],
     "match_id":66,
@@ -2897,42 +3027,44 @@
     "time":"19:30 UTC-4",
     "group":"Group K",
     "ground":"Atlanta",
+    "china_date":"2026-06-28",
+    "china_time":"07:30",
     "status":"predicted",
     "predicted_winner":"Uzbekistan",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.130004}, {\"score\": \"0-1\", \"probability\": 0.108529}, {\"score\": \"1-2\", \"probability\": 0.092452}, {\"score\": \"1-0\", \"probability\": 0.084759}, {\"score\": \"0-2\", \"probability\": 0.077066}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126989}, {\"score\": \"0-1\", \"probability\": 0.106543}, {\"score\": \"1-2\", \"probability\": 0.094961}, {\"score\": \"0-2\", \"probability\": 0.079554}, {\"score\": \"1-0\", \"probability\": 0.078737}]"
   },
   {
     "team1":"England",
     "team2":"Croatia",
-    "expected_goals1":2.068,
-    "expected_goals2":1.003,
-    "prob_team1_win":0.572998,
-    "prob_draw":0.255692,
-    "prob_team2_win":0.17131,
+    "expected_goals1":2.055,
+    "expected_goals2":1.046,
+    "prob_team1_win":0.563208,
+    "prob_draw":0.257088,
+    "prob_team2_win":0.179704,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.103396
+        "probability":0.103938
       },
       {
         "score":"2-1",
-        "probability":0.102938
+        "probability":0.102837
       },
       {
         "score":"1-0",
-        "probability":0.099238
+        "probability":0.095716
       },
       {
         "score":"2-0",
-        "probability":0.098652
+        "probability":0.094562
       },
       {
         "score":"3-1",
-        "probability":0.06822
+        "probability":0.067732
       }
     ],
     "match_id":67,
@@ -2941,42 +3073,44 @@
     "time":"15:00 UTC-5",
     "group":"Group L",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-06-18",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103396}, {\"score\": \"2-1\", \"probability\": 0.102938}, {\"score\": \"1-0\", \"probability\": 0.099238}, {\"score\": \"2-0\", \"probability\": 0.098652}, {\"score\": \"3-1\", \"probability\": 0.06822}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.103938}, {\"score\": \"2-1\", \"probability\": 0.102837}, {\"score\": \"1-0\", \"probability\": 0.095716}, {\"score\": \"2-0\", \"probability\": 0.094562}, {\"score\": \"3-1\", \"probability\": 0.067732}]"
   },
   {
     "team1":"Ghana",
     "team2":"Panama",
-    "expected_goals1":0.975,
-    "expected_goals2":1.632,
-    "prob_team1_win":0.21867,
-    "prob_draw":0.281045,
-    "prob_team2_win":0.500286,
+    "expected_goals1":0.971,
+    "expected_goals2":1.719,
+    "prob_team1_win":0.208121,
+    "prob_draw":0.275334,
+    "prob_team2_win":0.516544,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.12457
+        "probability":0.120537
       },
       {
         "score":"0-1",
-        "probability":0.122987
+        "probability":0.11954
       },
       {
         "score":"1-2",
-        "probability":0.097888
+        "probability":0.099776
       },
       {
         "score":"0-2",
-        "probability":0.0965
+        "probability":0.098804
       },
       {
         "score":"0-0",
-        "probability":0.078255
+        "probability":0.072207
       }
     ],
     "match_id":68,
@@ -2985,42 +3119,44 @@
     "time":"19:00 UTC-4",
     "group":"Group L",
     "ground":"Toronto",
+    "china_date":"2026-06-18",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Panama",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12457}, {\"score\": \"0-1\", \"probability\": 0.122987}, {\"score\": \"1-2\", \"probability\": 0.097888}, {\"score\": \"0-2\", \"probability\": 0.0965}, {\"score\": \"0-0\", \"probability\": 0.078255}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.120537}, {\"score\": \"0-1\", \"probability\": 0.11954}, {\"score\": \"1-2\", \"probability\": 0.099776}, {\"score\": \"0-2\", \"probability\": 0.098804}, {\"score\": \"0-0\", \"probability\": 0.072207}]"
   },
   {
     "team1":"England",
     "team2":"Ghana",
-    "expected_goals1":4.8,
-    "expected_goals2":0.612,
-    "prob_team1_win":0.886524,
-    "prob_draw":0.087455,
-    "prob_team2_win":0.026021,
+    "expected_goals1":4.776,
+    "expected_goals2":0.626,
+    "prob_team1_win":0.885913,
+    "prob_draw":0.087222,
+    "prob_team2_win":0.026865,
     "model_blend":"poisson+ml",
     "most_likely_score":"4-0",
     "top_scores":[
       {
         "score":"4-0",
-        "probability":0.108291
+        "probability":0.106819
       },
       {
         "score":"5-0",
-        "probability":0.10396
+        "probability":0.10204
       },
       {
         "score":"3-0",
-        "probability":0.090243
+        "probability":0.089457
       },
       {
         "score":"6-0",
-        "probability":0.083168
+        "probability":0.08123
       },
       {
         "score":"4-1",
-        "probability":0.066264
+        "probability":0.066913
       }
     ],
     "match_id":69,
@@ -3029,42 +3165,44 @@
     "time":"16:00 UTC-4",
     "group":"Group L",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-06-24",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.108291}, {\"score\": \"5-0\", \"probability\": 0.10396}, {\"score\": \"3-0\", \"probability\": 0.090243}, {\"score\": \"6-0\", \"probability\": 0.083168}, {\"score\": \"4-1\", \"probability\": 0.066264}]"
+    "top_scores_json":"[{\"score\": \"4-0\", \"probability\": 0.106819}, {\"score\": \"5-0\", \"probability\": 0.10204}, {\"score\": \"3-0\", \"probability\": 0.089457}, {\"score\": \"6-0\", \"probability\": 0.08123}, {\"score\": \"4-1\", \"probability\": 0.066913}]"
   },
   {
     "team1":"Panama",
     "team2":"Croatia",
-    "expected_goals1":1.047,
-    "expected_goals2":1.604,
-    "prob_team1_win":0.234862,
-    "prob_draw":0.281127,
-    "prob_team2_win":0.484011,
+    "expected_goals1":1.042,
+    "expected_goals2":1.689,
+    "prob_team1_win":0.224252,
+    "prob_draw":0.275645,
+    "prob_team2_win":0.500103,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125799
+        "probability":0.121952
       },
       {
         "score":"0-1",
-        "probability":0.11567
+        "probability":0.112664
       },
       {
         "score":"1-2",
-        "probability":0.097139
+        "probability":0.099167
       },
       {
         "score":"0-2",
-        "probability":0.089186
+        "probability":0.091479
       },
       {
         "score":"1-0",
-        "probability":0.075535
+        "probability":0.069534
       }
     ],
     "match_id":70,
@@ -3073,42 +3211,44 @@
     "time":"19:00 UTC-4",
     "group":"Group L",
     "ground":"Toronto",
+    "china_date":"2026-06-24",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Croatia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125799}, {\"score\": \"0-1\", \"probability\": 0.11567}, {\"score\": \"1-2\", \"probability\": 0.097139}, {\"score\": \"0-2\", \"probability\": 0.089186}, {\"score\": \"1-0\", \"probability\": 0.075535}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121952}, {\"score\": \"0-1\", \"probability\": 0.112664}, {\"score\": \"1-2\", \"probability\": 0.099167}, {\"score\": \"0-2\", \"probability\": 0.091479}, {\"score\": \"1-0\", \"probability\": 0.069534}]"
   },
   {
     "team1":"Panama",
     "team2":"England",
-    "expected_goals1":0.895,
-    "expected_goals2":2.242,
-    "prob_team1_win":0.145721,
-    "prob_draw":0.209477,
-    "prob_team2_win":0.644801,
+    "expected_goals1":0.891,
+    "expected_goals2":2.373,
+    "prob_team1_win":0.136009,
+    "prob_draw":0.200132,
+    "prob_team2_win":0.66386,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"0-2",
-        "probability":0.109182
+        "probability":0.10819
       },
       {
         "score":"1-2",
-        "probability":0.101649
+        "probability":0.100303
       },
       {
         "score":"0-1",
-        "probability":0.101288
+        "probability":0.094846
       },
       {
         "score":"1-1",
-        "probability":0.094161
+        "probability":0.087801
       },
       {
         "score":"0-3",
-        "probability":0.075071
+        "probability":0.078721
       }
     ],
     "match_id":71,
@@ -3117,42 +3257,44 @@
     "time":"17:00 UTC-4",
     "group":"Group L",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-06-28",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.109182}, {\"score\": \"1-2\", \"probability\": 0.101649}, {\"score\": \"0-1\", \"probability\": 0.101288}, {\"score\": \"1-1\", \"probability\": 0.094161}, {\"score\": \"0-3\", \"probability\": 0.075071}]"
+    "top_scores_json":"[{\"score\": \"0-2\", \"probability\": 0.10819}, {\"score\": \"1-2\", \"probability\": 0.100303}, {\"score\": \"0-1\", \"probability\": 0.094846}, {\"score\": \"1-1\", \"probability\": 0.087801}, {\"score\": \"0-3\", \"probability\": 0.078721}]"
   },
   {
     "team1":"Croatia",
     "team2":"Ghana",
-    "expected_goals1":3.278,
-    "expected_goals2":0.676,
-    "prob_team1_win":0.788772,
-    "prob_draw":0.143236,
-    "prob_team2_win":0.067992,
+    "expected_goals1":3.256,
+    "expected_goals2":0.695,
+    "prob_team1_win":0.784614,
+    "prob_draw":0.146735,
+    "prob_team2_win":0.06865,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.108634
+        "score":"2-0",
+        "probability":0.106779
       },
       {
-        "score":"2-0",
-        "probability":0.108063
+        "score":"3-0",
+        "probability":0.106619
       },
       {
         "score":"4-0",
-        "probability":0.089029
+        "probability":0.086787
       },
       {
         "score":"3-1",
-        "probability":0.07977
+        "probability":0.080497
       },
       {
         "score":"2-1",
-        "probability":0.075923
+        "probability":0.077136
       }
     ],
     "match_id":72,
@@ -3161,42 +3303,44 @@
     "time":"17:00 UTC-4",
     "group":"Group L",
     "ground":"Philadelphia",
+    "china_date":"2026-06-28",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"Croatia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.108634}, {\"score\": \"2-0\", \"probability\": 0.108063}, {\"score\": \"4-0\", \"probability\": 0.089029}, {\"score\": \"3-1\", \"probability\": 0.07977}, {\"score\": \"2-1\", \"probability\": 0.075923}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.106779}, {\"score\": \"3-0\", \"probability\": 0.106619}, {\"score\": \"4-0\", \"probability\": 0.086787}, {\"score\": \"3-1\", \"probability\": 0.080497}, {\"score\": \"2-1\", \"probability\": 0.077136}]"
   },
   {
     "team1":"South Korea",
     "team2":"Canada",
-    "expected_goals1":1.594,
-    "expected_goals2":1.161,
-    "prob_team1_win":0.430106,
-    "prob_draw":0.276051,
-    "prob_team2_win":0.293844,
+    "expected_goals1":1.585,
+    "expected_goals2":1.214,
+    "prob_team1_win":0.420485,
+    "prob_draw":0.27411,
+    "prob_team2_win":0.305406,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.12503
+        "probability":0.124443
       },
       {
         "score":"1-0",
-        "probability":0.103722
+        "probability":0.098679
       },
       {
         "score":"2-1",
-        "probability":0.095955
-      },
-      {
-        "score":"2-0",
-        "probability":0.079484
+        "probability":0.094957
       },
       {
         "score":"0-1",
-        "probability":0.075535
+        "probability":0.075615
+      },
+      {
+        "score":"2-0",
+        "probability":0.075186
       }
     ],
     "match_id":73,
@@ -3205,42 +3349,44 @@
     "time":"12:00 UTC-7",
     "group":"",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-06-29",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"South Korea",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12503}, {\"score\": \"1-0\", \"probability\": 0.103722}, {\"score\": \"2-1\", \"probability\": 0.095955}, {\"score\": \"2-0\", \"probability\": 0.079484}, {\"score\": \"0-1\", \"probability\": 0.075535}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124443}, {\"score\": \"1-0\", \"probability\": 0.098679}, {\"score\": \"2-1\", \"probability\": 0.094957}, {\"score\": \"0-1\", \"probability\": 0.075615}, {\"score\": \"2-0\", \"probability\": 0.075186}]"
   },
   {
     "team1":"Germany",
-    "team2":"Turkey",
-    "expected_goals1":1.879,
-    "expected_goals2":0.99,
-    "prob_team1_win":0.525957,
-    "prob_draw":0.275771,
-    "prob_team2_win":0.198272,
+    "team2":"Bosnia & Herzegovina",
+    "expected_goals1":3.752,
+    "expected_goals2":0.647,
+    "prob_team1_win":0.834711,
+    "prob_draw":0.123046,
+    "prob_team2_win":0.042243,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-1",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
-        "score":"1-1",
-        "probability":0.112859
+        "score":"3-0",
+        "probability":0.107493
       },
       {
-        "score":"1-0",
-        "probability":0.109753
-      },
-      {
-        "score":"2-1",
-        "probability":0.102082
+        "score":"4-0",
+        "probability":0.100838
       },
       {
         "score":"2-0",
-        "probability":0.099126
+        "probability":0.093413
+      },
+      {
+        "score":"5-0",
+        "probability":0.075676
       },
       {
         "score":"3-1",
-        "probability":0.061465
+        "probability":0.075599
       }
     ],
     "match_id":74,
@@ -3249,42 +3395,44 @@
     "time":"16:30 UTC-4",
     "group":"",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-06-30",
+    "china_time":"04:30",
     "status":"predicted",
     "predicted_winner":"Germany",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112859}, {\"score\": \"1-0\", \"probability\": 0.109753}, {\"score\": \"2-1\", \"probability\": 0.102082}, {\"score\": \"2-0\", \"probability\": 0.099126}, {\"score\": \"3-1\", \"probability\": 0.061465}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.107493}, {\"score\": \"4-0\", \"probability\": 0.100838}, {\"score\": \"2-0\", \"probability\": 0.093413}, {\"score\": \"5-0\", \"probability\": 0.075676}, {\"score\": \"3-1\", \"probability\": 0.075599}]"
   },
   {
     "team1":"Netherlands",
     "team2":"Morocco",
-    "expected_goals1":1.773,
-    "expected_goals2":1.171,
-    "prob_team1_win":0.455598,
-    "prob_draw":0.261438,
-    "prob_team2_win":0.282963,
+    "expected_goals1":1.762,
+    "expected_goals2":1.226,
+    "prob_team1_win":0.443416,
+    "prob_draw":0.261778,
+    "prob_team2_win":0.294805,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.116622
+        "probability":0.116128
       },
       {
         "score":"2-1",
-        "probability":0.099544
+        "probability":0.098535
       },
       {
         "score":"1-0",
-        "probability":0.095879
+        "probability":0.091241
       },
       {
         "score":"2-0",
-        "probability":0.081718
+        "probability":0.077303
       },
       {
         "score":"1-2",
-        "probability":0.06577
+        "probability":0.06853
       }
     ],
     "match_id":75,
@@ -3293,42 +3441,44 @@
     "time":"19:00 UTC-6",
     "group":"",
     "ground":"Monterrey (Guadalupe)",
+    "china_date":"2026-06-30",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116622}, {\"score\": \"2-1\", \"probability\": 0.099544}, {\"score\": \"1-0\", \"probability\": 0.095879}, {\"score\": \"2-0\", \"probability\": 0.081718}, {\"score\": \"1-2\", \"probability\": 0.06577}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116128}, {\"score\": \"2-1\", \"probability\": 0.098535}, {\"score\": \"1-0\", \"probability\": 0.091241}, {\"score\": \"2-0\", \"probability\": 0.077303}, {\"score\": \"1-2\", \"probability\": 0.06853}]"
   },
   {
     "team1":"Brazil",
     "team2":"Japan",
-    "expected_goals1":1.696,
-    "expected_goals2":1.243,
-    "prob_team1_win":0.431762,
-    "prob_draw":0.283896,
-    "prob_team2_win":0.284343,
+    "expected_goals1":1.686,
+    "expected_goals2":1.302,
+    "prob_team1_win":0.420461,
+    "prob_draw":0.282998,
+    "prob_team2_win":0.296541,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.118857
+        "probability":0.117878
       },
       {
         "score":"2-1",
-        "probability":0.097064
+        "probability":0.0957
       },
       {
         "score":"1-0",
-        "probability":0.092087
-      },
-      {
-        "score":"2-0",
-        "probability":0.075091
+        "probability":0.087161
       },
       {
         "score":"1-2",
-        "probability":0.071128
+        "probability":0.073915
+      },
+      {
+        "score":"2-0",
+        "probability":0.070658
       }
     ],
     "match_id":76,
@@ -3337,42 +3487,44 @@
     "time":"12:00 UTC-5",
     "group":"",
     "ground":"Houston",
+    "china_date":"2026-06-30",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118857}, {\"score\": \"2-1\", \"probability\": 0.097064}, {\"score\": \"1-0\", \"probability\": 0.092087}, {\"score\": \"2-0\", \"probability\": 0.075091}, {\"score\": \"1-2\", \"probability\": 0.071128}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117878}, {\"score\": \"2-1\", \"probability\": 0.0957}, {\"score\": \"1-0\", \"probability\": 0.087161}, {\"score\": \"1-2\", \"probability\": 0.073915}, {\"score\": \"2-0\", \"probability\": 0.070658}]"
   },
   {
     "team1":"France",
-    "team2":"New Zealand",
-    "expected_goals1":3.788,
-    "expected_goals2":0.696,
-    "prob_team1_win":0.844966,
-    "prob_draw":0.103455,
-    "prob_team2_win":0.051579,
+    "team2":"Australia",
+    "expected_goals1":2.588,
+    "expected_goals2":0.884,
+    "prob_team1_win":0.686439,
+    "prob_draw":0.190377,
+    "prob_team2_win":0.123184,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"3-0",
-        "probability":0.101811
-      },
-      {
-        "score":"4-0",
-        "probability":0.096425
-      },
-      {
         "score":"2-0",
-        "probability":0.087635
+        "probability":0.105425
+      },
+      {
+        "score":"2-1",
+        "probability":0.096884
+      },
+      {
+        "score":"1-0",
+        "probability":0.084728
+      },
+      {
+        "score":"3-0",
+        "probability":0.083675
       },
       {
         "score":"3-1",
-        "probability":0.076992
-      },
-      {
-        "score":"5-0",
-        "probability":0.073059
+        "probability":0.080367
       }
     ],
     "match_id":77,
@@ -3381,42 +3533,44 @@
     "time":"17:00 UTC-4",
     "group":"",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-07-01",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.101811}, {\"score\": \"4-0\", \"probability\": 0.096425}, {\"score\": \"2-0\", \"probability\": 0.087635}, {\"score\": \"3-1\", \"probability\": 0.076992}, {\"score\": \"5-0\", \"probability\": 0.073059}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.105425}, {\"score\": \"2-1\", \"probability\": 0.096884}, {\"score\": \"1-0\", \"probability\": 0.084728}, {\"score\": \"3-0\", \"probability\": 0.083675}, {\"score\": \"3-1\", \"probability\": 0.080367}]"
   },
   {
     "team1":"Ecuador",
     "team2":"Norway",
-    "expected_goals1":1.459,
-    "expected_goals2":1.179,
-    "prob_team1_win":0.410886,
-    "prob_draw":0.292259,
-    "prob_team2_win":0.296855,
+    "expected_goals1":1.451,
+    "expected_goals2":1.234,
+    "prob_team1_win":0.400759,
+    "prob_draw":0.291011,
+    "prob_team2_win":0.30823,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.130265
+        "probability":0.129449
       },
       {
         "score":"1-0",
-        "probability":0.106419
+        "probability":0.101049
       },
       {
         "score":"2-1",
-        "probability":0.091522
+        "probability":0.090444
       },
       {
         "score":"0-1",
-        "probability":0.085964
+        "probability":0.085902
       },
       {
-        "score":"0-0",
-        "probability":0.075733
+        "score":"1-2",
+        "probability":0.076887
       }
     ],
     "match_id":78,
@@ -3425,42 +3579,44 @@
     "time":"12:00 UTC-5",
     "group":"",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-07-01",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Ecuador",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.130265}, {\"score\": \"1-0\", \"probability\": 0.106419}, {\"score\": \"2-1\", \"probability\": 0.091522}, {\"score\": \"0-1\", \"probability\": 0.085964}, {\"score\": \"0-0\", \"probability\": 0.075733}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.129449}, {\"score\": \"1-0\", \"probability\": 0.101049}, {\"score\": \"2-1\", \"probability\": 0.090444}, {\"score\": \"0-1\", \"probability\": 0.085902}, {\"score\": \"1-2\", \"probability\": 0.076887}]"
   },
   {
     "team1":"Mexico",
     "team2":"Scotland",
-    "expected_goals1":1.788,
-    "expected_goals2":0.97,
-    "prob_team1_win":0.52933,
-    "prob_draw":0.268918,
-    "prob_team2_win":0.201752,
+    "expected_goals1":1.778,
+    "expected_goals2":1.01,
+    "prob_team1_win":0.521552,
+    "prob_draw":0.266893,
+    "prob_team2_win":0.211556,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.117269
+        "probability":0.117774
       },
       {
         "score":"1-0",
-        "probability":0.116432
+        "probability":0.112302
       },
       {
         "score":"2-1",
-        "probability":0.100927
+        "probability":0.100849
       },
       {
         "score":"2-0",
-        "probability":0.100059
+        "probability":0.096021
       },
       {
         "score":"0-0",
-        "probability":0.067642
+        "probability":0.065575
       }
     ],
     "match_id":79,
@@ -3469,42 +3625,44 @@
     "time":"19:00 UTC-6",
     "group":"",
     "ground":"Mexico City",
+    "china_date":"2026-07-01",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Mexico",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117269}, {\"score\": \"1-0\", \"probability\": 0.116432}, {\"score\": \"2-1\", \"probability\": 0.100927}, {\"score\": \"2-0\", \"probability\": 0.100059}, {\"score\": \"0-0\", \"probability\": 0.067642}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.117774}, {\"score\": \"1-0\", \"probability\": 0.112302}, {\"score\": \"2-1\", \"probability\": 0.100849}, {\"score\": \"2-0\", \"probability\": 0.096021}, {\"score\": \"0-0\", \"probability\": 0.065575}]"
   },
   {
     "team1":"England",
-    "team2":"Austria",
-    "expected_goals1":2.579,
-    "expected_goals2":0.866,
-    "prob_team1_win":0.692485,
-    "prob_draw":0.196641,
-    "prob_team2_win":0.110874,
+    "team2":"Uzbekistan",
+    "expected_goals1":2.963,
+    "expected_goals2":0.819,
+    "prob_team1_win":0.732995,
+    "prob_draw":0.176312,
+    "prob_team2_win":0.090693,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-1",
+    "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.107467
-      },
-      {
-        "score":"2-1",
-        "probability":0.096831
-      },
-      {
-        "score":"1-0",
-        "probability":0.086687
+        "probability":0.102984
       },
       {
         "score":"3-0",
-        "probability":0.084981
+        "probability":0.093571
+      },
+      {
+        "score":"2-1",
+        "probability":0.087722
       },
       {
         "score":"3-1",
-        "probability":0.080028
+        "probability":0.083303
+      },
+      {
+        "score":"1-0",
+        "probability":0.072299
       }
     ],
     "match_id":80,
@@ -3513,42 +3671,44 @@
     "time":"12:00 UTC-4",
     "group":"",
     "ground":"Atlanta",
+    "china_date":"2026-07-02",
+    "china_time":"00:00",
     "status":"predicted",
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107467}, {\"score\": \"2-1\", \"probability\": 0.096831}, {\"score\": \"1-0\", \"probability\": 0.086687}, {\"score\": \"3-0\", \"probability\": 0.084981}, {\"score\": \"3-1\", \"probability\": 0.080028}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102984}, {\"score\": \"3-0\", \"probability\": 0.093571}, {\"score\": \"2-1\", \"probability\": 0.087722}, {\"score\": \"3-1\", \"probability\": 0.083303}, {\"score\": \"1-0\", \"probability\": 0.072299}]"
   },
   {
-    "team1":"USA",
-    "team2":"Bosnia & Herzegovina",
-    "expected_goals1":2.587,
-    "expected_goals2":0.738,
-    "prob_team1_win":0.710338,
-    "prob_draw":0.195988,
-    "prob_team2_win":0.093674,
+    "team1":"Turkey",
+    "team2":"Austria",
+    "expected_goals1":1.679,
+    "expected_goals2":1.079,
+    "prob_team1_win":0.467359,
+    "prob_draw":0.275112,
+    "prob_team2_win":0.257529,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
-        "score":"2-0",
-        "probability":0.122181
+        "score":"1-1",
+        "probability":0.122171
       },
       {
         "score":"1-0",
-        "probability":0.098235
-      },
-      {
-        "score":"3-0",
-        "probability":0.096933
+        "probability":0.109073
       },
       {
         "score":"2-1",
-        "probability":0.093734
+        "probability":0.098788
       },
       {
-        "score":"3-1",
-        "probability":0.077722
+        "score":"2-0",
+        "probability":0.088067
+      },
+      {
+        "score":"0-1",
+        "probability":0.070052
       }
     ],
     "match_id":81,
@@ -3557,42 +3717,44 @@
     "time":"17:00 UTC-7",
     "group":"",
     "ground":"San Francisco Bay Area (Santa Clara)",
+    "china_date":"2026-07-02",
+    "china_time":"08:00",
     "status":"predicted",
-    "predicted_winner":"USA",
+    "predicted_winner":"Turkey",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.122181}, {\"score\": \"1-0\", \"probability\": 0.098235}, {\"score\": \"3-0\", \"probability\": 0.096933}, {\"score\": \"2-1\", \"probability\": 0.093734}, {\"score\": \"3-1\", \"probability\": 0.077722}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.122171}, {\"score\": \"1-0\", \"probability\": 0.109073}, {\"score\": \"2-1\", \"probability\": 0.098788}, {\"score\": \"2-0\", \"probability\": 0.088067}, {\"score\": \"0-1\", \"probability\": 0.070052}]"
   },
   {
     "team1":"Belgium",
     "team2":"Czech Republic",
-    "expected_goals1":2.341,
-    "expected_goals2":0.867,
-    "prob_team1_win":0.646528,
-    "prob_draw":0.224644,
-    "prob_team2_win":0.128828,
+    "expected_goals1":2.326,
+    "expected_goals2":0.9,
+    "prob_team1_win":0.640184,
+    "prob_draw":0.225719,
+    "prob_team2_win":0.134097,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.111255
+        "probability":0.107831
       },
       {
         "score":"2-1",
-        "probability":0.100355
+        "probability":0.100934
       },
       {
         "score":"1-0",
-        "probability":0.098854
+        "probability":0.096426
       },
       {
         "score":"1-1",
-        "probability":0.089037
+        "probability":0.090125
       },
       {
         "score":"3-0",
-        "probability":0.079868
+        "probability":0.076918
       }
     ],
     "match_id":82,
@@ -3601,42 +3763,44 @@
     "time":"13:00 UTC-7",
     "group":"",
     "ground":"Seattle",
+    "china_date":"2026-07-02",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.111255}, {\"score\": \"2-1\", \"probability\": 0.100355}, {\"score\": \"1-0\", \"probability\": 0.098854}, {\"score\": \"1-1\", \"probability\": 0.089037}, {\"score\": \"3-0\", \"probability\": 0.079868}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107831}, {\"score\": \"2-1\", \"probability\": 0.100934}, {\"score\": \"1-0\", \"probability\": 0.096426}, {\"score\": \"1-1\", \"probability\": 0.090125}, {\"score\": \"3-0\", \"probability\": 0.076918}]"
   },
   {
     "team1":"Portugal",
     "team2":"Croatia",
-    "expected_goals1":1.799,
-    "expected_goals2":1.09,
-    "prob_team1_win":0.485222,
-    "prob_draw":0.285158,
-    "prob_team2_win":0.22962,
+    "expected_goals1":1.788,
+    "expected_goals2":1.139,
+    "prob_team1_win":0.476473,
+    "prob_draw":0.286056,
+    "prob_team2_win":0.237471,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.116388
-      },
-      {
-        "score":"1-0",
-        "probability":0.102826
+        "probability":0.116365
       },
       {
         "score":"2-1",
-        "probability":0.10081
+        "probability":0.100189
+      },
+      {
+        "score":"1-0",
+        "probability":0.098421
       },
       {
         "score":"2-0",
-        "probability":0.088931
+        "probability":0.084614
       },
       {
-        "score":"0-1",
-        "probability":0.062302
+        "score":"1-2",
+        "probability":0.063788
       }
     ],
     "match_id":83,
@@ -3645,42 +3809,44 @@
     "time":"19:00 UTC-4",
     "group":"",
     "ground":"Toronto",
+    "china_date":"2026-07-03",
+    "china_time":"07:00",
     "status":"predicted",
     "predicted_winner":"Portugal",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116388}, {\"score\": \"1-0\", \"probability\": 0.102826}, {\"score\": \"2-1\", \"probability\": 0.10081}, {\"score\": \"2-0\", \"probability\": 0.088931}, {\"score\": \"0-1\", \"probability\": 0.062302}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116365}, {\"score\": \"2-1\", \"probability\": 0.100189}, {\"score\": \"1-0\", \"probability\": 0.098421}, {\"score\": \"2-0\", \"probability\": 0.084614}, {\"score\": \"1-2\", \"probability\": 0.063788}]"
   },
   {
     "team1":"Spain",
     "team2":"Algeria",
-    "expected_goals1":3.501,
-    "expected_goals2":0.763,
-    "prob_team1_win":0.798155,
-    "prob_draw":0.132357,
-    "prob_team2_win":0.069488,
+    "expected_goals1":3.477,
+    "expected_goals2":0.788,
+    "prob_team1_win":0.79052,
+    "prob_draw":0.139271,
+    "prob_team2_win":0.070209,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"3-0",
-        "probability":0.098137
+        "probability":0.095833
       },
       {
         "score":"2-0",
-        "probability":0.091418
+        "probability":0.089883
       },
       {
         "score":"4-0",
-        "probability":0.085884
+        "probability":0.083296
       },
       {
         "score":"3-1",
-        "probability":0.081406
+        "probability":0.082129
       },
       {
         "score":"2-1",
-        "probability":0.072556
+        "probability":0.073702
       }
     ],
     "match_id":84,
@@ -3689,42 +3855,44 @@
     "time":"12:00 UTC-7",
     "group":"",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-07-03",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.098137}, {\"score\": \"2-0\", \"probability\": 0.091418}, {\"score\": \"4-0\", \"probability\": 0.085884}, {\"score\": \"3-1\", \"probability\": 0.081406}, {\"score\": \"2-1\", \"probability\": 0.072556}]"
+    "top_scores_json":"[{\"score\": \"3-0\", \"probability\": 0.095833}, {\"score\": \"2-0\", \"probability\": 0.089883}, {\"score\": \"4-0\", \"probability\": 0.083296}, {\"score\": \"3-1\", \"probability\": 0.082129}, {\"score\": \"2-1\", \"probability\": 0.073702}]"
   },
   {
     "team1":"Switzerland",
-    "team2":"Ivory Coast",
-    "expected_goals1":2.17,
-    "expected_goals2":0.911,
-    "prob_team1_win":0.603772,
-    "prob_draw":0.223588,
-    "prob_team2_win":0.172641,
+    "team2":"New Zealand",
+    "expected_goals1":2.325,
+    "expected_goals2":0.895,
+    "prob_team1_win":0.64445,
+    "prob_draw":0.212979,
+    "prob_team2_win":0.142571,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.107889
-      },
-      {
-        "score":"1-0",
-        "probability":0.103423
+        "probability":0.108442
       },
       {
         "score":"2-1",
-        "probability":0.102265
+        "probability":0.100885
+      },
+      {
+        "score":"1-0",
+        "probability":0.097017
       },
       {
         "score":"1-1",
-        "probability":0.097886
+        "probability":0.090122
       },
       {
         "score":"3-0",
-        "probability":0.071791
+        "probability":0.077318
       }
     ],
     "match_id":85,
@@ -3733,42 +3901,44 @@
     "time":"20:00 UTC-7",
     "group":"",
     "ground":"Vancouver",
+    "china_date":"2026-07-03",
+    "china_time":"11:00",
     "status":"predicted",
     "predicted_winner":"Switzerland",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107889}, {\"score\": \"1-0\", \"probability\": 0.103423}, {\"score\": \"2-1\", \"probability\": 0.102265}, {\"score\": \"1-1\", \"probability\": 0.097886}, {\"score\": \"3-0\", \"probability\": 0.071791}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.108442}, {\"score\": \"2-1\", \"probability\": 0.100885}, {\"score\": \"1-0\", \"probability\": 0.097017}, {\"score\": \"1-1\", \"probability\": 0.090122}, {\"score\": \"3-0\", \"probability\": 0.077318}]"
   },
   {
     "team1":"Argentina",
     "team2":"Uruguay",
-    "expected_goals1":2.451,
-    "expected_goals2":0.831,
-    "prob_team1_win":0.655712,
-    "prob_draw":0.217774,
-    "prob_team2_win":0.126514,
+    "expected_goals1":2.435,
+    "expected_goals2":0.861,
+    "prob_team1_win":0.65032,
+    "prob_draw":0.218705,
+    "prob_team2_win":0.130974,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.113746
+        "probability":0.110599
       },
       {
         "score":"2-1",
-        "probability":0.098327
+        "probability":0.099072
       },
       {
         "score":"1-0",
-        "probability":0.096529
-      },
-      {
-        "score":"3-0",
-        "probability":0.085495
+        "probability":0.094466
       },
       {
         "score":"1-1",
-        "probability":0.083321
+        "probability":0.084495
+      },
+      {
+        "score":"3-0",
+        "probability":0.082595
       }
     ],
     "match_id":86,
@@ -3777,42 +3947,44 @@
     "time":"18:00 UTC-4",
     "group":"",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-07-04",
+    "china_time":"06:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.113746}, {\"score\": \"2-1\", \"probability\": 0.098327}, {\"score\": \"1-0\", \"probability\": 0.096529}, {\"score\": \"3-0\", \"probability\": 0.085495}, {\"score\": \"1-1\", \"probability\": 0.083321}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.110599}, {\"score\": \"2-1\", \"probability\": 0.099072}, {\"score\": \"1-0\", \"probability\": 0.094466}, {\"score\": \"1-1\", \"probability\": 0.084495}, {\"score\": \"3-0\", \"probability\": 0.082595}]"
   },
   {
     "team1":"Colombia",
     "team2":"Panama",
-    "expected_goals1":2.257,
-    "expected_goals2":0.806,
-    "prob_team1_win":0.669328,
-    "prob_draw":0.205569,
-    "prob_team2_win":0.125103,
+    "expected_goals1":2.243,
+    "expected_goals2":0.834,
+    "prob_team1_win":0.661547,
+    "prob_draw":0.208948,
+    "prob_team2_win":0.129506,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-0",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.119308
+        "probability":0.116086
       },
       {
         "score":"1-0",
-        "probability":0.109939
+        "probability":0.107649
       },
       {
         "score":"2-1",
-        "probability":0.099981
+        "probability":0.100699
       },
       {
         "score":"1-1",
-        "probability":0.091993
+        "probability":0.093243
       },
       {
         "score":"3-0",
-        "probability":0.082588
+        "probability":0.07985
       }
     ],
     "match_id":87,
@@ -3821,42 +3993,44 @@
     "time":"20:30 UTC-5",
     "group":"",
     "ground":"Kansas City",
+    "china_date":"2026-07-04",
+    "china_time":"09:30",
     "status":"predicted",
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.119308}, {\"score\": \"1-0\", \"probability\": 0.109939}, {\"score\": \"2-1\", \"probability\": 0.099981}, {\"score\": \"1-1\", \"probability\": 0.091993}, {\"score\": \"3-0\", \"probability\": 0.082588}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.116086}, {\"score\": \"1-0\", \"probability\": 0.107649}, {\"score\": \"2-1\", \"probability\": 0.100699}, {\"score\": \"1-1\", \"probability\": 0.093243}, {\"score\": \"3-0\", \"probability\": 0.07985}]"
   },
   {
-    "team1":"Australia",
+    "team1":"USA",
     "team2":"Iran",
-    "expected_goals1":1.575,
-    "expected_goals2":1.266,
-    "prob_team1_win":0.402219,
-    "prob_draw":0.296672,
-    "prob_team2_win":0.301108,
+    "expected_goals1":1.593,
+    "expected_goals2":1.304,
+    "prob_team1_win":0.406527,
+    "prob_draw":0.277341,
+    "prob_team2_win":0.316131,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.123692
-      },
-      {
-        "score":"1-0",
-        "probability":0.094068
+        "probability":0.121951
       },
       {
         "score":"2-1",
-        "probability":0.0938
+        "probability":0.093543
       },
       {
-        "score":"0-1",
-        "probability":0.075626
+        "score":"1-0",
+        "probability":0.090068
       },
       {
         "score":"1-2",
-        "probability":0.075411
+        "probability":0.076557
+      },
+      {
+        "score":"0-1",
+        "probability":0.073713
       }
     ],
     "match_id":88,
@@ -3865,42 +4039,44 @@
     "time":"13:00 UTC-5",
     "group":"",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-07-04",
+    "china_time":"02:00",
     "status":"predicted",
-    "predicted_winner":"Australia",
+    "predicted_winner":"USA",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123692}, {\"score\": \"1-0\", \"probability\": 0.094068}, {\"score\": \"2-1\", \"probability\": 0.0938}, {\"score\": \"0-1\", \"probability\": 0.075626}, {\"score\": \"1-2\", \"probability\": 0.075411}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121951}, {\"score\": \"2-1\", \"probability\": 0.093543}, {\"score\": \"1-0\", \"probability\": 0.090068}, {\"score\": \"1-2\", \"probability\": 0.076557}, {\"score\": \"0-1\", \"probability\": 0.073713}]"
   },
   {
     "team1":"Germany",
     "team2":"France",
-    "expected_goals1":1.347,
-    "expected_goals2":1.454,
-    "prob_team1_win":0.315697,
-    "prob_draw":0.281715,
-    "prob_team2_win":0.402588,
+    "expected_goals1":1.339,
+    "expected_goals2":1.529,
+    "prob_team1_win":0.304657,
+    "prob_draw":0.276692,
+    "prob_team2_win":0.418651,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.126301
-      },
-      {
-        "score":"0-1",
-        "probability":0.090313
+        "probability":0.123631
       },
       {
         "score":"1-2",
-        "probability":0.088427
+        "probability":0.090991
       },
       {
-        "score":"1-0",
-        "probability":0.083641
+        "score":"0-1",
+        "probability":0.088881
       },
       {
         "score":"2-1",
-        "probability":0.081895
+        "probability":0.079733
+      },
+      {
+        "score":"1-0",
+        "probability":0.077884
       }
     ],
     "match_id":89,
@@ -3909,42 +4085,44 @@
     "time":"17:00 UTC-4",
     "group":"",
     "ground":"Philadelphia",
+    "china_date":"2026-07-05",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.126301}, {\"score\": \"0-1\", \"probability\": 0.090313}, {\"score\": \"1-2\", \"probability\": 0.088427}, {\"score\": \"1-0\", \"probability\": 0.083641}, {\"score\": \"2-1\", \"probability\": 0.081895}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123631}, {\"score\": \"1-2\", \"probability\": 0.090991}, {\"score\": \"0-1\", \"probability\": 0.088881}, {\"score\": \"2-1\", \"probability\": 0.079733}, {\"score\": \"1-0\", \"probability\": 0.077884}]"
   },
   {
     "team1":"South Korea",
     "team2":"Netherlands",
-    "expected_goals1":1.193,
-    "expected_goals2":1.637,
-    "prob_team1_win":0.266325,
-    "prob_draw":0.277393,
-    "prob_team2_win":0.456282,
+    "expected_goals1":1.187,
+    "expected_goals2":1.724,
+    "prob_team1_win":0.252789,
+    "prob_draw":0.273226,
+    "prob_team2_win":0.473985,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.122581
-      },
-      {
-        "score":"0-1",
-        "probability":0.098962
+        "probability":0.118669
       },
       {
         "score":"1-2",
-        "probability":0.096599
+        "probability":0.098514
+      },
+      {
+        "score":"0-1",
+        "probability":0.096293
       },
       {
         "score":"0-2",
-        "probability":0.077871
+        "probability":0.07982
       },
       {
-        "score":"1-0",
-        "probability":0.072121
+        "score":"2-1",
+        "probability":0.067806
       }
     ],
     "match_id":90,
@@ -3953,42 +4131,44 @@
     "time":"12:00 UTC-5",
     "group":"",
     "ground":"Houston",
+    "china_date":"2026-07-05",
+    "china_time":"01:00",
     "status":"predicted",
     "predicted_winner":"Netherlands",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.122581}, {\"score\": \"0-1\", \"probability\": 0.098962}, {\"score\": \"1-2\", \"probability\": 0.096599}, {\"score\": \"0-2\", \"probability\": 0.077871}, {\"score\": \"1-0\", \"probability\": 0.072121}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.118669}, {\"score\": \"1-2\", \"probability\": 0.098514}, {\"score\": \"0-1\", \"probability\": 0.096293}, {\"score\": \"0-2\", \"probability\": 0.07982}, {\"score\": \"2-1\", \"probability\": 0.067806}]"
   },
   {
     "team1":"Brazil",
     "team2":"Ecuador",
-    "expected_goals1":1.752,
-    "expected_goals2":1.009,
-    "prob_team1_win":0.497345,
-    "prob_draw":0.286675,
-    "prob_team2_win":0.21598,
+    "expected_goals1":1.742,
+    "expected_goals2":1.052,
+    "prob_team1_win":0.489427,
+    "prob_draw":0.287176,
+    "prob_team2_win":0.223397,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.119044
+        "probability":0.119419
       },
       {
         "score":"1-0",
-        "probability":0.113641
+        "probability":0.109362
       },
       {
         "score":"2-1",
-        "probability":0.100424
+        "probability":0.100144
       },
       {
         "score":"2-0",
-        "probability":0.095724
+        "probability":0.091575
       },
       {
-        "score":"0-0",
-        "probability":0.067356
+        "score":"0-1",
+        "probability":0.066025
       }
     ],
     "match_id":91,
@@ -3997,42 +4177,44 @@
     "time":"16:00 UTC-4",
     "group":"",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-07-06",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Brazil",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119044}, {\"score\": \"1-0\", \"probability\": 0.113641}, {\"score\": \"2-1\", \"probability\": 0.100424}, {\"score\": \"2-0\", \"probability\": 0.095724}, {\"score\": \"0-0\", \"probability\": 0.067356}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.119419}, {\"score\": \"1-0\", \"probability\": 0.109362}, {\"score\": \"2-1\", \"probability\": 0.100144}, {\"score\": \"2-0\", \"probability\": 0.091575}, {\"score\": \"0-1\", \"probability\": 0.066025}]"
   },
   {
     "team1":"Mexico",
     "team2":"England",
-    "expected_goals1":1.218,
-    "expected_goals2":1.731,
-    "prob_team1_win":0.251335,
-    "prob_draw":0.27179,
-    "prob_team2_win":0.476875,
+    "expected_goals1":1.213,
+    "expected_goals2":1.825,
+    "prob_team1_win":0.239701,
+    "prob_draw":0.266486,
+    "prob_team2_win":0.493813,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.11778
+        "probability":0.113377
       },
       {
         "score":"1-2",
-        "probability":0.098137
+        "probability":0.099607
       },
       {
         "score":"0-1",
-        "probability":0.093117
+        "probability":0.08998
       },
       {
         "score":"0-2",
-        "probability":0.077472
+        "probability":0.078935
       },
       {
         "score":"2-1",
-        "probability":0.069072
+        "probability":0.066236
       }
     ],
     "match_id":92,
@@ -4041,42 +4223,44 @@
     "time":"18:00 UTC-6",
     "group":"",
     "ground":"Mexico City",
+    "china_date":"2026-07-06",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.11778}, {\"score\": \"1-2\", \"probability\": 0.098137}, {\"score\": \"0-1\", \"probability\": 0.093117}, {\"score\": \"0-2\", \"probability\": 0.077472}, {\"score\": \"2-1\", \"probability\": 0.069072}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113377}, {\"score\": \"1-2\", \"probability\": 0.099607}, {\"score\": \"0-1\", \"probability\": 0.08998}, {\"score\": \"0-2\", \"probability\": 0.078935}, {\"score\": \"2-1\", \"probability\": 0.066236}]"
   },
   {
     "team1":"Portugal",
     "team2":"Spain",
-    "expected_goals1":1.196,
-    "expected_goals2":1.812,
-    "prob_team1_win":0.230827,
-    "prob_draw":0.27706,
-    "prob_team2_win":0.492113,
+    "expected_goals1":1.19,
+    "expected_goals2":1.912,
+    "prob_team1_win":0.218619,
+    "prob_draw":0.269414,
+    "prob_team2_win":0.511967,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.114298
+        "probability":0.10951
       },
       {
         "score":"1-2",
-        "probability":0.099741
+        "probability":0.100834
       },
       {
         "score":"0-1",
-        "probability":0.092054
+        "probability":0.088648
       },
       {
         "score":"0-2",
-        "probability":0.080212
+        "probability":0.081505
       },
       {
         "score":"2-1",
-        "probability":0.0658
+        "probability":0.062723
       }
     ],
     "match_id":93,
@@ -4085,42 +4269,44 @@
     "time":"14:00 UTC-5",
     "group":"",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-07-07",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.114298}, {\"score\": \"1-2\", \"probability\": 0.099741}, {\"score\": \"0-1\", \"probability\": 0.092054}, {\"score\": \"0-2\", \"probability\": 0.080212}, {\"score\": \"2-1\", \"probability\": 0.0658}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.10951}, {\"score\": \"1-2\", \"probability\": 0.100834}, {\"score\": \"0-1\", \"probability\": 0.088648}, {\"score\": \"0-2\", \"probability\": 0.081505}, {\"score\": \"2-1\", \"probability\": 0.062723}]"
   },
   {
-    "team1":"USA",
+    "team1":"Turkey",
     "team2":"Belgium",
-    "expected_goals1":1.385,
-    "expected_goals2":1.456,
-    "prob_team1_win":0.328125,
-    "prob_draw":0.288144,
-    "prob_team2_win":0.383731,
+    "expected_goals1":1.394,
+    "expected_goals2":1.369,
+    "prob_team1_win":0.352271,
+    "prob_draw":0.281006,
+    "prob_team2_win":0.366722,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.125007
-      },
-      {
-        "score":"1-2",
-        "probability":0.087651
-      },
-      {
-        "score":"0-1",
-        "probability":0.086915
-      },
-      {
-        "score":"2-1",
-        "probability":0.083361
+        "probability":0.127727
       },
       {
         "score":"1-0",
-        "probability":0.082661
+        "probability":0.089843
+      },
+      {
+        "score":"0-1",
+        "probability":0.088218
+      },
+      {
+        "score":"2-1",
+        "probability":0.085743
+      },
+      {
+        "score":"1-2",
+        "probability":0.084193
       }
     ],
     "match_id":94,
@@ -4129,42 +4315,44 @@
     "time":"17:00 UTC-7",
     "group":"",
     "ground":"Seattle",
+    "china_date":"2026-07-07",
+    "china_time":"08:00",
     "status":"predicted",
     "predicted_winner":"Belgium",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.125007}, {\"score\": \"1-2\", \"probability\": 0.087651}, {\"score\": \"0-1\", \"probability\": 0.086915}, {\"score\": \"2-1\", \"probability\": 0.083361}, {\"score\": \"1-0\", \"probability\": 0.082661}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.127727}, {\"score\": \"1-0\", \"probability\": 0.089843}, {\"score\": \"0-1\", \"probability\": 0.088218}, {\"score\": \"2-1\", \"probability\": 0.085743}, {\"score\": \"1-2\", \"probability\": 0.084193}]"
   },
   {
     "team1":"Argentina",
-    "team2":"Australia",
-    "expected_goals1":2.751,
-    "expected_goals2":0.835,
-    "prob_team1_win":0.73831,
-    "prob_draw":0.164693,
-    "prob_team2_win":0.096997,
+    "team2":"USA",
+    "expected_goals1":2.673,
+    "expected_goals2":0.93,
+    "prob_team1_win":0.699144,
+    "prob_draw":0.187434,
+    "prob_team2_win":0.113422,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-0",
+    "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.107002
+        "probability":0.09895
       },
       {
         "score":"2-1",
-        "probability":0.092911
-      },
-      {
-        "score":"3-0",
-        "probability":0.090265
+        "probability":0.095656
       },
       {
         "score":"3-1",
-        "probability":0.081917
+        "probability":0.081962
+      },
+      {
+        "score":"3-0",
+        "probability":0.081123
       },
       {
         "score":"1-0",
-        "probability":0.080909
+        "probability":0.076988
       }
     ],
     "match_id":95,
@@ -4173,42 +4361,44 @@
     "time":"12:00 UTC-4",
     "group":"",
     "ground":"Atlanta",
+    "china_date":"2026-07-08",
+    "china_time":"00:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.107002}, {\"score\": \"2-1\", \"probability\": 0.092911}, {\"score\": \"3-0\", \"probability\": 0.090265}, {\"score\": \"3-1\", \"probability\": 0.081917}, {\"score\": \"1-0\", \"probability\": 0.080909}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.09895}, {\"score\": \"2-1\", \"probability\": 0.095656}, {\"score\": \"3-1\", \"probability\": 0.081962}, {\"score\": \"3-0\", \"probability\": 0.081123}, {\"score\": \"1-0\", \"probability\": 0.076988}]"
   },
   {
     "team1":"Switzerland",
     "team2":"Colombia",
-    "expected_goals1":1.275,
-    "expected_goals2":1.323,
-    "prob_team1_win":0.322144,
-    "prob_draw":0.297504,
-    "prob_team2_win":0.380351,
+    "expected_goals1":1.268,
+    "expected_goals2":1.388,
+    "prob_team1_win":0.310767,
+    "prob_draw":0.29273,
+    "prob_team2_win":0.396503,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.132796
+        "probability":0.13088
       },
       {
         "score":"0-1",
-        "probability":0.100285
+        "probability":0.099359
       },
       {
         "score":"1-0",
-        "probability":0.096687
+        "probability":0.090821
       },
       {
         "score":"1-2",
-        "probability":0.084566
+        "probability":0.087449
       },
       {
         "score":"2-1",
-        "probability":0.081531
+        "probability":0.079934
       }
     ],
     "match_id":96,
@@ -4217,42 +4407,44 @@
     "time":"13:00 UTC-7",
     "group":"",
     "ground":"Vancouver",
+    "china_date":"2026-07-08",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"Colombia",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.132796}, {\"score\": \"0-1\", \"probability\": 0.100285}, {\"score\": \"1-0\", \"probability\": 0.096687}, {\"score\": \"1-2\", \"probability\": 0.084566}, {\"score\": \"2-1\", \"probability\": 0.081531}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.13088}, {\"score\": \"0-1\", \"probability\": 0.099359}, {\"score\": \"1-0\", \"probability\": 0.090821}, {\"score\": \"1-2\", \"probability\": 0.087449}, {\"score\": \"2-1\", \"probability\": 0.079934}]"
   },
   {
     "team1":"France",
     "team2":"Netherlands",
-    "expected_goals1":1.922,
-    "expected_goals2":1.067,
-    "prob_team1_win":0.537797,
-    "prob_draw":0.251895,
-    "prob_team2_win":0.210308,
+    "expected_goals1":1.91,
+    "expected_goals2":1.114,
+    "prob_team1_win":0.524554,
+    "prob_draw":0.254037,
+    "prob_team2_win":0.221408,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.110503
+        "probability":0.110674
       },
       {
         "score":"2-1",
-        "probability":0.102245
+        "probability":0.101781
       },
       {
         "score":"1-0",
-        "probability":0.099688
+        "probability":0.095635
       },
       {
         "score":"2-0",
-        "probability":0.092101
+        "probability":0.087821
       },
       {
         "score":"3-1",
-        "probability":0.062976
+        "probability":0.062309
       }
     ],
     "match_id":97,
@@ -4261,42 +4453,44 @@
     "time":"16:00 UTC-4",
     "group":"",
     "ground":"Boston (Foxborough)",
+    "china_date":"2026-07-10",
+    "china_time":"04:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110503}, {\"score\": \"2-1\", \"probability\": 0.102245}, {\"score\": \"1-0\", \"probability\": 0.099688}, {\"score\": \"2-0\", \"probability\": 0.092101}, {\"score\": \"3-1\", \"probability\": 0.062976}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.110674}, {\"score\": \"2-1\", \"probability\": 0.101781}, {\"score\": \"1-0\", \"probability\": 0.095635}, {\"score\": \"2-0\", \"probability\": 0.087821}, {\"score\": \"3-1\", \"probability\": 0.062309}]"
   },
   {
     "team1":"Spain",
     "team2":"Belgium",
-    "expected_goals1":2.669,
-    "expected_goals2":0.896,
-    "prob_team1_win":0.707666,
-    "prob_draw":0.181617,
-    "prob_team2_win":0.110717,
+    "expected_goals1":2.651,
+    "expected_goals2":0.931,
+    "prob_team1_win":0.69487,
+    "prob_draw":0.187943,
+    "prob_team2_win":0.117187,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"2-0",
-        "probability":0.102444
+        "probability":0.09928
       },
       {
         "score":"2-1",
-        "probability":0.095473
-      },
-      {
-        "score":"3-0",
-        "probability":0.083837
+        "probability":0.096111
       },
       {
         "score":"3-1",
-        "probability":0.081659
+        "probability":0.081668
+      },
+      {
+        "score":"3-0",
+        "probability":0.080716
       },
       {
         "score":"1-0",
-        "probability":0.079849
+        "probability":0.077891
       }
     ],
     "match_id":98,
@@ -4305,42 +4499,44 @@
     "time":"12:00 UTC-7",
     "group":"",
     "ground":"Los Angeles (Inglewood)",
+    "china_date":"2026-07-11",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.102444}, {\"score\": \"2-1\", \"probability\": 0.095473}, {\"score\": \"3-0\", \"probability\": 0.083837}, {\"score\": \"3-1\", \"probability\": 0.081659}, {\"score\": \"1-0\", \"probability\": 0.079849}]"
+    "top_scores_json":"[{\"score\": \"2-0\", \"probability\": 0.09928}, {\"score\": \"2-1\", \"probability\": 0.096111}, {\"score\": \"3-1\", \"probability\": 0.081668}, {\"score\": \"3-0\", \"probability\": 0.080716}, {\"score\": \"1-0\", \"probability\": 0.077891}]"
   },
   {
     "team1":"Brazil",
     "team2":"England",
-    "expected_goals1":1.457,
-    "expected_goals2":1.409,
-    "prob_team1_win":0.354563,
-    "prob_draw":0.292987,
-    "prob_team2_win":0.35245,
+    "expected_goals1":1.449,
+    "expected_goals2":1.48,
+    "prob_team1_win":0.341434,
+    "prob_draw":0.291435,
+    "prob_team2_win":0.367131,
     "model_blend":"poisson+ml",
-    "most_likely_score":"2-1",
+    "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.124164
-      },
-      {
-        "score":"2-1",
-        "probability":0.087118
-      },
-      {
-        "score":"1-0",
-        "probability":0.084848
+        "probability":0.121904
       },
       {
         "score":"1-2",
-        "probability":0.084243
+        "probability":0.086893
+      },
+      {
+        "score":"2-1",
+        "probability":0.085058
       },
       {
         "score":"0-1",
-        "probability":0.082049
+        "probability":0.081005
+      },
+      {
+        "score":"1-0",
+        "probability":0.079294
       }
     ],
     "match_id":99,
@@ -4349,42 +4545,44 @@
     "time":"17:00 UTC-4",
     "group":"",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-07-12",
+    "china_time":"05:00",
     "status":"predicted",
-    "predicted_winner":"Brazil",
+    "predicted_winner":"England",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124164}, {\"score\": \"2-1\", \"probability\": 0.087118}, {\"score\": \"1-0\", \"probability\": 0.084848}, {\"score\": \"1-2\", \"probability\": 0.084243}, {\"score\": \"0-1\", \"probability\": 0.082049}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.121904}, {\"score\": \"1-2\", \"probability\": 0.086893}, {\"score\": \"2-1\", \"probability\": 0.085058}, {\"score\": \"0-1\", \"probability\": 0.081005}, {\"score\": \"1-0\", \"probability\": 0.079294}]"
   },
   {
     "team1":"Argentina",
     "team2":"Colombia",
-    "expected_goals1":2.026,
-    "expected_goals2":0.965,
-    "prob_team1_win":0.561156,
-    "prob_draw":0.266358,
-    "prob_team2_win":0.172487,
+    "expected_goals1":2.014,
+    "expected_goals2":1.005,
+    "prob_team1_win":0.550755,
+    "prob_draw":0.269115,
+    "prob_team2_win":0.180129,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.105425
-      },
-      {
-        "score":"1-0",
-        "probability":0.105198
+        "probability":0.106119
       },
       {
         "score":"2-1",
-        "probability":0.102841
+        "probability":0.102881
+      },
+      {
+        "score":"1-0",
+        "probability":0.101711
       },
       {
         "score":"2-0",
-        "probability":0.102467
+        "probability":0.098461
       },
       {
         "score":"3-1",
-        "probability":0.066781
+        "probability":0.066396
       }
     ],
     "match_id":100,
@@ -4393,42 +4591,44 @@
     "time":"20:00 UTC-5",
     "group":"",
     "ground":"Kansas City",
+    "china_date":"2026-07-12",
+    "china_time":"09:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.105425}, {\"score\": \"1-0\", \"probability\": 0.105198}, {\"score\": \"2-1\", \"probability\": 0.102841}, {\"score\": \"2-0\", \"probability\": 0.102467}, {\"score\": \"3-1\", \"probability\": 0.066781}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.106119}, {\"score\": \"2-1\", \"probability\": 0.102881}, {\"score\": \"1-0\", \"probability\": 0.101711}, {\"score\": \"2-0\", \"probability\": 0.098461}, {\"score\": \"3-1\", \"probability\": 0.066396}]"
   },
   {
     "team1":"France",
     "team2":"Spain",
-    "expected_goals1":1.405,
-    "expected_goals2":1.477,
-    "prob_team1_win":0.330896,
-    "prob_draw":0.290986,
-    "prob_team2_win":0.378118,
+    "expected_goals1":1.397,
+    "expected_goals2":1.553,
+    "prob_team1_win":0.318351,
+    "prob_draw":0.28939,
+    "prob_team2_win":0.392259,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.123584
+        "probability":0.12085
       },
       {
         "score":"1-2",
-        "probability":0.08787
+        "probability":0.090353
       },
       {
         "score":"0-1",
-        "probability":0.084711
+        "probability":0.083293
       },
       {
         "score":"2-1",
-        "probability":0.083594
+        "probability":0.081297
       },
       {
         "score":"1-0",
-        "probability":0.080588
+        "probability":0.074945
       }
     ],
     "match_id":101,
@@ -4437,42 +4637,44 @@
     "time":"14:00 UTC-5",
     "group":"",
     "ground":"Dallas (Arlington)",
+    "china_date":"2026-07-15",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.123584}, {\"score\": \"1-2\", \"probability\": 0.08787}, {\"score\": \"0-1\", \"probability\": 0.084711}, {\"score\": \"2-1\", \"probability\": 0.083594}, {\"score\": \"1-0\", \"probability\": 0.080588}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.12085}, {\"score\": \"1-2\", \"probability\": 0.090353}, {\"score\": \"0-1\", \"probability\": 0.083293}, {\"score\": \"2-1\", \"probability\": 0.081297}, {\"score\": \"1-0\", \"probability\": 0.074945}]"
   },
   {
-    "team1":"Brazil",
+    "team1":"England",
     "team2":"Argentina",
-    "expected_goals1":1.287,
-    "expected_goals2":1.54,
-    "prob_team1_win":0.291104,
-    "prob_draw":0.285474,
-    "prob_team2_win":0.423421,
+    "expected_goals1":1.46,
+    "expected_goals2":1.514,
+    "prob_team1_win":0.334644,
+    "prob_draw":0.286909,
+    "prob_team2_win":0.378448,
     "model_blend":"poisson+ml",
     "most_likely_score":"1-2",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.124606
-      },
-      {
-        "score":"0-1",
-        "probability":0.093201
+        "probability":0.120226
       },
       {
         "score":"1-2",
-        "probability":0.092412
-      },
-      {
-        "score":"1-0",
-        "probability":0.0779
+        "probability":0.087654
       },
       {
         "score":"2-1",
-        "probability":0.07724
+        "probability":0.084515
+      },
+      {
+        "score":"0-1",
+        "probability":0.079297
+      },
+      {
+        "score":"1-0",
+        "probability":0.076456
       }
     ],
     "match_id":102,
@@ -4481,42 +4683,44 @@
     "time":"15:00 UTC-4",
     "group":"",
     "ground":"Atlanta",
+    "china_date":"2026-07-16",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Argentina",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.124606}, {\"score\": \"0-1\", \"probability\": 0.093201}, {\"score\": \"1-2\", \"probability\": 0.092412}, {\"score\": \"1-0\", \"probability\": 0.0779}, {\"score\": \"2-1\", \"probability\": 0.07724}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.120226}, {\"score\": \"1-2\", \"probability\": 0.087654}, {\"score\": \"2-1\", \"probability\": 0.084515}, {\"score\": \"0-1\", \"probability\": 0.079297}, {\"score\": \"1-0\", \"probability\": 0.076456}]"
   },
   {
     "team1":"France",
-    "team2":"Brazil",
-    "expected_goals1":1.879,
-    "expected_goals2":1.068,
-    "prob_team1_win":0.50547,
-    "prob_draw":0.267303,
-    "prob_team2_win":0.227227,
+    "team2":"England",
+    "expected_goals1":1.739,
+    "expected_goals2":1.261,
+    "prob_team1_win":0.442377,
+    "prob_draw":0.274556,
+    "prob_team2_win":0.283067,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.112624
+        "probability":0.116453
       },
       {
         "score":"2-1",
-        "probability":0.10189
+        "probability":0.097519
       },
       {
         "score":"1-0",
-        "probability":0.101519
+        "probability":0.088953
       },
       {
         "score":"2-0",
-        "probability":0.091707
+        "probability":0.07438
       },
       {
-        "score":"3-1",
-        "probability":0.061362
+        "score":"1-2",
+        "probability":0.070686
       }
     ],
     "match_id":103,
@@ -4525,42 +4729,44 @@
     "time":"17:00 UTC-4",
     "group":"",
     "ground":"Miami (Miami Gardens)",
+    "china_date":"2026-07-19",
+    "china_time":"05:00",
     "status":"predicted",
     "predicted_winner":"France",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.112624}, {\"score\": \"2-1\", \"probability\": 0.10189}, {\"score\": \"1-0\", \"probability\": 0.101519}, {\"score\": \"2-0\", \"probability\": 0.091707}, {\"score\": \"3-1\", \"probability\": 0.061362}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.116453}, {\"score\": \"2-1\", \"probability\": 0.097519}, {\"score\": \"1-0\", \"probability\": 0.088953}, {\"score\": \"2-0\", \"probability\": 0.07438}, {\"score\": \"1-2\", \"probability\": 0.070686}]"
   },
   {
     "team1":"Spain",
     "team2":"Argentina",
-    "expected_goals1":1.831,
-    "expected_goals2":1.175,
-    "prob_team1_win":0.462993,
-    "prob_draw":0.278972,
-    "prob_team2_win":0.258035,
+    "expected_goals1":1.82,
+    "expected_goals2":1.23,
+    "prob_team1_win":0.450422,
+    "prob_draw":0.278584,
+    "prob_team2_win":0.270994,
     "model_blend":"poisson+ml",
     "most_likely_score":"2-1",
     "top_scores":[
       {
         "score":"1-1",
-        "probability":0.113722
+        "probability":0.113255
       },
       {
         "score":"2-1",
-        "probability":0.100278
+        "probability":0.099268
       },
       {
         "score":"1-0",
-        "probability":0.093171
+        "probability":0.088668
       },
       {
         "score":"2-0",
-        "probability":0.082036
+        "probability":0.077602
       },
       {
         "score":"1-2",
-        "probability":0.064357
+        "probability":0.067071
       }
     ],
     "match_id":104,
@@ -4569,10 +4775,12 @@
     "time":"15:00 UTC-4",
     "group":"",
     "ground":"New York\/New Jersey (East Rutherford)",
+    "china_date":"2026-07-20",
+    "china_time":"03:00",
     "status":"predicted",
     "predicted_winner":"Spain",
     "actual_result":"",
     "actual_score":"",
-    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113722}, {\"score\": \"2-1\", \"probability\": 0.100278}, {\"score\": \"1-0\", \"probability\": 0.093171}, {\"score\": \"2-0\", \"probability\": 0.082036}, {\"score\": \"1-2\", \"probability\": 0.064357}]"
+    "top_scores_json":"[{\"score\": \"1-1\", \"probability\": 0.113255}, {\"score\": \"2-1\", \"probability\": 0.099268}, {\"score\": \"1-0\", \"probability\": 0.088668}, {\"score\": \"2-0\", \"probability\": 0.077602}, {\"score\": \"1-2\", \"probability\": 0.067071}]"
   }
 ]

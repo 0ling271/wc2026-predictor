@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -55,6 +56,8 @@ ALIASES = {
     "Bosnia and Herzegovina": "Bosnia & Herzegovina",
     "Bosnia-Herzegovina": "Bosnia & Herzegovina",
 }
+
+TIME_RE = re.compile(r"(?P<hour>\d{1,2}):(?P<minute>\d{2})\s+UTC(?P<offset>[+-]\d{1,2})")
 
 
 @dataclass(frozen=True)
@@ -133,12 +136,17 @@ def load_fixtures() -> pd.DataFrame:
     for idx, match in enumerate(data.get("matches", []), start=1):
         score = match.get("score") or {}
         ft = score.get("ft") or [None, None]
+        date = match.get("date", "")
+        time = match.get("time", "")
+        kickoff = china_kickoff(date, time)
         rows.append(
             {
                 "match_id": int(match.get("num") or idx),
                 "round": match.get("round", ""),
-                "date": match.get("date", ""),
-                "time": match.get("time", ""),
+                "date": date,
+                "time": time,
+                "china_date": kickoff.strftime("%Y-%m-%d") if kickoff else date,
+                "china_time": kickoff.strftime("%H:%M") if kickoff else "",
                 "team1": normalize_team(match.get("team1")),
                 "team2": normalize_team(match.get("team2")),
                 "group": match.get("group", ""),
@@ -148,6 +156,21 @@ def load_fixtures() -> pd.DataFrame:
             }
         )
     return pd.DataFrame(rows).sort_values("match_id").reset_index(drop=True)
+
+
+def china_kickoff(date: str, time: str) -> datetime | None:
+    match = TIME_RE.search(str(time))
+    if not match or not date:
+        return None
+    local_date = datetime.strptime(str(date), "%Y-%m-%d")
+    offset = int(match.group("offset"))
+    local_tz = timezone(timedelta(hours=offset))
+    kickoff = local_date.replace(
+        hour=int(match.group("hour")),
+        minute=int(match.group("minute")),
+        tzinfo=local_tz,
+    )
+    return kickoff.astimezone(timezone(timedelta(hours=8)))
 
 
 def load_history() -> pd.DataFrame:

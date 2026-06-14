@@ -1,72 +1,73 @@
 {
   "date": "2026-06-15",
+  "date_basis": "Asia/Shanghai",
   "matches": [
     {
-      "match_id": 37,
-      "team1_xg_delta": 0.05,
-      "team2_xg_delta": 0.07,
-      "tempo_delta": 0.03,
-      "objective_weight": 0.55,
-      "notes": [
-        "Belgium core attackers are available, with De Bruyne and Lukaku still central to chance creation.",
-        "Egypt have Salah and Marmoush as transition threats, so Egypt scoring probability is nudged upward.",
-        "Seattle noon forecast is warm and sunny but not extreme, so weather has only a small tempo boost."
-      ],
-      "sources": [
-        "Goal.com Belgium vs Egypt team news",
-        "JuveFC Belgium vs Egypt preview",
-        "Weather Seattle 2026-06-15"
-      ]
-    },
-    {
-      "match_id": 38,
-      "team1_xg_delta": 0.10,
-      "team2_xg_delta": 0.02,
-      "tempo_delta": 0.00,
-      "objective_weight": 0.55,
-      "notes": [
-        "No reported injuries or suspensions for either side.",
-        "Iran recent form and attacking output are stronger; New Zealand recent defensive form is weak.",
-        "Inglewood evening forecast is mild, and SoFi conditions should not meaningfully penalize either team."
-      ],
-      "sources": [
-        "Goal.com Iran vs New Zealand team news and form",
-        "SheKicks Iran vs New Zealand preview",
-        "Weather Inglewood 2026-06-15"
-      ]
-    },
-    {
-      "match_id": 43,
-      "team1_xg_delta": -0.55,
-      "team2_xg_delta": 0.05,
-      "tempo_delta": -0.03,
+      "match_id": 25,
+      "team1_xg_delta": 0.35,
+      "team2_xg_delta": -0.05,
+      "tempo_delta": 0.08,
       "objective_weight": 0.65,
       "notes": [
-        "Spain remain heavy favourites, but Yamal and Nico Williams are expected to be managed rather than both risked from the start.",
-        "Cape Verde report no major fitness concerns and enter with good recent form.",
-        "Atlanta forecast includes storms, but stadium conditions reduce weather impact; rotation is the larger adjustment."
+        "Germany have no confirmed absences, with only Manuel Neuer listed as a fitness doubt; Wirtz, Musiala and Havertz are expected attacking starters.",
+        "Curacao report no major injuries, but this is their World Cup debut against a much deeper Germany squad.",
+        "Houston afternoon heat and thunderstorm risk are partly mitigated by stadium conditions, so the weather effect is kept modest."
       ],
       "sources": [
-        "Sports Mole Spain vs Cape Verde team news",
-        "ESPN/Fox Spain Yamal and Williams training updates",
-        "Weather Atlanta 2026-06-15"
+        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+        "https://www.sportsmole.co.uk/football/germany/world-cup-2026/team-news/germany-vs-curacao-injury-suspension-list-predicted-xis_599045.html",
+        "Weather Houston 2026-06-14"
       ]
     },
     {
-      "match_id": 44,
-      "team1_xg_delta": 0.18,
-      "team2_xg_delta": -0.12,
-      "tempo_delta": -0.05,
-      "objective_weight": 0.6,
+      "match_id": 31,
+      "team1_xg_delta": -0.02,
+      "team2_xg_delta": 0.18,
+      "tempo_delta": -0.02,
+      "objective_weight": 0.65,
       "notes": [
-        "Uruguay are still stronger, but several defenders/creators have fitness doubts in the latest team-news cycle.",
-        "Saudi Arabia are more acclimatized to hot, humid conditions and may benefit from Miami weather if Uruguay press aggressively.",
-        "Miami forecast is hot with shower/thunderstorm risk, which slightly reduces tempo and increases draw/low-margin outcomes."
+        "Netherlands have enough chance creation but enter with a negative build-up narrative and must convert better than in recent friendlies.",
+        "Japan are missing Wataru Endo and Kaoru Mitoma, but their collective form remains strong after six straight wins and major friendly wins.",
+        "Dallas indoor/covered-stadium conditions reduce weather impact, so the adjustment mostly comes from squad and form factors."
       ],
       "sources": [
-        "Sports Mole Uruguay injury concerns",
-        "SheKicks Saudi Arabia vs Uruguay preview",
-        "Weather Miami Gardens 2026-06-15"
+        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+        "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+        "Weather Arlington 2026-06-14"
+      ]
+    },
+    {
+      "match_id": 26,
+      "team1_xg_delta": 0.04,
+      "team2_xg_delta": 0.06,
+      "tempo_delta": -0.10,
+      "objective_weight": 0.7,
+      "notes": [
+        "Ivory Coast were unbeaten in qualifying and did not concede in CAF qualifying, with strong recent form entering the tournament.",
+        "Ecuador had the strongest CONMEBOL qualifying defence, conceding only five goals in 18 matches, and are unbeaten in 19 matches.",
+        "Philadelphia evening thunderstorm risk slightly lowers tempo and increases draw or one-goal-margin outcomes."
+      ],
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+        "https://theanalyst.com/articles/ivory-coast-vs-ecuador-prediction-world-cup-2026-match-preview",
+        "Weather Philadelphia 2026-06-14"
+      ]
+    },
+    {
+      "match_id": 32,
+      "team1_xg_delta": 0.18,
+      "team2_xg_delta": 0.03,
+      "tempo_delta": -0.06,
+      "objective_weight": 0.6,
+      "notes": [
+        "Sweden have Alexander Isak and Viktor Gyokeres available, giving them the clearest attacking edge in the matchup.",
+        "Tunisia qualified with a strong defensive record but recent warm-up form raises questions against higher-level attacking quality.",
+        "Monterrey evening conditions are warm but manageable; tempo is nudged down slightly because Tunisia are likely to defend compactly."
+      ],
+      "sources": [
+        "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+        "https://www.juvefc.com/sweden-v-tunisia-predictions/",
+        "Weather Monterrey 2026-06-14"
       ]
     }
   ]

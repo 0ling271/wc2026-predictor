@@ -38,6 +38,12 @@ def result_cn(value: str) -> str:
 
 def sort_by_kickoff(df: pd.DataFrame) -> pd.DataFrame:
     ordered = df.copy()
+    if {"china_date", "china_time"}.issubset(ordered.columns):
+        ordered["_kickoff_sort"] = pd.to_datetime(
+            ordered["china_date"].astype(str) + " " + ordered["china_time"].astype(str),
+            errors="coerce",
+        )
+        return ordered.sort_values(["_kickoff_sort", "match_id"], na_position="last").drop(columns=["_kickoff_sort"])
     time_text = ordered.get("time", "").astype(str)
     hour_minute = time_text.str.extract(r"(\d{1,2}):(\d{2})").fillna("0").astype(int)
     ordered["_kickoff_sort"] = pd.to_datetime(ordered["date"], errors="coerce") + pd.to_timedelta(
@@ -213,6 +219,8 @@ if not objective_df.empty:
             "match_id",
             "date",
             "time",
+            "china_date",
+            "china_time",
             "ground",
             "team1",
             "team2",
@@ -231,6 +239,8 @@ if not objective_df.empty:
             "match_id": "场次",
             "date": "日期",
             "time": "开球时间",
+            "china_date": "北京时间日期",
+            "china_time": "北京时间",
             "ground": "比赛地",
             "team1": "球队1",
             "team2": "球队2",
