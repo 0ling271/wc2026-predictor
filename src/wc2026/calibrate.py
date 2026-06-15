@@ -20,6 +20,10 @@ class CalibrationAdjustment:
     away_goal_multiplier: float
     elo_goal_scale_multiplier: float
     host_goal_bonus_delta: float
+    score_total_shrink: float
+    score_diff_shrink: float
+    low_score_draw_boost: float
+    one_goal_margin_boost: float
     note: str
 
 
@@ -70,6 +74,7 @@ def calibration_report() -> str:
         f"- 球队2基础进球倍率: {adjustment.away_goal_multiplier:.4f}",
         f"- Elo 进球影响倍率: {adjustment.elo_goal_scale_multiplier:.4f}",
         f"- 主场进球加成调整: {adjustment.host_goal_bonus_delta:+.4f}",
+        f"- 冷门/平局保护: diff_shrink={adjustment.score_diff_shrink:.3f}, draw_boost={adjustment.low_score_draw_boost:.3f}",
         f"- 说明: {adjustment.note}",
         "",
         "## 逐场误差",
@@ -123,6 +128,8 @@ def _build_details(completed: pd.DataFrame) -> pd.DataFrame:
                 "expected_goal_mae": (abs(row.expected_goals1 - actual_g1) + abs(row.expected_goals2 - actual_g2)) / 2.0,
                 "brier_score": float(np.mean((probs - actual_vec) ** 2)),
                 "log_loss": float(-np.log(probs[actual_result_idx])),
+                "predicted_draw_probability": float(probs[1]),
+                "favorite_miss": bool(probs.max() >= 0.45 and predicted_result != actual_result),
                 "team1_is_host": is_host_advantage(row.team1, row.ground),
                 "team2_is_host": is_host_advantage(row.team2, row.ground),
             }
@@ -140,6 +147,16 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
 
     result_hit_rate = float(details["result_hit"].mean())
     elo_multiplier = 1.0 if result_hit_rate >= 0.5 else 0.99
+    draw_rate = float((details["actual_result"] == "Draw").mean())
+    predicted_draw_rate = float(details["predicted_draw_probability"].mean())
+    favorite_miss_rate = float(details["favorite_miss"].mean())
+    total_ratio = float(details["actual_total_goals"].sum() / max(details["predicted_expected_total_goals"].sum(), 1e-9))
+    score_total_shrink = float(np.clip(0.68 * (1.0 + shrink * (total_ratio - 1.0) * 0.45), 0.58, 0.78))
+    draw_gap = max(draw_rate - predicted_draw_rate, 0.0)
+    low_score_draw_boost = float(np.clip(1.08 + shrink * draw_gap * 0.75, 1.04, 1.22))
+    favorite_gap = max(favorite_miss_rate - 0.28, 0.0)
+    score_diff_shrink = float(np.clip(0.68 * (1.0 - shrink * favorite_gap * 0.45), 0.58, 0.72))
+    one_goal_margin_boost = float(np.clip(1.04 + shrink * favorite_gap * 0.18, 1.02, 1.12))
 
     host_rows = details[details["team1_is_host"] | details["team2_is_host"]]
     host_delta = 0.0
@@ -160,6 +177,10 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
         away_goal_multiplier=away_multiplier,
         elo_goal_scale_multiplier=elo_multiplier,
         host_goal_bonus_delta=host_delta,
+        score_total_shrink=score_total_shrink,
+        score_diff_shrink=score_diff_shrink,
+        low_score_draw_boost=low_score_draw_boost,
+        one_goal_margin_boost=one_goal_margin_boost,
         note="样本较少时使用强收缩，避免两三场比赛导致参数剧烈摆动。",
     )
     payload = {
@@ -174,6 +195,18 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
             "elo_goal_scale": adjustment.elo_goal_scale_multiplier,
         },
         "host_goal_bonus_delta": adjustment.host_goal_bonus_delta,
+        "score": {
+            "score_total_shrink": adjustment.score_total_shrink,
+            "score_diff_shrink": adjustment.score_diff_shrink,
+            "low_score_draw_boost": adjustment.low_score_draw_boost,
+            "one_goal_margin_boost": adjustment.one_goal_margin_boost,
+        },
+        "diagnostics": {
+            "draw_rate": draw_rate,
+            "predicted_draw_rate": predicted_draw_rate,
+            "favorite_miss_rate": favorite_miss_rate,
+            "total_goal_ratio": total_ratio,
+        },
         "note": adjustment.note,
     }
     (MODELS_DIR / "calibration_adjustments.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
@@ -189,6 +222,10 @@ def _apply_adjustment_to_current_model(adjustment: CalibrationAdjustment) -> Non
     state.params.base_away_goals *= adjustment.away_goal_multiplier
     state.params.elo_goal_scale *= adjustment.elo_goal_scale_multiplier
     state.params.host_goal_bonus += adjustment.host_goal_bonus_delta
+    state.params.score_total_shrink = adjustment.score_total_shrink
+    state.params.score_diff_shrink = adjustment.score_diff_shrink
+    state.params.low_score_draw_boost = adjustment.low_score_draw_boost
+    state.params.one_goal_margin_boost = adjustment.one_goal_margin_boost
     save_model(state, model_path)
     payload = json.loads(model_path.read_text(encoding="utf-8"))
     payload["last_calibration"] = asdict(adjustment)

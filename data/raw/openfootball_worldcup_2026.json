@@ -139,6 +139,29 @@
       "time": "12:00 UTC-7",
       "team1": "Qatar",
       "team2": "Switzerland",
+      "score": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Boualem Khoukhi",
+          "minute": "90+4"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Breel Embolo",
+          "minute": "17",
+          "penalty": true
+        }
+      ],
       "group": "Group B",
       "ground": "San Francisco Bay Area (Santa Clara)"
     },
@@ -184,6 +207,28 @@
       "time": "18:00 UTC-4",
       "team1": "Brazil",
       "team2": "Morocco",
+      "score": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Vinícius Júnior",
+          "minute": "32"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Ismael Saibari",
+          "minute": "21"
+        }
+      ],
       "group": "Group C",
       "ground": "New York/New Jersey (East Rutherford)"
     },
@@ -193,6 +238,23 @@
       "time": "21:00 UTC-4",
       "team1": "Haiti",
       "team2": "Scotland",
+      "score": {
+        "ft": [
+          0,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ]
+      },
+      "goals1": [],
+      "goals2": [
+        {
+          "name": "John McGinn",
+          "minute": "28"
+        }
+      ],
       "group": "Group C",
       "ground": "Boston (Foxborough)"
     },
@@ -282,6 +344,27 @@
       "time": "21:00 UTC-7",
       "team1": "Australia",
       "team2": "Turkey",
+      "score": {
+        "ft": [
+          2,
+          0
+        ],
+        "ht": [
+          1,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Nestory Irankunda",
+          "minute": "27"
+        },
+        {
+          "name": "Connor Metcalfe",
+          "minute": "75"
+        }
+      ],
+      "goals2": [],
       "group": "Group D",
       "ground": "Vancouver"
     },
@@ -327,6 +410,53 @@
       "time": "12:00 UTC-5",
       "team1": "Germany",
       "team2": "Curaçao",
+      "score": {
+        "ft": [
+          7,
+          1
+        ],
+        "ht": [
+          3,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Felix Nmecha",
+          "minute": "6"
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "minute": "38"
+        },
+        {
+          "name": "Kai Havertz",
+          "minute": "45+5",
+          "penalty": true
+        },
+        {
+          "name": "Kai Havertz",
+          "minute": "88"
+        },
+        {
+          "name": "Jamal Musiala",
+          "minute": "47"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "minute": "68"
+        },
+        {
+          "name": "Deniz Undav",
+          "minute": "78"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Livano Comenencia",
+          "minute": "21"
+        }
+      ],
       "group": "Group E",
       "ground": "Houston"
     },
@@ -336,6 +466,23 @@
       "time": "19:00 UTC-4",
       "team1": "Ivory Coast",
       "team2": "Ecuador",
+      "score": {
+        "ft": [
+          1,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Amad Diallo",
+          "minute": "90"
+        }
+      ],
+      "goals2": [],
       "group": "Group E",
       "ground": "Philadelphia"
     },
@@ -381,6 +528,36 @@
       "time": "15:00 UTC-5",
       "team1": "Netherlands",
       "team2": "Japan",
+      "score": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          0,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Virgil van Dijk",
+          "minute": "51"
+        },
+        {
+          "name": "Crysencio Summerville",
+          "minute": "64"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Keito Nakamura",
+          "minute": "57"
+        },
+        {
+          "name": "Daichi Kamada",
+          "minute": "88"
+        }
+      ],
       "group": "Group F",
       "ground": "Dallas (Arlington)"
     },
@@ -390,6 +567,44 @@
       "time": "20:00 UTC-6",
       "team1": "Sweden",
       "team2": "Tunisia",
+      "score": {
+        "ft": [
+          5,
+          1
+        ],
+        "ht": [
+          2,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Yasin Ayari",
+          "minute": "7"
+        },
+        {
+          "name": "Alexander Isak",
+          "minute": "30"
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "minute": "59"
+        },
+        {
+          "name": "Mattias Svanberg",
+          "minute": "84"
+        },
+        {
+          "name": "Yasin Ayari",
+          "minute": "90+6"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Omar Rekik",
+          "minute": "43"
+        }
+      ],
       "group": "Group F",
       "ground": "Monterrey (Guadalupe)"
     },

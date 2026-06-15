@@ -1,14 +1,26 @@
 {
-  "completed_matches": 4,
+  "completed_matches": 12,
   "ratios": {
-    "home_goal_ratio": 1.0235414534288638,
-    "away_goal_ratio": 0.8517887563884157
+    "home_goal_ratio": 1.22260064623177,
+    "away_goal_ratio": 0.7161784716751414
   },
   "multipliers": {
-    "base_home_goals": 1.0042802642597934,
-    "base_away_goals": 0.9730525011615301,
+    "base_home_goals": 1.06,
+    "base_away_goals": 0.94,
     "elo_goal_scale": 1.0
   },
-  "host_goal_bonus_delta": 0.0001563636363636369,
+  "host_goal_bonus_delta": -0.0002040000000000024,
+  "score": {
+    "score_total_shrink": 0.6837684524616846,
+    "score_diff_shrink": 0.6734720000000001,
+    "low_score_draw_boost": 1.1063533581021785,
+    "one_goal_margin_boost": 1.04384
+  },
+  "diagnostics": {
+    "draw_rate": 0.3333333333333333,
+    "predicted_draw_rate": 0.24548880632607184,
+    "favorite_miss_rate": 0.3333333333333333,
+    "total_goal_ratio": 1.0307880103078801
+  },
   "note": "\u6837\u672c\u8f83\u5c11\u65f6\u4f7f\u7528\u5f3a\u6536\u7f29\uff0c\u907f\u514d\u4e24\u4e09\u573a\u6bd4\u8d5b\u5bfc\u81f4\u53c2\u6570\u5267\u70c8\u6446\u52a8\u3002"
 }

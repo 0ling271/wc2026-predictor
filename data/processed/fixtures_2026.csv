@@ -18,19 +18,19 @@ match_id,round,date,time,china_date,china_time,team1,team2,group,ground,actual_g
 17,Matchday 14,2026-06-24,18:00 UTC-4,2026-06-25,06:00,Scotland,Brazil,Group C,Miami (Miami Gardens),,
 18,Matchday 14,2026-06-24,18:00 UTC-4,2026-06-25,06:00,Morocco,Haiti,Group C,Atlanta,,
 19,Matchday 2,2026-06-12,18:00 UTC-7,2026-06-13,09:00,USA,Paraguay,Group D,Los Angeles (Inglewood),4.0,1.0
-20,Matchday 3,2026-06-13,21:00 UTC-7,2026-06-14,12:00,Australia,Turkey,Group D,Vancouver,,
+20,Matchday 3,2026-06-13,21:00 UTC-7,2026-06-14,12:00,Australia,Turkey,Group D,Vancouver,2.0,0.0
 21,Matchday 9,2026-06-19,12:00 UTC-7,2026-06-20,03:00,USA,Australia,Group D,Seattle,,
 22,Matchday 9,2026-06-19,20:00 UTC-7,2026-06-20,11:00,Turkey,Paraguay,Group D,San Francisco Bay Area (Santa Clara),,
 23,Matchday 15,2026-06-25,19:00 UTC-7,2026-06-26,10:00,Turkey,USA,Group D,Los Angeles (Inglewood),,
 24,Matchday 15,2026-06-25,19:00 UTC-7,2026-06-26,10:00,Paraguay,Australia,Group D,San Francisco Bay Area (Santa Clara),,
-25,Matchday 4,2026-06-14,12:00 UTC-5,2026-06-15,01:00,Germany,Curacao,Group E,Houston,,
-26,Matchday 4,2026-06-14,19:00 UTC-4,2026-06-15,07:00,Ivory Coast,Ecuador,Group E,Philadelphia,,
+25,Matchday 4,2026-06-14,12:00 UTC-5,2026-06-15,01:00,Germany,Curacao,Group E,Houston,7.0,1.0
+26,Matchday 4,2026-06-14,19:00 UTC-4,2026-06-15,07:00,Ivory Coast,Ecuador,Group E,Philadelphia,1.0,0.0
 27,Matchday 10,2026-06-20,16:00 UTC-4,2026-06-21,04:00,Germany,Ivory Coast,Group E,Toronto,,
 28,Matchday 10,2026-06-20,19:00 UTC-5,2026-06-21,08:00,Ecuador,Curacao,Group E,Kansas City,,
 29,Matchday 15,2026-06-25,16:00 UTC-4,2026-06-26,04:00,Curacao,Ivory Coast,Group E,Philadelphia,,
 30,Matchday 15,2026-06-25,16:00 UTC-4,2026-06-26,04:00,Ecuador,Germany,Group E,New York/New Jersey (East Rutherford),,
-31,Matchday 4,2026-06-14,15:00 UTC-5,2026-06-15,04:00,Netherlands,Japan,Group F,Dallas (Arlington),,
-32,Matchday 4,2026-06-14,20:00 UTC-6,2026-06-15,10:00,Sweden,Tunisia,Group F,Monterrey (Guadalupe),,
+31,Matchday 4,2026-06-14,15:00 UTC-5,2026-06-15,04:00,Netherlands,Japan,Group F,Dallas (Arlington),2.0,2.0
+32,Matchday 4,2026-06-14,20:00 UTC-6,2026-06-15,10:00,Sweden,Tunisia,Group F,Monterrey (Guadalupe),5.0,1.0
 33,Matchday 10,2026-06-20,12:00 UTC-5,2026-06-21,01:00,Netherlands,Sweden,Group F,Houston,,
 34,Matchday 10,2026-06-20,22:00 UTC-6,2026-06-21,12:00,Tunisia,Japan,Group F,Monterrey (Guadalupe),,
 35,Matchday 15,2026-06-25,18:00 UTC-5,2026-06-26,07:00,Japan,Sweden,Group F,Dallas (Arlington),,

@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import poisson
 
-from .model import PredictorParams, _apply_score_shape_adjustments, _headline_score_for_outcome
+from .model import PredictorParams, _apply_score_shape_adjustments, _headline_score_for_outcome, load_model
 from .paths import OUTPUTS_DIR, PROCESSED_DIR, ensure_dirs
 
 
@@ -95,7 +95,10 @@ def _adjust_row(row: dict, item: dict) -> dict:
 
 
 def _score_matrix(mu1: float, mu2: float) -> np.ndarray:
-    params = PredictorParams()
+    try:
+        params = load_model().params
+    except Exception:
+        params = PredictorParams()
     max_goals = params.max_goals
     probs1 = poisson.pmf(np.arange(max_goals + 1), mu1)
     probs2 = poisson.pmf(np.arange(max_goals + 1), mu2)
