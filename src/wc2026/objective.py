@@ -7,7 +7,13 @@ import numpy as np
 import pandas as pd
 from scipy.stats import poisson
 
-from .model import PredictorParams, _apply_score_shape_adjustments, _headline_score_for_outcome, load_model
+from .model import (
+    PredictorParams,
+    _apply_mismatch_tail_adjustments,
+    _apply_score_shape_adjustments,
+    _headline_score_for_outcome,
+    load_model,
+)
 from .paths import OUTPUTS_DIR, PROCESSED_DIR, ensure_dirs
 
 
@@ -104,4 +110,5 @@ def _score_matrix(mu1: float, mu2: float) -> np.ndarray:
     probs2 = poisson.pmf(np.arange(max_goals + 1), mu2)
     matrix = np.outer(probs1, probs2)
     matrix = _apply_score_shape_adjustments(matrix, params)
+    matrix = _apply_mismatch_tail_adjustments(matrix, params, mu1, mu2)
     return matrix / matrix.sum()

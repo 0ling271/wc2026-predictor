@@ -35,14 +35,14 @@ match_id,round,date,time,china_date,china_time,team1,team2,group,ground,actual_g
 34,Matchday 10,2026-06-20,22:00 UTC-6,2026-06-21,12:00,Tunisia,Japan,Group F,Monterrey (Guadalupe),,
 35,Matchday 15,2026-06-25,18:00 UTC-5,2026-06-26,07:00,Japan,Sweden,Group F,Dallas (Arlington),,
 36,Matchday 15,2026-06-25,18:00 UTC-5,2026-06-26,07:00,Tunisia,Netherlands,Group F,Kansas City,,
-37,Matchday 5,2026-06-15,12:00 UTC-7,2026-06-16,03:00,Belgium,Egypt,Group G,Seattle,,
-38,Matchday 5,2026-06-15,18:00 UTC-7,2026-06-16,09:00,Iran,New Zealand,Group G,Los Angeles (Inglewood),,
+37,Matchday 5,2026-06-15,12:00 UTC-7,2026-06-16,03:00,Belgium,Egypt,Group G,Seattle,1.0,1.0
+38,Matchday 5,2026-06-15,18:00 UTC-7,2026-06-16,09:00,Iran,New Zealand,Group G,Los Angeles (Inglewood),2.0,2.0
 39,Matchday 11,2026-06-21,12:00 UTC-7,2026-06-22,03:00,Belgium,Iran,Group G,Los Angeles (Inglewood),,
 40,Matchday 11,2026-06-21,18:00 UTC-7,2026-06-22,09:00,New Zealand,Egypt,Group G,Vancouver,,
 41,Matchday 16,2026-06-26,20:00 UTC-7,2026-06-27,11:00,Egypt,Iran,Group G,Seattle,,
 42,Matchday 16,2026-06-26,20:00 UTC-7,2026-06-27,11:00,New Zealand,Belgium,Group G,Vancouver,,
-43,Matchday 5,2026-06-15,12:00 UTC-4,2026-06-16,00:00,Spain,Cape Verde,Group H,Atlanta,,
-44,Matchday 5,2026-06-15,18:00 UTC-4,2026-06-16,06:00,Saudi Arabia,Uruguay,Group H,Miami (Miami Gardens),,
+43,Matchday 5,2026-06-15,12:00 UTC-4,2026-06-16,00:00,Spain,Cape Verde,Group H,Atlanta,0.0,0.0
+44,Matchday 5,2026-06-15,18:00 UTC-4,2026-06-16,06:00,Saudi Arabia,Uruguay,Group H,Miami (Miami Gardens),1.0,1.0
 45,Matchday 11,2026-06-21,12:00 UTC-4,2026-06-22,00:00,Spain,Saudi Arabia,Group H,Atlanta,,
 46,Matchday 11,2026-06-21,18:00 UTC-4,2026-06-22,06:00,Uruguay,Cape Verde,Group H,Miami (Miami Gardens),,
 47,Matchday 16,2026-06-26,19:00 UTC-5,2026-06-27,08:00,Cape Verde,Saudi Arabia,Group H,Houston,,

@@ -24,6 +24,7 @@ class CalibrationAdjustment:
     score_diff_shrink: float
     low_score_draw_boost: float
     one_goal_margin_boost: float
+    mismatch_tail_boost: float
     note: str
 
 
@@ -75,6 +76,7 @@ def calibration_report() -> str:
         f"- Elo 进球影响倍率: {adjustment.elo_goal_scale_multiplier:.4f}",
         f"- 主场进球加成调整: {adjustment.host_goal_bonus_delta:+.4f}",
         f"- 冷门/平局保护: diff_shrink={adjustment.score_diff_shrink:.3f}, draw_boost={adjustment.low_score_draw_boost:.3f}",
+        f"- 强弱悬殊大比分尾部: tail_boost={adjustment.mismatch_tail_boost:.3f}",
         f"- 说明: {adjustment.note}",
         "",
         "## 逐场误差",
@@ -118,6 +120,9 @@ def _build_details(completed: pd.DataFrame) -> pd.DataFrame:
                 "actual_result": actual_result,
                 "result_hit": predicted_result == actual_result,
                 "exact_score_hit": pred_g1 == actual_g1 and pred_g2 == actual_g2,
+                "prob_team1_win": float(probs[0]),
+                "prob_draw": float(probs[1]),
+                "prob_team2_win": float(probs[2]),
                 "expected_goals1": float(row.expected_goals1),
                 "expected_goals2": float(row.expected_goals2),
                 "actual_goals1": actual_g1,
@@ -135,6 +140,11 @@ def _build_details(completed: pd.DataFrame) -> pd.DataFrame:
             }
         )
     return pd.DataFrame(rows)
+
+
+def _score_margin(score: str) -> int:
+    g1, g2 = [int(value) for value in str(score).split("-")]
+    return abs(g1 - g2)
 
 
 def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
@@ -157,6 +167,13 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
     favorite_gap = max(favorite_miss_rate - 0.28, 0.0)
     score_diff_shrink = float(np.clip(0.68 * (1.0 - shrink * favorite_gap * 0.45), 0.58, 0.72))
     one_goal_margin_boost = float(np.clip(1.04 + shrink * favorite_gap * 0.18, 1.02, 1.12))
+    heavy = details[details[["prob_team1_win", "prob_team2_win"]].max(axis=1) >= 0.62].copy()
+    heavy_tail_error = 0.0
+    if not heavy.empty:
+        predicted_margin = heavy["predicted_score"].map(_score_margin)
+        actual_margin = heavy["actual_score"].map(_score_margin)
+        heavy_tail_error = float(np.maximum(actual_margin - predicted_margin, 0).mean())
+    mismatch_tail_boost = float(np.clip(1.0 + shrink * heavy_tail_error * 0.08, 1.0, 1.16))
 
     host_rows = details[details["team1_is_host"] | details["team2_is_host"]]
     host_delta = 0.0
@@ -181,6 +198,7 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
         score_diff_shrink=score_diff_shrink,
         low_score_draw_boost=low_score_draw_boost,
         one_goal_margin_boost=one_goal_margin_boost,
+        mismatch_tail_boost=mismatch_tail_boost,
         note="样本较少时使用强收缩，避免两三场比赛导致参数剧烈摆动。",
     )
     payload = {
@@ -200,12 +218,14 @@ def _write_adjustments(details: pd.DataFrame) -> CalibrationAdjustment:
             "score_diff_shrink": adjustment.score_diff_shrink,
             "low_score_draw_boost": adjustment.low_score_draw_boost,
             "one_goal_margin_boost": adjustment.one_goal_margin_boost,
+            "mismatch_tail_boost": adjustment.mismatch_tail_boost,
         },
         "diagnostics": {
             "draw_rate": draw_rate,
             "predicted_draw_rate": predicted_draw_rate,
             "favorite_miss_rate": favorite_miss_rate,
             "total_goal_ratio": total_ratio,
+            "heavy_favorite_tail_error": heavy_tail_error,
         },
         "note": adjustment.note,
     }
@@ -226,6 +246,7 @@ def _apply_adjustment_to_current_model(adjustment: CalibrationAdjustment) -> Non
     state.params.score_diff_shrink = adjustment.score_diff_shrink
     state.params.low_score_draw_boost = adjustment.low_score_draw_boost
     state.params.one_goal_margin_boost = adjustment.one_goal_margin_boost
+    state.params.mismatch_tail_boost = adjustment.mismatch_tail_boost
     save_model(state, model_path)
     payload = json.loads(model_path.read_text(encoding="utf-8"))
     payload["last_calibration"] = asdict(adjustment)

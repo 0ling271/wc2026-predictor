@@ -51,6 +51,7 @@ class PredictorParams:
     tournament_goal_mean: float = 2.55
     low_score_draw_boost: float = 1.08
     one_goal_margin_boost: float = 1.04
+    mismatch_tail_boost: float = 1.0
     max_goals: int = 7
 
 
@@ -171,6 +172,7 @@ def _load_calibrated_params() -> PredictorParams:
     params.score_diff_shrink = float(score.get("score_diff_shrink", params.score_diff_shrink))
     params.low_score_draw_boost = float(score.get("low_score_draw_boost", params.low_score_draw_boost))
     params.one_goal_margin_boost = float(score.get("one_goal_margin_boost", params.one_goal_margin_boost))
+    params.mismatch_tail_boost = float(score.get("mismatch_tail_boost", params.mismatch_tail_boost))
     return params
 
 
@@ -226,6 +228,7 @@ def score_matrix(state: PredictorState, team1: str, team2: str, ground: str = ""
     probs2 = poisson.pmf(np.arange(max_goals + 1), mu2)
     matrix = np.outer(probs1, probs2)
     matrix = _apply_score_shape_adjustments(matrix, state.params)
+    matrix = _apply_mismatch_tail_adjustments(matrix, state.params, mu1, mu2)
     matrix = matrix / matrix.sum()
     return matrix
 
@@ -242,6 +245,27 @@ def _apply_score_shape_adjustments(matrix: np.ndarray, params: PredictorParams) 
                 adjusted[g1, g2] *= params.one_goal_margin_boost
             if abs(g1 - g2) >= 3:
                 adjusted[g1, g2] *= 0.92
+    return adjusted
+
+
+def _apply_mismatch_tail_adjustments(
+    matrix: np.ndarray, params: PredictorParams, mu1: float, mu2: float
+) -> np.ndarray:
+    tail_boost = max(float(getattr(params, "mismatch_tail_boost", 1.0)) - 1.0, 0.0)
+    gap = abs(mu1 - mu2)
+    if tail_boost <= 0.0 or gap < 1.2:
+        return matrix
+    adjusted = matrix.copy()
+    favorite_is_team1 = mu1 >= mu2
+    severity = float(np.clip((gap - 1.2) / 1.4, 0.0, 1.0))
+    max_goals = adjusted.shape[0] - 1
+    for g1 in range(max_goals + 1):
+        for g2 in range(max_goals + 1):
+            margin = (g1 - g2) if favorite_is_team1 else (g2 - g1)
+            if margin >= 3:
+                adjusted[g1, g2] *= 1.0 + tail_boost * severity * 0.55
+            if margin >= 4:
+                adjusted[g1, g2] *= 1.0 + tail_boost * severity * 0.35
     return adjusted
 
 

@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-17",
+  "date_basis": "Asia/Shanghai",
+  "matches": [
+    {
+      "match_id": 49,
+      "team1_xg_delta": -0.22,
+      "team2_xg_delta": 0.18,
+      "tempo_delta": 0.00,
+      "objective_weight": 0.68,
+      "notes": [
+        "France remain favourites because Mbappe leads an elite attacking group, but recent tournament draws make the model less willing to price a routine opener.",
+        "Senegal have a strong spine with Mendy, Koulibaly, Mane and Nicolas Jackson, and France's midfield is cited as the relative concern.",
+        "East Rutherford has mild sunny afternoon conditions, so weather does not materially reduce tempo."
+      ],
+      "sources": [
+        "https://www.racingpost.com/sport/football-tips/world-cup-2026/france-vs-senegal-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-awjzq9i1ar35/",
+        "https://www.rotowire.com/soccer/article/france-vs-senegal-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-i-118219",
+        "Weather East Rutherford 2026-06-16"
+      ]
+    },
+    {
+      "match_id": 50,
+      "team1_xg_delta": 0.04,
+      "team2_xg_delta": 0.32,
+      "tempo_delta": 0.04,
+      "objective_weight": 0.68,
+      "notes": [
+        "Norway's attacking projection is lifted by Haaland, Odegaard, Sorloth and Nusa after a dominant qualifying campaign.",
+        "Iraq are organised and battle-tested after a long qualification path, so their consolation/counterattacking chance is not erased.",
+        "Foxborough evening weather is pleasant and clear, which favours Norway's higher-tempo attacking plan."
+      ],
+      "sources": [
+        "https://news.sportsinteraction.com/soccer/fifa-world-cup/story/iraq-vs-norway-odds-prediction-061626-217193",
+        "https://www.theguardian.com/football/2026/jun/15/erling-haaland-norway-world-cup-debut",
+        "Weather Foxborough 2026-06-16"
+      ]
+    },
+    {
+      "match_id": 55,
+      "team1_xg_delta": -0.42,
+      "team2_xg_delta": 0.08,
+      "tempo_delta": -0.08,
+      "objective_weight": 0.72,
+      "notes": [
+        "Argentina are still clear favourites and Messi, Emiliano Martinez and Julian Alvarez are available, but Messi has been managing a hamstring issue.",
+        "Algeria benefit from the model's new opening-match upset and low-margin protection after four straight draws in the previous matchday.",
+        "Kansas City is warm with earlier shower/thunderstorm risk; by match time the larger adjustment is Argentina's game management rather than weather."
+      ],
+      "sources": [
+        "https://apnews.com/article/world-cup-argentina-lionel-messi-3144322aefb0b8b7c9bd012474a8e441",
+        "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria",
+        "Weather Kansas City 2026-06-16"
+      ]
+    },
+    {
+      "match_id": 56,
+      "team1_xg_delta": 0.08,
+      "team2_xg_delta": -0.12,
+      "tempo_delta": -0.02,
+      "objective_weight": 0.66,
+      "notes": [
+        "Austria have the deeper squad and Rangnick's pressing structure, with David Alaba passed fit and Konrad Laimer available.",
+        "Christoph Baumgartner's absence limits Austria's attacking ceiling, but Jordan are missing Ibrahim Sadra and Yazan Al-Naimat.",
+        "Santa Clara evening conditions are cool and stable, so the objective adjustment is mostly squad quality and Jordan's debut uncertainty."
+      ],
+      "sources": [
+        "https://www.racingpost.com/sport/football-tips/world-cup-2026/austria-vs-jordan-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aM2Ss5f0OfG4/",
+        "https://www.si.com/soccer/austria-vs-jordan-world-cup-preview-predictions-lineups-6-16-26",
+        "Weather Santa Clara 2026-06-16"
+      ]
+    }
+  ]
+}

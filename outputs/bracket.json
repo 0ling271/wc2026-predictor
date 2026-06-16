@@ -1,8 +1,8 @@
 {
-  "champion": "France",
+  "champion": "Spain",
   "final": {
     "match_id": 104,
-    "winner": "France",
+    "winner": "Spain",
     "loser": "Argentina"
   },
   "winners": {
@@ -21,22 +21,22 @@
     "85": "Switzerland",
     "86": "Argentina",
     "87": "Colombia",
-    "88": "Turkey",
+    "88": "Australia",
     "89": "France",
     "90": "Japan",
     "91": "Brazil",
     "92": "England",
     "93": "Spain",
-    "94": "USA",
+    "94": "Belgium",
     "95": "Argentina",
     "96": "Colombia",
     "97": "France",
     "98": "Spain",
     "99": "Brazil",
     "100": "Argentina",
-    "101": "France",
+    "101": "Spain",
     "102": "Argentina",
-    "103": "Spain",
-    "104": "France"
+    "103": "France",
+    "104": "Spain"
   }
 }

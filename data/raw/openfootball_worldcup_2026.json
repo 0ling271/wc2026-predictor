@@ -650,6 +650,29 @@
       "time": "12:00 UTC-7",
       "team1": "Belgium",
       "team2": "Egypt",
+      "score": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          0,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Mohamed Hany",
+          "minute": "66",
+          "owngoal": true
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Emam Ashour",
+          "minute": "19"
+        }
+      ],
       "group": "Group G",
       "ground": "Seattle"
     },
@@ -659,6 +682,36 @@
       "time": "18:00 UTC-7",
       "team1": "Iran",
       "team2": "New Zealand",
+      "score": {
+        "ft": [
+          2,
+          2
+        ],
+        "ht": [
+          1,
+          1
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Ramin Rezaeian",
+          "minute": "32"
+        },
+        {
+          "name": "Mohammad Mohebbi",
+          "minute": "64"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Elijah Just",
+          "minute": "7"
+        },
+        {
+          "name": "Elijah Just",
+          "minute": "54"
+        }
+      ],
       "group": "Group G",
       "ground": "Los Angeles (Inglewood)"
     },
@@ -704,6 +757,16 @@
       "time": "12:00 UTC-4",
       "team1": "Spain",
       "team2": "Cape Verde",
+      "score": {
+        "ft": [
+          0,
+          0
+        ],
+        "ht": [
+          0,
+          0
+        ]
+      },
       "group": "Group H",
       "ground": "Atlanta"
     },
@@ -713,6 +776,28 @@
       "time": "18:00 UTC-4",
       "team1": "Saudi Arabia",
       "team2": "Uruguay",
+      "score": {
+        "ft": [
+          1,
+          1
+        ],
+        "ht": [
+          1,
+          0
+        ]
+      },
+      "goals1": [
+        {
+          "name": "Abdulelah Al-Amri",
+          "minute": "41"
+        }
+      ],
+      "goals2": [
+        {
+          "name": "Maxi Araújo",
+          "minute": "80"
+        }
+      ],
       "group": "Group H",
       "ground": "Miami (Miami Gardens)"
     },

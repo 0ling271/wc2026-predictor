@@ -1,0 +1,40 @@
+﻿{
+  "updated_at": "2026-06-16",
+  "timezone": "Asia/Shanghai",
+  "note": "Manual result overlay for matches confirmed by live match reports before the upstream openfootball source synced.",
+  "matches": [
+    {
+      "match_id": 37,
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "actual_goals1": 1,
+      "actual_goals2": 1,
+      "source": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"
+    },
+    {
+      "match_id": 38,
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "actual_goals1": 2,
+      "actual_goals2": 2,
+      "source": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"
+    },
+    {
+      "match_id": 43,
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "actual_goals1": 0,
+      "actual_goals2": 0,
+      "source": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"
+    },
+    {
+      "match_id": 44,
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "actual_goals1": 1,
+      "actual_goals2": 1,
+      "source": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"
+    }
+  ]
+}
+

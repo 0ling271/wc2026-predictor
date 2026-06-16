@@ -19,6 +19,7 @@ OPENFOOTBALL_2026_URL = "https://raw.githubusercontent.com/openfootball/worldcup
 RESULTS_URL = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
 FIFA_FIXTURES_URL = "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
 ELO_URL = "https://www.eloratings.net/2026_World_Cup"
+RESULT_OVERRIDES_PATH = PROCESSED_DIR / "result_overrides.json"
 
 HOSTS = {"Mexico", "USA", "Canada"}
 HOST_GROUNDS = {
@@ -155,7 +156,8 @@ def load_fixtures() -> pd.DataFrame:
                 "actual_goals2": ft[1] if len(ft) > 1 else None,
             }
         )
-    return pd.DataFrame(rows).sort_values("match_id").reset_index(drop=True)
+    fixtures = pd.DataFrame(rows).sort_values("match_id").reset_index(drop=True)
+    return apply_result_overrides(fixtures)
 
 
 def china_kickoff(date: str, time: str) -> datetime | None:
@@ -171,6 +173,24 @@ def china_kickoff(date: str, time: str) -> datetime | None:
         tzinfo=local_tz,
     )
     return kickoff.astimezone(timezone(timedelta(hours=8)))
+
+
+def apply_result_overrides(fixtures: pd.DataFrame) -> pd.DataFrame:
+    if not RESULT_OVERRIDES_PATH.exists():
+        return fixtures
+    try:
+        payload = json.loads(RESULT_OVERRIDES_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return fixtures
+    updated = fixtures.copy()
+    for item in payload.get("matches", []):
+        match_id = int(item["match_id"])
+        mask = updated["match_id"].eq(match_id)
+        if not mask.any():
+            continue
+        updated.loc[mask, "actual_goals1"] = int(item["actual_goals1"])
+        updated.loc[mask, "actual_goals2"] = int(item["actual_goals2"])
+    return updated
 
 
 def load_history() -> pd.DataFrame:
