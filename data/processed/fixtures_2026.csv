@@ -47,14 +47,14 @@ match_id,round,date,time,china_date,china_time,team1,team2,group,ground,actual_g
 46,Matchday 11,2026-06-21,18:00 UTC-4,2026-06-22,06:00,Uruguay,Cape Verde,Group H,Miami (Miami Gardens),,
 47,Matchday 16,2026-06-26,19:00 UTC-5,2026-06-27,08:00,Cape Verde,Saudi Arabia,Group H,Houston,,
 48,Matchday 16,2026-06-26,18:00 UTC-6,2026-06-27,08:00,Uruguay,Spain,Group H,Guadalajara (Zapopan),,
-49,Matchday 6,2026-06-16,15:00 UTC-4,2026-06-17,03:00,France,Senegal,Group I,New York/New Jersey (East Rutherford),,
-50,Matchday 6,2026-06-16,18:00 UTC-4,2026-06-17,06:00,Iraq,Norway,Group I,Boston (Foxborough),,
+49,Matchday 6,2026-06-16,15:00 UTC-4,2026-06-17,03:00,France,Senegal,Group I,New York/New Jersey (East Rutherford),3.0,1.0
+50,Matchday 6,2026-06-16,18:00 UTC-4,2026-06-17,06:00,Iraq,Norway,Group I,Boston (Foxborough),1.0,4.0
 51,Matchday 12,2026-06-22,17:00 UTC-4,2026-06-23,05:00,France,Iraq,Group I,Philadelphia,,
 52,Matchday 12,2026-06-22,20:00 UTC-4,2026-06-23,08:00,Norway,Senegal,Group I,New York/New Jersey (East Rutherford),,
 53,Matchday 16,2026-06-26,15:00 UTC-4,2026-06-27,03:00,Norway,France,Group I,Boston (Foxborough),,
 54,Matchday 16,2026-06-26,15:00 UTC-4,2026-06-27,03:00,Senegal,Iraq,Group I,Toronto,,
-55,Matchday 6,2026-06-16,20:00 UTC-5,2026-06-17,09:00,Argentina,Algeria,Group J,Kansas City,,
-56,Matchday 6,2026-06-16,21:00 UTC-7,2026-06-17,12:00,Austria,Jordan,Group J,San Francisco Bay Area (Santa Clara),,
+55,Matchday 6,2026-06-16,20:00 UTC-5,2026-06-17,09:00,Argentina,Algeria,Group J,Kansas City,3.0,0.0
+56,Matchday 6,2026-06-16,21:00 UTC-7,2026-06-17,12:00,Austria,Jordan,Group J,San Francisco Bay Area (Santa Clara),3.0,1.0
 57,Matchday 12,2026-06-22,12:00 UTC-5,2026-06-23,01:00,Argentina,Austria,Group J,Dallas (Arlington),,
 58,Matchday 12,2026-06-22,20:00 UTC-7,2026-06-23,11:00,Jordan,Algeria,Group J,San Francisco Bay Area (Santa Clara),,
 59,Matchday 17,2026-06-27,21:00 UTC-5,2026-06-28,10:00,Algeria,Austria,Group J,Kansas City,,

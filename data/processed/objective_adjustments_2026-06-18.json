@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-18",
+  "date_basis": "Asia/Shanghai",
+  "matches": [
+    {
+      "match_id": 61,
+      "team1_xg_delta": -0.22,
+      "team2_xg_delta": 0.08,
+      "tempo_delta": -0.06,
+      "objective_weight": 0.68,
+      "notes": [
+        "Portugal have one of the tournament's strongest midfields and wide-forward groups, but the Ronaldo focal-point debate and Ruben Dias doubt slightly reduce open-play efficiency.",
+        "DR Congo are clear underdogs but have enough athleticism and set-piece threat to make a clean-sheet outcome less automatic.",
+        "Houston is hot and humid with flood/rain context around the matchday; stadium conditions reduce direct impact, but travel and preparation rhythm are still mildly negative."
+      ],
+      "sources": [
+        "https://www.theguardian.com/football/2026/jun/17/portugal-cristiano-ronaldo-world-cup-drc",
+        "https://vsin.com/soccer/portugal-vs-dr-congo-prediction-2026-fifa-world-cup-preview-and-pick/",
+        "Weather Houston 2026-06-17"
+      ]
+    },
+    {
+      "match_id": 67,
+      "team1_xg_delta": -0.16,
+      "team2_xg_delta": 0.16,
+      "tempo_delta": -0.08,
+      "objective_weight": 0.74,
+      "notes": [
+        "England have elite individual quality, but Tuchel's record against top-20 sides has been patchy and Bukayo Saka's fitness is uncertain.",
+        "Croatia's Modric-Kovacic-Perisic core and set-piece/crossing quality increase their upset and draw probability despite an ageing profile.",
+        "Dallas heat is largely mitigated by the stadium roof, so the main adjustment is tactical: Croatia can slow possession and keep the game low-scoring."
+      ],
+      "sources": [
+        "https://www.theguardian.com/football/2026/jun/17/thomas-tuchel-world-cup-opener-england-croatia",
+        "https://www.standard.co.uk/sport/football/england-vs-croatia-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1286253.html",
+        "Weather Arlington 2026-06-17"
+      ]
+    },
+    {
+      "match_id": 68,
+      "team1_xg_delta": 0.05,
+      "team2_xg_delta": -0.53,
+      "tempo_delta": -0.36,
+      "objective_weight": 0.90,
+      "notes": [
+        "The base model overrates Panama from historical form, while market and preview sources treat Ghana as at least marginally stronger on individual quality.",
+        "Ghana's Thomas Partey is unavailable in Canada and Mohammed Kudus is reportedly out, while Panama's compact 5-4-1 defensive phase points toward a tight match.",
+        "Toronto forecast includes rain and possible thunderstorms, which further lowers tempo and raises the draw/one-goal-margin probability."
+      ],
+      "sources": [
+        "https://www.theguardian.com/football/2026/jun/17/ghana-look-to-diaspora-for-backing-as-partey-case-and-years-of-flux-cloud-planning",
+        "https://www.covers.com/world-cup/ghana-vs-panama-prediction-picks-odds-wednesday-6-17-2026",
+        "Weather Toronto 2026-06-17"
+      ]
+    },
+    {
+      "match_id": 62,
+      "team1_xg_delta": -0.04,
+      "team2_xg_delta": 0.26,
+      "tempo_delta": -0.02,
+      "objective_weight": 0.70,
+      "notes": [
+        "Colombia's attack is lifted by Luis Diaz, James Rodriguez, Jhon Arias and Luis Suarez, and their qualifying cycle set a national scoring record.",
+        "Uzbekistan are making their World Cup debut under Fabio Cannavaro and have a coherent shape, so the model keeps a non-trivial upset/draw tail.",
+        "Mexico City rain and altitude slightly reduce tempo, but Colombia's experience and attacking depth still make them clear favourites."
+      ],
+      "sources": [
+        "https://www.cbssports.com/soccer/news/uzbekistan-colombia-world-cup-2026-preview-predictions-watch/",
+        "https://www.espn.com/soccer/story/_/id/49069699/uzbekistan-vs-colombia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups",
+        "Weather Mexico City 2026-06-17"
+      ]
+    }
+  ]
+}

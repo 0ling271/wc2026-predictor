@@ -5,18 +5,18 @@ Czech Republic,Group A,3,4,5,1,0,2,-1,A
 South Africa,Group A,0,2,6,0,0,3,-4,A
 Switzerland,Group B,7,5,2,2,1,0,3,B
 Canada,Group B,4,4,3,1,1,1,1,B
-Bosnia & Herzegovina,Group B,4,3,4,1,1,1,-1,B
-Qatar,Group B,1,2,5,0,1,2,-3,B
+Bosnia & Herzegovina,Group B,4,2,3,1,1,1,-1,B
+Qatar,Group B,1,1,4,0,1,2,-3,B
 Brazil,Group C,7,5,2,2,1,0,3,C
 Morocco,Group C,7,5,2,2,1,0,3,C
 Scotland,Group C,3,3,4,1,0,2,-1,C
 Haiti,Group C,0,0,5,0,0,3,-5,C
 USA,Group D,6,7,4,2,0,1,3,D
 Australia,Group D,6,5,3,2,0,1,2,D
-Turkey,Group D,6,4,4,2,0,1,0,D
-Paraguay,Group D,0,3,8,0,0,3,-5,D
-Germany,Group E,9,11,3,3,0,0,8,E
-Ivory Coast,Group E,6,4,3,2,0,1,1,E
+Turkey,Group D,6,3,3,2,0,1,0,D
+Paraguay,Group D,0,2,7,0,0,3,-5,D
+Germany,Group E,9,11,2,3,0,0,9,E
+Ivory Coast,Group E,6,3,3,2,0,1,0,E
 Ecuador,Group E,3,3,3,1,0,2,0,E
 Curacao,Group E,0,2,11,0,0,3,-9,E
 Japan,Group F,7,6,3,2,1,0,3,F
@@ -31,17 +31,17 @@ Spain,Group H,7,6,1,2,1,0,5,H
 Uruguay,Group H,4,4,3,1,1,1,1,H
 Saudi Arabia,Group H,4,3,6,1,1,1,-3,H
 Cape Verde,Group H,1,1,4,0,1,2,-3,H
-France,Group I,9,6,2,3,0,0,4,I
-Norway,Group I,6,5,4,2,0,1,1,I
-Senegal,Group I,3,4,5,1,0,2,-1,I
-Iraq,Group I,0,2,6,0,0,3,-4,I
-Argentina,Group J,9,6,1,3,0,0,5,J
-Algeria,Group J,6,5,4,2,0,1,1,J
-Austria,Group J,3,3,5,1,0,2,-2,J
-Jordan,Group J,0,2,6,0,0,3,-4,J
+France,Group I,9,7,2,3,0,0,5,I
+Norway,Group I,6,7,4,2,0,1,3,I
+Senegal,Group I,3,4,6,1,0,2,-2,I
+Iraq,Group I,0,2,8,0,0,3,-6,I
+Argentina,Group J,9,7,0,3,0,0,7,J
+Algeria,Group J,6,4,5,2,0,1,-1,J
+Austria,Group J,3,4,5,1,0,2,-1,J
+Jordan,Group J,0,2,7,0,0,3,-5,J
 Colombia,Group K,9,6,2,3,0,0,4,K
-Portugal,Group K,6,5,3,2,0,1,2,K
-Uzbekistan,Group K,3,4,5,1,0,2,-1,K
+Portugal,Group K,6,5,2,2,0,1,3,K
+Uzbekistan,Group K,3,3,5,1,0,2,-2,K
 DR Congo,Group K,0,1,6,0,0,3,-5,K
 England,Group L,9,8,2,3,0,0,6,L
 Croatia,Group L,6,5,3,2,0,1,2,L

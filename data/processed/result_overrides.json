@@ -1,5 +1,5 @@
 ﻿{
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "timezone": "Asia/Shanghai",
   "note": "Manual result overlay for matches confirmed by live match reports before the upstream openfootball source synced.",
   "matches": [
@@ -34,6 +34,38 @@
       "actual_goals1": 1,
       "actual_goals2": 1,
       "source": "https://www.theguardian.com/football/live/2026/jun/16/world-cup-2026-news-france-enter-fray-iran-feel-oppressed-var-official-cleared-over-gesture-live"
+    },
+    {
+      "match_id": 49,
+      "team1": "France",
+      "team2": "Senegal",
+      "actual_goals1": 3,
+      "actual_goals2": 1,
+      "source": "https://www.espn.com/soccer/story/_/id/49083651/france-senegal-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "match_id": 50,
+      "team1": "Iraq",
+      "team2": "Norway",
+      "actual_goals1": 1,
+      "actual_goals2": 4,
+      "source": "https://www.espn.com.au/football/match/_/gameId/760430/norway-iraq"
+    },
+    {
+      "match_id": 55,
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "actual_goals1": 3,
+      "actual_goals2": 0,
+      "source": "https://www.espn.com/soccer/report/_/gameId/760433"
+    },
+    {
+      "match_id": 56,
+      "team1": "Austria",
+      "team2": "Jordan",
+      "actual_goals1": 3,
+      "actual_goals2": 1,
+      "source": "https://www.espn.com/soccer/report/_/gameId/760431"
     }
   ]
 }
